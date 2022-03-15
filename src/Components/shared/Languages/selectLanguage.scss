@@ -5,7 +5,9 @@
 
     .dropdown {
         position: absolute;
-        background-color: rgb(250, 250, 250);
+        // background-color: rgb(250, 250, 250);
+        background-color: #fff;
+        // box-shadow: 10px 10px 10px 10px #ddd;
         top: 32px;
         cursor: pointer;
         // border: 1px solid red;
@@ -37,17 +39,4 @@
             margin-right: 7px;
         }
     }
-
-    // .single-language {
-    //     display: flex;
-    //     align-items: center;
-    //     display: none;
-    //     &:hover {
-    //         display: flex;
-    //     }
-
-    //     .flag {
-    //         margin: 10px 14px;
-    //     }
-    // }
 }

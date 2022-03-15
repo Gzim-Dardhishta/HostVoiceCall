@@ -10,6 +10,7 @@ import {BiChevronDown} from 'react-icons/bi';
 import SelectLanguage from '../Languages/SelectLanguage';
 import { dataLocalStorage } from '../Languages/dataLocalStorage';
 import JoinMegamenu from './Megamenus/JoinMegamenu';
+import HostMegamenu from './Megamenus/HostMegamenu';
 
 const MediaBar = (props) => {
   return (
@@ -41,10 +42,6 @@ const MediaBar = (props) => {
                 />
                 <BiChevronDown/>
                 <BsFillTriangleFill className='arrow' />
-                {/* <SelectLanguage 
-                    setLanguage={props.setLanguage}
-                    language={props.language}
-                /> */}
             </div>
 
             <div className='contact'>
@@ -59,11 +56,17 @@ const MediaBar = (props) => {
             </div>
 
             <div className='join_host'>
-                <p>Join</p>
-                <BiChevronDown/>
-                <JoinMegamenu />
-                <p className='host'>Host</p>  
-                <BiChevronDown/>  
+                <div className="join-menu">
+                    <p className='join'>Join <BiChevronDown/></p>
+                    <BsFillTriangleFill className='join-arrow' />
+                    <JoinMegamenu />
+                </div>
+                <div className="host-menu">
+                    <p className='host'>Host</p>  
+                    <BiChevronDown/>  
+                    <BsFillTriangleFill className='host-arrow' />
+                    <HostMegamenu />
+                </div>
             </div>
         </div>
     </div>
