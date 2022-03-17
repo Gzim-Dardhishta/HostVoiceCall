@@ -1,11 +1,11 @@
-import {BsFillPhoneFill} from 'react-icons/bs';
-import {FaHandshake} from 'react-icons/fa';
-import {FiChevronDown} from 'react-icons/fi';
-import {SiIcloud} from 'react-icons/si';
-import { ReactComponent as Purple} from '../../../assets/img/purple.svg';
-import { ReactComponent as DarkPurple} from '../../../assets/img/darkpurple.svg';
-import { ReactComponent as Pink} from '../../../assets/img/pink.svg';
-import { ReactComponent as Blue} from '../../../assets/img/blue.svg';
+import { BsFillPhoneFill } from 'react-icons/bs';
+import { FaHandshake } from 'react-icons/fa';
+import { FiChevronDown } from 'react-icons/fi';
+import { SiIcloud } from 'react-icons/si';
+import { ReactComponent as Purple } from '../../../assets/img/purple.svg';
+import { ReactComponent as DarkPurple } from '../../../assets/img/darkpurple.svg';
+import { ReactComponent as Pink } from '../../../assets/img/pink.svg';
+import { ReactComponent as Blue } from '../../../assets/img/blue.svg';
 
 import company1 from '../../../assets/shared/Company/company1.svg';
 import company2 from '../../../assets/shared/Company/company2.svg';
@@ -142,13 +142,13 @@ export const NavBarData = [
         megamenu: <SolutionsMegamenu />
     },
     {
-        link:'Resources',
+        link: 'Resources',
         cls: 'resources-link',
         arrow: <FiChevronDown />,
         to: '/',
     },
     {
-        link:'Developers',
+        link: 'Developers',
         cls: 'developers-link',
         arrow: <FiChevronDown />,
         to: '/',
@@ -168,329 +168,335 @@ export const NavBarData = [
     }
 ];
 
-export const ProductsMenu = {
-    "Tabs": [
-        {
-            cls: 'cls1',
-            icon: communication,
-            link: 'Communication',
-            to: '/'
-        },
-        {
-            cls: 'cls2',
-            icon: application,
-            link: 'Applications',
-            to: '/'
-        },
-        {
-            cls: 'cls3',
-            icon: connectivity,
-            link: 'Connectivity',
-            to: '/'
-        },
-        {
-            cls: 'cls4',
-            icon: costumer,
-            link: 'Costumer Engagement',
-            to: '/'
-        },
-        {
-            cls: 'cls5',
-            icon: usecase,
-            link: 'Use Case',
-            to: '/'
-        },
-        {
-            cls: 'cls6',
-            icon: integrations,
-            link: 'Intergrations',
-            to: '/'
-        }
-    ],
+export const ProductsTabs = [
+    {
+        cls: 'cls1',
+        icon: communication,
+        link: 'Communication',
+        to: '/'
+    },
+    {
+        cls: 'cls1',
+        icon: application,
+        link: 'Application',
+        to: '/'
+    },
+    {
+        cls: 'cls1',
+        icon: connectivity,
+        link: 'Connectivity',
+        to: '/'
+    },
+    {
+        cls: 'cls1',
+        icon: costumer,
+        link: 'Costumer Engagment',
+        to: '/'
+    },
+    {
+        cls: 'cls1',
+        icon: usecase,
+        link: 'Use Case',
+        to: '/'
+    },
+    {
+        cls: 'cls1',
+        icon: integrations,
+        link: 'Integrations',
+        to: '/'
+    },
+]
 
-    "Communication": [
-        {
-            cls: 'cls1',
-            icon: comm1,
-            link: 'Messaging',
-            to: '/'
-        },
-        {
-            cls: 'cls2',
-            icon: comm2,
-            link: 'Programable Voice',
-            to: '/'
-        },
-        {
-            cls: 'cls1',
-            icon: comm3,
-            link: 'Video',
-            to: '/'
-        },
-        {
-            cls: 'cls4',
-            icon: comm4,
-            link: 'HostVoiceCall',
-            to: '/'
-        },
-        {
-            cls: 'cls5',
-            icon: comm5,
-            link: 'Email',
-            to: '/'
-        },
-        {
-            cls: 'cls6',
-            icon: comm6,
-            link: 'Talk',
-            to: '/'
-        },
-        {
-            cls: 'cls7',
-            icon: comm7,
-            link: 'Meet',
-            to: '/'
-        },
-        {
-            cls: 'cls8',
-            icon: comm8,
-            link: 'Connect',
-            to: '/'
-        },
-        {
-            cls: 'cls9',
-            icon: comm9,
-            link: 'Train',
-            to: '/'
-        },
-        {
-            cls: 'cls10',
-            icon: comm10,
-            link: 'Call',
-            to: '/'
-        },
-        {
-            cls: 'cls11',
-            icon: comm11,
-            link: 'Webinar',
-            to: '/'
-        },
-        {
-            cls: 'cls12',
-            icon: comm12,
-            link: 'Track Calls',
-            to: '/'
-        },
-        {
-            cls: 'cls13',
-            icon: comm13,
-            link: 'Reminder',
-            to: '/'
-        },
-        {
-            cls: 'cls14',
-            icon: comm14,
-            link: 'Contact Center',
-            to: '/'
-        },
-        {
-            cls: 'cls15',
-            icon: comm15,
-            link: 'Phone System',
-            to: '/'
-        },
-        {
-            cls: 'cls16',
-            icon: comm16,
-            link: 'SIM Card',
-            to: '/'
-        },
-        {
-            cls: 'cls17',
-            icon: comm17,
-            link: 'Host',
-            to: '/'
-        }
-    ],
+export const ProductsOtherLinks = [
+    {
+        icon: allproducts,
+        link: 'All Products',
+        arrowicon: rightarrow,
+        to: '/'
+    },
+    {
+        icon: security,
+        link: 'Security',
+        arrowicon: rightarrow,
+        to: '/'
+    },
+    {
+        icon: phone,
+        link: 'Contact',
+        arrowicon: rightarrow,
+        to: '/'
+    }
+]
 
-    "Application": [
-        {
-            cls: 'cls1',
-            icon: app1,
-            link: 'HostVoiceCall Flex',
-            to: '/'
-        },
-        {
-            cls: 'cls2',
-            icon: app2,
-            link: 'Marketing Campaigns',
-            to: '/'
-        },
-        {
-            cls: 'cls3',
-            icon: app3,
-            link: 'HostVoiceCall Frontline',
-            to: '/'
-        },
-        {
-            cls: 'cls4',
-            icon: app4,
-            link: 'Acount Security',
-            to: '/'
-        },
-        {
-            cls: 'cls5',
-            icon: app5,
-            link: 'HostVoiceCall Segment',
-            to: '/'
-        },
+export const ProductsMenu = [
+    {
+        items: [
+            {
+                cls: 'cls1',
+                icon: comm1,
+                link: 'Messaging',
+                to: '/'
+            },
+            {
+                cls: 'cls2',
+                icon: comm2,
+                link: 'Programable Voice',
+                to: '/'
+            },
+            {
+                cls: 'cls1',
+                icon: comm3,
+                link: 'Video',
+                to: '/'
+            },
+            {
+                cls: 'cls4',
+                icon: comm4,
+                link: 'HostVoiceCall',
+                to: '/'
+            },
+            {
+                cls: 'cls5',
+                icon: comm5,
+                link: 'Email',
+                to: '/'
+            },
+            {
+                cls: 'cls6',
+                icon: comm6,
+                link: 'Talk',
+                to: '/'
+            },
+            {
+                cls: 'cls7',
+                icon: comm7,
+                link: 'Meet',
+                to: '/'
+            },
+            {
+                cls: 'cls8',
+                icon: comm8,
+                link: 'Connect',
+                to: '/'
+            },
+            {
+                cls: 'cls9',
+                icon: comm9,
+                link: 'Train',
+                to: '/'
+            },
+            {
+                cls: 'cls10',
+                icon: comm10,
+                link: 'Call',
+                to: '/'
+            },
+            {
+                cls: 'cls11',
+                icon: comm11,
+                link: 'Webinar',
+                to: '/'
+            },
+            {
+                cls: 'cls12',
+                icon: comm12,
+                link: 'Track Calls',
+                to: '/'
+            },
+            {
+                cls: 'cls13',
+                icon: comm13,
+                link: 'Reminder',
+                to: '/'
+            },
+            {
+                cls: 'cls14',
+                icon: comm14,
+                link: 'Contact Center',
+                to: '/'
+            },
+            {
+                cls: 'cls15',
+                icon: comm15,
+                link: 'Phone System',
+                to: '/'
+            },
+            {
+                cls: 'cls16',
+                icon: comm16,
+                link: 'SIM Card',
+                to: '/'
+            },
+            {
+                cls: 'cls17',
+                icon: comm17,
+                link: 'Host',
+                to: '/'
+            }
+        ]
+    },
 
-        {
-            cls: 'cls6',
-            icon: app6,
-            link: 'Salestore',
-            to: '/'
-        },
-        {
-            cls: 'cls7',
-            icon: app7,
-            link: 'HostVoiceCall Team',
-            to: '/'
-        },
-        {
-            cls: 'cls8',
-            icon: app8,
-            link: 'Social Media',
-            to: '/'
-        },
-        {
-            cls: 'cls9',
-            icon: app9,
-            link: 'Discord Community',
-            to: '/'
-        },
-        {
-            cls: 'cls10',
-            icon: app10,
-            link: 'Slack Community',
-            to: '/'
-        },
-        {
-            cls: 'cls11',
-            icon: app11,
-            link: 'Other Communities',
-            to: '/'
-        },
-        {
-            cls: 'cls12',
-            icon: app12,
-            link: 'Host Teams',
-            to: '/'
-        },
-        {
-            cls: 'cls13',
-            icon: app13,
-            link: 'Marketpalce',
-            to: '/'
-        }
-    ],
+    {
+        items: [
+            {
+                cls: 'cls1',
+                icon: app1,
+                link: 'HostVoiceCall Flex',
+                to: '/'
+            },
+            {
+                cls: 'cls2',
+                icon: app2,
+                link: 'Marketing Campaigns',
+                to: '/'
+            },
+            {
+                cls: 'cls3',
+                icon: app3,
+                link: 'HostVoiceCall Frontline',
+                to: '/'
+            },
+            {
+                cls: 'cls4',
+                icon: app4,
+                link: 'Acount Security',
+                to: '/'
+            },
+            {
+                cls: 'cls5',
+                icon: app5,
+                link: 'HostVoiceCall Segment',
+                to: '/'
+            },
 
-    "Connetivity": [
-        {
-            cls: 'cls1',
-            icon: conn1,
-            link: 'Internet of Things',
-            to: '/'
-        },
-        {
-            cls: 'cls2',
-            icon: conn2,
-            link: 'Elastic SIP Trucking',
-            to: '/'
-        },
-        {
-            cls: 'cls3',
-            icon: conn3,
-            link: 'Phone Number',
-            to: '/'
-        },
-        {
-            cls: 'cls4',
-            icon: conn4,
-            link: 'Short Codes',
-            to: '/'
-        },
-        {
-            cls: 'cls5',
-            icon: conn5,
-            link: 'Cards',
-            to: '/'
-        },
-        {
-            cls: 'cls6',
-            icon: conn6,
-            link: 'PIN',
-            to: '/'
-        },
-        {
-            cls: 'cls7',
-            icon: conn7,
-            link: 'SIM',
-            to: '/'
-        },
-        {
-            cls: 'cls8',
-            icon: conn8,
-            link: 'Network',
-            to: '/'
-        },
-        {
-            cls: 'cls9',
-            icon: conn9,
-            link: 'Manage Number',
-            to: '/'
-        },
-        {
-            cls: 'cls10',
-            icon: conn10,
-            link: 'Manage Calls',
-            to: '/'
-        },
-        {
-            cls: 'cls11',
-            icon: conn11,
-            link: 'BLock Number',
-            to: '/'
-        },
-        {
-            cls: 'cls12',
-            icon: conn12,
-            link: 'International Calls',
-            to: '/'
-        }
-    ],
+            {
+                cls: 'cls6',
+                icon: app6,
+                link: 'Salestore',
+                to: '/'
+            },
+            {
+                cls: 'cls7',
+                icon: app7,
+                link: 'HostVoiceCall Team',
+                to: '/'
+            },
+            {
+                cls: 'cls8',
+                icon: app8,
+                link: 'Social Media',
+                to: '/'
+            },
+            {
+                cls: 'cls9',
+                icon: app9,
+                link: 'Discord Community',
+                to: '/'
+            },
+            {
+                cls: 'cls10',
+                icon: app10,
+                link: 'Slack Community',
+                to: '/'
+            },
+            {
+                cls: 'cls11',
+                icon: app11,
+                link: 'Other Communities',
+                to: '/'
+            },
+            {
+                cls: 'cls12',
+                icon: app12,
+                link: 'Host Teams',
+                to: '/'
+            },
+            {
+                cls: 'cls13',
+                icon: app13,
+                link: 'Marketpalce',
+                to: '/'
+            }
+        ]
+    },
 
-    "OtherLinks": [
-        {
-            icon: allproducts,
-            link: 'All Products',
-            arrowicon: rightarrow,
-            to: '/'
-        },
-        {
-            icon: security,
-            link: 'Security',
-            arrowicon: rightarrow,
-            to: '/'
-        },
-        {
-            icon: phone,
-            link: 'Contact',
-            arrowicon: rightarrow,
-            to: '/'
-        },
-    ]
-}
+    {
+        items: [
+            {
+                cls: 'cls1',
+                icon: conn1,
+                link: 'Internet of Things',
+                to: '/'
+            },
+            {
+                cls: 'cls2',
+                icon: conn2,
+                link: 'Elastic SIP Trucking',
+                to: '/'
+            },
+            {
+                cls: 'cls3',
+                icon: conn3,
+                link: 'Phone Number',
+                to: '/'
+            },
+            {
+                cls: 'cls4',
+                icon: conn4,
+                link: 'Short Codes',
+                to: '/'
+            },
+            {
+                cls: 'cls5',
+                icon: conn5,
+                link: 'Cards',
+                to: '/'
+            },
+            {
+                cls: 'cls6',
+                icon: conn6,
+                link: 'PIN',
+                to: '/'
+            },
+            {
+                cls: 'cls7',
+                icon: conn7,
+                link: 'SIM',
+                to: '/'
+            },
+            {
+                cls: 'cls8',
+                icon: conn8,
+                link: 'Network',
+                to: '/'
+            },
+            {
+                cls: 'cls9',
+                icon: conn9,
+                link: 'Manage Number',
+                to: '/'
+            },
+            {
+                cls: 'cls10',
+                icon: conn10,
+                link: 'Manage Calls',
+                to: '/'
+            },
+            {
+                cls: 'cls11',
+                icon: conn11,
+                link: 'BLock Number',
+                to: '/'
+            },
+            {
+                cls: 'cls12',
+                icon: conn12,
+                link: 'International Calls',
+                to: '/'
+            }
+        ]
+    }
+]
 
 
 export const SolutionsMenu = {
@@ -825,11 +831,11 @@ export const CompanyMenu = [
 
 export const MediaData = [
     {
-        icon: <BsFillPhoneFill/>,
+        icon: <BsFillPhoneFill />,
         text: 'Download App'
     },
     {
-        icon: <FaHandshake/>,
+        icon: <FaHandshake />,
         text: 'Partners'
     },
     {

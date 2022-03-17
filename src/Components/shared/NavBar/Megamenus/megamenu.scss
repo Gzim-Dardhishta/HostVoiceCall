@@ -70,28 +70,22 @@
     left: 5%;
     .tabs {
         display: flex;
+        margin-bottom: 2em;
         .tab-list{
             display: flex;
             margin-right: 4em;
             padding-right: 4em;
             border-right: 1px solid #ddd;
             .megamenu-link {
-                display: flex;
-                align-items: center;
-                margin:max(10px, 0.75vw) 0;
-                padding: 7px;
-                width: 13em;
                 &:hover{
                     border-radius: 10px;
                     background-color: rgba(118, 72, 255, 0.1);
         
-                    .icon {
-                        color: #fff;
-                        // background-color: #6C3DFF;
-                    }
-        
                     .inner-icon {
-                        .icon{color: #fff;}
+                        .icon{
+                            filter: brightness(0) invert(1);
+                            -webkit-filter: brightness(0) invert(1);
+                        }
                         background-color: #6C3DFF;
                     }
                 }
@@ -118,33 +112,21 @@
         }
     
         .tab-content {
-            .communication-links{
+            .tab-panels{
                 display: grid;
                 grid-template-rows: auto auto auto auto auto;
+                grid-template-columns: auto auto auto auto;
                 grid-auto-flow: column;
                 gap: 0 6em;
             }
-            .application-links{
-                display: grid;
-                grid-template-rows: auto auto auto auto;
-                grid-auto-flow: column;
-                gap: 0 6em;
-            }
-            .connectivity-links {
-                display: grid;
-                grid-template-rows: auto auto auto;
-                grid-auto-flow: column;
-                gap: 0 6em;
-            }
-
         }
     }
 
     .other-links{
         position: absolute;
         display: flex;
-        left: 26%;
-        bottom: 2em;
+        left: 25%;
+        bottom: 1em;
 
         .link{
             display: flex;
