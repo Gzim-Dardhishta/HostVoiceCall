@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.call-center{
+
+    display: flex;
+    justify-content: space-between;
+    .info{
+        width: max(32em, 26em);
+        margin-left: 6%;
+        margin-top: 4%;
+    
+        .links{
+            color: #6C3DFF;
+            margin-bottom: 0.7em;
+            font-size: .85em;
+            small{
+                margin-right: 0.8em;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    
+        h1{
+            font-weight: 400;
+            font-size: clamp(2rem, 2.2vw, 3rem);
+        }
+        p{
+            font-size: 1em;
+            width: 80%;
+            margin: 1.3em 0;
+        }
+    
+        .email{
+            display: flex;
+            border: 1px solid #DDD;
+            border-radius: 1.6em;
+            justify-content: space-between;
+    
+            .work-email{
+                padding: 1em;
+                display: flex;
+                gap: 1em;
+                .email-icon{
+                    content: url("../../../../assets/Home/CallCanter/email.svg");
+                }
+            }
+            .button{
+                border-radius: 0 1.6em 1.6em 1.6em;
+                background-color: #6C3DFF;
+                padding: 1em 1.8em;
+                color: #fff;
+            }
+        }
+    
+        .social-links{
+            display: flex;
+            align-items: center;
+            gap: 2em;
+            margin-top: 1.8em;
+            .cloud{
+                content: url("../../../../assets/Home/CallCanter/cloud.svg");
+            }
+            .play-store{
+                content: url("../../../../assets/Home/CallCanter/playstore.svg");
+            }
+            .apple{
+                content: url("../../../../assets/Home/CallCanter/apple.svg");
+            }
+            .youtube{
+                content: url("../../../../assets/Home/CallCanter/youtube.svg");
+            }
+            .facebook{
+                content: url("../../../../assets/Home/CallCanter/facebook.svg");
+            }
+        }
+    }
+    
+    .contact-images{
+
+        .circle1{
+
+            position: relative;
+            top: 5em;
+
+            .video{
+                content: url("../../../../assets/Home/CallCanter/video.svg");
+                padding: 1.4em 1em;
+                position: absolute;
+                top: -1.7em;
+                left: 10.3em;
+                background-color: #6C3DFF;
+                border-radius: 1.4em;
+            }
+            .whatsapp{
+                .icon{
+                    content: url("../../../../assets/Home/CallCanter/whatsapp.svg");
+                    transform: rotateY(0deg) rotate(-30deg);
+                }
+                position: absolute;
+                top: 4em;
+                left: -.8em;
+                background-color: #fff;
+                padding: 1.3em 1.3em;
+                border-radius: 1.5em;
+                box-shadow: 1px 1px 1px 1px #ddd;
+                transform: rotateY(0deg) rotate(30deg);
+            }
+
+            .message{
+                content: url("../../../../assets/Home/CallCanter/message.svg");
+                position: absolute;
+                top: 4em;
+                left: 21em;
+                background-color: #fff;
+                padding: 1.1em 1.1em;
+                border-radius: 1.4em;
+                box-shadow: 1px 1px 1px 1px #ddd;
+            }
+
+            .phone{
+                .icon{
+                    content: url("../../../../assets/Home/CallCanter/phone.svg");
+                    transform: rotateY(0deg) rotate(-30deg);
+                }
+                position: absolute;
+                top: 16em;
+                left: 21.3em;
+                background-color: #fff;
+                padding: 1.2em 1.2em;
+                border-radius: 1.4em;
+                box-shadow: 1px 1px 1px 1px #ddd;
+                transform: rotateY(0deg) rotate(30deg);
+            }
+
+            .mail{
+                content: url("../../../../assets/Home/CallCanter/mail.svg");
+                position: absolute;
+                top: 16em;
+                left: -1em;
+                background-color: #fff;
+                padding: 1.3em 1em;
+                border-radius: 1.4em;
+                box-shadow: 1px 1px 1px 1px #ddd;
+            }
+
+            .sim{
+                content: url("../../../../assets/Home/CallCanter/sim.svg");
+                padding: 1em 1.3em;
+                position: absolute;
+                top: 23em;
+                left: 10.3em;
+                background-color: #fff;
+                color: white;
+                border-radius: 1.4em;
+                box-shadow: 1px 1px 1px 1px #ddd;
+            }
+            
+
+            background-color: #f4f0ff;
+            border: 1px solid #d1c2ff;
+            padding: 2.5em;
+            width: fit-content;
+            border-radius: 50%;
+            .circle2{
+                background-color: #d7ccfa;
+                border: 1px solid #d1c2ff;
+                padding: 2.4em;
+                width: fit-content;
+                border-radius: 50%;
+                .circle3{
+                    background-color: #bfabfa;
+                    border: 1px solid #baa4fd;
+                    padding: 2.3em;
+                    width: fit-content;
+                    border-radius: 50%;
+                    .circle4{
+                        background-color: #aa90fa;
+                        border: 1px solid #a184f8;
+                        padding: 1.4em;
+                        width: fit-content;
+                        border-radius: 50%;
+                        .circle5{
+                            position: relative;
+                            padding: 6px;
+                            background-color: #fff;
+                            border-radius: 50%;
+                            .profile-image{
+                                content: url("../../../../assets/Home/CallCanter/profile-pic.png");
+                                height: 100px;
+                                width: 100px;
+                                border-radius: 50%;
+                            }
+
+                            .notification{
+                                position: absolute;
+                                top: -4px;
+                                right: 10px;
+                                padding: 8px 12px;
+                                background-color: #FF2C2C;
+                                border-radius: 3em;
+                                font-size: .8em;
+                                font-weight: 700;
+                                color: #fff;
+                                width: fit-content;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .arrows{
+        position: relative;
+        .long-arrow{
+            position: relative;
+            content: url("../../../../assets/Home/CallCanter/longarrow.svg");
+            max-width: 26em;
+            height: 37em;
+        }
+        .short-arrow{
+            content: url("../../../../assets/Home/CallCanter/shortarrow.svg");
+            position: absolute;
+            right: 20em;
+            top: -1em;
+            max-width: 140px;
+            height: 13em;
+        }
+
+        .iphone{
+            .icon{
+                content: url("../../../../assets/Home/CallCanter/mobile.svg");
+                transform: rotateY(0deg) rotate(-30deg);
+            }
+            padding: 1em 1.3em;
+            position: absolute;
+            top: 12.5em;
+            left: 10.3em;
+            background-color: #fff;
+            border-radius: 1.4em;
+            box-shadow: 1px 1px 1px 1px #ddd;
+            transform: rotateY(0deg) rotate(30deg);
+        }
+        .block{
+
+            display: flex;
+            align-items: center;
+            gap: .5em;
+            position: absolute;
+            top: 20em;
+            left: 5em;
+            transform: rotateY(0deg) rotate(-18deg);
+            background-color: #fff;
+            border-radius: 1.4em;
+            box-shadow: 1px 1px 1px 1px #ddd;
+            padding: 1% 5% 1% 3%;
+
+
+            .icon {
+                content: url("../../../../assets/Home/CallCanter/block.svg");
+            }
+        }
+
+        .number{
+            display: flex;
+            align-items: center;
+            gap: .5em;
+            position: absolute;
+            top: 27em;
+            left: 13em;
+            transform: rotateY(0deg) rotate(30deg);
+            background-color: #fff;
+            border-radius: 1.4em;
+            box-shadow: 1px 1px 1px 1px #ddd;
+            padding: 2% 5% 2% 3%;
+
+            .icon{
+                content: url("../../../../assets/Home/CallCanter/call.svg");
+            }
+        }
+
+        .host{
+            .icon{
+                content: url("../../../../assets/Home/CallCanter/host.svg");
+                transform: rotateY(0deg) rotate(-30deg);
+            }
+            position: absolute;
+            top: 29em;
+            left: 6em;
+            transform: rotateY(0deg) rotate(35deg);
+            background-color: #fff;
+            border-radius: 1.6em;
+            box-shadow: 1px 1px 1px 1px #ddd;
+            padding: 5% 4%;
+        }
+    }
+}

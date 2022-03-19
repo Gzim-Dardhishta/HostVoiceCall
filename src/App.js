@@ -1,11 +1,26 @@
 
 // import './App.css';
-import Home from './Components/pages/Home';
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Navigate,
+} from 'react-router-dom';
+import {IntlProvider} from 'react-intl';
+import Home from "./Pages/Home";
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      <Router>
+        <IntlProvider>
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+
+            <Route path="*" element={<Navigate to="/" />} />
+          </Routes>
+        </IntlProvider>
+      </Router>
     </div>
   );
 }
