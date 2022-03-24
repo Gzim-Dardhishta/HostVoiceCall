@@ -266,3 +266,14 @@ header {
     }
 
 }
+
+@media (max-width: 1030px) {
+    #nav-bar{
+        #logo, .nav-links, .auth, .media-bar { display: none;}
+        .mobile-nav{
+            display: block;
+        }
+    }
+
+    
+}

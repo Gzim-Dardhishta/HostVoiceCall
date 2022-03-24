@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import { NavBarData } from './data';
 import './navbar.scss';
 import MediaBar from './MediaBar';
@@ -6,13 +6,33 @@ import { BsTriangleFill } from 'react-icons/bs'
 import { MdKeyboardArrowDown} from 'react-icons/md'
 import {FiChevronDown} from 'react-icons/fi';
 import './Megamenus/megamenu.scss'
+import MobileNav from '../MobileNav/MobileNav';
+import clsx from "clsx"
 
 
-const NavBar = () => {
+const NavBar = (props) => {
+
+    const [isSticky, setIsSticky] = useState(false);
+   
+    useEffect(() => {
+    const nav = document.querySelector(".navbar");
+    const navHeight = nav.scrollHeight;
+
+    const handleScroll = () => {
+      const scrollHeight = window.pageYOffset;
+      setIsSticky(scrollHeight > 20 ? true : false);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+
+
   return (
     <header>
         <MediaBar />
-        <div id="nav-bar">
+        <div id="nav-bar" className={clsx(`navbar ${props.styles}`, isSticky ? "nav__sticky" : "")}>
             <div id='logo'>
                 <div className="icon"></div>
                 <h4>HostVoiceCalls</h4>
@@ -44,6 +64,8 @@ const NavBar = () => {
                     <div>Sign Up</div>
                 </div>
             </div>
+
+            <MobileNav />
         </div>
     </header>
   )
