@@ -1,7 +1,9 @@
+
+
 .nav-megamenu {
     position: fixed;
     background-color: #fff;
-    top: 8.1em;
+    top: 7.9em;
     overflow: hidden;
     display: block;
     display: none;
@@ -14,7 +16,7 @@
 
 
     h4 {
-        font-size: max(14px, 0.8vw);
+        font-size: max(.9em, 0.8vw);
         font-weight: normal;
     }
 
@@ -24,10 +26,11 @@
         margin:max(10px, 0.75vw) 0;
         padding: 7px;
         width: 13em;
+
+        color: #222;
         &:hover{
-            border: 1px solid #fff;
+            outline: 1px solid #fff;
             border-radius: 10px;
-            // box-shadow: 1px 1px 1px 1px #f3f3f3;
             background: #f3f3f3;
             .inner-icon {
                 border-radius: 50%;
@@ -67,8 +70,9 @@
 }
 
 #products-megamenu {
-    width: 93em;
-    left: 5%;
+    width: 85em;
+    left: 3%;
+    z-index: 2000;
     .tabs {
         display: flex;
         margin-bottom: 2em;
@@ -77,7 +81,18 @@
             margin-right: 4em;
             padding-right: 4em;
             border-right: 1px solid #ddd;
-            .megamenu-link {
+
+            .react-tabs__tab--selected {
+                border-radius: 10px;
+                background-color: rgba(118, 72, 255, 0.1);
+
+                .inner-icon {
+                    .icon{
+                        filter: brightness(0) invert(1);
+                        -webkit-filter: brightness(0) invert(1);
+                    }
+                    background-color: #6C3DFF;
+                }
                 &:hover{
                     border-radius: 10px;
                     background-color: rgba(118, 72, 255, 0.1);
@@ -102,6 +117,7 @@
                 align-items: center;
                 justify-content: center;
                 margin-right: max(10px, 1.1em);
+                border-radius: 25px;
         
                 .icon {
                     margin-left: 10px;
@@ -118,7 +134,7 @@
                 grid-template-rows: auto auto auto auto auto;
                 grid-template-columns: auto auto auto auto;
                 grid-auto-flow: column;
-                gap: 0 6em;
+                gap: 0 4em;
             }
         }
     }

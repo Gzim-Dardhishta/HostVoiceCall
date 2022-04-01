@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import { ProductsMenu, ProductsTabs,ProductsOtherLinks } from '../data';
 
@@ -13,12 +14,12 @@ function ProductsMegamenu() {
                                 {ProductsTabs.map((props) => {
                                     return (
                                         <Tab>
-                                            <div to={props.to} className='megamenu-link'>
+                                            <Link to={props.to} className='megamenu-link'>
                                                 <div className={`inner-icon ${props.cls}`}>
                                                     <div className='icon' style={{ content: `url(${props.icon})` }}></div>
                                                 </div>
                                                 <h5>{props.link}</h5>
-                                            </div>
+                                            </Link>
                                         </Tab>
                                     )
                                 })}
@@ -31,12 +32,12 @@ function ProductsMegamenu() {
                                     <TabPanel className='tab-panels'>
                                         {props.items.map((l) => {
                                             return (
-                                                <div className='megamenu-link'>
+                                                <Link to='/' className='megamenu-link'>
                                                     <div className={`inner-icon ${l.cls}`}>
                                                         <div className='icon' style={{ content: `url(${l.icon})` }}></div>
                                                     </div>
                                                     <h5>{l.link}</h5>
-                                                </div>
+                                                </Link>
                                             )
                                         })}
                                     </TabPanel>
@@ -51,11 +52,11 @@ function ProductsMegamenu() {
             <div className="other-links">
                 {ProductsOtherLinks.map((props) => {
                     return (
-                        <div to={props.to} className='link'>
+                        <Link to={props.to} className='link'>
                             <div className='icon' style={{ content: `url(${props.icon})` }}></div>
                             <h5>{props.link}</h5>
                             <div style={{ content: `url(${props.arrowicon})` }}></div>
-                        </div>
+                        </Link>
                     )
                 })}
             </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import {CompanyMenu} from './../data';
 
 function CompanyMegamenu() {
@@ -8,12 +9,12 @@ function CompanyMegamenu() {
         <div className="company-links">
             {CompanyMenu.map((props) => {
                 return (
-                    <div to={props.to} className='megamenu-link'>
+                    <Link to={props.to} className='megamenu-link'>
                         <div className={`inner-icon ${props.cls}`}>
                             <div className='icon' style={{content: `url(${props.icon})`}}></div>
                         </div>
                         <h5>{props.link}</h5>
-                    </div>
+                    </Link>
                 )
             })}
         </div>

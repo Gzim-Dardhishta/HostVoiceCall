@@ -1,5 +1,5 @@
 .bussines-meetings{
-    width: 80%;
+    max-width: 80%;
     margin: auto;
 
     .title{
@@ -15,6 +15,7 @@
 
     .cards{
         display: flex;
+        flex-wrap: wrap;
         width: 90%;
         margin: auto;
         margin-top: 1.2em;
@@ -22,8 +23,8 @@
         margin-bottom: 2em;
 
         .cls1{
-            border: 1px solid #6C3DFF;
-            box-sizing: content-box;
+            outline: 1px solid #6C3DFF;
+            box-sizing: border-box;
             border-bottom: solid #6C3DFF 7px;
         }
 
@@ -48,7 +49,7 @@
 
             &:hover{
                 cursor: pointer;
-                border: 1px solid #6C3DFF;
+                outline: 1px solid #6C3DFF;
                 box-sizing: content-box;
                 border-bottom: solid #6C3DFF 7px;
             }
@@ -98,3 +99,13 @@
 
     
 }
+
+// @media (max-width: 1060px) {
+//     .bussines-meetings{
+//         .cards{
+//             display: flex;
+//             flex-wrap: wrap;
+//         }
+//     }
+    
+// }

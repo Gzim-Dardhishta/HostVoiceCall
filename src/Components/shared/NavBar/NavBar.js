@@ -7,7 +7,8 @@ import { MdKeyboardArrowDown} from 'react-icons/md'
 import {FiChevronDown} from 'react-icons/fi';
 import './Megamenus/megamenu.scss'
 import MobileNav from '../MobileNav/MobileNav';
-import clsx from "clsx"
+import clsx from 'clsx'
+import { Link } from 'react-router-dom'
 
 
 const NavBar = (props) => {
@@ -42,11 +43,11 @@ const NavBar = (props) => {
                 {NavBarData.map((props) => {
                     return (
                         <div className={`nav-link ${props.cls}`} key={props.id}>
-                            <div to={props.to} className='inner-nav-link'>
+                            <Link to={props.to} className='inner-nav-link'>
                                 <p>{props.link}</p>
                                 {props.megamenu ? <FiChevronDown className='arrow1'/> : null }
                                 {/* {props.arrow} */}
-                            </div>
+                            </Link>
 
                             {props.megamenu ? <div className='megamenu-arrow'><BsTriangleFill /></div> : null }
                             <div className='line'></div>
@@ -57,12 +58,12 @@ const NavBar = (props) => {
             </div>
 
             <div className="auth">
-                <div to='/LogIn' className='login-link'>
+                <Link to='/LogIn' className='login-link'>
                     <div>Log In</div>
-                </div>
-                <div to='/LogIn' className='signup-link'>
+                </Link>
+                <Link to='/LogIn' className='signup-link'>
                     <div>Sign Up</div>
-                </div>
+                </Link>
             </div>
 
             <MobileNav />

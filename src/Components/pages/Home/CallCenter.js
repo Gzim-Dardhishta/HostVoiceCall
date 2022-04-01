@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { FormattedMessage } from 'react-intl'
 import { Link } from 'react-router-dom'
 
 import './styles/callcenter.scss'
 
 function CallCenter() {
+
+    const [email, setEmail] = useState('');
+
     return (
         <div className='call-center'>
             <div className="info">
@@ -22,13 +25,24 @@ function CallCenter() {
                 </p>
 
                 <div className="email">
+                    <div className="email-icon"></div>
                     <div className="work-email">
-                        <div className="email-icon"></div>
-                        <FormattedMessage id='work-email' defaultMessage="Work Email" />
+                        <input
+                            type="email"
+                            name='email'
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
+                            placeholder='Work Email'
+                        />
+
+                        <div className="button">
+                            <Link to='/'>Try for free</Link>
+                        </div>
+                        {/* <FormattedMessage id='work-email' defaultMessage="Work Email" /> */}
                     </div>
-                    <div className="button">
-                        <FormattedMessage id='free' defaultMessage="Try for free" />
-                    </div>
+                    {/* <div className="button">
+                        <Link to='/'>Try for free</Link>
+                    </div> */}
                 </div>
 
                 <div className="social-links">
@@ -43,6 +57,7 @@ function CallCenter() {
                 </div>
             </div>
 
+            <div className="images">
             <div className="contact-images">
                 <div className="circle1">
                     <div className="video"></div>
@@ -89,6 +104,7 @@ function CallCenter() {
                 <div className="host">
                     <div className="icon"></div>
                 </div>
+            </div>
             </div>
         </div>
     )

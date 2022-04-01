@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import { SolutionsMenu } from '../data';
 
 const SolutionsMegamenu = () => {
@@ -10,12 +11,12 @@ const SolutionsMegamenu = () => {
                 <div className="use-case-items">
                     {SolutionsMenu.ByUseCase.map((props) => {
                         return(
-                            <div to={props.to} className='megamenu-link'>
+                            <Link to={props.to} className='megamenu-link'>
                                 <div className={`inner-icon ${props.cls}`}>
                                     <div className='icon' style={{content: `url(${props.icon})`}}></div>
                                 </div>
                                 <h5>{props.link}</h5>
-                            </div>
+                            </Link>
                         )
                     })}
                 </div>
@@ -26,12 +27,12 @@ const SolutionsMegamenu = () => {
                 <div className="industry-items">
                     {SolutionsMenu.ByIndustry.map((props) => {
                         return (
-                            <div to={props.to} className='megamenu-link'>
+                            <Link to={props.to} className='megamenu-link'>
                                 <div className={`inner-icon ${props.cls}`}>
                                     <div className='icon' style={{content: `url(${props.icon})`}}></div>
                                 </div>
                                 <h5>{props.link}</h5>
-                            </div>
+                            </Link>
                         )
                     })}
                 </div>
@@ -42,12 +43,12 @@ const SolutionsMegamenu = () => {
                 <div className="business-item">
                     {SolutionsMenu.ByBusinessType.map((props) => {
                         return (
-                            <div to={props.to} className='megamenu-link'>
+                            <Link to={props.to} className='megamenu-link'>
                                 <div className={`inner-icon ${props.cls}`}>
                                     <div className='icon' style={{content: `url(${props.icon})`}}></div>
                                 </div>
                                 <h5>{props.link}</h5>
-                            </div>
+                            </Link>
                         )
                     })}
                 </div>
@@ -58,12 +59,12 @@ const SolutionsMegamenu = () => {
                 <div className="capability-item">
                     {SolutionsMenu.ByCapability.map((props) => {
                         return (
-                            <div to={props.to} className='megamenu-link'>
+                            <Link to={props.to} className='megamenu-link'>
                                 <div className={`inner-icon ${props.cls}`}>
                                     <div className='icon' style={{content: `url(${props.icon})`}}></div>
                                 </div>
                                 <h5>{props.link}</h5>
-                            </div>
+                            </Link>
                         )
                     })}
                 </div>
