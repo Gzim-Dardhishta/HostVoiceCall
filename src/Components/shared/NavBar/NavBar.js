@@ -34,10 +34,10 @@ const NavBar = (props) => {
     <header>
         <MediaBar />
         <div id="nav-bar" className={clsx(`navbar ${props.styles}`, isSticky ? "nav__sticky" : "")}>
-            <div id='logo'>
+            <Link to='/' id='logo'>
                 <div className="icon"></div>
                 <h4>HostVoiceCalls</h4>
-            </div>
+            </Link>
 
             <div className="nav-links">
                 {NavBarData.map((props) => {

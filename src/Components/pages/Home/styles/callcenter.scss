@@ -10,20 +10,18 @@
 .call-center{
     margin-top: 9em;
     display: flex;
-    // flex-wrap: wrap;
-    // justify-content: space-between;
+    justify-content: space-between;
+    overflow-x: hidden;
 
-    // width: 97%;
-    // margin-left: 3%;
     .info{
-        width: max(35%, 26vw);
         margin-top: 4%;
         margin-left: 3%;
+        width: 37%;
     
         .links{
             color: #6C3DFF;
             margin-bottom: 0.7em;
-            font-size: 1rem;
+            font-size: 1em;
             small{
                 margin-right: 0.8em;
                 &:hover{
@@ -33,11 +31,11 @@
         }
     
         h1{
-            font-weight: 400;
-            font-size: clamp(2rem, 2.2vw, 3rem);
+            font-weight: 100;
+            font-size: clamp(1rem, 2.3vw, 4rem);
         }
         p{
-            font-size: 1em;
+            font-size: min(1em, 2.2vw);
             width: 80%;
             margin: 1.3em 0;
         }
@@ -47,20 +45,23 @@
             .email-icon{
                 content: url("../../../../assets/Home/CallCanter/email.svg");
                 position: absolute;
-                top: 1em;
-                left: 1em;
+                top: 30%;
+                left: 3%;
                 z-index: 1;
+                width: min(1.5em, 5vw);
             }
     
             .work-email{
                 position: relative;
                 display: flex;
                 gap: 1em;
+                z-index: 0;
 
                 input{
-                    padding: 1em 2.5em;
-                    width: 30em;
-                    font-size: 1em;
+                    padding: min(1em, 2.2vw);
+                    padding-left: 4em;
+                    width: min(85%, 95vw);
+                    font-size: min(1em, 2.2vw);
                     border: 1px solid #bbb;
                     border-radius: 35px;
                 }
@@ -70,8 +71,11 @@
                     width: fit-content;
                     background-color: #6C3DFF;
                     border-radius: 0 1.6em 1.6em 1.6em;
-                    padding: 1.05em 1.8em;
-                    left: 23em;
+                    padding: min(1.08em, 2.2vw);
+                    padding-right: 1.8em;
+                    padding-left: 1.8em;
+                    left: 69%;
+                    font-size: min(1em, 2.2vw);
                     a{
                         color: #fff;
                     }
@@ -84,6 +88,7 @@
             align-items: center;
             gap: 2em;
             margin-top: 1.8em;
+            font-size: min(1em, 2.2vw);
             .cloud{
                 content: url("../../../../assets/Home/CallCanter/cloud.svg");
             }
@@ -99,26 +104,31 @@
             .facebook{
                 content: url("../../../../assets/Home/CallCanter/facebook.svg");
             }
+            a{
+                width: min(1em, 2.5vw);
+                margin-right: min(1em, 2.2vw);
+            }
         }
     }
     
     .images{
+        width: 50vw;
         display: flex;
-        // justify-content: space-between;
-        // width: min(50%, 600px);
-        font-size: min(1.7em, 1vw);
-        margin-left: 10.2em;
+        justify-content: space-between;
+        align-items: center;
+        font-size: min(1em, 1.2vw);
+        margin-left: min(17.5%, 8vw);
         .contact-images{
             .circle1{
                 position: relative;
-                top: 5em;
     
                 .video{
                     content: url("../../../../assets/Home/CallCanter/video.svg");
+                    width: 3.7vw;
                     padding: 1.4em 1em;
                     position: absolute;
-                    top: -1.7em;
-                    left: 10.3em;
+                    top: -6.8%;
+                    left: 42%;
                     background-color: #6C3DFF;
                     border-radius: 1.4em;
                 }
@@ -126,12 +136,14 @@
                     .icon{
                         content: url("../../../../assets/Home/CallCanter/whatsapp.svg");
                         transform: rotateY(0deg) rotate(-30deg);
+                        width: 1.5vw;
                     }
                     position: absolute;
-                    top: 4em;
-                    left: -.8em;
+                    top: 15%;
+                    left: 2%;
+                    width: 3.7vw;
                     background-color: #fff;
-                    padding: 1.3em 1.3em;
+                    padding: 1.3em 1.2em;
                     border-radius: 1.5em;
                     box-shadow: 1px 1px 1px 1px #ddd;
                     transform: rotateY(0deg) rotate(30deg);
@@ -140,10 +152,12 @@
                 .message{
                     content: url("../../../../assets/Home/CallCanter/message.svg");
                     position: absolute;
-                    top: 4em;
-                    left: 21em;
+                    top: 16%;
+                    left: 85%;
                     background-color: #fff;
-                    padding: 1.1em 1.1em;
+                    padding: .9em;
+                    width: 3.7vw;
+                    height: 3.7vw;
                     border-radius: 1.4em;
                     box-shadow: 1px 1px 1px 1px #ddd;
                 }
@@ -152,10 +166,11 @@
                     .icon{
                         content: url("../../../../assets/Home/CallCanter/phone.svg");
                         transform: rotateY(0deg) rotate(-30deg);
+                        width: 1.5vw;
                     }
                     position: absolute;
-                    top: 16em;
-                    left: 21.3em;
+                    top: 66%;
+                    left: 88%;
                     background-color: #fff;
                     padding: 1.2em 1.2em;
                     border-radius: 1.4em;
@@ -166,8 +181,9 @@
                 .mail{
                     content: url("../../../../assets/Home/CallCanter/mail.svg");
                     position: absolute;
-                    top: 16em;
-                    left: -1em;
+                    top: 66%;
+                    left: -3%;
+                    width: 4vw;
                     background-color: #fff;
                     padding: 1.3em 1em;
                     border-radius: 1.4em;
@@ -178,15 +194,16 @@
                     content: url("../../../../assets/Home/CallCanter/sim.svg");
                     padding: 1em 1.3em;
                     position: absolute;
-                    top: 23em;
-                    left: 10.3em;
+                    top: 93%;
+                    left: 42%;
+                    width: 4vw;
                     background-color: #fff;
                     color: white;
                     border-radius: 1.4em;
                     box-shadow: 1px 1px 1px 1px #ddd;
                 }
                 
-    
+                
                 background-color: #f4f0ff;
                 border: 1px solid #d1c2ff;
                 padding: 2.5em;
@@ -217,22 +234,24 @@
                                 border-radius: 50%;
                                 .profile-image{
                                     content: url("../../../../assets/Home/CallCanter/profile-pic.png");
-                                    height: 100px;
-                                    width: 100px;
+                                    height: 6.5vw;
+                                    width: 6.5vw;
                                     border-radius: 50%;
                                 }
     
                                 .notification{
                                     position: absolute;
-                                    top: -4px;
-                                    right: 10px;
-                                    padding: 8px 12px;
+                                    top: -4%;
+                                    right: 1%;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    padding: 6px;
                                     background-color: #FF2C2C;
                                     border-radius: 3em;
-                                    font-size: .8em;
                                     font-weight: 700;
                                     color: #fff;
-                                    width: fit-content;
+                                    width: 2vw;
                                 }
                             }
                         }
@@ -246,15 +265,15 @@
             .long-arrow{
                 position: relative;
                 content: url("../../../../assets/Home/CallCanter/longarrow.svg");
-                // width: clamp(10em, 30vw, 26em);
                 width: 26em;
                 height: 37em;
+
             }
             .short-arrow{
                 content: url("../../../../assets/Home/CallCanter/shortarrow.svg");
                 position: absolute;
                 right: 20em;
-                top: -2em;
+                top: -6%;
                 max-width: 140px;
                 height: 13em;
             }
@@ -263,6 +282,7 @@
                 .icon{
                     content: url("../../../../assets/Home/CallCanter/mobile.svg");
                     transform: rotateY(0deg) rotate(-30deg);
+                    width: 1vw;
                 }
                 padding: 1em 1.3em;
                 position: absolute;
@@ -290,6 +310,7 @@
     
                 .icon {
                     content: url("../../../../assets/Home/CallCanter/block.svg");
+                    width: 1.6vw;
                 }
             }
     
@@ -308,6 +329,7 @@
     
                 .icon{
                     content: url("../../../../assets/Home/CallCanter/call.svg");
+                    width: 1.2vw;
                 }
             }
     
@@ -315,6 +337,7 @@
                 .icon{
                     content: url("../../../../assets/Home/CallCanter/host.svg");
                     transform: rotateY(0deg) rotate(-30deg);
+                    width: 2.4vw;
                 }
                 position: absolute;
                 top: 29em;
@@ -329,26 +352,58 @@
     }
 }
 
-@media (max-width: 1060px) {
-    // .call-center{
-    //     display: block;
+@media (max-width: 900px) {
+    .call-center{
+        display: block;
+        margin: 0;
 
-    //     .info{
-    //         width: 80%;
-    //         margin: auto;
-    //         margin-top: 13em;
-    //     }
-    // }
+        .info{
+            width: 80%;
+            margin: auto;
+            margin-top: 10em;
 
-    // .contact-images{
-    //     display: flex;
-    //     justify-content: center;
-    //     align-items: center;
-    // }
+            h1{
+                font-size: 1.9em;
+            }
+            p{
+                font-size: .8em;
+            }
 
-    // .arrows{
-    //     display: none;
-    // }
+            .email{
+                font-size: 1em;
+                .work-email input{
+                    width: 80%;
+                    font-size: 1em;
+                    padding: .8em;
+                    padding-left: 2.5em;
+                }
+                .work-email {
+                    .button{
+                        font-size: 1em;
+                        padding: .86em 1.6em;
+                    }
+                }
+            }
+
+            .social-links{
+                font-size: .9em;
+            }
+
+        }
+
+        .images{
+            margin-top: 5%;
+            display: flex;
+            width:80%;
+            justify-content: space-between;
+            gap: 4em;
+            font-size: 1vh;
+
+            .video, .whatsapp, .sim, .message, .mail, .phone{
+                font-size: .9vw;
+            }
+        }
+    }
 
     
 }

@@ -38,11 +38,7 @@ function CallCenter() {
                         <div className="button">
                             <Link to='/'>Try for free</Link>
                         </div>
-                        {/* <FormattedMessage id='work-email' defaultMessage="Work Email" /> */}
                     </div>
-                    {/* <div className="button">
-                        <Link to='/'>Try for free</Link>
-                    </div> */}
                 </div>
 
                 <div className="social-links">

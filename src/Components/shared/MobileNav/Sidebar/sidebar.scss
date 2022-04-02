@@ -1,3 +1,7 @@
+.sidebar-logo-row h6{
+    font-size: 1.3em
+}
+
 .mobile-sidebar-links{
     .nav-sidebar-link{
         color: red;
@@ -7,7 +11,7 @@
         border-bottom: 1px solid #aaa;
         border-left: 4px solid transparent;
         a{
-            font-size: 1em;
+            font-size: 1.1em;
             width: 160px;
             display: flex;
             align-items: center;
@@ -66,10 +70,11 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 1em;
+    gap: 1.3em;
     margin: 50px 0px;
 
     a{
+        font-size: 1.2em;
         padding: 10px 20px;
         border: 1px solid #6C3DFF;
         background-color: #6C3DFF;

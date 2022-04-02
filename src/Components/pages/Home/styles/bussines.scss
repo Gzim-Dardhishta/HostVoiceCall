@@ -9,27 +9,31 @@
 
         h1{
             margin-bottom: .8em;
+            font-size: clamp(1.5rem, 3vw, 2.1rem);
             font-weight: 500;
+        }
+        p{
+            font-size: clamp(1rem, 1.4vw, 1.3rem);
         }
     }
 
     .cards{
         display: flex;
         flex-wrap: wrap;
-        width: 90%;
-        margin: auto;
+        width: 100%;
         margin-top: 1.2em;
-        gap: 3em;
+        justify-content: space-between;
         margin-bottom: 2em;
 
+        .all-cards{
+            width: 20%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
         .cls1{
             outline: 1px solid #6C3DFF;
-            box-sizing: border-box;
             border-bottom: solid #6C3DFF 7px;
-        }
-
-        .all-cards{
-            flex: 1;
         }
 
         .card{
@@ -54,12 +58,12 @@
                 border-bottom: solid #6C3DFF 7px;
             }
     
-            .text{
-                margin: 1em 0;
-            }
-            .cls2{
-                padding: 1.5em 1em;
-            }
+            // .text{
+            //     margin: 1em 0;
+            // }
+            // .cls2{
+            //     padding: 1.5em 1em;
+            // }
     
             .link{
                 margin-top: 3em;
@@ -100,12 +104,26 @@
     
 }
 
-// @media (max-width: 1060px) {
-//     .bussines-meetings{
-//         .cards{
-//             display: flex;
-//             flex-wrap: wrap;
-//         }
-//     }
-    
-// }
+@media (max-width:876px) {
+    .bussines-meetings{
+        .cards{
+            .all-cards{
+                width: 45%;
+                // margin: 1em;
+            }
+        }
+    }
+}
+@media (max-width:478px) {
+    .bussines-meetings{
+        .cards{
+            .all-cards{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                margin-bottom: 1em;
+            }
+        }
+    }
+}
+
