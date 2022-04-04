@@ -41,44 +41,44 @@
         }
     
         .email{
-            position: relative;
+            display: flex;
+            border: 1px solid #333;
+            border-radius: 2em;
+
             .email-icon{
                 content: url("../../../../assets/Home/CallCanter/email.svg");
-                position: absolute;
-                top: 30%;
-                left: 3%;
                 z-index: 1;
-                width: min(1.5em, 5vw);
+                width: 5%;
+                margin: 0 min(1em, 2vw);
             }
-    
-            .work-email{
-                position: relative;
-                display: flex;
-                gap: 1em;
-                z-index: 0;
 
-                input{
-                    padding: min(1em, 2.2vw);
-                    padding-left: 4em;
-                    width: min(85%, 95vw);
-                    font-size: min(1em, 2.2vw);
-                    border: 1px solid #bbb;
-                    border-radius: 35px;
-                }
-
-                .button{
-                    position: absolute;
-                    width: fit-content;
-                    background-color: #6C3DFF;
-                    border-radius: 0 1.6em 1.6em 1.6em;
-                    padding: min(1.08em, 2.2vw);
-                    padding-right: 1.8em;
-                    padding-left: 1.8em;
-                    left: 69%;
-                    font-size: min(1em, 2.2vw);
-                    a{
-                        color: #fff;
-                    }
+            input{
+                width: 70%;
+                border: none;
+                outline: none;
+            }
+            input:-webkit-autofill,
+            input:-webkit-autofill:hover,
+            input:-webkit-autofill:focus,
+            input:-webkit-autofill:active {
+                transition: background-color 5000s ease-in-out 0s;
+                -webkit-transition: background-color 5000s ease-in-out 0s;
+                -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+                box-shadow: 0 0 0px 1000px #fff inset;
+                -webkit-text-fill-color: #444 !important;
+            }
+            
+            .button{
+                width: 25%;
+                height: max-content;
+                text-align: center;
+                font-size: min(1em, 3vw);
+                padding: min(1em, 2vw);
+                margin-right: -1px;
+                border-radius: 0 1.6em 1.6em;
+                background-color: #6C3DFF;
+                a{
+                    color: #fff;
                 }
             }
         }

@@ -31,7 +31,7 @@ const NavBar = (props) => {
 
 
   return (
-    <header>
+    <header id='header'>
         <MediaBar />
         <div id="nav-bar" className={clsx(`navbar ${props.styles}`, isSticky ? "nav__sticky" : "")}>
             <Link to='/' id='logo'>

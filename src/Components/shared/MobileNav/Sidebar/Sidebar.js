@@ -110,9 +110,6 @@ const Sidebar = (props) => {
                 <Link to='/'>
                     <FormattedMessage id='solutions' defaultMessage="Resources" />
                 </Link>
-                <div className='dropdown-arrow'>
-                        <MdKeyboardArrowDown/> 
-                    </div>
             </div>
 
             <div className="sidebar-dropdown">

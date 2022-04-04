@@ -26,18 +26,15 @@ function CallCenter() {
 
                 <div className="email">
                     <div className="email-icon"></div>
-                    <div className="work-email">
-                        <input
-                            type="email"
-                            name='email'
-                            value={email}
-                            onChange={(e) => setEmail(e.target.value)}
-                            placeholder='Work Email'
-                        />
-
-                        <div className="button">
-                            <Link to='/'>Try for free</Link>
-                        </div>
+                    <input
+                        type="email"
+                        name='email'
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                        placeholder='Work Email'
+                    />
+                    <div className="button">
+                        <Link to='/'>Try for free</Link>
                     </div>
                 </div>
 
@@ -54,53 +51,53 @@ function CallCenter() {
             </div>
 
             <div className="images">
-            <div className="contact-images">
-                <div className="circle1">
-                    <div className="video"></div>
-                    <div className="whatsapp">
-                        <div className="icon"></div>
-                    </div>
-                    <div className="message"></div>
-                    <div className="phone">
-                        <div className="icon"></div>
-                    </div>
-                    <div className="mail">
-                        <div className="icon"></div>
-                    </div>
-                    <div className="sim"></div>
-                    <div className="circle2">
-                        <div className="circle3">
-                            <div className="circle4">
-                                <div className="circle5">
-                                    <div className="profile-image"></div>
-                                    <div className="notification">3</div>
+                <div className="contact-images">
+                    <div className="circle1">
+                        <div className="video"></div>
+                        <div className="whatsapp">
+                            <div className="icon"></div>
+                        </div>
+                        <div className="message"></div>
+                        <div className="phone">
+                            <div className="icon"></div>
+                        </div>
+                        <div className="mail">
+                            <div className="icon"></div>
+                        </div>
+                        <div className="sim"></div>
+                        <div className="circle2">
+                            <div className="circle3">
+                                <div className="circle4">
+                                    <div className="circle5">
+                                        <div className="profile-image"></div>
+                                        <div className="notification">3</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div className="arrows">
-                <div className="short-arrow"></div>
-                <div className="long-arrow">
-                </div>
+                <div className="arrows">
+                    <div className="short-arrow"></div>
+                    <div className="long-arrow">
+                    </div>
 
-                <div className="iphone">
-                    <div className="icon"></div>
+                    <div className="iphone">
+                        <div className="icon"></div>
+                    </div>
+                    <div className="block">
+                        <div className="icon"></div>
+                        <span>Block</span>
+                    </div>
+                    <div className="number">
+                        <div className="icon"></div>
+                        <span>Call Number</span>
+                    </div>
+                    <div className="host">
+                        <div className="icon"></div>
+                    </div>
                 </div>
-                <div className="block">
-                    <div className="icon"></div>
-                    <span>Block</span>
-                </div>
-                <div className="number">
-                    <div className="icon"></div>
-                    <span>Call Number</span>
-                </div>
-                <div className="host">
-                    <div className="icon"></div>
-                </div>
-            </div>
             </div>
         </div>
     )
