@@ -11,24 +11,25 @@ import SelectLanguage from '../Languages/SelectLanguage';
 import { dataLocalStorage } from '../Languages/dataLocalStorage';
 import JoinMegamenu from './Megamenus/JoinMegamenu';
 import HostMegamenu from './Megamenus/HostMegamenu';
+import { Link } from 'react-router-dom';
 
 const MediaBar = (props) => {
   return (
     <div className='media-bar'>
 
         <div className="media">
-            <div className="download-app">
+            <Link to='/' className="download-app">
                 <BsFillPhoneFill/>
                 <p>Download App</p>
-            </div>
-            <div className='partners'>
+            </Link>
+            <Link to='/' className='partners'>
                 <FaHandshake />
                 <p>Partners</p>
-            </div>
-            <div className="cloud">
+            </Link>
+            <Link to='/' className="cloud">
                 <SiIcloud />
                 <p>Cloud Communications</p>
-            </div>
+            </Link>
         </div>
 
         <div className="spacer"></div>
@@ -50,10 +51,10 @@ const MediaBar = (props) => {
                 <p>+1 415-469-1690</p>
             </div>
 
-            <div className="support">
+            <Link to='/' className="support">
                 <HiSupport/>
                 <p>Support</p>
-            </div>
+            </Link>
 
             <div className='join_host'>
                 <div className="join-menu">

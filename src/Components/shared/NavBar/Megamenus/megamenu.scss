@@ -3,7 +3,7 @@
 .nav-megamenu {
     position: fixed;
     background-color: #fff;
-    top: 7.9em;
+    top: 7.8rem;
     overflow: hidden;
     display: block;
     display: none;
@@ -25,7 +25,7 @@
         align-items: center;
         margin:max(10px, 0.75vw) 0;
         padding: 7px;
-        width: 13em;
+        width: 14vw;
 
         color: #222;
         &:hover{
@@ -57,6 +57,7 @@
 
     h5{
         font-weight: 400;
+        color: #222;
     }
 
     .nav-link:hover {
@@ -70,7 +71,7 @@
 }
 
 #products-megamenu {
-    width: 90em;
+    max-width: 90%;
     left: 3%;
     z-index: 2000;
     .tabs {
@@ -134,7 +135,7 @@
                 grid-template-rows: auto auto auto auto auto;
                 grid-template-columns: auto auto auto auto;
                 grid-auto-flow: column;
-                gap: 0 4em;
+                gap: 0 min(4em, 2vw);
             }
         }
     }
@@ -158,7 +159,7 @@
 }
 
 #solution-megamenu {
-    width: 90%;
+    max-width: 90%;
     left: 5%;
 
     .solution-megamenu {
@@ -175,13 +176,13 @@
 }
 
 #developers {
-    width: 70%;
+    max-width: 70%;
     left: 10%;
     .developers-megamenu {
         display: flex;
     
         .documentation, .community {
-            width: 50%;
+            max-width: 50%;
         }
 
         .documentation-item{
@@ -202,5 +203,6 @@
         grid-template-columns: auto auto auto;
         grid-template-rows: auto auto auto auto auto;
         grid-auto-flow: column;
+        grid-column-gap: 1em;
     }
 }

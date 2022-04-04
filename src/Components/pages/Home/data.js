@@ -9,7 +9,6 @@ import headphones from '../../../assets/Home/bussinesscomm/headphones.svg';
 export const BussinesContactCards = [
     {
         cls: 'cls1',
-        textcls: 'first-card',
         icon: phone,
         text: 'Business Phone System',
         link: 'Learn More',

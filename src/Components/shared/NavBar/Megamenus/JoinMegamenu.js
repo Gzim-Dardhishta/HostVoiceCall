@@ -8,13 +8,13 @@ function JoinMegamenu() {
         <p className='caption'>Join a...</p>
         {JoinMenu.map((props)=> {
             return (
-                <Link to='/' className='join-type'>
+                <div className='join-type'>
                     <p>{props.text}</p>
                     <div className='icons'>
                         <p className={` ${props.class}`}>{props.icon}</p>
                         <p>{props.icon2}</p>
                     </div>
-                </Link>
+                </div>
             )
         })}
     </div>
