@@ -9,7 +9,18 @@ import {
 import {IntlProvider} from 'react-intl';
 import Home from "./Pages/Home";
 
+import Aos from 'aos';
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
+
 function App() {
+
+  useEffect(() => {
+    Aos.init({
+      duration: 1250,
+      once: true
+    }, [])
+  })
   return (
     <div className="App">
       <Router>

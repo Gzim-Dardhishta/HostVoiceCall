@@ -31,7 +31,7 @@
         }
     
         h1{
-            font-weight: 100;
+            font-weight: 400;
             font-size: clamp(1rem, 2.3vw, 4rem);
         }
         p{
@@ -262,13 +262,6 @@
     
         .arrows{
             position: relative;
-            .long-arrow{
-                position: relative;
-                content: url("../../../../assets/Home/CallCanter/longarrow.svg");
-                width: 26em;
-                height: 37em;
-
-            }
             .short-arrow{
                 content: url("../../../../assets/Home/CallCanter/shortarrow.svg");
                 position: absolute;
@@ -276,6 +269,12 @@
                 top: -6%;
                 max-width: 140px;
                 height: 13em;
+            }
+            .long-arrow{
+                position: relative;
+                content: url("../../../../assets/Home/CallCanter/longarrow.svg");
+                width: 26em;
+                height: 37em;
             }
     
             .iphone{

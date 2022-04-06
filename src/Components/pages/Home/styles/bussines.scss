@@ -30,16 +30,13 @@
             display: flex;
             flex-wrap: wrap;
         }
-        
-        // .cls1{
-        //     outline: 1px solid #6C3DFF;
-        //     border-bottom: solid #6C3DFF 7px;
-        // }
 
         .card{
             border-radius: 1.5em;
             padding: 2em 3.3em;
             text-align: center;
+            border: 1px solid transparent;
+            border-bottom: 7px solid transparent;
             .icon{
                 width: fit-content;
                 margin: auto;
@@ -53,17 +50,10 @@
 
             &:hover{
                 cursor: pointer;
-                outline: 1px solid #6C3DFF;
+                border: 1px solid #6C3DFF;
                 box-sizing: content-box;
-                border-bottom: solid #6C3DFF 7px;
+                border-bottom: 7px solid #6C3DFF;
             }
-    
-            // .text{
-            //     margin: 1em 0;
-            // }
-            // .cls2{
-            //     padding: 1.5em 1em;
-            // }
     
             .link{
                 margin-top: 3em;
