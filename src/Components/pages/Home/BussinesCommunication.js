@@ -2,6 +2,7 @@ import React from 'react'
 import { FormattedMessage } from 'react-intl';
 
 import {BussinesContactCards} from './data';
+import Cards from './slider/Cards';
 import './styles/bussines.scss'
 
 function BussinesCommunication() {
@@ -17,7 +18,9 @@ function BussinesCommunication() {
             </p>
         </div>
 
-        <div className="cards">
+        <Cards />
+
+        {/* <div className="cards">
             {BussinesContactCards.map((props) => {
                 return(
                     <div className='all-cards'>
@@ -32,16 +35,11 @@ function BussinesCommunication() {
                     </div>
                 )
             })}
-        </div>
+        </div> */}
 
-        <div className="slides">
-            <div className="first"></div>
-            <div className="second"></div>
-            <div className="third"></div>
-            <div className="fourth"></div>
-        </div>
+        
     </div>
   )
 }
 
-export default BussinesCommunication
+export default BussinesCommunication;

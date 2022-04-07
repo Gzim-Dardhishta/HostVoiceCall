@@ -18,20 +18,13 @@
     }
 
     .cards{
+        // position: relative;
         display: flex;
-        flex-wrap: wrap;
-        width: 100%;
         margin-top: 1.2em;
-        justify-content: space-between;
         margin-bottom: 2em;
 
-        .all-cards{
-            width: 20%;
-            display: flex;
-            flex-wrap: wrap;
-        }
-
         .card{
+            // width: 20%;
             border-radius: 1.5em;
             padding: 2em 3.3em;
             text-align: center;
@@ -67,31 +60,7 @@
                 }
             }
         }
-    }
-
-    .slides{
-        width: 10%;
-        margin: auto;
-        display: flex;
-        gap: .8em;
-        .first, .second, .third, .fourth{
-            background-color: #ddd;
-            padding: 5px 10px;
-            border-radius: 10px;
-            &:hover{
-                cursor: pointer;
-                background-color: #6C3DFF;
-                padding: 5px 20px;
-                transition: 0.3s ease-out;
-            }
-        }
-        .first{
-            background-color: #6C3DFF;
-            padding: 5px 20px;
-        }
-    }
-
-    
+    } 
 }
 
 @media (max-width:876px) {
