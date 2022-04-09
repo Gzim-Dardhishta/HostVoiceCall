@@ -66,4 +66,11 @@ export const BussinesContactCards = [
         linkcls: 'linkcls',
         arrow: arrow
     },
+    {
+        cls: 'cls1',
+        icon: phone,
+        text: 'Business Phone System',
+        link: 'Learn More',
+        arrow: arrow
+    }
 ]

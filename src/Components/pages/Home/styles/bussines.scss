@@ -1,5 +1,5 @@
 .bussines-meetings{
-    max-width: 80%;
+    max-width: 90%;
     margin: auto;
 
     .title{
@@ -17,19 +17,26 @@
         }
     }
 
-    .cards{
-        // position: relative;
-        display: flex;
-        margin-top: 1.2em;
-        margin-bottom: 2em;
-
+    .container{
+        margin-top: 3em;
+        padding: max(30px,5vw);
+        overflow: hidden;
+        position: relative;
         .card{
-            // width: 20%;
-            border-radius: 1.5em;
-            padding: 2em 3.3em;
-            text-align: center;
-            border: 1px solid transparent;
-            border-bottom: 7px solid transparent;
+                border-radius: 1.5em;
+                padding: 2em 3.3em;
+                text-align: center;
+                border: 1px solid transparent;
+                border-bottom: 7px solid transparent;
+                // width: 20%;
+                display: inline-block;
+                @media (max-width: 1068px) {
+                width: 50%;
+                }
+                @media (max-width: 462px) {
+                width: 100%;
+                }
+
             .icon{
                 width: fit-content;
                 margin: auto;
@@ -44,7 +51,6 @@
             &:hover{
                 cursor: pointer;
                 border: 1px solid #6C3DFF;
-                box-sizing: content-box;
                 border-bottom: 7px solid #6C3DFF;
             }
     
@@ -60,29 +66,32 @@
                 }
             }
         }
+
+        .lines{
+            width: 10em;
+            margin: auto;
+            margin-top: 2em;
+            display: flex;
+            .line{
+                cursor: pointer;
+                width: 20%;
+                border-radius: 10px;
+                padding: 4px;
+                background-color: #ddd;
+                margin: 7px;
+                &:hover{
+                    width: 40%;
+                    transition: .5s ease-out;
+                    background-color: #6C3DFF;
+                }
+            }
+            .line1{
+                padding: 0 10px;
+                width: 40%;
+                background-color: #6C3DFF;
+            }
+        }
     } 
 }
 
-@media (max-width:876px) {
-    .bussines-meetings{
-        .cards{
-            .all-cards{
-                width: 45%;
-                // margin: 1em;
-            }
-        }
-    }
-}
-@media (max-width:478px) {
-    .bussines-meetings{
-        .cards{
-            .all-cards{
-                width: 100%;
-                display: flex;
-                justify-content: center;
-                margin-bottom: 1em;
-            }
-        }
-    }
-}
 
