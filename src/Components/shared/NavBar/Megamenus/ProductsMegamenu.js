@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import { ProductsMenu, ProductsTabs,ProductsOtherLinks } from '../data';
+import { ProductsMenu, ProductsTabs, ProductsOtherLinks } from '../data';
 
 function ProductsMegamenu() {
     return (

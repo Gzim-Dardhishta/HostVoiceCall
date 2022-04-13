@@ -24,7 +24,7 @@
             }
             h5{
                 font-size: 1.2em;
-                color: #222;
+                color: #6C3DFF;
                 font-family: 'Amaranth';
                 font-weight: 400;
             }
@@ -37,6 +37,7 @@
         cursor: pointer;
         display: flex;
         align-items: center;
+        color: #222;
     }
 }
 
@@ -51,7 +52,7 @@
             content: url('../../../../assets/img/logo.svg') !important;
         }
         h5{
-            color: #222 !important;
+            color: #222;
         }
         button{
             color: #222 !important;

@@ -9,6 +9,7 @@ import './Megamenus/megamenu.scss'
 import MobileNav from '../MobileNav/MobileNav';
 import clsx from 'clsx'
 import { Link } from 'react-router-dom'
+import { FormattedMessage } from 'react-intl';
 
 
 const NavBar = (props) => {
@@ -46,7 +47,6 @@ const NavBar = (props) => {
                             <Link to={props.to} className='inner-nav-link'>
                                 <p>{props.link}</p>
                                 {props.megamenu ? <FiChevronDown className='arrow1'/> : null }
-                                {/* {props.arrow} */}
                             </Link>
 
                             {props.megamenu ? <div className='megamenu-arrow'><BsTriangleFill /></div> : null }
@@ -59,10 +59,10 @@ const NavBar = (props) => {
 
             <div className="auth">
                 <Link to='/LogIn' className='login-link'>
-                    <div>Log In</div>
+                    <FormattedMessage id='log-in' defaultMessage="Log In" />
                 </Link>
                 <Link to='/LogIn' className='signup-link'>
-                    <div>Sign Up</div>
+                    <FormattedMessage id='sign-up' defaultMessage="Sign Up" />
                 </Link>
             </div>
 

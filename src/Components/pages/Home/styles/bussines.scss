@@ -1,6 +1,7 @@
 .bussines-meetings{
     max-width: 90%;
     margin: auto;
+    margin-top: 3.5em;
 
     .title{
         width: 60%;
@@ -18,8 +19,7 @@
     }
 
     .container{
-        margin-top: 3em;
-        padding: max(30px,5vw);
+        padding: max(30px,2.5vw);
         overflow: hidden;
         position: relative;
         .card{

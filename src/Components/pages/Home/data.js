@@ -7,6 +7,18 @@ import headphones from '../../../assets/Home/bussinesscomm/headphones.svg';
 import managecalls from '../../../assets/Home/bussinesscomm/managecalls.svg';
 import international from '../../../assets/Home/bussinesscomm/international.svg';
 import talk from '../../../assets/Home/bussinesscomm/talk.svg';
+import { FormattedMessage } from 'react-intl';
+import connection1 from '../../../assets/Home/Connections/connection1.svg';
+import connection2 from '../../../assets/Home/Connections/connection2.svg';
+import connection3 from '../../../assets/Home/Connections/connection3.svg';
+import connection4 from '../../../assets/Home/Connections/connection4.svg';
+import connection5 from '../../../assets/Home/Connections/connection5.svg';
+import connection6 from '../../../assets/Home/Connections/connection6.svg';
+import connection7 from '../../../assets/Home/Connections/connection7.svg';
+import connection8 from '../../../assets/Home/Connections/connection8.svg';
+import connection9 from '../../../assets/Home/Connections/connection9.svg';
+import connection10 from '../../../assets/Home/Connections/connection10.svg';
+
 
 
 export const BussinesContactCards = [
@@ -19,7 +31,7 @@ export const BussinesContactCards = [
     },
     {
         cls: 'cls2',
-        iconcls:'cls2',
+        iconcls: 'cls2',
         icon: video,
         text: 'Video Meetings',
         link: 'Learn More',
@@ -74,3 +86,35 @@ export const BussinesContactCards = [
         arrow: arrow
     }
 ]
+
+export const ConnectionsData = {
+    "first": [
+        {
+            cls: 'cls1',
+            text: <FormattedMessage id='first' defaultMessage="Text & Email Marketing, Lead Alerts, Call Tracking" />,
+            icon1: connection1,
+            icon2: connection2,
+            icon3: connection3
+        }
+    ],
+    "second": [
+        {
+            cls: 'cls2',
+            text: <FormattedMessage id='first' defaultMessage="Account Security, IVR, Intelligent Chatbots, 
+        Contact Center" />,
+            icon1: connection4,
+            icon2: connection5,
+            icon3: connection6,
+            icon4: connection7
+        }
+    ],
+    "third": [
+        {
+            cls: 'cls3',
+            text: <FormattedMessage id='first' defaultMessage="Text & Email Marketing, Lead Alerts, Call Tracking" />,
+            icon1: connection8,
+            icon2: connection9,
+            icon3: connection10
+        }
+    ]
+}
