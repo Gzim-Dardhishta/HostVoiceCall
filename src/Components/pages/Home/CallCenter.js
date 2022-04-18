@@ -50,7 +50,7 @@ function CallCenter() {
                 </div>
             </div>
 
-            <div className="images" data-aos="fade-up">
+            <div className="images" data-aos="fade-left">
                 <div className="contact-images">
                     <div className="circle1" data-aos="fade-up">
                         <div className="video" data-aos="zoom-in"></div>

@@ -21,7 +21,7 @@ import connection10 from '../../../assets/Home/Connections/connection10.svg';
 
 
 
-export const BussinesContactCards = [
+export const SliderCards = [
     {
         cls: 'cls1',
         icon: phone,
@@ -86,6 +86,7 @@ export const BussinesContactCards = [
         arrow: arrow
     }
 ]
+export default SliderCards;
 
 export const ConnectionsData = {
     "first": [

@@ -266,7 +266,8 @@
                 margin-bottom: min(4em, 6vw);
     
                 .icon{
-                    padding: 1em;
+                    width: min(4em, 8vw);
+                    padding: min(1em, 2vw);
                     background-color: #fff;
                     border-radius: 1.5em;
                     box-shadow: 1px 1px 1px 1px #ddd;
@@ -278,7 +279,7 @@
 
 @media (max-width:1285px) {
     .connections {
-        margin: 5vw 0;
+        margin: 5vw 3vw;
     }
 }
 
@@ -310,31 +311,20 @@
                 .text{
                     font-size: 2em;
                 }
-                .icons{
-                    .icon{
-                        font-size: 2em;
-                    }
-                }
             }
         }
     }
 }
 
-@media (max-width:400px) {
+@media (max-width:420px) {
     .connections{
         .container{
-            .images {
-                .border1 {
-                    left: -86%;
-                }
-                .border2{
-                    left: -118%;
-                }
-                .border3{
-                    left: -97%;
-                }
-                .border4{
-                    left: -110%;
+            .connection-type{
+                .icons{
+
+                    .icon{
+                        width: 6.6vw;
+                    }
                 }
             }
             

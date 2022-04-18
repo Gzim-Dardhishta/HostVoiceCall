@@ -1,11 +1,11 @@
 import React from 'react'
 import { FormattedMessage } from 'react-intl';
-
-import { BussinesContactCards } from './data';
 import Carousel from './slider/Carousel';
 import './styles/bussines.scss'
+import { SliderCards } from './data';
 
-function BussinesCommunication(props) {
+function BussinesCommunication() {
+
   return (
     <div className='bussines-meetings'>
       <div className="title">
@@ -19,14 +19,7 @@ function BussinesCommunication(props) {
       </div>
 
       <div className="container">
-        <Carousel BussinesContactCards={BussinesContactCards} />
-
-        <div className="lines">
-          <div className="line line1"></div>
-          <div className="line"></div>
-          <div className="line"></div>
-          <div className="line"></div>
-        </div>
+        <Carousel slider={SliderCards} />
       </div>
 
     </div>
