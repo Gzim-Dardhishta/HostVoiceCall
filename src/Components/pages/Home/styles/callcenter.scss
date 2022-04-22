@@ -117,6 +117,7 @@
         font-size: min(1em, 1.2vw);
         margin-left: min(17.5%, 8vw);
         .contact-images{
+            font-size: min(1em, 1.2vw);
             .circle1{
                 position: relative;
     
@@ -370,12 +371,12 @@
                 font-size: 1em;
                 input{
                     font-size: .8em;
-                    padding: .6em 0;
+                    padding: 1em 0;
                 }
 
                 .button{
                     font-size: .8rem;
-                    padding: .5em;
+                    padding: 1em;
                 }
                 
             }
@@ -387,15 +388,41 @@
         }
 
         .images{
-            margin-top: 5%;
+            margin: 5%;
             display: flex;
             width:80%;
             justify-content: space-between;
             gap: 4em;
-            font-size: 45%;
+            font-size: .5em;
 
-            .video, .whatsapp, .sim, .message, .mail, .phone{
-                font-size: .9vw;
+            .contact-images{
+                font-size: min(2.2em, 1.3vw);
+
+                .circle1{
+                    .video, .whatsapp, .sim, .message, .mail{
+                        width: 5em;
+                    }
+                    .message{
+                        height: 5em;
+                    }
+                    .whatsapp{
+                        .icon{
+                            width: 2.2em;
+                            margin: auto;
+                        }
+                    }
+                    .phone{
+                        .icon{
+                            width: 2.2em;
+                            margin: auto;
+                        }
+                    }
+
+                    .circle2 .circle3 .circle4 .circle5 .profile-image{
+                        height: 5em;
+                        width: 6em;
+                    }
+                }
             }
         }
     }

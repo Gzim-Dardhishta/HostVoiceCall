@@ -1,0 +1,174 @@
+.phone-system{
+    position: relative;
+    display: flex;
+    background-image: url("../../../../assets/Home/phonesystem/bg-image.png");
+    background-size: cover;
+    padding: 7% 8% 2% 8%;
+
+    @media(max-width: 900px){
+        padding: 8% 5% 1em 4%;
+    }
+    @media (max-width: 768px) {
+        display: block;
+    }
+
+    .content {
+        color: #fff;
+        width: 34vw;
+        @media(max-width: 768px){
+            width: 80%;
+        }
+
+        .title{
+            font-size: min(30px, 4vw);
+            line-height: min(34px, 3.8vw);
+        }
+        p{
+            line-height: min(1.5em, 3.7vw);
+            margin: 1em 0;
+            font-size: min(.9em, 2.8vw);
+        }
+        .link{
+            width: 100%;
+            margin: 2.5em 0;
+            // margin-bottom: 12%;
+            a{
+                display: flex;
+                gap: 4em;
+                color: #fff;
+                font-size: min(.9em, 2.6vw);
+                .arrow-icon{
+                    content: url("../../../../assets/Home/phonesystem/arrow.svg");
+                }
+                animation-duration: 1.5s;
+                animation-iteration-count: infinite;
+                &:hover {
+                    animation-name: bounce;
+                    animation-timing-function: ease;
+                }
+                @keyframes bounce {
+                  0%   { transform: translateX(0); }
+                  50%  { transform: translateX(20px); }
+                  100% { transform: translateX(0); }
+                }
+            }
+        }
+    }
+    .container{
+        .phone-image{
+            content: url("../../../../assets/Home/phonesystem/image1.png");
+            width: min(30em, 40vw);
+            position: absolute;
+            right: 8%;
+            @media (max-width: 768px) {
+                right: 3%;
+            }
+        }
+        .circle1{
+            position: absolute;
+            top: 15vw;
+            left: 74%;
+            padding: .4em;
+            background-color: rgba(108, 61, 255, .4);
+            border-radius: 50%;
+            @media (max-width: 768px) {
+                top: 47vw;
+            }
+            .circle2{
+                padding: .4em;
+                background-color: #fff;
+                border-radius: 50%;
+                .circle3{
+                    padding: min(1.5em, 4vw) min(1.2em, 2.5vw);
+                    background-color: rgb(235, 235, 235);
+                    border-radius: 50%;
+                    .video-icon{
+                        content: url("../../../../assets/Home/phonesystem/video-camera.svg");
+                        width: min(1.7em, 3vw);
+                        z-index: 2;
+                    }
+                }
+            }
+        }
+    }
+
+    .big{
+        position: absolute;
+        top: 74%;
+        left: -4%;
+        z-index: -1;
+        .circle1{
+            padding: min(1em, 3vw);
+            border-radius: 50%;
+            background-color: rgba(108, 61, 255, .18);
+            .circle2{
+                padding: min(2em, 3vw);
+                border-radius: 50%;
+                background-color: rgba(108, 61, 255, .2);
+                .circle3{
+                    padding: min(2em, 3vw);
+                    border-radius: 50%;
+                    background-color: rgba(108, 61, 255, .2);
+                    .circle4{
+                        padding: min(3em, 2.7vw);
+                        border-radius: 50%;
+                        background-color: rgba(108, 61, 255, .1);
+                    }
+                }
+            }
+        }
+    }
+    .medium{
+        position: absolute;
+        top: 79%;
+        left: 16%;
+        z-index: -1;
+        .circle1{
+            padding: min(.8em, 2vw);
+            border-radius: 50%;
+            background-color: rgba(108, 61, 255, .1);
+            .circle2{
+                padding: min(1.2em, 1.9vw);
+                border-radius: 50%;
+                background-color: rgba(108, 61, 255, .15);
+                .circle3{
+                    padding: min(1.2em, 1.9vw);
+                    border-radius: 50%;
+                    background-color: rgba(108, 61, 255, .1);
+                    .circle4{
+                        padding: min(2.2em, 2vw);
+                        border-radius: 50%;
+                        background-color: rgba(108, 61, 255, .07);
+                    }
+                }
+            }
+        }
+    }
+    .small{
+        position: absolute;
+        // top: 100%;
+        bottom: -60%;
+        left: 13%;
+        z-index: -1;
+        .circle1{
+            padding: min(.5em, 1.5vw);
+            border-radius: 50%;
+            background-color: rgba(108, 61, 255, .08);
+            .circle2{
+                padding: min(.7em, 1.6vw);
+                border-radius: 50%;
+                background-color: rgba(108, 61, 255, .1);
+                .circle3{
+                    padding: min(.7em, 1.9vw);
+                    border-radius: 50%;
+                    background-color: rgba(108, 61, 255, .1);
+                    .circle4{
+                        padding: min(.9em, 2vw);
+                        border-radius: 50%;
+                        background-color: rgba(108, 61, 255, .07);
+                    }
+                }
+            }
+        }
+    }
+}

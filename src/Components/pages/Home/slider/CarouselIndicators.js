@@ -1,17 +1,21 @@
 
 import React from 'react'
 
-const CarouselIndicators = ({  slider, currentIndex, switchIndex }) => {
+const CarouselIndicators = ({ currentIndex, switchIndex }) => {
     return (
         <div className='carousel-indicators'>
-            {slider.map((_, index) => {
-                return (
-                    <button
-                        className={`carousel-indicators-item${currentIndex === index ? 'active' : ''}`}
-                        onClick={() => switchIndex(index)}
-                    ></button>
-                )
-            })}
+
+            {Array(4)
+                .fill()
+                .map((_, index) => {
+                    return (
+                        <button
+                            className={`carousel-indicators-item${currentIndex === index ? 'active' : ''}`}
+                            onClick={() => switchIndex(index)}
+                        ></button>
+                    )
+                })
+            }
         </div>
     )
 }

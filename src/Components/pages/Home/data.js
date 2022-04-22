@@ -19,6 +19,8 @@ import connection8 from '../../../assets/Home/Connections/connection8.svg';
 import connection9 from '../../../assets/Home/Connections/connection9.svg';
 import connection10 from '../../../assets/Home/Connections/connection10.svg';
 
+import arrow2 from '../../../assets/Home/phonesystem/arrow.svg';
+
 
 
 export const SliderCards = [
@@ -69,21 +71,6 @@ export const SliderCards = [
         link: 'Learn More',
         linkcls: 'linkcls',
         arrow: arrow
-    },
-    {
-        cls: 'cls4',
-        icon: managecalls,
-        text: 'ManageCalls',
-        link: 'Learn More',
-        linkcls: 'linkcls',
-        arrow: arrow
-    },
-    {
-        cls: 'cls1',
-        icon: phone,
-        text: 'Business Phone System',
-        link: 'Learn More',
-        arrow: arrow
     }
 ]
 export default SliderCards;
@@ -119,3 +106,15 @@ export const ConnectionsData = {
         }
     ]
 }
+
+export const PhoneSystemData = [
+    {
+        title: <FormattedMessage id="title" defaultMessage="Get your cloud-based phone system up and running" />,
+        paragraph: <FormattedMessage id='pharagraph' defaultMessage="Easily integrate with the cloud business tools each department relies 
+                on to get the job done and pave the way for more satisfying 
+                customer journeys." 
+                />,
+        link: <FormattedMessage id="link" defaultMessage="Keep the whole company connected" />,
+        arrow: arrow2
+    }
+]
