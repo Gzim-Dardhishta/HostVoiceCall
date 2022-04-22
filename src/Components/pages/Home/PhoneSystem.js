@@ -3,6 +3,9 @@ import { FormattedMessage } from 'react-intl';
 import { Link } from 'react-router-dom';
 import './styles/phonesystem.scss'
 
+import { PhoneSystemCarousel } from './data';
+import Carousel from './phonesystem-slider/Carousel';
+
 
 const PhoneSystem = () => {
   return (
@@ -36,7 +39,9 @@ const PhoneSystem = () => {
           </div>
         </div>
 
-        <div className="slider"></div>
+        <div className="slider">
+          <Carousel slider={PhoneSystemCarousel} />
+        </div>
       </div>
       <div className="phone-image">
         <div className="circle1">

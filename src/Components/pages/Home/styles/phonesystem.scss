@@ -59,15 +59,12 @@
             content: url("../../../../assets/Home/phonesystem/image1.png");
             width: min(30em, 40vw);
             position: absolute;
-            right: 8%;
-            @media (max-width: 768px) {
-                right: 3%;
-            }
+            left: 58%;
         }
         .circle1{
             position: absolute;
             top: 15vw;
-            left: 74%;
+            left: 70%;
             padding: .4em;
             background-color: rgba(108, 61, 255, .4);
             border-radius: 50%;
@@ -88,6 +85,18 @@
                         z-index: 2;
                     }
                 }
+            }
+        }
+
+        .slider{
+            position: absolute;
+            top: 90%;
+            right: 23%;
+
+            @media (max-width: 768px) {
+                top: 120%;
+                right: 9%;
+                width: 80%;
             }
         }
     }
@@ -121,7 +130,7 @@
     .medium{
         position: absolute;
         top: 79%;
-        left: 16%;
+        left: 19vw;
         z-index: -1;
         .circle1{
             padding: min(.8em, 2vw);
@@ -146,8 +155,7 @@
     }
     .small{
         position: absolute;
-        // top: 100%;
-        bottom: -60%;
+        top: 120%;
         left: 13%;
         z-index: -1;
         .circle1{

@@ -21,6 +21,8 @@ import connection10 from '../../../assets/Home/Connections/connection10.svg';
 
 import arrow2 from '../../../assets/Home/phonesystem/arrow.svg';
 
+import logo1 from '../../../assets/Home/phonesystem/company-logo.png';
+
 
 
 export const SliderCards = [
@@ -116,5 +118,40 @@ export const PhoneSystemData = [
                 />,
         link: <FormattedMessage id="link" defaultMessage="Keep the whole company connected" />,
         arrow: arrow2
+    }
+]
+
+export const PhoneSystemCarousel = [
+    {
+        cls: 'cls1',
+        icon: logo1,
+        text: <FormattedMessage id='text' defaultMessage="We examined a bunch of providers and Aircall was the only one that 
+        allowed us the flexibility to customize our customer service needs based on 
+        our business practices." />,
+        author: <FormattedMessage id='author' defaultMessage="Anton Zillberberg, CEO and Founder at UNTUCKit" />
+    },
+    {
+        cls: 'cls2',
+        icon: logo1,
+        text: <FormattedMessage id='text' defaultMessage="We examined a bunch of providers and Aircall was the only one that 
+        allowed us the flexibility to customize our customer service needs based on 
+        our business practices." />,
+        author: <FormattedMessage id='author' defaultMessage="Anton Zillberberg, CEO and Founder at UNTUCKit" />
+    },
+    {
+        cls: 'cls3',
+        icon: logo1,
+        text: <FormattedMessage id='text' defaultMessage="We examined a bunch of providers and Aircall was the only one that 
+        allowed us the flexibility to customize our customer service needs based on 
+        our business practices." />,
+        author: <FormattedMessage id='author' defaultMessage="Anton Zillberberg, CEO and Founder at UNTUCKit" />
+    },
+    {
+        cls: 'cls4',
+        icon: logo1,
+        text: <FormattedMessage id='text' defaultMessage="We examined a bunch of providers and Aircall was the only one that 
+        allowed us the flexibility to customize our customer service needs based on 
+        our business practices." />,
+        author: <FormattedMessage id='author' defaultMessage="Anton Zillberberg, CEO and Founder at UNTUCKit" />
     }
 ]

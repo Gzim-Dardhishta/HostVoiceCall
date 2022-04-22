@@ -72,7 +72,7 @@
     margin-top: 2em;
     display: flex;
 
-    .carousel-indicators-itemactive{
+    .carousel-indicator-itemactive{
       background-color: #6C3DFF;
       padding: 5px 17.5px;
     }
@@ -81,7 +81,7 @@
         border: none;
         border-radius: 10px;
         background-color: #ddd;
-        padding: 5px 12px;
+        padding: 5px 10px;
         margin: 7px;
         &:hover{
             transition: .5s ease-out;

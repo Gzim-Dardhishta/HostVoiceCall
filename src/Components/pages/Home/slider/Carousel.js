@@ -17,6 +17,7 @@ function Carousel({ slider }) {
         <div className='carousel'>
             <div
                 className="carousel-inner"
+                style={{ transform: `translateX(${-currentSlide * 50}%)`}}
             // style={
             //     width > 1068
             //         ? { transform: `translateX(${-currentSlide * 20}%)` }
