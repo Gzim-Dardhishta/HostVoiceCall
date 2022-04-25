@@ -3,7 +3,7 @@ const CarouselIndicators = ({ slider, currentIndex, switchIndex }) => {
       <div className="phone-carousel-indicators">
         {slider.map((_, index) => (
           <button
-            className={`carousel-indicator-item${currentIndex === index ? 'active' : ''}`}
+            className={`phone-carousel-indicator${currentIndex === index ? 'active' : ''}`}
             onClick={() => switchIndex(index)}
           ></button>
         ))}
