@@ -255,24 +255,40 @@
         }
     
         .connection-type{
-            width: fit-content;
-            .text{
-                font-size: .9em;
-            }
+
             .icons{
-                display: flex;
-                gap: 1.5em;
+                display: inline-block;
+                margin-right: 2vw;
                 margin-top: 2em;
                 margin-bottom: min(4em, 6vw);
-    
+
                 .icon{
-                    width: min(4em, 8vw);
-                    padding: min(1em, 2vw);
+                    width: min(4em, 4vw);
+                    height: min(4em, 4vw);
+                    padding: min(1em, 4vw);
                     background-color: #fff;
                     border-radius: 1.5em;
                     box-shadow: 1px 1px 1px 1px #ddd;
                 }
             }
+            
+            .text{
+                font-size: .9em;
+            }
+            // .icons{
+            //     display: flex;
+            //     gap: 1.5em;
+                // margin-top: 2em;
+                // margin-bottom: min(4em, 6vw);
+    
+            //     .icon{
+            //         width: min(4em, 8vw);
+            //         padding: min(1em, 2vw);
+            //         background-color: #fff;
+            //         border-radius: 1.5em;
+            //         box-shadow: 1px 1px 1px 1px #ddd;
+            //     }
+            // }
         }
     }
 }
@@ -316,6 +332,7 @@
 
                     .icon{
                         width: 5.5vw;
+                        height: 5.5vw;
                     }
                 }
             }
@@ -331,6 +348,7 @@
 
                     .icon{
                         width: 8vw;
+                        height: 8vw;
                     }
                 }
             }

@@ -9,8 +9,8 @@ import Carousel from './phonesystem-slider/Carousel';
 
 const PhoneSystem = () => {
   return (
-    <div className='phone-system'>
-      <div className="content">
+    <div className='phone-system blur'>
+      <div className="content" data-aos="fade-right">
         <div className="title">
           <FormattedMessage id="title" defaultMessage="Get your cloud-based phone system up and running" />
         </div>
@@ -30,7 +30,7 @@ const PhoneSystem = () => {
       </div>
 
       <div className="container">
-        <div className="phone-image"></div>
+        <div className="phone-image" data-aos="flip-left"></div>
         <div className="circle1">
           <div className="circle2">
             <div className="circle3">
@@ -39,7 +39,7 @@ const PhoneSystem = () => {
           </div>
         </div>
 
-        <div className="slider">
+        <div className="slider" data-aos="flip-right">
           <Carousel slider={PhoneSystemCarousel} />
         </div>
       </div>
@@ -51,7 +51,7 @@ const PhoneSystem = () => {
         </div>
       </div>
 
-      <div className="big">
+      <div className="big" data-aos="zoom-in-down">
         <div className="circle1">
           <div className="circle2">
             <div className="circle3">
@@ -60,7 +60,7 @@ const PhoneSystem = () => {
           </div>
         </div>
       </div>
-      <div className="medium">
+      <div className="medium" data-aos="zoom-in-down" >
         <div className="circle1">
           <div className="circle2">
             <div className="circle3">
@@ -69,7 +69,7 @@ const PhoneSystem = () => {
           </div>
         </div>
       </div>
-      <div className="small">
+      <div className="small" data-aos="zoom-in-down">
         <div className="circle1">
           <div className="circle2">
             <div className="circle3">

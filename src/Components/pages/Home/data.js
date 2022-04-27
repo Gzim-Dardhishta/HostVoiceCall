@@ -23,6 +23,10 @@ import arrow2 from '../../../assets/Home/phonesystem/arrow.svg';
 
 import logo1 from '../../../assets/Home/phonesystem/company-logo.png';
 
+import meeting1 from '../../../assets/Home/meetings/microphone.svg';
+import meeting2 from '../../../assets/Home/meetings/message.svg';
+import meeting3 from '../../../assets/Home/meetings/meet.svg';
+
 
 
 export const SliderCards = [
@@ -77,45 +81,62 @@ export const SliderCards = [
 ]
 export default SliderCards;
 
-export const ConnectionsData = {
-    "first": [
-        {
-            cls: 'cls1',
-            text: <FormattedMessage id='first' defaultMessage="Text & Email Marketing, Lead Alerts, Call Tracking" />,
-            icon1: connection1,
-            icon2: connection2,
-            icon3: connection3
-        }
-    ],
-    "second": [
-        {
-            cls: 'cls2',
-            text: <FormattedMessage id='first' defaultMessage="Account Security, IVR, Intelligent Chatbots, 
+export const ConnectionsData = [
+    {
+        text: <FormattedMessage id='first' defaultMessage="Text & Email Marketing, Lead Alerts, Call Tracking" />,
+        icons: [
+            {
+                icon: connection1
+            },
+            {
+                icon: connection2
+            },
+            {
+                icon: connection3
+            }
+        ]
+    },
+    {
+        text: <FormattedMessage id='first' defaultMessage="Account Security, IVR, Intelligent Chatbots, 
         Contact Center" />,
-            icon1: connection4,
-            icon2: connection5,
-            icon3: connection6,
-            icon4: connection7
-        }
-    ],
-    "third": [
-        {
-            cls: 'cls3',
-            text: <FormattedMessage id='first' defaultMessage="Text & Email Marketing, Lead Alerts, Call Tracking" />,
-            icon1: connection8,
-            icon2: connection9,
-            icon3: connection10
-        }
-    ]
-}
+        icons: [
+            {
+                icon: connection4
+            },
+            {
+                icon: connection5
+            },
+            {
+                icon: connection6
+            },
+            {
+                icon: connection7
+            }
+        ]
+    },
+    {
+        text: <FormattedMessage id='first' defaultMessage="Text & Email Marketing, Lead Alerts, Call Tracking" />,
+        icons: [
+            {
+                icon: connection8
+            },
+            {
+                icon: connection9
+            },
+            {
+                icon: connection10
+            }
+        ]
+    }
+]
 
 export const PhoneSystemData = [
     {
         title: <FormattedMessage id="title" defaultMessage="Get your cloud-based phone system up and running" />,
         paragraph: <FormattedMessage id='pharagraph' defaultMessage="Easily integrate with the cloud business tools each department relies 
                 on to get the job done and pave the way for more satisfying 
-                customer journeys." 
-                />,
+                customer journeys."
+        />,
         link: <FormattedMessage id="link" defaultMessage="Keep the whole company connected" />,
         arrow: arrow2
     }
@@ -154,4 +175,26 @@ export const PhoneSystemCarousel = [
         our business practices." />,
         author: <FormattedMessage id='author' defaultMessage="Anton Zillberberg, CEO and Founder at UNTUCKit" />
     }
+]
+
+export const MeetingsData = [
+    {
+        cls: 'cls1',
+        icon: meeting1,
+        title: <FormattedMessage id='title' defaultMessage="Talk"/>,
+        text: <FormattedMessage id='talk' defaultMessage="Say hello to the world’s easiest business phone 
+        system. Set up your new number in minutes." />,
+    },
+    {
+        cls: 'cls2',
+        icon: meeting2,
+        title: <FormattedMessage id='title' defaultMessage="Message"/>,
+        text: <FormattedMessage id='message' defaultMessage="Get more done with team messaging and file sharing that’s built right in." />,
+    },
+    {
+        cls: 'cls3',
+        icon: meeting3,
+        title: <FormattedMessage id='title' defaultMessage="Meet"/>,
+        text: <FormattedMessage id='meet' defaultMessage="Bring the entire team together with easy, one-click video meetings." />,
+    },
 ]

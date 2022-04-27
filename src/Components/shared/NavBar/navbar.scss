@@ -9,7 +9,8 @@
 header {
     width: 100vw;
     max-width: 100%;
-    font-size: 0.9em;
+    // font-size: 0.9em;
+    font-size: max(13.5px,.9vw);
     border-bottom: 1px solid #ddd;
     position: fixed;
     top: 0;

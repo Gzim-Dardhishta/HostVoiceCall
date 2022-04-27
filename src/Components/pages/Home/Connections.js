@@ -7,7 +7,7 @@ import './styles/connections.scss'
 function Connections() {
   return (
     <div className='connections'>
-      <div className="info">
+      <div className="info" data-aos="zoom-in-up">
         <div className="title">
           <div>
             <FormattedMessage id='title' defaultMessage="From first interaction to lasting connection" />
@@ -71,58 +71,36 @@ function Connections() {
           <div className="eighth-arrow"></div>
           <div className="ninth-arrow"></div>
 
-          <div className="border1">
+          <div className="border1" data-aos="zoom-in">
             <div className="first-photo"></div>
           </div>
-          <div className="border2">
+          <div className="border2" data-aos="zoom-in">
             <div className="second-photo"></div>
           </div>
-          <div className="border3">
+          <div className="border3" data-aos="zoom-in">
             <div className="third-photo"></div>
           </div>
-          <div className="border4">
+          <div className="border4" data-aos="zoom-in">
             <div className="fourth-photo"></div>
           </div>
-          <div className="border5">
+          <div className="border5" data-aos="zoom-in">
             <div className="fifth-photo"></div>
           </div>
         </div>
 
         <div className="connection-type">
-          {ConnectionsData.first.map((props) => {
+
+          {ConnectionsData.map((props) => {
             return (
               <div>
                 <div className="text">{props.text}</div>
-                <div className="icons">
-                  <div className="icon" style={{ content: `url(${props.icon1})` }}></div>
-                  <div className="icon" style={{ content: `url(${props.icon2})` }}></div>
-                  <div className="icon" style={{ content: `url(${props.icon3})` }}></div>
-                </div>
-              </div>
-            )
-          })}
-          {ConnectionsData.second.map((props) => {
-            return (
-              <div>
-                <div className="text">{props.text}</div>
-                <div className="icons">
-                  <div className="icon" style={{ content: `url(${props.icon1})` }}></div>
-                  <div className="icon" style={{ content: `url(${props.icon2})` }}></div>
-                  <div className="icon" style={{ content: `url(${props.icon3})` }}></div>
-                  <div className="icon" style={{ content: `url(${props.icon4})` }}></div>
-                </div>
-              </div>
-            )
-          })}
-          {ConnectionsData.third.map((props) => {
-            return (
-              <div>
-                <div className="text">{props.text}</div>
-                <div className="icons">
-                  <div className="icon" style={{ content: `url(${props.icon1})` }}></div>
-                  <div className="icon" style={{ content: `url(${props.icon2})` }}></div>
-                  <div className="icon" style={{ content: `url(${props.icon3})` }}></div>
-                </div>
+                {props.icons.map((i) => {
+                  return (
+                    <div className="icons">
+                      <div className="icon" style={{ content: `url(${i.icon})` }}></div>
+                    </div>
+                  )
+                })}
               </div>
             )
           })}

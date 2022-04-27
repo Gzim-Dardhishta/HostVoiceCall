@@ -54,7 +54,7 @@
             input{
                 border: none;
                 outline: none;
-                flex: 2;
+                flex: 1;
             }
             input:-webkit-autofill,
             input:-webkit-autofill:hover,
@@ -68,15 +68,14 @@
             }
             
             .button{
-                flex: 1;
                 text-align: center;
                 font-size: min(1em, 1.4vw);
-                padding: 1em;
-                margin-right: -1px;
-                border-radius: 0 1.6em 1.6em;
+                padding: 1vw 2vw;
+                border-radius: 0 2em 2em;
                 background-color: #6C3DFF;
                 a{
                     color: #fff;
+                    white-space: nowrap;
                 }
             }
         }

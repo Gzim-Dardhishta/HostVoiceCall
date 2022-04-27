@@ -1,0 +1,460 @@
+.meetings{
+    margin: 0 3%;
+    margin-top: 27em;
+
+    .meeting-type {
+        display: flex;
+        justify-content: space-between;
+
+        .video-meeting{
+            width: 72%;
+            padding: 2% 3%;
+            background-color: #fff;
+            box-shadow: 1px 1px 1px 2px #f2f2f2;
+            border-radius: 2.5vw;
+            .bg-image{
+                background-image: url('../../../../assets/Home/meetings/meeting-image.png');
+                background-size: cover;
+                border-radius: 2vw;
+                width: 100%;
+                position: relative;
+                .photo1{
+                    position: absolute;
+                    top: -15%;
+                    left: 10%;
+                    padding: 1vw;
+                    border-radius: 50%;
+                    background-color: #fff;
+                    .photo{
+                        content: url("../../../../assets/Home/meetings/photo1.png");
+                        width: min(5.8em, 8.5vw);
+                    }
+                }
+                .photo2{
+                    position: absolute;
+                    top: -15%;
+                    left: 26%;
+                    padding: 1vw;
+                    border-radius: 50%;
+                    background-color: #fff;
+                    .photo{
+                        content: url("../../../../assets/Home/meetings/photo2.png");
+                        width: min(5.8em, 8.5vw);
+                    }
+                }
+                .photo3{
+                    position: absolute;
+                    top: -15%;
+                    left: 43%;
+                    padding: 1vw;
+                    border-radius: 50%;
+                    background-color: #fff;
+                    .photo{
+                        content: url("../../../../assets/Home/meetings/photo3.png");
+                        width: min(5.8em, 8.5vw);
+                    }
+                }
+
+                .content{
+                    padding-top: 10vw;
+                    padding-bottom: 3vw;
+                    margin-left: 4%;
+
+                    .signal{
+                        background-color: #6C3DFF;
+                        border-radius: 1.2vw;
+                        width: fit-content;
+                        .icon{
+                            content: url("../../../../assets/Home/meetings/signals.svg");
+                            width: min(3.5em, 5vw);
+                            height: min(3.5em, 5vw);
+                            padding: min(.9em, 1vw);
+                            
+                        }
+                    }
+
+                    .name, .company, .location{
+                        font-size: min(16px, 1.4vw);
+                        margin-top: .85em;
+                    }
+                    .location{
+                        margin-bottom: 1em;
+                    }
+                    
+                    .tools{
+                        display: flex;
+                        gap: 2em;
+                        .microphone{
+                            content: url("../../../../assets/Home/meetings/microphone1.svg");
+                            padding: 1em;
+                            background-color: rgba(220, 219, 219, 0.7);
+                            border-radius: 1.2em;
+                            width: min(3em, 5vw);
+                            height: min(3em, 5vw);
+                            padding: min(.8em, 1vw);
+                        }
+
+                        .dots {
+                            border-radius: 1.2em;                            
+                            .dot{
+                                content: url("../../../../assets/Home/meetings/dots.svg");
+                                width: min(3em, 5vw);
+                                height: min(3em, 5vw);
+                            }
+                        }
+                    }
+
+                    .play{
+                        display: flex;
+                        gap: 1em;
+                        margin-top: 1.5em;
+
+                        .recording, .lock, .vi-enable{
+                            display: flex;
+                            align-items: center;
+                            padding: .3em 1.5em;
+                            font-size: min(16px, 1.5vw);
+                            width: fit-content;
+                            border-radius: 2em;
+                            .icon{
+                                width: min(1.3em, 5vw);
+                            }
+                        }
+                        .recording{
+                            background-color: #FECBE3;
+                            .icon{
+                                content: url("../../../../assets/Home/meetings/recording.svg");
+                                margin-right: 1em;
+                            }
+                        }
+                        .lock{
+                            background-color: #ECECEC;
+                            .icon{
+                                content: url("../../../../assets/Home/meetings/lock.svg");
+                                margin-right: 1em;
+                            }
+                        }
+                        .vi-enable{
+                            background-color: #EDFC7D;
+                        }
+                    }
+                    
+
+                }
+            }
+
+            .buttons{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 3%;
+                .left-buttons {
+                    display: flex;
+                    gap: .5em;
+                    
+                    .info, .message, .meet, .radio, .help {
+                        display: flex;
+                        align-items: center;
+                        border-radius: 1em;
+                        background-color: #fff;
+                        box-shadow: 1px 1px 1px 1px #f2f2f2;
+                        .icon{
+                            width: min(3em, 4vw);
+                            height: min(3em, 4vw);
+                            padding: min(.8em, 1vw);
+                        }
+
+                    }
+                    .info{
+                        .icon{
+                            content: url("../../../../assets/Home/meetings/button1.svg");
+                            margin: auto;
+                        }
+                    }
+                    .message{
+                        .icon{
+                            content: url("../../../../assets/Home/meetings/button2.svg");
+                            margin: auto;
+                        }
+                    }
+                    .meet{
+                        .icon{
+                            content: url("../../../../assets/Home/meetings/button3.svg");
+                            margin: auto;
+                        }
+                    }
+                    .radio{
+                        .icon{
+                            content: url("../../../../assets/Home/meetings/button4.svg");
+                            margin: auto;
+                        }
+                    }
+                    .help{
+                        .icon{
+                            content: url("../../../../assets/Home/meetings/button5.svg");
+                            margin: auto;
+                        }
+                    }
+                }
+
+                .middle-buttons{
+                    display: flex;
+                    gap: .5em;
+                    .microphone, .video, .stop, .screen, .headphones {
+                        display: flex;
+                        align-items: center;
+                        border-radius: 1em;
+                        background-color: #fff;
+                        box-shadow: 1px 1px 1px 1px #f2f2f2;
+                        .icon{
+                            width: min(3em, 4vw);
+                            height: min(3em, 4vw);
+                            padding: min(.8em, 1vw);
+                        }
+                    }
+                    .microphone{
+                        .icon{
+                            content: url("../../../../assets/Home/meetings/button6.svg");
+                            margin: auto;
+                        }
+                    }
+                    .video{
+                        .icon{
+                            content: url("../../../../assets/Home/meetings/button7.svg");
+                            margin: auto;
+                        }
+                    }
+                    .stop{
+                        .icon{
+                            content: url("../../../../assets/Home/meetings/button8.svg");
+                            margin: auto;
+                        }
+                        background-color: #e60000;
+                    }
+                    .screen{
+                        .icon{
+                            content: url("../../../../assets/Home/meetings/button9.svg");
+                            margin: auto;
+                        }
+                    }
+                    .headphones{
+                        .icon{
+                            content: url("../../../../assets/Home/meetings/button10.svg");
+                            margin: auto;
+                        }
+                    }
+                }
+                .right-buttons{
+                    display: flex;
+                    gap: .5em;
+                    .emoji, .lines, .pen, .check {
+                        display: flex;
+                        align-items: center;
+                        border-radius: 1em;
+                        background-color: #fff;
+                        box-shadow: 1px 1px 1px 1px #f2f2f2;
+                        .icon{
+                            width: min(3em, 4vw);
+                            height: min(3em, 4vw);
+                            padding: min(.8em, 1vw);
+                        }
+
+                    }
+                    .emoji{
+                        .icon{
+                            content: url("../../../../assets/Home/meetings/button11.svg");
+                            margin: auto;
+                        }
+                    }
+                    .lines{
+                        .icon{
+                            content: url("../../../../assets/Home/meetings/button12.svg");
+                            margin: auto;
+                        }
+                    }
+                    .pen{
+                        .icon{
+                            content: url("../../../../assets/Home/meetings/button13.svg");
+                            margin: auto;
+                        }
+                    }
+                    .check{
+                        .icon{
+                            content: url("../../../../assets/Home/meetings/button14.svg");
+                            margin: auto;
+                        }
+                    }
+                }
+            }
+        }
+
+
+
+        .phone-meeting{
+            width: 25%;
+            background-color: #fff;
+            box-shadow: 1px 1px 1px 2px #f2f2f2;
+            border-radius: 2em;
+            display: flex;
+            justify-content: center;
+            font-size: min(15px, 1.5vw);
+
+            .info{
+                width: 100%;
+                .call{
+                    margin-top: 2.7vw;
+                    margin-bottom: 1.8vw;
+                    text-align: center;
+                }
+                .support{
+                    display: flex;
+                    justify-content: center;
+                    gap: 1em;
+                    margin-bottom: 1em;
+                    .flag-icon{
+                        content: url("../../../../assets/Home/meetings/england.png");
+                        width: min(2em, 4vw);
+                    }
+                }
+                .circle1{
+                    margin: auto;
+                    width: fit-content;
+                    padding: 1.1em;
+                    background-color: #e2dbfb;
+                    border-radius: 50%;
+                    .circle2{
+                        width: fit-content;
+                        padding: 1.3em;
+                        background-color: #ccbcfa;
+                        border-radius: 50%;
+                        .image{
+                            content: url("../../../../assets/Home/meetings/photo4.png");
+                            width: min(5.8em, 8.5vw);
+                        }
+                    }
+                }
+                .name{
+                    text-align: center;
+                    margin: 1.3em 0;
+                }
+                .number{
+                    text-align: center;
+                }
+                .description{
+                    text-align: center;
+                    margin: 1em 0;
+                    margin-bottom: 2em;
+                }
+
+                .buttons{
+                    display: flex;
+                    justify-content: center;
+                    gap: 7vw;
+                    .inner{
+                        cursor: pointer;
+                        background-color: #fff;
+                        padding: min(.8em, 1vw);
+                        box-shadow: 1px 1px 1px 2px #f2f2f2;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 1em;
+                    }
+                    .reject{
+                        .icon{
+                            content: url("../../../../assets/Home/meetings/reject.svg");
+                            width: min(2.5em, 5vw);
+                        }
+                        &:hover{
+                            .response{
+                                display: block;
+                            }
+                        }
+                    }
+                    .answer{
+                        .icon{
+                            content: url("../../../../assets/Home/meetings/answer.svg");
+                            width: min(2em, 5vw);
+                            margin: min(.24em, 1vw);
+                        }
+                        &:hover{
+                            .response{
+                                display: block;
+                            }
+                        }
+                    }
+                    .response{
+                        text-align: center;
+                        margin-top: 2vw;
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        @media (max-width: 970px){
+            display: block;
+            margin-left:0;
+            .video-meeting{
+                width: 100%;
+                margin-bottom: 5vw;
+            }
+            .phone-meeting{
+                width: 45%;
+                height: 60vw;
+                margin: auto;
+                .info{
+                    .call, .support, .name, .number, .description, .response{
+                        font-size: 1.5em;
+                    }
+                }
+            }
+        }
+    }
+
+    .about-meetings{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 2%;
+        margin-top: 4%;
+
+        .card{
+            width: 30%;
+            display: flex;
+
+
+            .border {
+                background-color: #fff;
+                box-shadow: 1px 1px 1px 2px #f2f2f2;
+                border-radius: 1em;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-right: 2vw;
+                
+                
+                .icon{
+                    width: min(2em, 4vw);
+                    height: min(2em, 4vw);
+                    margin: 0 min(1em, 2vw);
+                }
+            }
+            .block{
+                .title, .text{
+                    font-size: max(15px, 0.9vw);
+                }
+                .title{
+                    margin-bottom: .5em;
+                }
+            }
+        }
+        @media (max-width: 850px){
+            display: block;
+            .card{
+                width: 80%;
+                margin: auto;
+                margin-bottom: 2em;
+            }
+        }
+    }
+}
