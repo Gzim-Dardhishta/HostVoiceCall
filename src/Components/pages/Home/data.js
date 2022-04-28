@@ -27,6 +27,9 @@ import meeting1 from '../../../assets/Home/meetings/microphone.svg';
 import meeting2 from '../../../assets/Home/meetings/message.svg';
 import meeting3 from '../../../assets/Home/meetings/meet.svg';
 
+import arrow3 from '../../../assets/Home/cloudbased/arrow.svg'
+import tool from '../../../assets/Home/cloudbased/tool.svg'
+
 
 
 export const SliderCards = [
@@ -196,5 +199,41 @@ export const MeetingsData = [
         icon: meeting3,
         title: <FormattedMessage id='title' defaultMessage="Meet"/>,
         text: <FormattedMessage id='meet' defaultMessage="Bring the entire team together with easy, one-click video meetings." />,
+    },
+]
+
+export const CloudBasedData = [
+    {
+        cls: 'cls1',
+        number: 1,
+        tool: tool,
+        title: <FormattedMessage id='setup' defaultMessage="Set up in seconds" />,
+        text: <FormattedMessage id='text' defaultMessage="No hardware. No headaches. Just a beautiful cloud call center solution you can use to start a conversation anywhere in the world — today." />,
+        link: <FormattedMessage id='link' defaultMessage="Explore all features" />,
+        arrow: arrow3
+    },
+    {
+        cls: 'cls2',
+        number: 2,
+        title: <FormattedMessage id='connect' defaultMessage="Connect to your tools" />,
+        text: <FormattedMessage id='text' defaultMessage="Calls go better when all the right info is tied together in the cloud. Integrate HostVoiceCalls with CRM systems, Helpdesk solutions, and other essential apps." />,
+        link: <FormattedMessage id='link' defaultMessage="See our integrations " />,
+        arrow: arrow3
+    },
+    {
+        cls: 'cls3',
+        number: 3,
+        title: <FormattedMessage id='visibility' defaultMessage="Gain visibility" />,
+        text: <FormattedMessage id='text' defaultMessage="Get rid of the guesswork. Monitor individual and team metrics in real-time to start making measurable improvements." />,
+        link: <FormattedMessage id='link' defaultMessage="Monitor key metrics" />,
+        arrow: arrow3
+    },
+    {
+        cls: 'cls4',
+        number: 4,
+        title: <FormattedMessage id='setup' defaultMessage="Enable productivity" />,
+        text: <FormattedMessage id='text' defaultMessage="Don’t put progress on hold. Create new numbers, teams, and workflows on the fly whenever new business requirements arise." />,
+        link: <FormattedMessage id='link' defaultMessage="See true stories " />,
+        arrow: arrow3
     },
 ]

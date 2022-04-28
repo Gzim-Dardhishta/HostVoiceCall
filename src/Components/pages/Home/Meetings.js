@@ -7,7 +7,7 @@ const Meetings = () => {
     return (
         <div className='meetings'>
             <div className="meeting-type">
-                <div className="video-meeting">
+                <div className="video-meeting" data-aos="fade-right">
                     <div className="bg-image">
                         <div className="photo1">
                             <div className="photo"></div>
@@ -108,7 +108,7 @@ const Meetings = () => {
                     </div>
                 </div>
 
-                <div className="phone-meeting">
+                <div className="phone-meeting" data-aos="flip-left">
                     <div className="info">
                         <div className="call">
                             <FormattedMessage id='call' defaultMessage="Incoming Call..." />
@@ -159,7 +159,7 @@ const Meetings = () => {
             <div className="about-meetings">
                 {MeetingsData.map((props) => {
                     return (
-                        <div className='card'>
+                        <div className='card' data-aos="zoom-in">
                             <div className="border">
                                 <div className={`icon ${props.cls}`} style={{ content: `url(${props.icon})` }}></div>
                             </div>

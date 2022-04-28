@@ -93,11 +93,11 @@ function Connections() {
           {ConnectionsData.map((props) => {
             return (
               <div>
-                <div className="text">{props.text}</div>
+                <div className="text" data-aos="zoom-in">{props.text}</div>
                 {props.icons.map((i) => {
                   return (
                     <div className="icons">
-                      <div className="icon" style={{ content: `url(${i.icon})` }}></div>
+                      <div className="icon" style={{ content: `url(${i.icon})` }} data-aos="zoom-in"></div>
                     </div>
                   )
                 })}

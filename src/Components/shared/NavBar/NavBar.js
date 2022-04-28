@@ -32,7 +32,8 @@ const NavBar = (props) => {
 
 
   return (
-    <header id='header'>
+    <header id='header' data-aos="fade-down"
+                        data-aos-easing="linear">
         <MediaBar />
         <div id="nav-bar" className={clsx(`navbar ${props.styles}`, isSticky ? "nav__sticky" : "")}>
             <Link to='/' id='logo'>

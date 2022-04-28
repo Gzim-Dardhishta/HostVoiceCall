@@ -50,8 +50,8 @@ function CallCenter() {
                 </div>
             </div>
 
-            <div className="images" data-aos="fade-left">
-                <div className="contact-images">
+            <div className="images">
+                <div className="contact-images" data-aos="fade-down">
                     <div className="circle1" data-aos="fade-up">
                         <div className="video" data-aos="zoom-in"></div>
                         <div className="whatsapp" data-aos="zoom-in">
@@ -78,7 +78,7 @@ function CallCenter() {
                     </div>
                 </div>
 
-                <div className="arrows" data-aos="fade-up">
+                <div className="arrows" data-aos="fade-down">
                     <div className="short-arrow" data-aos="fade-down"></div>
                     <div className="long-arrow" data-aos="fade-up"></div>
 

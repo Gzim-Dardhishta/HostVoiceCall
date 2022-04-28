@@ -1,6 +1,6 @@
 .meetings{
     margin: 0 3%;
-    margin-top: 27em;
+    margin-top: 26em;
 
     .meeting-type {
         display: flex;
@@ -348,8 +348,9 @@
 
                 .buttons{
                     display: flex;
-                    justify-content: center;
-                    gap: 7vw;
+                    justify-content: space-around;
+                    // justify-content: center;
+                    // gap: 7vw;
                     .inner{
                         cursor: pointer;
                         background-color: #fff;
@@ -394,13 +395,12 @@
 
         @media (max-width: 970px){
             display: block;
-            margin-left:0;
             .video-meeting{
                 width: 100%;
                 margin-bottom: 5vw;
             }
             .phone-meeting{
-                width: 45%;
+                width: 50%;
                 height: 60vw;
                 margin: auto;
                 .info{
@@ -415,7 +415,6 @@
     .about-meetings{
         display: flex;
         justify-content: space-between;
-        margin: 0 2%;
         margin-top: 4%;
 
         .card{
@@ -434,9 +433,8 @@
                 
                 
                 .icon{
-                    width: min(2em, 4vw);
-                    height: min(2em, 4vw);
-                    margin: 0 min(1em, 2vw);
+                    width: min(2em, 6vw);
+                    margin: 0 min(1em, 5vw);
                 }
             }
             .block{
@@ -451,7 +449,7 @@
         @media (max-width: 850px){
             display: block;
             .card{
-                width: 80%;
+                width: 90%;
                 margin: auto;
                 margin-bottom: 2em;
             }

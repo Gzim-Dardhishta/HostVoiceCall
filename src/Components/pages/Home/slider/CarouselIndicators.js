@@ -5,7 +5,7 @@ const CarouselIndicators = ({ currentIndex, switchIndex }) => {
     return (
         <div className='carousel-indicators'>
 
-            {Array(5)
+            {Array(7)
                 .fill()
                 .map((_, index) => {
                     return (

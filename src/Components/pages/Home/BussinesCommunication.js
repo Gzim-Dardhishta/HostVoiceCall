@@ -9,11 +9,11 @@ function BussinesCommunication() {
   return (
     <div className='bussines-meetings'>
       <div className="title">
-        <h1 data-aos="fade-right">
+        <h1 data-aos="fade-up">
           <FormattedMessage id='title' defaultMessage="Truly unified business communications" />
         </h1>
 
-        <p data-aos="fade-left">
+        <p data-aos="fade-down">
           <FormattedMessage id='text' defaultMessage="Designed to empower teams like yours." />
         </p>
       </div>

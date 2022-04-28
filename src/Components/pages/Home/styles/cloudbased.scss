@@ -1,0 +1,83 @@
+.cloud-based{
+    margin: 8em 3%;
+
+    .title{
+        margin-bottom: 3em;
+        h6{
+            text-align: center;
+            font-size: min(2.2em, 6vw);
+            font-weight: 100;
+        }
+    }
+    .cards{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .card{
+            width: 24%;
+            padding: 2%;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            &:hover{
+                z-index: 1;
+                border-radius: 1.5em;
+                background-color: #fff;
+                box-shadow: 3px 3px 3px #f2f2f2;
+            }
+            @media (max-width:900px){
+                width: 48%;
+                margin-bottom: 5%;
+            }
+            @media (max-width:600px){
+                width: 100%;
+                margin-bottom: 5%;
+            }
+
+            .head{
+                font-size: max(15px, 1vw);
+                display: flex;
+                justify-content: space-between;
+                .number{
+                    position: relative;
+                    width: min(2.2em, 8vw);
+                    height: min(2.2em, 8vw);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 50%;
+                    border: 1px dotted #6C3DFF;
+                    &::before{
+                        content: '';
+                        z-index: -2;
+                        position: absolute;
+                        left: 13%;
+                        width: min(2.2em, 8vw);                            height: min(2.2em, 8vw);
+                        border-radius: 50%;
+                        background-color: #cec0fa;
+
+                    }
+                }
+            }
+
+            .title{
+                margin: 7% 0;
+                font-size: max(15px, 1vw);
+            }
+            .text{
+                font-size: max(15px, 1vw);
+                line-height: 1.5em;
+            }
+
+            .link{
+                color: #111;
+                font-size: max(15px, 1vw);
+                margin: 10% 0;
+                margin-bottom: 0;
+                display: flex;
+                gap: 15%;
+            }
+        }
+    }
+}

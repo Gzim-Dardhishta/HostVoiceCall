@@ -35,9 +35,10 @@
 
 
   .carousel-indicators{
-    width: 18%;
-    margin:auto;
+    display: flex;
+    justify-content: center;
     margin-top: 2em;
+    margin-left: 3em;
     display: flex;
 
     .carousel-indicatoractive{
@@ -56,8 +57,22 @@
             background-color: #6C3DFF;
             padding: 5px 17.5px;
         }
+        &:nth-child(5){
+          display: none;
+        }
+        &:nth-child(6){
+          display: none;
+        }
         &:last-child{
           display: none;
+        }
+        @media (max-width:600px){
+          &:nth-child(5){
+            display: block;
+          }
+          &:nth-child(6){
+            display: block;
+          }
         }
     
     }
