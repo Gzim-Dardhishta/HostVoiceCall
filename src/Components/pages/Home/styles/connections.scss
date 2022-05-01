@@ -13,13 +13,14 @@
             font-size: min(1.8em, 3vw);
         }
         .description{
-            font-size: max(14px, .9vw);
+            font-size: min(15px, 1vw);
+
 
             .first-paragraph{
                 position: relative;
                 display: flex;
                 margin-top: 3em;
-                font-size: min(14px, 1.1vw);
+                // font-size: max(15px, 1.1vw);
                 .phone-icon{
                     position: relative;
                     top: 4px;
@@ -52,7 +53,7 @@
                 position: relative;
                 display: flex;
                 margin: 2em 0;
-                font-size: min(14px, 1.1vw);
+                // font-size: max(15px, 1.1vw);/
                 .message-icon{
                     position: relative;
                     top: 3px;
@@ -86,6 +87,7 @@
                 .trial {
                     display: flex;
                     align-items: center;
+                    flex-wrap: wrap;
                     margin-bottom: 1em;
                     gap: 3em;
 
@@ -115,7 +117,6 @@
         position: relative;
         margin-left: auto;
         .images{
-            font-size: min(1em, 1.2vw);
             .first-arrow{
                 content: url("../../../../assets/Home/Connections/line1.svg");
                 position: absolute;
@@ -190,8 +191,8 @@
                 background-color: #FA9950;
                 .first-photo{
                     content: url("../../../../assets/Home/Connections/photo1.png");
-                    width: 5em;
-                    height: 5em;
+                    width: max(5em, 3vw);
+                    height: max(5em, 3vw);
                     border-radius: 50%;
                 }
             }
@@ -204,8 +205,8 @@
                 background-color: #FAD103;
                 .second-photo{
                     content: url("../../../../assets/Home/Connections/photo2.png");
-                    width: 5em;
-                    height: 5em;
+                    width: max(5em, 3vw);
+                    height: max(5em, 3vw);
                     border-radius: 50%;
                 }
             }
@@ -218,8 +219,8 @@
                 background-color: #EB5656;
                 .third-photo{
                     content: url("../../../../assets/Home/Connections/photo3.png");
-                    width: 5em;
-                    height: 5em;
+                    width: max(5em, 3vw);
+                    height: max(5em, 3vw);
                     border-radius: 50%;
                 }
             }
@@ -232,8 +233,8 @@
                 background-color: #64A2FF;
                 .fourth-photo{
                     content: url("../../../../assets/Home/Connections/photo4.png");
-                    width: 5em;
-                    height: 5em;
+                    width: max(5em, 3vw);
+                    height: max(5em, 3vw);
                     border-radius: 50%;
                 }
             }
@@ -246,8 +247,8 @@
                 background-color: #7BEAA5;
                 .fifth-photo{
                     content: url("../../../../assets/Home/Connections/photo5.png");
-                    width: 5em;
-                    height: 5em;
+                    width: max(5em, 3vw);
+                    height: max(5em, 3vw);
                     border-radius: 50%;
                 }
             }
@@ -275,25 +276,11 @@
             .text{
                 font-size: .9em;
             }
-            // .icons{
-            //     display: flex;
-            //     gap: 1.5em;
-                // margin-top: 2em;
-                // margin-bottom: min(4em, 6vw);
-    
-            //     .icon{
-            //         width: min(4em, 8vw);
-            //         padding: min(1em, 2vw);
-            //         background-color: #fff;
-            //         border-radius: 1.5em;
-            //         box-shadow: 1px 1px 1px 1px #ddd;
-            //     }
-            // }
         }
     }
 }
 
-@media (max-width:1285px) {
+@media (max-width:1360px) {
     .connections {
         margin: 5vw 3vw;
     }
@@ -312,9 +299,7 @@
             width: 80%;
             margin: auto;
             .description {
-                .first-paragraph, .second-paragraph{
-                    font-size: 1em;
-                }
+                font-size: 15px;
             }
         }
         .container{

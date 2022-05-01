@@ -42,13 +42,17 @@
     
         .email{
             display: flex;
-            border: 1px solid #333;
+            border: .1px solid #333;
             border-radius: 2em;
 
             .email-icon{
                 content: url("../../../../assets/Home/CallCanter/email.svg");
                 z-index: 1;
-                margin: 0 min(1em, 2vw);
+                height: max(15px, 1.1vw);
+                margin: auto min(1em, 2vw);
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
 
             input{
@@ -355,7 +359,7 @@
         margin: 0;
 
         .info{
-            width: 80%;
+            width: 90%;
             margin: auto;
             margin-top: 10em;
 

@@ -1,12 +1,13 @@
 .cloud-based{
     margin: 8em 3%;
+    margin-top: 10em;
 
     .title{
         margin-bottom: 3em;
         h6{
             text-align: center;
             font-size: min(2.2em, 6vw);
-            font-weight: 100;
+            font-weight: 400;
         }
     }
     .cards{
@@ -26,7 +27,7 @@
                 background-color: #fff;
                 box-shadow: 3px 3px 3px #f2f2f2;
             }
-            @media (max-width:900px){
+            @media (max-width:1020px){
                 width: 48%;
                 margin-bottom: 5%;
             }
@@ -53,7 +54,8 @@
                         z-index: -2;
                         position: absolute;
                         left: 13%;
-                        width: min(2.2em, 8vw);                            height: min(2.2em, 8vw);
+                        width: min(2.2em, 8vw);                            
+                        height: min(2.2em, 8vw);
                         border-radius: 50%;
                         background-color: #cec0fa;
 

@@ -1,0 +1,419 @@
+.values{
+    .title{
+        text-align: center;
+        margin: 2em 0;
+        font-weight: 400;
+    }
+    .content{
+        display: flex;
+        align-items: center;
+        gap: 8vw;
+        margin: 0 5%;
+        margin-right: 0;
+
+        .support{
+            width: 32vw;
+
+            h1{
+                margin: 2em 0;
+                font-weight: 400;
+                font-size: max(32px, 2vw);
+            }
+            .text{
+                font-size: max(15px, .9vw);
+                line-height: 1.5em;
+            }
+            .services-offer{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                margin: 8% 0;
+
+                .service{
+                    width: 30%;
+                    text-align: center;
+                }
+                .contact-center, .shop, .AI{
+                    width: fit-content;
+                    padding: min(1.6em, 2.5vw);
+                    background-color: #fff;
+                    box-shadow: 1px 5px 4px 3px #f2f2f2;
+                    border-radius: 1.7em;
+                    margin: auto;
+                    margin-bottom: 1.8vw;
+                }
+
+
+                .contact-center{
+                    .icon{
+                        content: url("../../../../assets/Home/values/headphones.svg");
+                    }
+                }
+                .shop{
+                    .icon{
+                        content: url("../../../../assets/Home/values/shop.svg");
+                    }
+                }
+                .AI{
+                    .icon{
+                        content: url("../../../../assets/Home/values/light.svg");
+                    }
+                }
+            }
+
+            .links{
+                display: flex;
+                gap: 5vw;
+                margin-top: 3vw;
+
+                .more{
+                    display: flex;
+                    align-items: center;
+                    gap: 1.8vw;
+
+                    .arrow{
+                        content: url("../../../../assets/Home/values/arrow.svg");
+                    }
+                }
+
+                .video{
+                    display: flex;
+                    align-items: center;
+                    gap: 1vw;
+
+                    .border{
+                        padding: .6em;
+                        background-color: #6C3DFF;
+                        border-radius: 50%;
+                        .icon{
+                            content: url("../../../../assets/Home/values/play-button.svg");
+                        }
+                    }
+                }
+            }
+
+        }
+        .communication{
+            display: flex;
+            gap: 3vw;
+            .phone-call{
+                display: block;
+                width: 40%;
+                height: fit-content;
+                background-color: #fff;
+                box-shadow: 1px 5px 5px 5px #f2f2f2;
+                border-radius: 2em;
+                font-size: max(15px, .9vw);
+
+                .info{
+                    .call{
+                        
+                        padding-top: 8%;
+                        margin-bottom: 1.3vw;
+                        text-align: center;
+                    }
+                    .state-support{
+                        display: flex;
+                        justify-content: center;
+                        gap: 1em;
+                        margin-bottom: 1em;
+                        .flag-icon{
+                            content: url("../../../../assets/Home/values/flag.png");
+                            width: min(2em, 4vw);
+                        }
+                    }
+
+                    .circle1{
+                        margin: auto;
+                        width: fit-content;
+                        padding: 1.1em;
+                        background-color: #e2dbfb;
+                        border-radius: 50%;
+                        .circle2{
+                            width: fit-content;
+                            padding: 1.3em;
+                            background-color: #ccbcfa;
+                            border-radius: 50%;
+                            .image{
+                                content: url("../../../../assets/Home/values/profile-image.png");
+                                width: min(5.3em, 16.4vw);
+                            }
+                        }
+                    }
+
+                    .name{
+                        text-align: center;
+                        margin: 1em 0;
+                    }
+                    .number{
+                        text-align: center;
+                    }
+                    .description{
+                        text-align: center;
+                        margin: .8em 0;
+                        margin-bottom: 2em;
+                    }
+
+                    .buttons{
+                        display: flex;
+                        justify-content: space-around;
+                        .inner{
+                            cursor: pointer;
+                            background-color: #fff;
+                            padding: min(.8em, 1vw);
+                            box-shadow: 1px 1px 1px 2px #f2f2f2;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            border-radius: 1em;
+                        }
+                        .reject{
+                            .icon{
+                                content: url("../../../../assets/Home/meetings/reject.svg");
+                                width: min(2em, 5vw);
+                            }
+                            &:hover{
+                                .response{
+                                    visibility: visible;
+                                }
+                            }
+                        }
+                        .answer{
+                            .icon{
+                                content: url("../../../../assets/Home/values/answer.svg");
+                                width: min(1.5em, 5vw);
+                                margin: min(.24em, 1vw);
+                            }
+                            &:hover{
+                                .response{
+                                    visibility: visible;
+                                }
+                            }
+                        }
+                        .response{
+                            text-align: center;
+                            margin-top: 2vw;
+                            visibility: hidden;
+                        }
+                    }
+                }
+
+                    .caller-insight{
+                        width: 100%;
+                        padding: 6% 0;
+                        background-color: #fff;
+                        box-shadow: 0px 0px 0px 0px #f2f2f2, 1px 1px 2px 3px #f2f2f2;
+                        border-radius: 2em;
+
+                        .title{
+                            text-align: center;
+                            margin: 1em 0;
+                        }
+
+                        .contact-page, .contact-details{
+                            display: flex;
+                            justify-content: space-between;
+                            margin: 1em;
+                            .arrow{
+                                content: url("../../../../assets/Home/values/arrow.svg");
+                            }
+                        }
+                        .mail{
+                            display: flex;
+                            justify-content: space-between;
+                            margin: 1em;
+
+                            .address{
+                                color: #7E7E7E;
+                            }
+                            .email{
+                                color: #6C3DFF;
+                            }
+                        }
+                    }
+                
+            }
+            .chat{
+                position: relative;
+                display: flex;
+                align-items: center;
+                font-size: max(15px, .9vw);
+                .search{
+                    position: absolute;
+                    left: -10%;
+                    top: 3%;
+                    width: 85%;
+                    display: flex;
+                    gap: 2vw;
+                    padding: 1em;
+                    border-radius: 5em;
+                    background-color: #fff;
+                    box-shadow: 1px 1px 1px 2px #f2f2f2;
+                    font-size: max(10px, .9vw);
+
+                    .border{
+                        background-color: #d5c9f8;
+                        padding: 1em;
+                        border-radius: 5em;
+                        color: #6C3DFF;
+                        display: flex;
+                        align-items: center;
+                        gap: 1.4vw;
+
+                        .x{
+                            content: url("../../../../assets/Home/values/X.svg");
+                        }
+                    }
+
+                    .line{
+                        height: 3.1em;
+                        padding: .7px;
+                        background-color: #6C3DFF;
+                    }
+                }
+
+                .friend-chat{
+                    width: 80%;
+                    box-shadow: 1px 5px 4px 3px #f2f2f2;
+                    border-radius: 2em;
+                    background-color: #fff;
+                    padding: 5%;
+
+                    .audio-play{
+                        .play{
+                            display: flex;
+                            gap: 1vw;
+                            align-items: center;
+                            justify-content: space-between;
+                            margin-bottom: 1.5vw;
+                            
+                            .border{
+                                padding: .8em;
+                                background-color: #6C3DFF;
+                                border-radius: 50%;
+                                .icon{
+                                    content: url("../../../../assets/Home/values/play-button.svg");
+                                }
+                            }
+                            .audio-length{
+                                position: relative;
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                .circle{
+                                    content: url("../../../../assets/Home/values/circle.svg");
+                                    position: absolute;
+                                }
+                                .line{
+                                    width: min(18em, 20vw);
+                                    height: .5em;
+                                    margin-right: .5em;
+                                    background-color: #ddd;
+                                    border-radius: 1.5em;
+                                }
+                            }
+                        }
+
+                        .add-more{
+                            display: flex;
+                            gap: 2vw;
+                            padding: 1.4vw;
+                            background-color: #fff;
+                            border-radius: 2em;
+                            box-shadow: 1px 5px 4px 3px #f2f2f2;
+
+                            .add-icon{
+                                content: url("../../../../assets/Home/values/add.svg");
+                            }
+                        }
+                    }
+
+                    .messages{
+                        margin-top: 3vw;
+                        .time{
+                            text-align: center;
+                            font-size: max(14px, .8vw);
+                        }
+                        font-size: max(15px, .9vw);
+
+                        .message{
+                            display: flex;
+                            justify-content: space-between;
+                            .image{
+                                content: url("../../../../assets/Home/values/image.png");
+                                width: fit-content;
+                                height: fit-content;
+                            }
+
+                            .border{
+                                width: 65%;
+                                padding: 1.4vw;
+                                background-color: #fff;
+                                border-radius: 2em;
+                                box-shadow: 1px 5px 4px 3px #f2f2f2;
+
+                                .text{
+                                    line-height: 1.2em;
+                                }
+
+                                .checks{
+                                    display: flex;
+                                    position: relative;
+                                    left: 90%;
+                                    .check1{
+                                        content: url("../../../../assets/Home/values/check.svg");
+                                    }
+                                    .check2{
+                                        content: url("../../../../assets/Home/values/check.svg");
+                                        position: absolute;
+                                        left: 2%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+
+
+        @media(max-width:900px){
+            display: block;
+            .support{
+                width: 80%;
+                margin: auto;
+            }
+
+        }
+    }
+}
+
+@media(max-width:900px){
+    .values{
+        .content{
+            .communication{
+                display: block;
+                margin-top: 10%;
+
+                .phone-call{
+                    width: 80%;
+                    margin: auto;
+                }
+
+                .chat{
+                    .search{
+                        position: absolute;
+                        left: 3%;
+                    }
+
+                    .friend-chat{
+                        margin-top: 22%;
+                        margin-left: 1em;
+                    }
+                }
+            }
+        }
+    }
+
+}

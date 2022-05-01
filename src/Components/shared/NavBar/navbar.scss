@@ -9,8 +9,6 @@
 header {
     width: 100vw;
     max-width: 100%;
-    // font-size: 0.9em;
-    font-size: max(13.5px,.9vw);
     border-bottom: 1px solid #ddd;
     position: fixed;
     top: 0;
@@ -20,7 +18,7 @@ header {
 }
 
 .media-bar {
-    font-size: min(1em, 1.1vw);
+    font-size: max(12px, .8vw);
     display: flex;
     padding: max(10px, 0.5vw) 3% max(10px, 0.5vw);
     border-bottom: 1px solid #ddd;
@@ -42,7 +40,6 @@ header {
         position: relative;
         .arrow {
             color: rgb(250, 250, 250);
-            font-size: 25px;
             position: absolute;
             right: -6px;
             top: 20px;
@@ -183,11 +180,10 @@ header {
 
 
 #nav-bar {
-    padding: 0 3em;
+    padding: 0 3.5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    // padding: max(25px, 0.6vw) 3% max(20px, 0.4vw);
 
     #logo {
         display: flex;
@@ -196,6 +192,7 @@ header {
     #logo h4 {
         color: #222;
         font-size: 1.2em;
+        font-weight: 400;
     }
     .icon {
         content: url('../../../assets/img/logo.svg');
@@ -206,9 +203,8 @@ header {
         display: flex;
         align-items: center;
         .nav-link {
-            font-size: 1em;
-            padding:min(2rem, 2vw) 1.5em;
-            // padding: 2em 1.5em;
+            font-size: max(15px, .9vw);
+            padding: max(1.75vw,20px) 1.4vw;
             cursor: pointer;
             position: relative;
 
@@ -270,6 +266,7 @@ header {
     .auth {
         display: flex;
         align-items: center;
+        font-size: max(15px, .9vw);
 
         .login-link {
             color: #222;
@@ -288,7 +285,7 @@ header {
 
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 1000px) {
     #header{
         #logo, .nav-links, .auth, .media-bar { display: none;}
         .mobile-nav{

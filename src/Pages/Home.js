@@ -5,6 +5,7 @@ import CloudBasedPhoneSystem from '../Components/pages/Home/CloudBasedPhoneSyste
 import Connections from '../Components/pages/Home/Connections'
 import Meetings from '../Components/pages/Home/Meetings'
 import PhoneSystem from '../Components/pages/Home/PhoneSystem'
+import Values from '../Components/pages/Home/Values'
 import NavBar from '../Components/shared/NavBar/NavBar'
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
         <PhoneSystem />
         <Meetings />
         <CloudBasedPhoneSystem />
+        <Values />
     </div>
   )
 }

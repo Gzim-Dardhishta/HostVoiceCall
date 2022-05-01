@@ -22,13 +22,13 @@
         }
 
         .title{
-            font-size: min(30px, 4vw);
-            line-height: min(34px, 3.8vw);
+            font-size: max(30px, 2vw);
+            line-height: min(34px, 6.8vw);
         }
         p{
-            line-height: min(1.5em, 3.7vw);
+            line-height: min(1.5em, 4.7vw);
             margin: 1em 0;
-            font-size: min(.9em, 2.8vw);
+            font-size: max(15px, .89vw);
         }
         .link{
             width: 100%;
@@ -37,7 +37,7 @@
                 display: flex;
                 gap: 4em;
                 color: #fff;
-                font-size: min(.9em, 2.6vw);
+                font-size: max(15px, .89vw);
                 .arrow-icon{
                     content: url("../../../../assets/Home/phonesystem/arrow.svg");
                 }
@@ -73,7 +73,7 @@
             background-color: rgba(108, 61, 255, .4);
             border-radius: 50%;
             @media (max-width: 768px) {
-                top: 47vw;
+                top: 85%;
             }
             .circle2{
                 padding: .4em;
@@ -85,7 +85,7 @@
                     border-radius: 50%;
                     .video-icon{
                         content: url("../../../../assets/Home/phonesystem/video-camera.svg");
-                        width: min(1.7em, 3vw);
+                        width: min(1.7em, 4vw);
                         z-index: 2;
                     }
                 }
@@ -100,7 +100,7 @@
             @media (max-width: 768px) {
                 top: 120%;
                 right: 9%;
-                width: 80%;
+                width: 90%;
             }
         }
     }

@@ -23,6 +23,7 @@
             .card{
                 text-align: center;
                 padding: 2vw 2.8vw;
+                font-size: max(15px, .89vw);
 
                 .icon{
                     margin: auto;
@@ -30,11 +31,11 @@
                 }
                 .text{
                     margin: 5% 2%;
-                    font-size: min(1em, 3vw);
+                    // font-size: min(1em, 3vw);
                 }
-                .author{
-                    font-size: min(1em, 3vw);
-                }
+                // .author{
+                //     font-size: min(1em, 3vw);
+                // }
             }
         }
     }
