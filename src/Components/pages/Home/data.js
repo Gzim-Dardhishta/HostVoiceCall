@@ -30,6 +30,11 @@ import meeting3 from '../../../assets/Home/meetings/meet.svg';
 import arrow3 from '../../../assets/Home/cloudbased/arrow.svg'
 import tool from '../../../assets/Home/cloudbased/tool.svg'
 
+import icon1 from '../../../assets/Home/communication/icon1.svg'
+import icon2 from '../../../assets/Home/communication/icon2.svg'
+import icon3 from '../../../assets/Home/communication/icon3.svg'
+import icon4 from '../../../assets/Home/communication/icon4.svg'
+
 
 
 export const SliderCards = [
@@ -236,4 +241,32 @@ export const CloudBasedData = [
         link: <FormattedMessage id='link' defaultMessage="See true stories " />,
         arrow: arrow3
     },
+]
+
+
+export const CommunicationData = [
+    {
+        cls: 'cls1',
+        icon: icon1,
+        title: <FormattedMessage id='title' defaultMessage="Phone" />,
+        text: <FormattedMessage id='text' defaultMessage="Never miss a call with a 100% uptime SLA."/>
+    },
+    {
+        cls: 'cls2',
+        icon: icon2,
+        title: <FormattedMessage id='title' defaultMessage="Integrated" />,
+        text: <FormattedMessage id='text' defaultMessage="Works with Google Workspace, Salesforce, Zendesk, and more."/>
+    },
+    {
+        cls: 'cls3',
+        icon: icon3,
+        title: <FormattedMessage id='title' defaultMessage="Smart" />,
+        text: <FormattedMessage id='text' defaultMessage="Get complete visibility into usage and adoption analytics."/>
+    },
+    {
+        cls: 'cls4',
+        icon: icon4,
+        title: <FormattedMessage id='title' defaultMessage="Global" />,
+        text: <FormattedMessage id='text' defaultMessage="Set up new teams, numbers, and more in minutes."/>
+    }
 ]

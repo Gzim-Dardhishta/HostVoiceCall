@@ -1,0 +1,92 @@
+.communication{
+    margin: 10% 5%;
+
+    .title{
+        .business{
+            font-size: max(19px, 1.1vw);
+        }
+        .remote{
+            font-size: max(35px, 2.45vw);
+            margin: 1em 0 3em;
+        }
+    }
+
+    .inner{
+        display: flex;
+        align-items: center;
+        gap: 6%;
+        .photo{
+            content: url("../../../../assets/Home/communication/Capture.png");
+            width: 50%;
+            border-radius: 2em;
+        }
+
+        .cards{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 4%;
+            .card{
+                width: 45%;
+                border: 1px solid transparent;
+                border-bottom: 7px solid transparent;
+                border-radius: 1em;
+                margin-bottom: 2em;
+                padding: 2em 2em 12%;
+
+                &:hover{
+                    border: 1px solid #6C3DFF;
+                    border-bottom: 7px solid #6C3DFF;
+                }
+                .border{
+                        position: relative;
+                        width: min(4.2em, 14vw);
+                        height: min(4.2em, 14vw);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 50%;
+                        border: 1px dotted #6C3DFF;
+                        &::before{
+                            content: '';
+                            position: absolute;
+                            left: 13%;
+                            z-index: -2;
+                            width: min(4.2em, 14vw);
+                            height: min(4.2em, 14vw);
+                            border-radius: 50%;
+                            background-color: #ece8fb;
+    
+                        }
+                    .icon{
+                        z-index: 2;
+                        width: min(1.5em, 10vw);
+                        height: min(1.5em, 10vw);
+                    }
+                }
+
+                .title{
+                    margin: 8% 0;
+                    font-size: max(17px, 1.1vw);
+                }
+
+                .text{
+                    font-size: max(14px, .85vw);
+                }
+
+                @media (max-width:500px) {
+                    width: 100%;
+                }
+
+            }
+        }
+
+        @media (max-width:1000px) {
+            display: block;
+
+            .photo{
+                width: 100%;
+            }
+        }
+    }
+}
