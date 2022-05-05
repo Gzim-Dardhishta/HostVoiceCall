@@ -1,4 +1,5 @@
 import React from 'react'
+import Brands from '../Components/pages/Home/Brands'
 import BussinesCommunication from '../Components/pages/Home/BussinesCommunication'
 import CallCenter from '../Components/pages/Home/CallCenter'
 import CloudBasedPhoneSystem from '../Components/pages/Home/CloudBasedPhoneSystem'
@@ -21,6 +22,7 @@ const Home = () => {
         <CloudBasedPhoneSystem />
         <Values />
         <Communication />
+        <Brands />
     </div>
   )
 }

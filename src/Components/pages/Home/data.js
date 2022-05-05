@@ -36,6 +36,15 @@ import icon3 from '../../../assets/Home/communication/icon3.svg'
 import icon4 from '../../../assets/Home/communication/icon4.svg'
 
 
+import photo1 from '../../../assets/Home/brands/photo1.png';
+import photo2 from '../../../assets/Home/brands/photo2.png';
+import photo3 from '../../../assets/Home/brands/photo3.png';
+import brand1 from '../../../assets/Home/brands/logo1.png';
+import brand2 from '../../../assets/Home/brands/logo2.png';
+import brand3 from '../../../assets/Home/brands/logo3.png';
+import arrow5 from '../../../assets/Home/brands/arrow1.svg';
+
+
 
 export const SliderCards = [
     {
@@ -269,4 +278,38 @@ export const CommunicationData = [
         title: <FormattedMessage id='title' defaultMessage="Global" />,
         text: <FormattedMessage id='text' defaultMessage="Set up new teams, numbers, and more in minutes."/>
     }
+]
+
+
+export const BrandsData = [
+    {
+        cls: 'cls1',
+        photo: photo1,
+        brand: brand1,
+        message: <FormattedMessage id='message' defaultMessage="“HostVoiceCall makes our remote workforce feel like they're sitting at HQ and enables a lean IT approach that’s easy to service.”" />,
+        author: <FormattedMessage id='author' defaultMessage="FRANCIL RICHARDS" />,
+        position: <FormattedMessage id='position' defaultMessage="SENIOR IT MANAGER" />,
+        link: <FormattedMessage id='link' defaultMessage="Get the story" />,
+        arrow: arrow5
+    },
+    {
+        cls: 'cls2',
+        photo: photo2,
+        brand: brand2,
+        message: <FormattedMessage id='message' defaultMessage="“HostVoiceCall makes our remote workforce feel like they're sitting at HQ and enables a lean IT approach that’s easy to service.”" />,
+        author: <FormattedMessage id='author' defaultMessage="FRANCIL RICHARDS" />,
+        position: <FormattedMessage id='position' defaultMessage="SENIOR IT MANAGER" />,
+        link: <FormattedMessage id='link' defaultMessage="Get the story" />,
+        arrow: arrow5
+    },
+    {
+        cls: 'cls3',
+        photo: photo3,
+        brand: brand3,
+        message: <FormattedMessage id='message' defaultMessage="“HostVoiceCall makes our remote workforce feel like they're sitting at HQ and enables a lean IT approach that’s easy to service.”" />,
+        author: <FormattedMessage id='author' defaultMessage="FRANCIL RICHARDS" />,
+        position: <FormattedMessage id='position' defaultMessage="SENIOR IT MANAGER" />,
+        link: <FormattedMessage id='link' defaultMessage="Get the story" />,
+        arrow: arrow5
+    },
 ]

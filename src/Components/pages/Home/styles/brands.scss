@@ -1,0 +1,122 @@
+.brands{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5%;
+
+    .description{
+        width: 36%;
+        .question{
+            font-size: max(27px, 2.2vw);
+        }
+
+        .answer{
+            font-size: max(15px, .88vw);
+            line-height: 25px;
+            margin: 7% 0;
+        }
+
+        .meet-costumer{
+            margin-top: 3em;
+            background-color: #6C3DFF;
+            padding: min(1em, 2vw) min(2em, 4vw);
+            width: fit-content;
+            border-radius: 0 2em 2em 2em;
+            
+            a{
+                color: #fff;
+            }
+        }
+    }
+
+    .happy-costumer{
+        width: 60%;
+
+        .numbers{
+            width: 7em;
+            display: flex;
+            justify-content: space-between;
+            margin-left: auto;
+            margin-bottom: 5%;
+            .pages{
+                margin-top: auto;
+            }
+            .arrows{
+                display: flex;
+                justify-content: space-between;
+                width: 3em;
+                height: 4em;
+
+                .right-arrow{
+                    align-self: flex-end;
+                }
+                .left-arrow{
+                    align-self: baseline;
+                }
+            }
+
+        }
+        
+        .costumers{
+            display: flex;
+            justify-content: space-between;
+
+            .costumer{
+                width: 32%;
+
+                .image{
+                    width: 100%;
+                    border-radius: 1em;
+                }
+                .text{
+                    font-size: max(15px, .88vw);
+                    margin: 1.5em 0;
+                    line-height: 1.6em;
+                }
+                .author, .position{
+                    font-size: max(15px, .88vw);
+                    color: #777777;
+                    margin: 1em 0;
+                }
+                a{
+                    margin-top: 2em;
+                    color: #111;
+                    display: flex;
+                    gap: 8%;
+                }
+
+            }
+        }
+    }
+}
+
+@media (max-width: 900px){
+    .brands{
+        display: block;
+
+        .description{
+            width: 100%;
+        }
+
+        .happy-costumer{
+            width: 100%;
+        }
+
+    }
+}
+@media (max-width: 600px){
+    .brands{
+        .description{
+            margin-bottom: 15vw;
+        }
+        .happy-costumer{
+            .costumers{
+                display: block;
+                .costumer{
+                    width: 100%;
+                    margin-bottom: 10vw;
+                }
+            }
+        }
+
+    }
+}
