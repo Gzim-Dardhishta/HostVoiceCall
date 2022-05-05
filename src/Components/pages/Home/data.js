@@ -45,6 +45,25 @@ import brand3 from '../../../assets/Home/brands/logo3.png';
 import arrow5 from '../../../assets/Home/brands/arrow1.svg';
 
 
+import tool1 from '../../../assets/Home/tools/tool1.png'
+import tool2 from '../../../assets/Home/tools/tool2.png'
+import tool3 from '../../../assets/Home/tools/tool3.png'
+import tool4 from '../../../assets/Home/tools/tool4.png'
+import tool5 from '../../../assets/Home/tools/tool5.png'
+import tool6 from '../../../assets/Home/tools/tool6.png'
+import tool7 from '../../../assets/Home/tools/tool7.png'
+import tool8 from '../../../assets/Home/tools/tool8.png'
+import tool9 from '../../../assets/Home/tools/tool9.png'
+import tool10 from '../../../assets/Home/tools/tool10.png'
+import tool11 from '../../../assets/Home/tools/tool11.png'
+import tool12 from '../../../assets/Home/tools/tool12.png'
+import tool13 from '../../../assets/Home/tools/tool13.png'
+import tool14 from '../../../assets/Home/tools/tool14.png'
+import tool15 from '../../../assets/Home/tools/tool15.png'
+import tool16 from '../../../assets/Home/tools/tool16.png'
+import arrow6 from '../../../assets/Home/tools/arrow.svg'
+
+
 
 export const SliderCards = [
     {
@@ -311,5 +330,89 @@ export const BrandsData = [
         position: <FormattedMessage id='position' defaultMessage="SENIOR IT MANAGER" />,
         link: <FormattedMessage id='link' defaultMessage="Get the story" />,
         arrow: arrow5
+    },
+]
+
+
+export const ToolsData = [
+    {
+        cls: 'cls1',
+        logo: tool1,
+        company: <FormattedMessage id='company' defaultMessage="Monday.com" />
+    },
+    {
+        cls: 'cls2',
+        logo: tool2,
+        company: <FormattedMessage id='company' defaultMessage="HubSpot" />
+    },
+    {
+        cls: 'cls3',
+        logo: tool3,
+        company: <FormattedMessage id='company' defaultMessage="Saleforce" />
+    },
+    {
+        cls: 'cls4',
+        logo: tool4,
+        company: <FormattedMessage id='company' defaultMessage="Zendesk" />
+    },
+    {
+        cls: 'cls5',
+        logo: tool5,
+        company: <FormattedMessage id='company' defaultMessage="JobAdder" />
+    },
+    {
+        cls: 'cls6',
+        logo: tool6,
+        company: <FormattedMessage id='company' defaultMessage="Kustomer" />
+    },
+    {
+        cls: 'cls7',
+        logo: tool7,
+        company: <FormattedMessage id='company' defaultMessage="Shopify" />
+    },
+    {
+        cls: 'cls8',
+        logo: tool8,
+        company: <FormattedMessage id='company' defaultMessage="ZOHO CRM" />
+    },
+    {
+        cls: 'cls9',
+        logo: tool9,
+        company: <FormattedMessage id='company' defaultMessage="Intercom" />
+    },
+    {
+        cls: 'cls10',
+        logo: tool10,
+        company: <FormattedMessage id='company' defaultMessage="Pidedrive" />
+    },
+    {
+        cls: 'cls11',
+        logo: tool11,
+        company: <FormattedMessage id='company' defaultMessage="Slack" />
+    },
+    {
+        cls: 'cls12',
+        logo: tool12,
+        company: <FormattedMessage id='company' defaultMessage="Gorgias" />
+    },
+    {
+        cls: 'cls13',
+        logo: tool13,
+        company: <FormattedMessage id='company' defaultMessage="Microdost Dynamics" />
+    },
+    {
+        cls: 'cls14',
+        logo: tool14,
+        company: <FormattedMessage id='company' defaultMessage="Re:amaze" />
+    },
+    {
+        cls: 'cls15',
+        logo: tool15,
+        company: <FormattedMessage id='company' defaultMessage="Zapier" />
+    },
+    {
+        cls: 'cls16',
+        logo: tool16,
+        company: <FormattedMessage id='company' defaultMessage="Front" />
     },
 ]

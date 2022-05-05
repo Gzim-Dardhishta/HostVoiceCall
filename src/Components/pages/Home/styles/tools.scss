@@ -1,0 +1,55 @@
+.tools{
+    width: 90%;
+    margin: auto;
+
+    .title{
+        font-size: max(27px, 2.4vw);
+        text-align: center;
+        margin: 5% 0;
+    }
+
+    .tools-used{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5%;
+        justify-content: center;
+
+        .tool{
+            display: flex;
+            align-items: center;
+            width: 18vw;
+            margin-bottom: 3em;
+
+            .logo{
+                margin-right: 5%;
+            }
+            .name{
+                font-size: max(18px, 1.2vw);
+            }
+
+            @media (max-width:768px){
+                width: 30%;
+                // border: 1px solid #111;
+            }
+            @media (max-width:600px){
+                width: 40%;
+                // border: 1px solid #111;
+            }
+            @media (max-width:460px){
+                width: 80%;
+                border: 1px solid #111;
+            }
+        }
+
+
+    }
+
+    .integrations{
+        width: 60vw;
+        display: flex;
+        justify-content: center;
+        gap: 5%;
+        margin: auto;
+    }
+
+}
