@@ -9,7 +9,7 @@ import leftarrow from '../../../assets/Home/brands/arrow2.svg'
 const Brands = () => {
     return (
         <div className='brands'>
-            <div className="description">
+            <div className="description" data-aos="fade-right">
                 <div className="question">
                     <FormattedMessage id='question' defaultMessage="See why brands big & small love HostVoiceCalls" />
                 </div>
@@ -37,8 +37,8 @@ const Brands = () => {
                 </div>
                 <div className="costumers">
                     {BrandsData.map((props) => {
-                        return (
-                            <div className='costumer'>
+                        return ( 
+                            <div className='costumer' data-aos="flip-left">
                                 <div className="image" style={{ content: `url(${props.photo})` }}></div>
                                 <div className="brand" style={{ content: `url(${props.brand})` }}></div>
                                 <div className="text">{props.message}</div>

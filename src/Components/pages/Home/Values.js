@@ -10,7 +10,7 @@ const Values = () => {
             </h1>
 
             <div className="content">
-                <div className="support">
+                <div className="support" data-aos="fade-right">
                     <h1>
                         <FormattedMessage id='support-title' defaultMessage="For Smoother Support" />
                     </h1>
@@ -63,7 +63,7 @@ const Values = () => {
                 </div>
 
                 <div className="communication">
-                    <div className="phone-call">
+                    <div className="phone-call" data-aos="fade-down">
                         <div className="info">
                             <div className="call">
                                 <FormattedMessage id='call' defaultMessage="Incoming Call..." />
@@ -139,7 +139,7 @@ const Values = () => {
                     </div>
 
                     <div className="chat">
-                        <div className="search">
+                        <div className="search" data-aos="fade-right">
                             <div className="border">
                                 <p>
                                     <FormattedMessage id='type' defaultMessage="Discover Call" />
@@ -156,7 +156,7 @@ const Values = () => {
                             <div className="line"></div>
                         </div>
 
-                        <div className="friend-chat">
+                        <div className="friend-chat" data-aos="flip-right">
                             <div className="audio-play">
                                 <div className="play">
                                     <div className="border">
