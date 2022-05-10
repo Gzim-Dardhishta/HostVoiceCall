@@ -14,18 +14,18 @@ function Carousel({ slider }) {
         setCurrentSlide(index);
     }
     return (
-        <div className='carousel'>
+        <div className='business-carousel'>
             <div
-                className="carousel-inner"
+                className="business-carousel-inner"
                 style={
                     width > 1068
-                      ? { transform: `translateX(${-currentSlide * 20}%)` }
+                      ? { transform: `translateX(${-currentSlide * 25}%)` }
                       : width < 1068 && width >= 462
                       ? { transform: `translateX(${-currentSlide * 50}%)` }
                       : { transform: `translateX(${-currentSlide * 100}%)` }
                 }
             >
-                <div className="carousel-item">
+                <div className="business-carousel-item">
                     {slider.map((slide, i) => {
                         return (
                             <CarouselItem slide={slide} key={i} />

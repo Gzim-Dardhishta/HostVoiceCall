@@ -10,6 +10,7 @@ import PhoneSystem from '../Components/pages/Home/PhoneSystem'
 import Values from '../Components/pages/Home/Values'
 import NavBar from '../Components/shared/NavBar/NavBar'
 import Tools from '../Components/pages/Home/Tools'
+import Reviews from '../Components/pages/Home/Reviews'
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
         <Communication />
         <Brands />
         <Tools />
+        <Reviews />
     </div>
   )
 }

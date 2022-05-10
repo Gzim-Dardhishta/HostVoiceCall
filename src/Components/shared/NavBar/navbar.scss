@@ -203,7 +203,8 @@ header {
         display: flex;
         align-items: center;
         .nav-link {
-            font-size: max(15px, .9vw);
+            // font-size: max(15px, .9vw);
+            font-size: max(13.5px,.9vw);
             padding: max(1.75vw,20px) 1.4vw;
             cursor: pointer;
             position: relative;
@@ -266,7 +267,7 @@ header {
     .auth {
         display: flex;
         align-items: center;
-        font-size: max(15px, .9vw);
+        font-size: max(13.5px,.9vw);
 
         .login-link {
             color: #222;
@@ -285,7 +286,7 @@ header {
 
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1085px) {
     #header{
         #logo, .nav-links, .auth, .media-bar { display: none;}
         .mobile-nav{

@@ -6,7 +6,6 @@
     .content{
         display: flex;
         align-items: center;
-        gap: 8vw;
         margin: 0 5%;
         margin-right: 0;
 
@@ -20,7 +19,7 @@
             }
             .text{
                 font-size: max(15px, .9vw);
-                line-height: 1.5em;
+                line-height: 1.5;
             }
             .services-offer{
                 width: 100%;
@@ -95,6 +94,9 @@
         .communication{
             display: flex;
             gap: 3vw;
+            width: fit-content;
+            // padding-left: 10em;
+            // border: 1px solid #6C3DFF;
             .phone-call{
                 display: block;
                 width: 60%;
@@ -378,7 +380,7 @@
         }
 
 
-        @media(max-width:900px){
+        @media(max-width:1000px){
             display: block;
             .support{
                 width: 80%;

@@ -1,4 +1,4 @@
-.carousel {
+.business-carousel {
   margin: 4em auto;
   margin-bottom: 7em;
   overflow: hidden;
@@ -9,18 +9,17 @@
       width: 100%;
   }
 
-  .carousel-inner {
+  .business-carousel-inner {
     white-space: nowrap;
     transition: ease 1s;
     
-    .carousel-item{
+    .business-carousel-item{
       width: 100%;
       
 
-      .card-container{
+      .bussines-card-container{
         display: inline-block;
-        width: 20%;
-        margin-right: 4.5em;
+        margin-right: 3.5em;
 
         @media (max-width: 1068px) {
           width: 50%;
@@ -44,19 +43,19 @@
 
     .carousel-indicatoractive{
       background-color: #6C3DFF;
-      padding: 5px 17.5px;
+      padding: 4px 17.5px;
     }
     button{
         cursor: pointer;
         border: none;
         border-radius: 10px;
         background-color: #ddd;
-        padding: 5px 10px;
+        padding: 4px 10px;
         margin: 7px;
         &:hover{
             transition: .5s ease-out;
             background-color: #6C3DFF;
-            padding: 5px 17.5px;
+            padding: 4px 17.5px;
         }
         &:nth-child(5){
           display: none;

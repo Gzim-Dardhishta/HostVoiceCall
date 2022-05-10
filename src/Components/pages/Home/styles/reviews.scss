@@ -1,0 +1,114 @@
+.reviews{
+    margin: 5%;
+    .phone{
+        display: flex;
+        align-items: center;
+        .logo{
+            content: url("../../../../assets/Home/reviews/logo.svg");
+            margin-right: max(.9em, 1.2vw);
+        }
+        .text{
+            font-size: max(.9em, 1.1vw);
+        }
+    }
+
+    .head{
+        text-align: center;
+
+        .title{
+            font-size: max(27.5px,2.4vw);
+            font-weight: 300;
+            margin: 5% 0;
+            margin-bottom: 3%;
+        }
+
+        .text{
+            font-size: max(16px, 1.1vw);
+        }
+        .demo{
+            margin: max(2.4em, 5vw) 0;
+            a{
+                font-size: max(16px, 1.1vw);
+                background-color: #6C3DFF;
+                color: #fff;
+                padding: min(1em, 4vw) min(2em, 5vw);
+                border-radius: 0 2em 2em 2em;
+            }
+        }
+    }
+
+    .review{
+        .review-title{
+            text-align: center;
+            font-size: max(28px,2.45vw);
+        }
+
+        .slider{
+            .review-card{
+                background-color: #fff;
+                border-radius: 1em;
+                box-shadow: 1px 5px 5px 5px #f2f2f2; 
+                &:hover{
+                    transform: scale(1.05); 
+                    -webkit-transform: scale(1.05); 
+                    transition-delay: 0.1s;
+                    -webkit-transition-delay: 0.1s;
+                    transition: ease 1s;
+                }            
+                
+                .head{
+                    position: relative;
+
+                    .border{
+                        position: absolute;
+                        left: -3.5em;
+                        margin-top: -10%;                      
+                        width: fit-content;
+                        border-radius: 50%;
+                        padding: 5px;
+                        background-color: #ddd;
+                        &:hover{
+                            background-color: #6C3DFF;
+                            transition: 1s ease;
+                        }
+                        .photo{
+                            border-radius: 50%;
+                            width: max(5em, 3vw);
+                            height: max(5em, 3vw);
+                        }
+                    }
+                    .name{
+                        position: absolute;
+                        left: 4.3em;
+                        font-size: max(1.1vw, 17px);
+                    }
+                }
+
+                .text{
+                    margin-top: 4em;
+                    font-size: max(15px, .88vw);
+                    line-height: 1.6;
+                }
+                .ratings{
+                    margin: 2em 0;
+                    margin-bottom: 0;
+                    display: flex;
+                    gap:1em;
+
+                    .stars{
+                        .star{
+                            margin-right: .5em;
+                        }
+                        .purple{
+                            color: #6C3DFF;
+                        }
+                        .gray{
+                            color: #CBCBCB;
+                        }
+                    }
+                }              
+                
+            }
+        }
+    }
+}

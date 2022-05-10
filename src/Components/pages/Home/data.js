@@ -63,6 +63,9 @@ import tool15 from '../../../assets/Home/tools/tool15.png'
 import tool16 from '../../../assets/Home/tools/tool16.png'
 import arrow6 from '../../../assets/Home/tools/arrow.svg'
 
+import person1 from '../../../assets/Home/reviews/photo1.png';
+import person2 from '../../../assets/Home/reviews/photo2.png';
+
 
 
 export const SliderCards = [
@@ -414,5 +417,32 @@ export const ToolsData = [
         cls: 'cls16',
         logo: tool16,
         company: <FormattedMessage id='company' defaultMessage="Front" />
+    },
+]
+
+export const ReviewsSliderData = [
+    {
+        cls: 'cls1',
+        photo: person1,
+        name: 'Kristina W.Smith',
+        text: <FormattedMessage id='text' defaultMessage="The setup and configuration of HostVoiceCall is a dream. It’s so easy to create new numbers, set up IVRs, and change people around to different teams if needed." />
+    },
+    {
+        cls: 'cls2',
+        photo: person2,
+        name: 'Kristina W.Smith',
+        text: <FormattedMessage id='text' defaultMessage="The setup and configuration of HostVoiceCall is a dream. It’s so easy to create new numbers, set up IVRs, and change people around to different teams if needed." />
+    },
+    {
+        cls: 'cls3',
+        photo: person1,
+        name: 'Kristina W.Smith',
+        text: <FormattedMessage id='text' defaultMessage="The setup and configuration of HostVoiceCall is a dream. It’s so easy to create new numbers, set up IVRs, and change people around to different teams if needed." />
+    },
+    {
+        cls: 'cls4',
+        photo: person2,
+        name: 'Kristina W.Smith',
+        text: <FormattedMessage id='text' defaultMessage="The setup and configuration of HostVoiceCall is a dream. It’s so easy to create new numbers, set up IVRs, and change people around to different teams if needed." />
     },
 ]
