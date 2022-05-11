@@ -1,3 +1,7 @@
+.home{
+    overflow: hidden;
+}
+
 
 .phone-system{
     position: relative;
@@ -18,7 +22,7 @@
         color: #fff;
         width: 34vw;
         @media(max-width: 768px){
-            width: 80%;
+            width: 100%;
         }
 
         .title{

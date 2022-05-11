@@ -1,3 +1,7 @@
+.home{
+    overflow: hidden;
+}
+
 .connections {
     display: flex;
     margin: 5vw;
@@ -20,7 +24,6 @@
                 position: relative;
                 display: flex;
                 margin-top: 3em;
-                // font-size: max(15px, 1.1vw);
                 .phone-icon{
                     position: relative;
                     top: 4px;
@@ -122,7 +125,7 @@
                 position: absolute;
                 top: 12%;
                 right: 101%;
-                max-width: 15em;
+                max-width: 15vw;
             }
             .second-arrow{
                 content: url("../../../../assets/Home/Connections/line2.svg");
@@ -191,9 +194,6 @@
                 background-color: #FA9950;
                 .first-photo{
                     content: url("../../../../assets/Home/Connections/photo1.png");
-                    width: max(5em, 3vw);
-                    height: max(5em, 3vw);
-                    border-radius: 50%;
                 }
             }
             .border2{
@@ -205,9 +205,6 @@
                 background-color: #FAD103;
                 .second-photo{
                     content: url("../../../../assets/Home/Connections/photo2.png");
-                    width: max(5em, 3vw);
-                    height: max(5em, 3vw);
-                    border-radius: 50%;
                 }
             }
             .border3{
@@ -219,9 +216,6 @@
                 background-color: #EB5656;
                 .third-photo{
                     content: url("../../../../assets/Home/Connections/photo3.png");
-                    width: max(5em, 3vw);
-                    height: max(5em, 3vw);
-                    border-radius: 50%;
                 }
             }
             .border4{
@@ -233,9 +227,6 @@
                 background-color: #64A2FF;
                 .fourth-photo{
                     content: url("../../../../assets/Home/Connections/photo4.png");
-                    width: max(5em, 3vw);
-                    height: max(5em, 3vw);
-                    border-radius: 50%;
                 }
             }
             .border5{
@@ -247,10 +238,17 @@
                 background-color: #7BEAA5;
                 .fifth-photo{
                     content: url("../../../../assets/Home/Connections/photo5.png");
-                    width: max(5em, 3vw);
-                    height: max(5em, 3vw);
-                    border-radius: 50%;
                 }
+            }
+
+            .first-photo,
+            .second-photo,
+            .third-photo, 
+            .fourth-photo,
+            .fifth-photo{
+                width: max(5em, 5vw);
+                height: max(5em, 5vw);
+                border-radius: 50%;
             }
             
         }

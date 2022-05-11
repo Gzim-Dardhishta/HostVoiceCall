@@ -1,10 +1,16 @@
+.home{
+    overflow: hidden;
+}
+
 .values{
     .title{
         text-align: center;
         font-weight: 400;
     }
+    
     .content{
         display: flex;
+        justify-content: space-between;
         align-items: center;
         margin: 0 5%;
         margin-right: 0;
@@ -93,18 +99,19 @@
         }
         .communication{
             display: flex;
-            gap: 3vw;
-            width: fit-content;
-            // padding-left: 10em;
+            // width: 50vw;
+            // gap: 3vw;
+            // width: fit-content;
             // border: 1px solid #6C3DFF;
             .phone-call{
                 display: block;
-                width: 60%;
+                width: 70%;
                 height: fit-content;
                 background-color: #fff;
                 box-shadow: 1px 5px 5px 5px #f2f2f2;
                 border-radius: 2em;
                 font-size: max(15px, .9vw);
+                
 
                 .info{
                     .call{
@@ -235,22 +242,26 @@
                 
             }
             .chat{
-                position: relative;
                 display: flex;
-                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+                // align-items: center;
                 font-size: max(15px, .9vw);
+                margin: 0;
+
+                position: relative;
                 .search{
                     position: absolute;
-                    left: -25%;
-                    top: 3%;
-                    width: 85%;
+                    left: -13%;
+                    top: 5%;
+                    width: 80%;
                     display: flex;
                     gap: 2vw;
                     padding: 1em;
                     border-radius: 5em;
                     background-color: #fff;
                     box-shadow: 1px 1px 1px 2px #f2f2f2;
-                    font-size: max(10px, .9vw);
+                    font-size: max(12px, .9vw);
 
                     .border{
                         background-color: #d5c9f8;
@@ -274,11 +285,12 @@
                 }
 
                 .friend-chat{
-                    width: 80%;
+                    // width: 100%;
+                    margin-left: 8%;
                     box-shadow: 1px 5px 4px 3px #f2f2f2;
                     border-radius: 2em;
                     background-color: #fff;
-                    padding: 5%;
+                    padding: 7%;
 
                     .audio-play{
                         .play{
@@ -319,7 +331,7 @@
                         .add-more{
                             display: flex;
                             gap: 2vw;
-                            padding: 1.4vw;
+                            padding: max(1em, 1.5vw);
                             background-color: #fff;
                             border-radius: 2em;
                             box-shadow: 1px 5px 4px 3px #f2f2f2;
@@ -380,7 +392,7 @@
         }
 
 
-        @media(max-width:1000px){
+        @media(max-width:1064px){
             display: block;
             .support{
                 width: 80%;
@@ -405,13 +417,12 @@
 
                 .chat{
                     .search{
-                        position: absolute;
-                        left: 3%;
+                        left: 5%;
                     }
-
+                
                     .friend-chat{
-                        margin-top: 22%;
-                        margin-left: 1em;
+                        margin-top: 32%;
+                        margin-left: 0;
                     }
                 }
             }

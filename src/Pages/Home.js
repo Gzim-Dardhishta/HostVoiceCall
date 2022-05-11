@@ -14,7 +14,7 @@ import Reviews from '../Components/pages/Home/Reviews'
 
 const Home = () => {
   return (
-    <div>
+    <div className='home'>
         <NavBar />
         <CallCenter />
         <BussinesCommunication />

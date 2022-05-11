@@ -3,6 +3,7 @@ import { FormattedMessage } from 'react-intl'
 import { ToolsData } from './data'
 import arrow from '../../../assets/Home/tools/arrow.svg'
 import './styles/tools.scss'
+import { Link } from 'react-router-dom';
 
 const Tools = () => {
   return (
@@ -22,10 +23,10 @@ const Tools = () => {
             })}
         </div>
 
-        <div className="integrations">
+        <Link to='/' className="integrations">
             <FormattedMessage id='link' defaultMessage="See all intgrations"/>
             <div style={{ content: `url(${arrow})` }}></div>
-        </div>
+        </Link>
     </div>
   )
 }

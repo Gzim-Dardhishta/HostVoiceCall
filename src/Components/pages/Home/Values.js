@@ -155,7 +155,6 @@ const Values = () => {
 
                             <div className="line"></div>
                         </div>
-
                         <div className="friend-chat" data-aos="flip-right">
                             <div className="audio-play">
                                 <div className="play">
@@ -203,6 +202,24 @@ const Values = () => {
                     </div>
                 </div>
             </div>
+
+
+            {/* <div className="search" data-aos="fade-right">
+                <div className="border">
+                    <p>
+                        <FormattedMessage id='type' defaultMessage="Discover Call" />
+                    </p>
+                    <div className="x"></div>
+                </div>
+                <div className="border">
+                    <p>
+                        <FormattedMessage id='type' defaultMessage="Costumer" />
+                    </p>
+                    <div className="x"></div>
+                </div>
+
+                <div className="line"></div>
+            </div> */}
         </div>
     )
 }
