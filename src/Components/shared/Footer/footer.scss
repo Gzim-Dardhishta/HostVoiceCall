@@ -1,0 +1,369 @@
+.home{
+    overflow: hidden;
+}
+
+.footer{
+    color: #fff;
+
+
+    .top-footer{
+        background-image: url("../../../assets/shared/footer/top-bg-image.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+
+        text-align: center;
+        padding: 5em 0;
+
+
+        .top-footer-title{
+            font-size: max(28px, 2.4vw);
+        }
+        .text{
+            font-size: max(15px, .89vw);
+            margin: max(1.1em, 3.4vw) 0;
+        }
+
+        .trial{
+            display: flex;
+            justify-content: center;
+            gap: 5vw;
+            margin-top: 2em;
+
+            .start-trial{
+                a{
+                    color: #6C3DFF;
+                    background-color: #fff;
+                    padding: max(.7em, 1vw) max(1.2em, 1.7vw);
+                    border-radius:0 2em 2em 2em;
+                }
+            }
+            .get-demo{
+                
+                position: relative;
+                .demo-link{
+                    display: flex;
+                    gap: max(20px, 2vw);
+                    color: #fff;
+                }
+                
+                .line{
+                    position: absolute;
+                    top: 110%;
+                    width: 100%;
+                    padding: 1px;
+                    background-color: #fff;
+                    border-radius: 10px;
+                }
+                &:hover{
+                    .line{
+                        top: 130%;
+                        transition: ease .3s;
+                    }
+                }
+            }
+        }
+    }
+
+
+    .main-footer{
+        background-color: #040036;
+        padding: 0 5%;
+
+        .main-footer-head{
+            display: flex;
+            padding: max(2.7em, 3vw) 0;
+
+            .footer-logo{
+                display: flex;
+                gap: max(1em, 1.5vw);
+                align-items: center;
+                margin-right: auto;
+
+                .footer-logo-name{
+                    font-size: max(16px, 1.3vw)
+                }
+            }
+
+            .download-app{
+                display: flex;
+                align-items: center;
+                gap: max(.8em, 2vw);
+                margin-right: 5%;
+
+                .get-app-text{
+                    font-size: max(13.5px, .88vw);
+                }
+
+                .play-store, .app-store{
+                    background-color: rgba(112, 112, 112, .4);
+                    padding: .3em max(1.3em,1.6vw);
+                    border-radius: 2em;
+                    &:hover{
+                        outline: .5px solid #f3f3f3;
+                    }
+
+                    .get{
+                        font-size: max(12.5px, .89vw);
+                    }
+                    .get-app-name{
+                        font-size: max(13.5px, .95vw);
+                    }
+                }
+                .play-store{
+                    display: flex;
+                    align-items: center;
+                    color: #fff;
+                    .play-store-icon{
+                        content: url("../../../assets/shared/footer/play-store.svg");
+                        margin-right: max(.8em, 1vw);
+                    }
+                }
+                .app-store{
+                    display: flex;
+                    align-items: center;
+                    color: #fff;
+                    .app-store-icon{
+                        content: url("../../../assets/shared/footer/apple.svg");
+                        margin-right: max(.8em, 1vw);
+                    }
+                }
+            }
+
+            .footer-social-links{
+                display: flex;
+                gap: max(.6em, 1vw);
+
+                .social-links{
+                    background-color: rgba(112, 112, 112, .4);
+                    border-radius: 2em;
+                    width: max(3em, 4vw);
+                    position: relative;
+                    &:hover{
+                        outline: .5px solid #f3f3f3;
+                    }
+
+                    .social-link-icon{
+                        position: absolute;
+                        left: 50%;
+                        top: 50%;
+                        transform: translate(-50%,-50%);
+                        width: max(1.1em, 1.8vw);
+                        height: max(1em, 1.1vw);
+                    }
+                }
+            }
+        }
+
+        .main-footer-links{
+            display: flex;
+            justify-content: space-between;
+
+            .footer-links-list{
+
+                h6{
+                    font-size: max(14px, 1vw);
+                    margin-bottom: max(17px, 1.5vw);
+                }
+                .links{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 1em;
+                    .links-item{
+                        color: #fff;
+                        font-size: max(13px, .89vw);
+                        &:hover{
+                            color: #6C3DFF;
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer-subscribe{
+            width: 70%;
+            margin: auto;
+            margin-top: 3.5em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .subrcribe-text{
+                font-size: max(15px, 1vw);
+            }
+
+            .footer-email{
+                display: flex;
+                outline: 1px solid #f3f3f3;
+                border-radius: 2em;
+                width: 70%;
+    
+                .footer-email-icon{
+                    content: url("../../../assets/shared/footer/mail.svg");
+                    z-index: 1;
+                    height: max(16px, 1.2vw);
+                    margin: auto min(1em, 2vw);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+    
+                input{
+                    border: none;
+                    outline: none;
+                    background-color: #040036;
+                    flex: 1;
+                }
+                ::placeholder{
+                    color: #f3f3f3;
+                }
+                input:-webkit-autofill,
+                input:-webkit-autofill:hover,
+                input:-webkit-autofill:focus,
+                input:-webkit-autofill:active {
+                    transition: background-color 5000s ease-in-out 0s;
+                    -webkit-transition: background-color 5000s ease-in-out 0s;
+                    -webkit-box-shadow: 0 0 0px 1000px #040036 inset;
+                    box-shadow: 0 0 0px 1000px #040036 inset;
+                    -webkit-text-fill-color: #f3f3f3 !important;
+                }
+                
+                .button{
+                    text-align: center;
+                    font-size: max(14px, 1vw);
+                    padding: max(14px, 1vw) max(18px, 2vw);
+                    border-radius: 0 2em 2em;
+                    background-color: #6C3DFF;
+                    a{
+                        color: #fff;
+                        white-space: nowrap;
+                    }
+                }
+            }
+        }
+
+        .main-footer-bottom{
+            display: flex;
+            justify-content: space-between;
+
+            .copyright{
+                font-size: max(14px, .89vw);
+                padding: 4em 0;
+            }
+
+            .policy{
+                display: flex;
+                gap: 3vw;
+                font-size: max(14px, .88vw);
+                padding: 4em 0;
+            }
+
+            .language{
+                display: flex;
+                align-items: center;
+                gap: .7vw;
+                padding: 1em 0;
+                .select-language{
+                    background-color: #040036;
+                }
+                &:hover{
+                    .dropdown{
+                        display: block;
+                        background-color: #040036;
+                        box-shadow: 1px 1px 1px 2px #060336;
+                        top: -24em;
+                    }
+                }
+            }
+
+            @media(max-width:880px){
+                display: block;
+                .copyright, .policy, .language{
+                    padding: 1em 0;
+                    text-align: center;
+                    justify-content: center;
+                }
+            }
+        }
+
+    }
+}
+
+
+@media (max-width: 1050px){
+    .footer{
+        .main-footer{
+            .main-footer-head{
+                display: block;
+
+                .footer-logo{
+                    width: fit-content;
+                    margin: auto;
+                    margin-bottom: 2em;
+                }
+
+                .download-app{
+                    width: fit-content;
+                    margin: auto;
+                }
+
+                .footer-social-links{
+                    margin: 2em 0;
+                    width: fit-content;
+                    margin: auto;
+                    margin-top: 2em;
+                    .social-links:hover{
+                        outline: none;
+                    }
+                }
+            }
+
+            .footer-subscribe{
+                display: block;
+                width: 100%;
+                text-align: center;
+                .footer-email{
+                    width: 90%;
+                    margin: auto;
+                    margin-top: 1.4em;
+                    margin-bottom: 2em;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:850px){
+    .footer{
+        .main-footer .main-footer-links{
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-right: 30px;
+
+            .footer-links-list{
+                text-align: center;
+                margin: 20px 0;
+                .links-item{
+                    margin:0px 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:550px){
+    .footer{
+        .main-footer{
+            .main-footer-head{
+
+                .download-app{
+                    display: block;
+
+                    .play-store{
+                        margin: 1em 0;
+                    }
+                }
+            }
+        }
+    }
+}

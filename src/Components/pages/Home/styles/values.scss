@@ -74,6 +74,7 @@
                     display: flex;
                     align-items: center;
                     gap: 1.8vw;
+                    color: #111;
 
                     .arrow{
                         content: url("../../../../assets/Home/values/arrow.svg");
@@ -84,6 +85,7 @@
                     display: flex;
                     align-items: center;
                     gap: 1vw;
+                    color: #111;
 
                     .border{
                         padding: .6em;
@@ -99,10 +101,6 @@
         }
         .communication{
             display: flex;
-            // width: 50vw;
-            // gap: 3vw;
-            // width: fit-content;
-            // border: 1px solid #6C3DFF;
             .phone-call{
                 display: block;
                 width: 70%;
@@ -245,7 +243,6 @@
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                // align-items: center;
                 font-size: max(15px, .9vw);
                 margin: 0;
 
@@ -285,7 +282,6 @@
                 }
 
                 .friend-chat{
-                    // width: 100%;
                     margin-left: 8%;
                     box-shadow: 1px 5px 4px 3px #f2f2f2;
                     border-radius: 2em;
@@ -318,7 +314,6 @@
                                     position: absolute;
                                 }
                                 .line{
-                                    // width: min(18em, 26vw);
                                     width: 14vw;
                                     height: .5em;
                                     margin-right: .5em;
@@ -403,7 +398,7 @@
     }
 }
 
-@media(max-width:900px){
+@media(max-width:787px){
     .values{
         .content{
             .communication{

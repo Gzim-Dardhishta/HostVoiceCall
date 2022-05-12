@@ -1,5 +1,6 @@
 import React from 'react'
 import { FormattedMessage } from 'react-intl'
+import { Link } from 'react-router-dom'
 import './styles/values.scss'
 
 const Values = () => {
@@ -46,18 +47,18 @@ const Values = () => {
                         </p>
 
                         <div className="links">
-                            <div className="more">
+                            <Link to='/' className="more">
                                 <p>
                                     <FormattedMessage id='text' defaultMessage="Learn more" />
                                 </p>
                                 <div className="arrow"></div>
-                            </div>
-                            <div className="video">
+                            </Link>
+                            <Link to='/' className="video">
                                 <div className="border">
                                     <div className="icon"></div>
                                 </div>
                                 <FormattedMessage id='text' defaultMessage="See video" />
-                            </div>
+                            </Link>
                         </div>
                     </div>
                 </div>

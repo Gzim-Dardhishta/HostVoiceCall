@@ -8,7 +8,7 @@ import { ReviewsSliderData } from './data'
 const Reviews = () => {
     return (
         <div className='reviews'>
-            <div className="phone">
+            <div className="phone" data-aos="flip-left">
                 <div className="logo"></div>
                 <div className="text">
                     <FormattedMessage id='message' defaultMessage="The phone system for modern business" />
@@ -16,10 +16,10 @@ const Reviews = () => {
             </div>
 
             <div className="head">
-                <div className="title">
+                <div className="title" data-aos="fade-right">
                     <FormattedMessage id='title' defaultMessage="Ready to build better conversations?" />
                 </div>
-                <div className="text">
+                <div className="text" data-aos="fade-left">
                     <FormattedMessage id='text' defaultMessage="HostVoiceCalls runs on the device that you're using right now." />
                 </div>
                 <div className="demo">
@@ -30,7 +30,7 @@ const Reviews = () => {
             </div>
 
             <div className="review">
-                <div className="review-title">
+                <div className="review-title" data-aos="zoom-in-down">
                     <FormattedMessage id='title' defaultMessage="Reviews from our clients" />
                 </div>
 

@@ -445,4 +445,10 @@ export const ReviewsSliderData = [
         name: 'Kristina W.Smith',
         text: <FormattedMessage id='text' defaultMessage="The setup and configuration of HostVoiceCall is a dream. It’s so easy to create new numbers, set up IVRs, and change people around to different teams if needed." />
     },
+    {
+        cls: 'cls5',
+        photo: person1,
+        name: 'Kristina W.Smith',
+        text: <FormattedMessage id='text' defaultMessage="The setup and configuration of HostVoiceCall is a dream. It’s so easy to create new numbers, set up IVRs, and change people around to different teams if needed." />
+    }
 ]

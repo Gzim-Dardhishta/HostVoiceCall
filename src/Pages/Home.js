@@ -11,6 +11,7 @@ import Values from '../Components/pages/Home/Values'
 import NavBar from '../Components/shared/NavBar/NavBar'
 import Tools from '../Components/pages/Home/Tools'
 import Reviews from '../Components/pages/Home/Reviews'
+import Footer from '../Components/shared/Footer/Footer'
 
 const Home = () => {
   return (
@@ -27,6 +28,7 @@ const Home = () => {
         <Brands />
         <Tools />
         <Reviews />
+        <Footer />
     </div>
   )
 }
