@@ -10,7 +10,7 @@
 
 
     .info{
-        width: 38%;
+        width: 36%;
         margin-top: 3em;
 
         .title {
@@ -190,7 +190,7 @@
                 top: -6%;
                 left: -72%;
                 border-radius: 50%;
-                padding: 7px;
+                padding: 5px;
                 background-color: #FA9950;
                 .first-photo{
                     content: url("../../../../assets/Home/Connections/photo1.png");
@@ -201,7 +201,7 @@
                 top: 8%;
                 left: -106%;
                 border-radius: 50%;
-                padding: 7px;
+                padding: 5px;
                 background-color: #FAD103;
                 .second-photo{
                     content: url("../../../../assets/Home/Connections/photo2.png");
@@ -212,7 +212,7 @@
                 top: 34%;
                 left: -69.4%;
                 border-radius: 50%;
-                padding: 7px;
+                padding: 5px;
                 background-color: #EB5656;
                 .third-photo{
                     content: url("../../../../assets/Home/Connections/photo3.png");
@@ -223,7 +223,7 @@
                 top: 53%;
                 left: -108%;
                 border-radius: 50%;
-                padding: 7px;
+                padding: 5px;
                 background-color: #64A2FF;
                 .fourth-photo{
                     content: url("../../../../assets/Home/Connections/photo4.png");
@@ -231,10 +231,10 @@
             }
             .border5{
                 position: absolute;
-                top: 75%;
-                left: -76%;
+                top: 72.5%;
+                left: -72%;
                 border-radius: 50%;
-                padding: 7px;
+                padding: 5px;
                 background-color: #7BEAA5;
                 .fifth-photo{
                     content: url("../../../../assets/Home/Connections/photo5.png");
@@ -246,9 +246,14 @@
             .third-photo, 
             .fourth-photo,
             .fifth-photo{
-                width: max(5em, 5vw);
-                height: max(5em, 5vw);
+                width: max(2em, 5.5vw);
+                height: max(2em, 5.5vw);
                 border-radius: 50%;
+
+                @media (max-width:990px){
+                    width: max(5em, 4.5vw);
+                    height: max(5em, 4.5vw);
+                }
             }
             
         }

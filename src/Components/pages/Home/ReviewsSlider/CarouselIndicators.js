@@ -4,7 +4,7 @@ const CarouselIndicators = ({ currentIndex, switchIndex }) => {
     return (
         <div className='review-carousel-indicators'>
 
-            {Array(4)
+            {Array(5)
                 .fill()
                 .map((_, index) => {
                     return (
