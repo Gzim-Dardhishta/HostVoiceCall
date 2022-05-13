@@ -4,13 +4,15 @@ import {
   Routes,
   Navigate,
 } from 'react-router-dom';
-import {IntlProvider} from 'react-intl';
-import Home from "./Pages/Home";
-
+import { IntlProvider } from 'react-intl';
 import Aos from 'aos';
 import "aos/dist/aos.css";
-import { useEffect } from 'react';
+import { lazy, Suspense, useEffect } from 'react';
 import ScrollToTop from './ScrollToTop';
+import Loading from './Components/shared/Loading/Loading';
+
+
+const Home = lazy(() => import('./Pages/Home'));
 
 function App() {
 
@@ -23,13 +25,15 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <IntlProvider>
-          <ScrollToTop />
-          <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route path="*" element={<Navigate to="/" />} />
-          </Routes>
-        </IntlProvider>
+        <Suspense fallback={<Loading />}>
+          <IntlProvider>
+            <ScrollToTop />
+            <Routes>
+              <Route exact path="/" element={<Home />} />
+              <Route path="*" element={<Navigate to="/" />} />
+            </Routes>
+          </IntlProvider>
+        </Suspense>
       </Router>
     </div>
   );
