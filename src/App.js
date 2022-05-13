@@ -10,6 +10,7 @@ import Home from "./Pages/Home";
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
+import ScrollToTop from './ScrollToTop';
 
 function App() {
 
@@ -23,9 +24,9 @@ function App() {
     <div className="App">
       <Router>
         <IntlProvider>
+          <ScrollToTop />
           <Routes>
             <Route exact path="/" element={<Home />} />
-
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
         </IntlProvider>
