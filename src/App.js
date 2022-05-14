@@ -10,6 +10,7 @@ import "aos/dist/aos.css";
 import { lazy, Suspense, useEffect } from 'react';
 import ScrollToTop from './ScrollToTop';
 import Loading from './Components/shared/Loading/Loading';
+import LogIn from './Pages/LogIn/LogIn';
 
 
 const Home = lazy(() => import('./Pages/Home'));
@@ -30,6 +31,7 @@ function App() {
             <ScrollToTop />
             <Routes>
               <Route exact path="/" element={<Home />} />
+              <Route path='/LogIn' element={<LogIn />} />
               <Route path="*" element={<Navigate to="/" />} />
             </Routes>
           </IntlProvider>
