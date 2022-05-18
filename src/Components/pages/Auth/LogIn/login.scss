@@ -15,7 +15,7 @@
     margin-top: 7.5em;
     display: flex;
     padding-top: 4em;
-    padding-bottom: 8em;
+    padding-bottom: 12em;
 
     position: relative;
     
@@ -370,6 +370,10 @@
     border-radius: 2em;
     width: max(21em, 35vw);
 
+    @media(max-width:400px){
+        padding: 2.5em 1.4em;
+    }
+
 
     .form-title{
         font-size: max(24px, 2vw);
@@ -400,6 +404,16 @@
                     flex: 1;
                     outline: none;
                     border: none;
+                }
+                input.form-input:-webkit-autofill,
+                input.form-input:-webkit-autofill:hover,
+                input.form-input:-webkit-autofill:focus,
+                input.form-input:-webkit-autofill:active {
+                    transition: background-color 5000s ease-in-out 0s;
+                    -webkit-transition: background-color 5000s ease-in-out 0s;
+                    -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+                    box-shadow: 0 0 0px 1000px #fff inset;
+                    -webkit-text-fill-color: #333 !important;
                 }
             }
         }

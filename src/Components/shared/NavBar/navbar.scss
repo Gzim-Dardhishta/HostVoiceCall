@@ -191,7 +191,7 @@ header {
     }
     #logo h4 {
         color: #222;
-        font-size: 1.2em;
+        font-size: max(16px, 1.2vw);
         font-weight: 400;
     }
     .icon {
@@ -203,15 +203,15 @@ header {
         display: flex;
         align-items: center;
         .nav-link {
-            font-size: max(13px,.87vw);
-            padding: max(1.75vw,20px) 1.4vw;
             cursor: pointer;
             position: relative;
 
             .inner-nav-link {
+                padding: max(10px, 1.7vw) max(15px, 1.75vw);
                 display: flex;
                 align-items: center;
                 color: #111;
+                font-size: max(11px,0.875vw);
 
                 .arrow1{
                     margin-left: .5em;
@@ -266,14 +266,14 @@ header {
     .auth {
         display: flex;
         align-items: center;
-        font-size: max(13.5px,.9vw);
+        font-size: max(12px,.87vw);
 
         .login-link {
             color: #222;
         }
 
         .signup-link {
-            margin-left: min(1.5em, 2.9vw);
+            margin-left: min(1em, 2.9vw);
             border: 1px solid #6C3DFF;
             border-radius: 50px;
             background: #6C3DFF;
@@ -285,7 +285,7 @@ header {
 
 }
 
-@media (max-width: 1085px) {
+@media (max-width: 1024px) {
     #header{
         #logo, .nav-links, .auth, .media-bar { display: none;}
         .mobile-nav{

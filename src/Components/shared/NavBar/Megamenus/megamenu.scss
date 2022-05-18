@@ -3,7 +3,7 @@
 .nav-megamenu {
     position: fixed;
     background-color: #fff;
-    top: 7.25rem;
+    top: 15%;
     overflow: hidden;
     display: block;
     display: none;
@@ -16,7 +16,7 @@
 
 
     h4 {
-        font-size: max(.9em, 0.8vw);
+        font-size: max(13.5px, 0.8vw);
         font-weight: normal;
     }
 
@@ -26,6 +26,7 @@
         margin:max(10px, 0.75vw) 0;
         padding: 7px;
         width: 14vw;
+        font-size: max(14px, .9vw);
 
         color: #222;
         &:hover{

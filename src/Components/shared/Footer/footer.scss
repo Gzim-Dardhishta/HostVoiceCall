@@ -8,6 +8,7 @@
 
     .top-footer{
         background-image: url("../../../assets/shared/footer/top-bg-image.png");
+        background-position: 50%;
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
@@ -39,27 +40,31 @@
                 }
             }
             .get-demo{
-                
-                position: relative;
                 .demo-link{
                     display: flex;
                     gap: max(20px, 2vw);
                     color: #fff;
-                }
-                
-                .line{
-                    position: absolute;
-                    top: 110%;
-                    width: 100%;
-                    padding: 1px;
-                    background-color: #fff;
-                    border-radius: 10px;
-                }
-                &:hover{
-                    .line{
-                        top: 130%;
-                        transition: ease .3s;
+                    position: relative;
+
+                    &::before{
+                        content: '';
+                        position: absolute;
+                        bottom: -10px;
+                        left: 0;
+                        right: 0;
+                        height: 1px;
+                        background-color: #fff;
                     }
+
+                }
+            }
+
+            @media(max-width:600px){
+                flex-direction: column;
+
+                .get-demo{
+                    margin: auto;
+                    margin-top: 1.4em;
                 }
             }
         }
@@ -245,6 +250,9 @@
         .main-footer-bottom{
             display: flex;
             justify-content: space-between;
+            a{
+                color: #fff;
+            }
 
             .copyright{
                 font-size: max(14px, .89vw);

@@ -69,6 +69,7 @@
                 display: flex;
                 gap: 5vw;
                 margin-top: 3vw;
+                white-space: nowrap;
 
                 .more{
                     display: flex;
@@ -387,7 +388,7 @@
         }
 
 
-        @media(max-width:1064px){
+        @media(max-width:1164px){
             display: block;
             .support{
                 width: 80%;
@@ -406,13 +407,14 @@
                 margin-top: 10%;
 
                 .phone-call{
-                    width: 80%;
+                    width: 85%;
                     margin: auto;
                 }
 
                 .chat{
                     .search{
                         left: 5%;
+                        width: 90%;
                     }
                 
                     .friend-chat{

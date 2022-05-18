@@ -129,18 +129,18 @@ const Footer = (props) => {
             <FormattedMessage id='copyright' defaultMessage="Copyright © 2021 HostVoiceCall All rights reserved." />
           </div>
           <div className="policy">
-            <div className="forum">
+            <Link to='/' className="forum">
               <FormattedMessage id='forum' defaultMessage="Forums" />
-            </div>
-            <div className="privacy">
+            </Link>
+            <Link to='/' className="privacy">
               <FormattedMessage id='privacy-policy' defaultMessage="Privacy Policy" />
-            </div>
-            <div className="terms">
+            </Link>
+            <Link to='/' className="terms">
               <FormattedMessage id='term' defaultMessage="Terms of Use" />
-            </div>
-            <div className="faq">
+            </Link>
+            <Link to='/' className="faq">
               <FormattedMessage id='faq' defaultMessage="FAQs" />
-            </div>
+            </Link>
           </div>
 
           <div className="language">

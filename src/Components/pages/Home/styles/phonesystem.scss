@@ -8,6 +8,8 @@
     display: flex;
     justify-content: space-between;
     background-image: url("../../../../assets/Home/phonesystem/bg-image.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
     background-size: cover;
     padding: 7% 8% 2% 8%;
 
@@ -27,7 +29,7 @@
 
         .title{
             font-size: max(30px, 2vw);
-            line-height: min(34px, 6.8vw);
+            line-height: 30px;
         }
         p{
             line-height: 1.6;
@@ -103,8 +105,8 @@
 
             @media (max-width: 768px) {
                 top: 120%;
-                right: 9%;
-                width: 90%;
+                right: 3%;
+                width: 95%;
             }
         }
     }
@@ -188,8 +190,3 @@
         }
     }
 }
-
-// .blur{
-//     // background: rgba(0, 0, 0, 0.5); // Make sure this color has an opacity of less than 1
-//     // backdrop-filter: blur(.1px);
-// }

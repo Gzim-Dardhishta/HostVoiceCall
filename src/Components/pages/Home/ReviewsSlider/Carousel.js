@@ -24,8 +24,8 @@ const Carousel = ({ slides }) => {
                     width > 1068
                       ? { transform: `translateX(${-currentSlide * 55}%)` }
                       : width < 1068 && width >= 462
-                      ? { transform: `translateX(${-currentSlide * 100}%)` }
-                      : { transform: `translateX(${-currentSlide * 100}%)` }
+                      ? { transform: `translateX(${-currentSlide * 104}%)` }
+                      : { transform: `translateX(${-currentSlide * 104}%)` }
                 }
             
             >

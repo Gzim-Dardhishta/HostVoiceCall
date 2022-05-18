@@ -34,12 +34,12 @@ function Connections() {
             <div className="dot"></div>
             <div className="background"></div>
 
-            <div>
+            <p className='text'>
               <FormattedMessage id='paragraph'
                 defaultMessage="Personalize every step of the customer journey with solutions like intelligent 
                 chatbots, custom account notifications, a completely programmable cloud-
                 based call center, and more" />
-            </div>
+            </p>
           </div>
 
           <div className="payment">
@@ -93,7 +93,7 @@ function Connections() {
           {ConnectionsData.map((props) => {
             return (
               <div>
-                <div className="text" data-aos="zoom-in">{props.text}</div>
+                <div className="connection-text" data-aos="zoom-in">{props.text}</div>
                 {props.icons.map((i) => {
                   return (
                     <div className="icons">

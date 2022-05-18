@@ -1,30 +1,30 @@
-.home{
+.home {
     overflow: hidden;
 }
 
 .connections {
     display: flex;
+    justify-content: space-between;
     margin: 5vw;
 
-    font-size: min(1em, 1.2vw);
-
-
-    .info{
-        width: 36%;
+    .info {
+        width: 33vw;
         margin-top: 3em;
 
         .title {
             font-size: min(1.8em, 3vw);
         }
-        .description{
-            font-size: min(15px, 1vw);
+
+        .description {
+            font-size: min(15px, 1.1vw);
 
 
-            .first-paragraph{
+            .first-paragraph {
                 position: relative;
                 display: flex;
                 margin-top: 3em;
-                .phone-icon{
+
+                .phone-icon {
                     position: relative;
                     top: 4px;
                     content: url("../../../../assets/Home/Connections/phone.svg");
@@ -32,32 +32,18 @@
                     margin-right: 3em;
                     height: 1.2em;
                 }
-                .dot{
-                    position: absolute;
-                    padding: 1.7em 1.6em;
-                    border: 2px dotted #6C3DFF;
-                    border-radius: 50%;
-                }
-                .background{
-                    position: absolute;
-                    left: 2%;
-                    padding: 1.8em 1.7em;
-                    background-color: #ebe5fc;
-                    border-radius: 50%;
-                    z-index: -1;
-                }
 
-                .text{
+                .text {
                     line-height: 20px;
                 }
             }
 
-            .second-paragraph{
+            .second-paragraph {
                 position: relative;
                 display: flex;
                 margin: 2em 0;
-                // font-size: max(15px, 1.1vw);/
-                .message-icon{
+
+                .message-icon {
                     position: relative;
                     top: 3px;
                     content: url("../../../../assets/Home/Connections/message.svg");
@@ -65,28 +51,31 @@
                     margin-right: 2.8em;
                     height: 1.2em;
                 }
-                .dot{
-                    position: absolute;
-                    padding: 1.7em 1.6em;
-                    border: 2px dotted #6C3DFF;
-                    border-radius: 50%;
-                }
-                .background{
-                    position: absolute;
-                    left: 2%;
-                    padding: 1.8em 1.7em;
-                    background-color: #ebe5fc;
-                    border-radius: 50%;
-                    z-index: -1;
-                }
 
-                .text{
+                .text {
                     line-height: 20px;
                 }
             }
 
-            .payment{
+            .dot {
+                position: absolute;
+                padding: 1.7em 1.6em;
+                border: 2px dotted #6C3DFF;
+                border-radius: 50%;
+            }
+
+            .background {
+                position: absolute;
+                left: 2%;
+                padding: 1.8em 1.7em;
+                background-color: #ebe5fc;
+                border-radius: 50%;
+                z-index: -1;
+            }
+
+            .payment {
                 margin-top: 3em;
+
                 .trial {
                     display: flex;
                     align-items: center;
@@ -94,190 +83,209 @@
                     margin-bottom: 1em;
                     gap: 3em;
 
-                    .get-started{
+                    .get-started {
                         background-color: #6C3DFF;
                         border-radius: 0 4em 4em 4em;
                         padding: min(1em, 2vw) min(2em, 4vw);
+
                         a {
                             color: #fff;
                         }
                     }
 
-                    .free-trial{
-                        a{
+                    .free-trial {
+                        a {
                             color: #6C3DFF;
                         }
                     }
                 }
-                .credit-card{
+
+                .credit-card {
                     color: #777;
                 }
             }
         }
     }
 
-    .container{
+    .container {
         position: relative;
         margin-left: auto;
-        .images{
-            .first-arrow{
+
+        .images {
+            .first-arrow {
                 content: url("../../../../assets/Home/Connections/line1.svg");
                 position: absolute;
                 top: 12%;
                 right: 101%;
-                max-width: 15vw;
+                width: max(8em, 15vw);
             }
-            .second-arrow{
+
+            .second-arrow {
                 content: url("../../../../assets/Home/Connections/line2.svg");
                 position: absolute;
                 top: 19%;
                 right: 101%;
-                max-width: 21em;
+                width: max(21vw, 9em);
             }
-            .third-arrow{
+
+            .third-arrow {
                 content: url("../../../../assets/Home/Connections/line3.svg");
                 position: absolute;
                 top: 19%;
                 right: 101%;
-                height: 18em;
+                max-height: 30vw;
             }
-            .fourth-arrow{
+
+            .fourth-arrow {
                 content: url("../../../../assets/Home/Connections/line4.svg");
                 position: absolute;
                 top: 37%;
                 right: 102%;
-                max-width: 15em;
+                width: max(13vw, 7.5em);
             }
-            .fifth-arrow{
+
+            .fifth-arrow {
                 content: url("../../../../assets/Home/Connections/line5.svg");
                 position: absolute;
                 top: 48%;
                 right: 102%;
-                max-width: 21em;
+                width: max(21vw, 8.8em);
             }
-            .sixth-arrow{
+
+            .sixth-arrow {
                 content: url("../../../../assets/Home/Connections/line6.svg");
                 position: absolute;
                 top: 48.5%;
                 right: 102%;
-                max-width: 15em;
+                width: max(13vw, 7.5em);
             }
-            .seventh-arrow{
+
+            .seventh-arrow {
                 content: url("../../../../assets/Home/Connections/line7.svg");
                 position: absolute;
-                top: 25%;
+                top: 26%;
                 right: 102%;
-                max-width: 22em;
+                width: max(22vw, 9em);
             }
-            .eighth-arrow{
+
+            .eighth-arrow {
                 content: url("../../../../assets/Home/Connections/line8.svg");
                 position: absolute;
                 top: 60%;
                 right: 102%;
-                max-width: 21em;
+                width: max(21vw, 9em);
             }
-            .ninth-arrow{
+
+            .ninth-arrow {
                 content: url("../../../../assets/Home/Connections/line9.svg");
                 position: absolute;
-                top: 84.5%;
+                top: 83%;
                 right: 102%;
-                max-width: 15em;
+                width: max(15vw,6em);
             }
-    
+
             // photos
-            .border1{
+            .border1 {
                 position: absolute;
-                top: -6%;
-                left: -72%;
+                top: -1vw;
+                left: -17vw;
                 border-radius: 50%;
                 padding: 5px;
                 background-color: #FA9950;
-                .first-photo{
+
+                .first-photo {
                     content: url("../../../../assets/Home/Connections/photo1.png");
                 }
             }
-            .border2{
+
+            .border2 {
                 position: absolute;
-                top: 8%;
-                left: -106%;
+                top:8vh;
+                left: -24vw;
                 border-radius: 50%;
                 padding: 5px;
                 background-color: #FAD103;
-                .second-photo{
+
+                .second-photo {
                     content: url("../../../../assets/Home/Connections/photo2.png");
                 }
             }
-            .border3{
+
+            .border3 {
                 position: absolute;
-                top: 34%;
-                left: -69.4%;
+                top: 24.5vh;
+                left: -16vw;
                 border-radius: 50%;
                 padding: 5px;
                 background-color: #EB5656;
-                .third-photo{
+
+                .third-photo {
                     content: url("../../../../assets/Home/Connections/photo3.png");
                 }
             }
-            .border4{
+
+            .border4 {
                 position: absolute;
-                top: 53%;
-                left: -108%;
+                top: 54%;
+                left: -25vw;
                 border-radius: 50%;
                 padding: 5px;
                 background-color: #64A2FF;
-                .fourth-photo{
+
+                .fourth-photo {
                     content: url("../../../../assets/Home/Connections/photo4.png");
                 }
             }
-            .border5{
+
+            .border5 {
                 position: absolute;
-                top: 72.5%;
-                left: -72%;
+                top: 52vh;
+                left: -17vw;
                 border-radius: 50%;
                 padding: 5px;
                 background-color: #7BEAA5;
-                .fifth-photo{
+
+                .fifth-photo {
                     content: url("../../../../assets/Home/Connections/photo5.png");
                 }
             }
 
             .first-photo,
             .second-photo,
-            .third-photo, 
+            .third-photo,
             .fourth-photo,
-            .fifth-photo{
-                width: max(2em, 5.5vw);
-                height: max(2em, 5.5vw);
+            .fifth-photo {
+                width: max(2.5em,5vw);
+                height:max(2.5em,5vw);
                 border-radius: 50%;
-
-                @media (max-width:990px){
-                    width: max(5em, 4.5vw);
-                    height: max(5em, 4.5vw);
-                }
             }
-            
+
         }
-    
-        .connection-type{
 
-            .icons{
+        .connection-type {
+
+            .icons {
                 display: inline-block;
-                margin-right: 2vw;
-                margin-top: 2em;
+                margin-right: 1vw;
+                margin-top: max(2vw, 1.8em);
                 margin-bottom: min(4em, 6vw);
+                background-color: #fff;
+                border-radius: 1.5em;
+                box-shadow: 1px 1px 1px 1px #ddd;
+                width: max(2.8em, 4vw);
+                height: max(2.8em, 4vw);
 
-                .icon{
-                    width: min(4em, 4vw);
-                    height: min(4em, 4vw);
-                    padding: min(1em, 4vw);
-                    background-color: #fff;
-                    border-radius: 1.5em;
-                    box-shadow: 1px 1px 1px 1px #ddd;
+
+                .icon {
+                    margin: auto;
+                    margin-top: 1em;
+                    width: max(1em, 1.85vw);
+                    height: max(1em, 1.85vw);
                 }
             }
-            
-            .text{
-                font-size: .9em;
+
+            .connection-text {
+                font-size: max(.8em, .88vw);
             }
         }
     }
@@ -289,58 +297,105 @@
     }
 }
 
-@media (max-width:990px) {
-    .connections{
+@media (max-width:1024px) {
+    .connections {
         flex-direction: column;
-        gap: 8em;
-        .info{
+        gap: 7em;
 
-            .title{
+        .info {
+
+            .title {
                 font-size: 1.34rem;
             }
+
             margin-bottom: 5vw;
             width: 80%;
             margin: auto;
+
             .description {
                 font-size: 15px;
             }
         }
-        .container{
-            margin: 3em 3em 3em 50%;
-            .images {
-                font-size: 1.6em;
+
+        .container {
+            margin: .5em .5em .5em 44%;
+
+            .images{
+                .first-arrow{
+                    top: 14%;
+                }
+                .second-arrow{
+                    width: max(20vw, 9.3em);
+                }
+                .third-arrow{
+                    top: 19%;
+                }
+                .fourth-arrow{
+                    top: 41%;
+                }
+                .fifth-arrow{
+                    top: 51%;
+                }
+                .sixth-arrow{
+                    top: 51.5%;
+                }
+                .seventh-arrow{
+                    top: 52%;
+                }
+                .eighth-arrow{
+                    top: 73%;
+                }
+                .ninth-arrow{
+                    top: 86%;
+                }
+                .border1{
+                    top: 2vh;
+                    left: -20vh;
+                }
+                .border2{
+                    top: 9vh;
+                    
+                }
+                .border3{
+                    left: -20vw;
+                }
+                .border4{
+                    top: 32vh;
+                }
+                .border5 {
+                    top: 86%;
+                    left: -21vw;
+                }
             }
 
             .connection-type{
-                .text{
-                    font-size: 2em;
-                }
-
-                .icons{
-
-                    .icon{
-                        width: 5.5vw;
-                        height: 5.5vw;
-                    }
+                .connection-text{
+                    font-size: 12px;
+                    line-height: 15px;
                 }
             }
         }
     }
 }
 
-@media (max-width:420px) {
+@media(max-width:550px){
     .connections{
         .container{
-            .connection-type{
-                .icons{
-
-                    .icon{
-                        width: 8vw;
-                        height: 8vw;
-                    }
+            .images{
+                .border2{
+                    left: -41vw;
+                }
+                .border3{
+                    top: 20vh;
+                    left: -40vw;
+                }
+                .border4{
+                    left: -41vw;
+                }
+                .border5{
+                    left: -29vw;
                 }
             }
-            
         }
     }
 }

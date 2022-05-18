@@ -4,7 +4,7 @@
 
 .meetings{
     margin: 0 3%;
-    margin-top: 26em;
+    margin-top: 30em;
 
     .meeting-type {
         display: flex;
@@ -404,12 +404,12 @@
                 margin-bottom: 5vw;
             }
             .phone-meeting{
-                width: 50%;
-                height: 60vw;
+                width: 55%;
+                height: 70vw;
                 margin: auto;
                 .info{
                     .call, .support, .name, .number, .description, .response{
-                        font-size: 1.5em;
+                        font-size: 2em;
                     }
                 }
             }

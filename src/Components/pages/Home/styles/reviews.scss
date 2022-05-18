@@ -4,6 +4,11 @@
 
 .reviews{
     margin: 5%;
+
+    @media(max-width:600px){
+        margin: 0;
+        margin-top: 15%;
+    }
     
     .phone{
         display: flex;
@@ -24,11 +29,14 @@
             font-size: max(27.5px,2.4vw);
             font-weight: 300;
             margin: 5% 0;
-            margin-bottom: 2%;
+            margin-bottom: 3%;
         }
 
         .text{
             font-size: max(16px, 1.1vw);
+            @media(max-width:600px){
+                margin: 0 5%;
+            }
         }
         .demo{
             margin: max(2.4em, 5vw) 0;
@@ -44,25 +52,19 @@
     }
 
     .review{
+        margin-bottom: 3.5em;
         .review-title{
             text-align: center;
             font-size: max(28px,2.45vw);
-            margin-bottom: 1.5em;
-            margin-top: 2.8em;
+            margin-bottom: 2%;
+            margin-top: 5%;
         }
 
         .slider{
             .review-card{
                 background-color: #fff;
                 border-radius: 1em;
-                box-shadow: 1px 5px 5px 5px #f2f2f2; 
-                &:hover{
-                    transform: scale(1.05); 
-                    -webkit-transform: scale(1.05); 
-                    transition-delay: 0.1s;
-                    -webkit-transition-delay: 0.1s;
-                    transition: ease 1s;
-                }            
+                box-shadow: 1px 5px 5px 5px #f2f2f2;             
                 
                 .head{
                     position: relative;
@@ -77,7 +79,8 @@
                         background-color: #ddd;
                         &:hover{
                             background-color: #6C3DFF;
-                            transition: 1s ease;
+                            transition: .3s ease-in-out;
+                            -webkit-transition: .3s ease-in-out;
                         }
                         .photo{
                             border-radius: 50%;
