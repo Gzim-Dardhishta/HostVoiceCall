@@ -41,8 +41,8 @@ const Footer = (props) => {
       <div className="main-footer">
         <div className="main-footer-head">
           <div className="footer-logo">
-            <div className="footer-logo-icon" style={{ content: `url(${logo})` }}></div>
-            <div className="footer-logo-name">HostVoiceCall</div>
+            <Link to='/' className="footer-logo-icon" style={{ content: `url(${logo})` }}></Link>
+            <Link to='/' className="footer-logo-name">HostVoiceCall</Link>
           </div>
 
           <div className="download-app">

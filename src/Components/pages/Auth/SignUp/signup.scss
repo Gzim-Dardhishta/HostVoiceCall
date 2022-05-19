@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.App {
+    overflow: hidden;
+}
+
+.signup-component {
+    margin-top: 6em;
+    display: flex;
+    justify-content: space-between;
+
+    .signup-form-container {
+        margin: max(4em, 7vw);
+        margin-left: 4%;
+        margin-top: 5%;
+        padding: max(2.7em, 4%);
+        padding-top: 2.3em;
+        padding-bottom: 2em;
+        background-color: #fff;
+        -webkit-box-shadow: 0 0 20px #ddd;
+        box-shadow: 0 0 20px #ddd;
+        border-radius: 2em;
+        width: fit-content;
+        // width: max(21em, 42vw);
+
+        .form-title {
+            font-size: max(24px, 2vw);
+            font-weight: 400;
+        }
+
+        .welcome-text {
+            width: 80%;
+            margin: 1em 0;
+        }
+
+        form {
+
+            .name-input-container {
+                display: flex;
+                justify-content: space-between;
+            }
+            .password-input-container{
+                display: flex;
+                gap: 1vw;
+            }
+
+            .input-container, .name, .last-name, .password, .confirm-password {
+                label {
+                    font-size: max(14px, 1vw);
+                }
+
+                .inner-input-container {
+                    margin: 1em 0;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    outline: 1px solid #ddd;
+                    padding: max(1em, 1.3vw);
+                    border-radius: 2em;
+
+                    span {
+                        margin-right: 1em;
+                    }
+
+                    input {
+                        flex: 1;
+                        outline: none;
+                        border: none;
+                    }
+
+                    .eye-icon{
+                        margin-right: 0;
+                    }
+
+                    input.form-input:-webkit-autofill,
+                    input.form-input:-webkit-autofill:hover,
+                    input.form-input:-webkit-autofill:focus,
+                    input.form-input:-webkit-autofill:active {
+                        transition: background-color 5000s ease-in-out 0s;
+                        -webkit-transition: background-color 5000s ease-in-out 0s;
+                        -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+                        box-shadow: 0 0 0px 1000px #fff inset;
+                        -webkit-text-fill-color: #333 !important;
+                    }
+                }
+            }
+        }
+        .suggest-password{
+            display: flex;
+            width: fit-content;
+            margin-left: auto;
+            gap: 1.5vw;
+            color: #111;
+        }
+        .agree-terms{
+            display: flex;
+            justify-content: space-between;
+            padding: 1em 0;
+            input{
+                margin-right: .5em;
+            }
+            .form-label-checkbox{
+                font-size: max(13px, .89vw);
+            }
+
+            a{
+                color: #6C3DFF;
+                font-size: max(13px, .89vw);
+            }
+        }
+        .button-container{
+            margin-top: 1em;
+            text-align: center;
+            padding: 1em 0;
+            background-color: #6C3DFF;
+            border-radius: 2em;
+            .submit-button{
+                border: none;
+                background-color: inherit;
+                color: #fff;
+                cursor: pointer;
+            }
+        }
+        .login-link{
+            display: flex;
+            margin: 1.5em 0;
+            margin-bottom: 0;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            font-size: max(14px, .89vw);
+            a{
+                color: #0080FF;
+            }
+        }
+
+
+
+    }
+
+
+    .image {
+        content: url("../../../../assets/SignUp/bg-image.png");
+        height: 100%;
+        width: 50vw;
+    }
+}

@@ -14,12 +14,12 @@ function ProductsMegamenu() {
                                 {ProductsTabs.map((props) => {
                                     return (
                                         <Tab>
-                                            <Link to={props.to} className='megamenu-link'>
+                                            <div className='megamenu-link'>
                                                 <div className={`inner-icon ${props.cls}`}>
                                                     <div className='icon' style={{ content: `url(${props.icon})` }}></div>
                                                 </div>
                                                 <h5>{props.link}</h5>
-                                            </Link>
+                                            </div>
                                         </Tab>
                                     )
                                 })}
