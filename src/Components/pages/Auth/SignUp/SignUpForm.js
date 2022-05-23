@@ -27,7 +27,7 @@ const SignUpForm = () => {
                             <FormattedMessage id='label1' defaultMessage="Name" />
                         </label>
                         <div className="inner-input-container">
-                            <span className="preson-icon" style={{ content: `url(${person})` }}></span>
+                            <span className="person-icon" style={{ content: `url(${person})` }}></span>
                             <input
                                 type="name"
                                 name='name'
@@ -41,7 +41,7 @@ const SignUpForm = () => {
                             <FormattedMessage id='label2' defaultMessage="Last name" />
                         </label>
                         <div className="inner-input-container">
-                            <span className="prson-icon" style={{ content: `url(${person})` }}></span>
+                            <span className="person-icon" style={{ content: `url(${person})` }}></span>
                             <input
                                 type="name"
                                 name='name'
@@ -129,8 +129,8 @@ const SignUpForm = () => {
                     <p>
                         <FormattedMessage id='text' defaultMessage="Already have an account?" />
                     </p>
-                    <Link to='/SignUp'>
-                        <FormattedMessage id='signup' defaultMessage="Log In" />
+                    <Link to='/LogIn'>
+                        <FormattedMessage id='login' defaultMessage="Log In" />
                     </Link>
                 </div>
             </form>
