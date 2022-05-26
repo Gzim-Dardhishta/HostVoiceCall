@@ -15,20 +15,27 @@ const SignUpCarousel = ({ slider }) => {
 
     return (
         <div className='signup-carousel'>
-            <div className="signup-carousel-inner"
+            <div className="signup-carousel-item"
                 style={
                     width > 1068
-                        ? { transform: `translateX(${-currentSlide * 100}%)` }
+                        ? { transform: `translateX(${-currentSlide * 90}%)` }
                         : width < 1068 && width >= 462
                             ? { transform: `translateX(${-currentSlide * 100}%)` }
                             : { transform: `translateX(${-currentSlide * 100}%)` }
-                }
-            >
-                <div className="signup-carousel-item">
-                    {slider.map((slide, i) => {
+                }>
+                <div className="carousel-inner">
+                    {slider.map((props) => {
                         return (
-                            <div className="container">
-                                <SignupCarouselItems slide={slide} key={i} />
+                            <div className="slider-item">
+                                <div className="inner-items">
+                                    {props.slide.map((s, i) => {
+                                        return (
+                                            <div className='container'>
+                                                <SignupCarouselItems s={s} key={i} />
+                                            </div>
+                                        )
+                                    })}
+                                </div>
                             </div>
                         )
                     })}

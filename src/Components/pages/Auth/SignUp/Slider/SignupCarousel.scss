@@ -3,27 +3,29 @@
     overflow: hidden;
     position: relative;
 
-    .signup-carousel-inner {
+    .signup-carousel-item {
         transition: ease 1s;
 
-        .signup-carousel-item {
-            width: 63%;
-            margin: auto;
-            margin-left: 26%;
+        .carousel-inner{
             display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-
-            .container {
-                display: flex;
-                margin-bottom: 1em;
-
+            .slider-item {
+                width: 63%;
+                margin: auto;
+                margin-left: 26%;
+    
+                .inner-items {
+                    width: 30vw;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    gap: 1em 0;
+                    .container{
+                        display: flex;
+                    }
+                }
             }
-
-
         }
     }
-
 
     .carousel-indicators {
         display: flex;

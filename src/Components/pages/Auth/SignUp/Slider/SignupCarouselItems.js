@@ -1,14 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const SignupCarouselItems = ({ slide }) => {
+const SignupCarouselItems = ({ s }) => {
     return (
-        <div className={`signup-card ${slide.cls}`} data-aos="zoom-out">
-            <div className="icon" style={{ content: `url(${slide.icon})` }}></div>
-            <div className="text">{slide.text}</div>
+        <div className={`signup-card `} data-aos="zoom-out">
+            <div className="icon" style={{ content: `url(${s.icon})` }}></div>
+            <div className="text">{s.text}</div>
             <Link to='/' className="link">
-                <p>{slide.link}</p>
-                <span style={{ content: `url(${slide.arrow})` }}></span>
+                <p>{s.link}</p>
+                <span style={{ content: `url(${s.arrow})` }}></span>
             </Link>
         </div>
     )
