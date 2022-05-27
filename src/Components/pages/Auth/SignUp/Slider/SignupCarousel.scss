@@ -1,27 +1,23 @@
 .signup-carousel {
-    margin: 0 auto;
+    margin-left: 27%;
     overflow: hidden;
     position: relative;
 
     .signup-carousel-item {
         transition: ease 1s;
 
-        .carousel-inner{
+        .carousel-inner {
             display: flex;
+            gap: 2vw;
+
             .slider-item {
-                width: 63%;
-                margin: auto;
-                margin-left: 26%;
-    
+
                 .inner-items {
-                    width: 30vw;
+                    width: 35vw;
                     display: flex;
-                    justify-content: space-between;
+
                     flex-wrap: wrap;
-                    gap: 1em 0;
-                    .container{
-                        display: flex;
-                    }
+                    gap: 2em;
                 }
             }
         }
@@ -29,10 +25,9 @@
 
     .carousel-indicators {
         display: flex;
-        justify-content: center;
+        margin-left: 10vw;
+        width: fit-content;
         margin-top: 2em;
-        margin-left: 3em;
-        display: flex;
 
         .carousel-indicatoractive {
             background-color: #6C3DFF;
@@ -51,6 +46,59 @@
                 transition: .5s ease-out;
                 background-color: #6C3DFF;
                 padding: 3px 17.5px;
+            }
+        }
+    }
+}
+
+@media(max-width:1120px) {
+    .signup-carousel {
+        .signup-carousel-item {
+            .carousel-inner {
+                gap: 15em;
+
+                .slider-item {
+                    // border: 1px solid red;
+
+                    .inner-items {
+                        // border: 2px solid white;
+                        width: 50vw;
+                    }
+                }
+            }
+        }
+    }
+}
+@media(max-width:880px) {
+    .signup-carousel {
+        .signup-carousel-item {
+            .carousel-inner {
+                gap: 12em;
+            }
+        }
+    }
+}
+@media(max-width:700px) {
+    .signup-carousel {
+        .signup-carousel-item {
+            .carousel-inner {
+                gap: 10em;
+            }
+        }
+    }
+}
+
+@media(max-width:550px) {
+    .signup-carousel {
+        margin-left: 35%;
+        .signup-carousel-item {
+            .carousel-inner {
+                gap: 2.7em;
+                .slider-item {
+                    .inner-items {
+                        width: 80vw;
+                    }
+                }
             }
         }
     }
