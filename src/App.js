@@ -10,11 +10,12 @@ import "aos/dist/aos.css";
 import { lazy, Suspense, useEffect } from 'react';
 import ScrollToTop from './ScrollToTop';
 import Loading from './Components/shared/Loading/Loading';
-import SignUp from './Pages/SignUp/SignUp';
+// import SignUp from './Pages/SignUp/SignUp';
 
 
 const Home = lazy(() => import('./Pages/Home'));
 const LogIn = lazy(() => import('./Pages/LogIn/LogIn'))
+const SignUp = lazy(() => import('./Pages/SignUp/SignUp'))
 
 function App() {
 

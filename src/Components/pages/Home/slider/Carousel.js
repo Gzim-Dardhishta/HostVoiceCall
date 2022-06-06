@@ -21,7 +21,7 @@ function Carousel({ slider }) {
                     width > 1068
                       ? { transform: `translateX(${-currentSlide * 26}%)` }
                       : width < 1068 && width >= 462
-                      ? { transform: `translateX(${-currentSlide * 50}%)` }
+                      ? { transform: `translateX(${-currentSlide * 100}%)` }
                       : { transform: `translateX(${-currentSlide * 100}%)` }
                 }
             >

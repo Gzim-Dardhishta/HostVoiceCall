@@ -7,7 +7,7 @@ const SolutionsMegamenu = () => {
     <div id='solution-megamenu' className='nav-megamenu'>
         <div className="solution-megamenu">
             <div className="by_use_case">
-                <h4>By Use Case</h4>
+                <h6>By Use Case</h6>
                 <div className="use-case-items">
                     {SolutionsMenu.ByUseCase.map((props) => {
                         return(
@@ -23,7 +23,7 @@ const SolutionsMegamenu = () => {
             </div>
 
             <div className="by_industry">
-                <h4>By Industry</h4>
+                <h6>By Industry</h6>
                 <div className="industry-items">
                     {SolutionsMenu.ByIndustry.map((props) => {
                         return (
@@ -39,7 +39,7 @@ const SolutionsMegamenu = () => {
             </div>
 
             <div className="bu_business_type">
-                <h4>By Business Type</h4>
+                <h6>By Business Type</h6>
                 <div className="business-item">
                     {SolutionsMenu.ByBusinessType.map((props) => {
                         return (
@@ -55,7 +55,7 @@ const SolutionsMegamenu = () => {
             </div>
 
             <div className="by_capability">
-                <h4>By Capability</h4>
+                <h6>By Capability</h6>
                 <div className="capability-item">
                     {SolutionsMenu.ByCapability.map((props) => {
                         return (

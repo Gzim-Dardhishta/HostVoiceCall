@@ -117,7 +117,8 @@
                 position: absolute;
                 top: 12%;
                 right: 101%;
-                width: max(8em, 15vw);
+                // width: max(8em, 15vw);
+                max-width: 15em;
             }
 
             .second-arrow {
@@ -293,7 +294,7 @@
 
 @media (max-width:1360px) {
     .connections {
-        margin: 5vw 3vw;
+        margin: 5vw 1vw;
     }
 }
 

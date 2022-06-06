@@ -27,7 +27,7 @@ function Toolbar(props) {
             <div className="mobile-logo-row">
                 <Link to='/'>
                     <div className="mobile-logo-container"></div>
-                    <h5>HostVoiceCalls</h5>
+                    <h5>HostVoiceCall</h5>
                 </Link>
             </div>
 

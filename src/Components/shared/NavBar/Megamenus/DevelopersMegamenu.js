@@ -7,7 +7,7 @@ function DevelopersMegamenu() {
     <div id='developers' className='nav-megamenu'>
         <div className="developers-megamenu">
             <div className="documentation">
-                <h4>Documentation</h4>
+                <h6>Documentation</h6>
                 <div className="documentation-item">
                     {DevelopersMenu.Documentation.map((props) => {
                         return (        
@@ -23,7 +23,7 @@ function DevelopersMegamenu() {
             </div>
 
             <div className="community">
-                <h4>Community</h4>
+                <h6>Community</h6>
                 <div className="documentation-item">
                     {DevelopersMenu.Community.map((props) => {
                         return(

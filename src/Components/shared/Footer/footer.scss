@@ -279,8 +279,10 @@
                     .dropdown{
                         display: block;
                         background-color: #040036;
-                        box-shadow: 5px 5px 5px 10px #060336;
+                        box-shadow: 0 0 20px #0f1c80;
+                        -webkit-box-shadow: 0 0 20px #0f1c80;
                         top: -24em;
+                        left: -2em;
                     }
                 }
             }
@@ -299,7 +301,7 @@
 }
 
 
-@media (max-width: 1050px){
+@media (max-width: 1070px){
     .footer{
         .main-footer{
             .main-footer-head{

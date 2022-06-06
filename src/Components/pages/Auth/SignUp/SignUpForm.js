@@ -12,7 +12,7 @@ const SignUpForm = () => {
     const [Email, setEmail] = useState('');
     const [password, setPassword] = useState("");
     return (
-        <div className='signup-form-container'>
+        <div className='signup-form-container' data-aos="fade-right">
             <h6 className='form-title'>
                 <FormattedMessage id='login' defaultMessage="Sign Up" />
             </h6>

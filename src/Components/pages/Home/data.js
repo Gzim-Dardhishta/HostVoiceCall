@@ -66,6 +66,10 @@ import arrow6 from '../../../assets/Home/tools/arrow.svg'
 import person1 from '../../../assets/Home/reviews/photo1.png';
 import person2 from '../../../assets/Home/reviews/photo2.png';
 
+import headphoness from '../../../assets/Home/values/headphones.svg';
+import sell from '../../../assets/Home/values/shop.svg';
+import Ai from '../../../assets/Home/values/light.svg'
+
 
 
 export const SliderCards = [
@@ -451,4 +455,23 @@ export const ReviewsSliderData = [
         name: 'Kristina W.Smith',
         text: <FormattedMessage id='text' defaultMessage="The setup and configuration of HostVoiceCall is a dream. It’s so easy to create new numbers, set up IVRs, and change people around to different teams if needed." />
     }
+]
+
+
+export const ValuesData = [
+    {
+        cls: 'cls1',
+        icon: headphoness,
+        text: <FormattedMessage id='text1' defaultMessage="Contact Center" />
+    },
+    {
+        cls: 'cls2',
+        icon: sell,
+        text: <FormattedMessage id='text2' defaultMessage="Sell" />
+    },
+    {
+        cls: 'cls3',
+        icon: Ai,
+        text: <FormattedMessage id='text3' defaultMessage="AI-Powered" />
+    },
 ]

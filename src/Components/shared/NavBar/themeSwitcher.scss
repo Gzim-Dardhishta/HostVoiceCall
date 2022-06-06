@@ -1,0 +1,22 @@
+.mode-switcher-container .mode-switch{
+    background: transparent;
+    border: 1px solid #d3d3d3;
+    display: flex;
+    border-radius: max(20px, 1vw);
+    .icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: max(20px, 1.5vw);
+        height: max(20px, 1.5vw);
+        border-radius: 50%;
+        margin:max(2px, 0.15vw);
+        color:#081131;
+        cursor: pointer;
+        font-size: max(13px, 0.7vw);
+    }
+    .active{
+        background: #081131;
+        color:#fff;
+    }
+}

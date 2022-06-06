@@ -6,6 +6,8 @@
     .dropdown {
         position: absolute;
         background-color: #fff;
+        box-shadow: 0 0 20px #ddd;
+        -webkit-box-shadow: 0 0 20px #ddd;
         top: 32px;
         cursor: pointer;
         z-index: 1;
@@ -33,6 +35,23 @@
         cursor: pointer;
         img{
             margin-right: 7px;
+        }
+    }
+}
+
+body.dark-mode{
+    .select-language{
+        .dropdown{
+            background-color: #000524;
+            box-shadow: 0 0 50px #060b2e;
+            -webkit-box-shadow: 0 0 50px #060b2e;
+            .single-language{
+                .text{
+                    span{
+                        color: #fff;
+                    }
+                }
+            }
         }
     }
 }

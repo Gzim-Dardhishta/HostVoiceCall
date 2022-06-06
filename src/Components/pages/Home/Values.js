@@ -2,6 +2,10 @@ import React from 'react'
 import { FormattedMessage } from 'react-intl'
 import { Link } from 'react-router-dom'
 import './styles/values.scss'
+import { ValuesData } from './data'
+import { ReactComponent as Headphones} from '../../../assets/Home/values/headphones.svg'
+import { ReactComponent as Shop } from '../../../assets/Home/values/shop.svg'
+import { ReactComponent as Ai } from '../../../assets/Home/values/light.svg'
 
 const Values = () => {
     return (
@@ -22,21 +26,31 @@ const Values = () => {
                                         call center IVR menus, skill-based routing, live call monitoring, and more." />
                         </p>
                         <div className="services-offer">
+                            {/* {ValuesData.map((props) => {
+                                return (
+                                    <div className="service">
+                                        <div className="container">
+                                            <div className="icon" style={{ content: `url(${props.icon})` }}></div>
+                                        </div>
+                                        <div>{props.text}</div>
+                                    </div>
+                                )
+                            })} */}
                             <div className="service">
                                 <div className="contact-center">
-                                    <div className="icon"></div>
+                                    <Headphones className='headphones'/>                                  
                                 </div>
                                 <FormattedMessage id='contact' defaultMessage="Contact Center" />
                             </div>
                             <div className="service">
                                 <div className="shop">
-                                    <div className="icon"></div>
+                                    <Shop />
                                 </div>
                                 <FormattedMessage id='sell' defaultMessage="Sell" />
                             </div>
                             <div className="service">
                                 <div className="AI">
-                                    <div className="icon"></div>
+                                    <Ai />
                                 </div>
                                 <FormattedMessage id='ai' defaultMessage="AI-Powered" />
                             </div>

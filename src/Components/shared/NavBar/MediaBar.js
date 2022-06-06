@@ -12,6 +12,7 @@ import { dataLocalStorage } from '../Languages/dataLocalStorage';
 import JoinMegamenu from './Megamenus/JoinMegamenu';
 import HostMegamenu from './Megamenus/HostMegamenu';
 import { Link } from 'react-router-dom';
+import ThemeSwitcher from './ThemeSwitcher';
 
 const MediaBar = (props) => {
   return (
@@ -19,40 +20,41 @@ const MediaBar = (props) => {
 
         <div className="media">
             <Link to='/' className="download-app">
-                <BsFillPhoneFill/>
+                <BsFillPhoneFill className='icon'/>
                 <p>Download App</p>
             </Link>
             <Link to='/' className='partners'>
-                <FaHandshake />
+                <FaHandshake  className='icon'/>
                 <p>Partners</p>
             </Link>
             <Link to='/' className="cloud">
-                <SiIcloud />
+                <SiIcloud className='icon'/>
                 <p>Cloud Communications</p>
             </Link>
         </div>
 
-        <div className="spacer"></div>
+        {/* <div className="spacer"></div> */}
 
         <div className='access'>
+            <ThemeSwitcher />
             <div className="language">
                 {/* <GrLanguage /> */}
-                <SelectLanguage 
+                <SelectLanguage
                     setLanguage={props.setLanguage}
                     language={props.language}
                 />
-                <BiChevronDown/>
+                <BiChevronDown className='icon'/>
                 <BsFillTriangleFill className='arrow' />
             </div>
 
             <div className='contact'>
-                <span>Contact: </span>
-                <HiPhone />
+                <p className='c'>Contact: </p>
+                <HiPhone className='icon'/>
                 <p>+1 415-469-1690</p>
             </div>
 
             <Link to='/' className="support">
-                <HiSupport/>
+                <HiSupport className='icon'/>
                 <p>Support</p>
             </Link>
 
@@ -64,7 +66,7 @@ const MediaBar = (props) => {
                 </div>
                 <div className="host-menu">
                     <p className='host'>Host</p>  
-                    <BiChevronDown/>  
+                    <BiChevronDown className='icon'/>  
                     <BsFillTriangleFill className='host-arrow' />
                     <HostMegamenu />
                 </div>

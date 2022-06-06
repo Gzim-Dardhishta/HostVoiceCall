@@ -32,12 +32,12 @@ const NavBar = (props) => {
 
 
   return (
-    <header id='header'>
+    <header className='header'>
         <MediaBar />
         <div id="nav-bar" className={clsx(`navbar ${props.styles}`, isSticky ? "nav__sticky" : "")}>
             <Link to='/' id='logo'>
                 <div className="icon"></div>
-                <h4>HostVoiceCalls</h4>
+                <h4>HostVoiceCall</h4>
             </Link>
 
             <div className="nav-links">
@@ -49,7 +49,7 @@ const NavBar = (props) => {
                                 {props.megamenu ? <FiChevronDown className='arrow1'/> : null }
                             </Link>
 
-                            {props.megamenu ? <div className='megamenu-arrow'><BsTriangleFill /></div> : null }
+                            {props.megamenu ? <div className='megamenu-arrow'><BsTriangleFill className='megamenu-arrow1'/></div> : null }
                             <div className='line'></div>
                             {props.megamenu}
                         </div>
@@ -59,10 +59,10 @@ const NavBar = (props) => {
 
             <div className="auth">
                 <Link to='/LogIn' className='login-link'>
-                    <FormattedMessage id='log-in' defaultMessage="Log In" />
+                    <p><FormattedMessage id='log-in' defaultMessage="Log In" /></p>
                 </Link>
                 <Link to='/SignUp' className='signup-link'>
-                    <FormattedMessage id='sign-up' defaultMessage="Sign Up" />
+                    <p><FormattedMessage id='sign-up' defaultMessage="Sign Up" /></p>
                 </Link>
             </div>
 

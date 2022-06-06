@@ -6,7 +6,7 @@
     list-style: none;
 }
 
-header {
+.header {
     width: 100vw;
     max-width: 100%;
     border-bottom: 1px solid #ddd;
@@ -20,6 +20,7 @@ header {
 .media-bar {
     font-size: max(12px, .8vw);
     display: flex;
+    justify-content: space-between;
     padding: max(10px, 0.5vw) 3% max(10px, 0.5vw);
     border-bottom: 1px solid #ddd;
     
@@ -30,8 +31,9 @@ header {
     .download-app, .partners, .cloud {
         align-items: center;
         justify-content: center;
-        margin-right: 35px;
+        margin-right: 2vw;
     }
+    .cloud{margin-right: 0;}
     .media p{
         margin-left: 5px;
     }
@@ -50,23 +52,19 @@ header {
     .access .language:hover {
         .dropdown {
             display: block;
-            box-shadow: 1px 1px 1px 1px #ddd;
+            // box-shadow: 1px 1px 1px 1px #ddd;
         }
         .arrow {
             display: block;
         }
     }
-
-    .spacer {
-        flex: 1;
-    }
-
     .language, .contact, .support, .join_host{
         display: flex;
         align-items: center;
         margin-left: 3em;
         color: #222;
     }
+    .language{margin-left: 2vw;}
     .language p, .contact p, .support p{
         margin-left: 5px;
     }
@@ -189,9 +187,9 @@ header {
         display: flex;
         align-items: center;
     }
-    #logo h4 {
+    h4 {
         color: #222;
-        font-size: max(16px, 1.2vw);
+        font-size: max(15px, 1.2vw);
         font-weight: 400;
     }
     .icon {
@@ -223,7 +221,7 @@ header {
                 .arrow1{
                     transition: .3s ease-in;
                     transform: rotate(180deg);
-                    color: #6C3DFF;
+                    // color: #6C3DFF;
                 }
                 .line{
                     width: 70%;
@@ -285,11 +283,99 @@ header {
 
 }
 
+body.dark-mode{
+    .header{ 
+        background-color: #0d0d0d;
+        // transition: 1s ease;
+        border: none;
+        .navbar .nav-links .nav-link{        
+            .arrow1{
+                color: #fff; 
+            }
+            .inner-nav-link p{ color: #fff; }
+            .megamenu-arrow1{ color: #312c5a; }
+        }
+    }
+    .media-bar {
+        border: none;
+        .join-megamenu, .host-megamenu{
+            background-color: #000524;
+        }
+    }
+    .media-bar .selected-language{
+        background-color: #0d0d0d;
+        color: #fff;
+    }
+    .media-bar p{
+        color: #fff;
+    }
+    .media-bar .icon{
+        color: #fff;
+    }
+    .media-bar .c{color: #fff;}
+    .navbar #logo{
+        .icon{
+            content: url('../../../assets/img/logo-white.svg');
+        }
+        h4{ color:#fff; }
+    }
+    .navbar .auth p{
+        color:#fff; 
+    }
+    .nav__sticky{ 
+        background-color: #0d0d0d;
+    }
+}
+
 @media (max-width: 1024px) {
-    #header{
+    .header{
         #logo, .nav-links, .auth, .media-bar { display: none;}
         .mobile-nav{
             display: block;
         }
     }
 }
+
+// body.dark-mode{
+//     .header{ 
+//         background-color: #0d0d0d;
+//         transition: 1s ease;
+//         border: none;
+//         .navbar .nav-links .nav-link{        
+//             .arrow1{
+//                 color: #fff; 
+//             }
+//             .inner-nav-link p{ color: #fff; }
+//             .megamenu-arrow1{ color: #312c5a; }
+//         }
+//     }
+//     .media-bar {
+//         border: none;
+//         .join-megamenu, .host-megamenu{
+//             background-color: #000524;
+//         }
+//     }
+//     .media-bar .selected-language{
+//         background-color: #0d0d0d;
+//         color: #fff;
+//     }
+//     .media-bar p{
+//         color: #fff;
+//     }
+//     .media-bar .icon{
+//         color: #fff;
+//     }
+//     .media-bar .c{color: #fff;}
+//     .navbar #logo{
+//         .icon{
+//             content: url('../../../assets/img/logo-white.svg');
+//         }
+//         h4{ color:#fff; }
+//     }
+//     .navbar .auth p{
+//         color:#fff; 
+//     }
+//     .nav__sticky{ 
+//         background-color: #0d0d0d;
+//     }
+// }

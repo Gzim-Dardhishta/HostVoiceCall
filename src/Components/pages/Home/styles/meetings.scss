@@ -301,7 +301,7 @@
             border-radius: 2em;
             display: flex;
             justify-content: center;
-            font-size: min(15px, 1.5vw);
+            font-size: max(15px, .9vw);
 
             .info{
                 width: 100%;
@@ -353,8 +353,6 @@
                 .buttons{
                     display: flex;
                     justify-content: space-around;
-                    // justify-content: center;
-                    // gap: 7vw;
                     .inner{
                         cursor: pointer;
                         background-color: #fff;
@@ -372,7 +370,7 @@
                         }
                         &:hover{
                             .response{
-                                display: block;
+                                visibility: visible;
                             }
                         }
                     }
@@ -384,34 +382,28 @@
                         }
                         &:hover{
                             .response{
-                                display: block;
+                                visibility: visible;
                             }
                         }
                     }
                     .response{
                         text-align: center;
                         margin-top: 2vw;
-                        display: none;
+                        visibility: hidden;
                     }
                 }
             }
         }
 
-        @media (max-width: 970px){
+        @media (max-width: 1110px){
             display: block;
             .video-meeting{
                 width: 100%;
                 margin-bottom: 5vw;
             }
             .phone-meeting{
-                width: 55%;
-                height: 70vw;
+                width: 70%;
                 margin: auto;
-                .info{
-                    .call, .support, .name, .number, .description, .response{
-                        font-size: 2em;
-                    }
-                }
             }
         }
     }
@@ -419,11 +411,12 @@
     .about-meetings{
         display: flex;
         justify-content: space-between;
-        margin-top: 4%;
+        margin-top: 4em;
 
         .card{
             width: 30%;
             display: flex;
+            align-items: center;
 
 
             .border {
@@ -434,11 +427,12 @@
                 justify-content: center;
                 align-items: center;
                 margin-right: 2vw;
+                padding: 1em;
                 
                 
                 .icon{
-                    width: min(2em, 6vw);
-                    margin: 0 min(1em, 5vw);
+                    width: max(1.5em, 2vw);
+                    height: max(1.5em, 2vw);
                 }
             }
             .block{

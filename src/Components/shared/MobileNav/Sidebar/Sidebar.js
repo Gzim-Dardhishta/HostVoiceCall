@@ -32,7 +32,7 @@ const Sidebar = (props) => {
         <div className="sidebar-logo-row">
             <Link to='/'>
                 <div className="mobile-logo-container"></div>
-                <h6>HostVoiceCalls</h6>
+                <h6>HostVoiceCall</h6>
             </Link>
             <button onClick={props.click}><CgClose /></button>
         </div>

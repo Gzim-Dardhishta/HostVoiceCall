@@ -5,7 +5,7 @@ import {CompanyMenu} from './../data';
 function CompanyMegamenu() {
   return (
     <div className='nav-megamenu company-megamenu'>
-        <h4>Company</h4>
+        <h6>Company</h6>
         <div className="company-links">
             {CompanyMenu.map((props) => {
                 return (
