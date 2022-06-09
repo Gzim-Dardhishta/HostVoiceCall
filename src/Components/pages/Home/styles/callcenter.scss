@@ -193,7 +193,7 @@
                     width: 3.7vw;
                     height: 3.7vw;
                     border-radius: 1.4em;
-                    box-shadow: 1px 1px 1px 1px #ddd;
+                    box-shadow: 1px 1px 1px #ddd;
                 }
 
                 .phone {
@@ -498,6 +498,9 @@ body.dark-mode {
                 .email-icon {
                     content: url("../../../../assets/Home/CallCanter/email-white.svg");
                 }
+                input::placeholder {
+                    color: #fff;
+                }
 
                 input:-webkit-autofill,
                 input:-webkit-autofill:hover,
@@ -508,14 +511,6 @@ body.dark-mode {
                     -webkit-box-shadow: 0 0 0px 1000px #0E0024 inset;
                     box-shadow: 0 0 0px 1000px #0E0024 inset;
                     -webkit-text-fill-color: #fff inset;
-                }
-
-                input {
-                    color: #fff;
-
-                    &::placeholder {
-                        color: #fff;
-                    }
                 }
             }
 

@@ -123,46 +123,47 @@ import security from '../../../assets/shared/Products/security.svg';
 import phone from '../../../assets/shared/Products/phone.svg';
 import rightarrow from '../../../assets/shared/Products/rightarrow.svg';
 import ProductsMegamenu from './Megamenus/ProductsMegamenu';
+import { FormattedMessage } from 'react-intl';
 
 
 
 export const NavBarData = [
     {
-        link: 'Products',
+        link: <FormattedMessage id='products' defaultMessage="Products" />,
         cls: 'products-link',
         arrow: <FiChevronDown />,
         to: '/',
         megamenu: <ProductsMegamenu />
     },
     {
-        link: 'Solutions',
+        link: <FormattedMessage id='solutions' defaultMessage="Solutions" />,
         cls: 'solutions-link',
         arrow: <FiChevronDown />,
         to: '/',
         megamenu: <SolutionsMegamenu />
     },
     {
-        link: 'Resources',
+        link: <FormattedMessage id='resources' defaultMessage="Resources" />,
         cls: 'resources-link',
         arrow: <FiChevronDown />,
         to: '/',
     },
     {
-        link: 'Developers',
+        link: <FormattedMessage id='developers' defaultMessage="Developers" />,
         cls: 'developers-link',
         arrow: <FiChevronDown />,
         to: '/',
         megamenu: <DevelopersMegamenu />
     },
     {
-        link: 'Company',
+        link: <FormattedMessage id='company' defaultMessage="Company" />,
         cls: 'company-link',
         arrow: <FiChevronDown />,
         to: '/',
         megamenu: <CompanyMegamenu />
     },
     {
-        link: 'Price & Planning',
+        link: <FormattedMessage id='price-plan' defaultMessage="Price & Planing" />,
         cls: 'price_planning-link',
         to: '/',
     }

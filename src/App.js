@@ -5,12 +5,13 @@ import {
   Navigate
 } from 'react-router-dom';
 import { IntlProvider } from 'react-intl';
+import { translate } from './translation/translate';
+import { useSelector } from 'react-redux';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import { lazy, Suspense, useEffect } from 'react';
 import ScrollToTop from './ScrollToTop';
 import Loading from './Components/shared/Loading/Loading';
-// import SignUp from './Pages/SignUp/SignUp';
 
 
 const Home = lazy(() => import('./Pages/Home'));
@@ -25,11 +26,19 @@ function App() {
       once: true
     }, [])
   })
+
+
+  const language = useSelector((state) => state.language.language)
+
   return (
     <div className="App">
       <Router>
         <Suspense fallback={<Loading />}>
-          <IntlProvider>
+          <IntlProvider
+            locale={language}
+            formats={{ number: 'en' }}
+            messages={translate[language]}
+          >
             <ScrollToTop />
             <Routes>
               <Route exact path="/" element={<Home />} />

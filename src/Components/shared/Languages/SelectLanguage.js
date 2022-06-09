@@ -9,7 +9,8 @@ import german from '../../../assets/img/german.svg';
 import portugal from '../../../assets/img/portugal.svg';
 import nederland from '../../../assets/img/nederland.svg';
 import italy from '../../../assets/img/italy.svg';
-import england from '../../../assets/img/england.svg'
+import england from '../../../assets/img/england.svg';
+import albania from '../../../assets/img/albania.svg';
 
 import { useDispatch, useSelector } from 'react-redux';
 import { chooseLanguage } from '../../../store/action/languageAction';
@@ -21,12 +22,13 @@ function SelectLanguage() {
 
     const languages = [
         { value: 'en-GB', lang: 'English', flag: england },
+        { value: 'sq-AL', lang: 'Albania', flag: albania },
         { value: 'de-DE', lang: 'Deutsch', flag: german },
         { value: 'fr-FR', lang: 'Français', flag: france },
         { value: 'it-IT', lang: 'Italiano', flag: italy },
         { value: 'es-ES', lang: 'Español', flag: spain },
-        { value: 'pr-PR', lang: 'Português', flag: portugal},
-        { value: 'nr-NR', lang: 'Nederlands', flag: nederland}
+        { value: 'pr-PR', lang: 'Português', flag: portugal },
+        { value: 'nr-NR', lang: 'Nederlands', flag: nederland }
     ];
 
     const handleLanguageChange = (language, locale) => {
@@ -36,9 +38,12 @@ function SelectLanguage() {
     };
 
     let flag = null;
-    switch(dataLocalStorage.getLocale()) {
+    switch (dataLocalStorage.getLocale()) {
         case 'en-GB':
             flag = england;
+            break;
+        case 'sq-AL':
+            flag = albania;
             break;
         case 'de-DE':
             flag = german;
@@ -61,32 +66,32 @@ function SelectLanguage() {
         default:
             flag = england;
     }
-    
-  return (
-    <div className='select-language'>
-        <div className='selected-language'>
-            <img src={flag} alt="" />
-            {dataLocalStorage.getLanguage() || 'EN'}
-        </div>
 
-        <div className="dropdown">
-            {languages.map((thisLang, i) => {
-                return (
-                    <SingleLanguage
-                    value={thisLang.value}
-                    key={i}
-                    handleLanguageChange={() =>
-                      handleLanguageChange(thisLang.lang, thisLang.value)
-                    }
-                    styles={thisLang.value === language && 'selected'}
-                    language={thisLang.lang}
-                    flag={thisLang.flag}
-                  ></SingleLanguage>
-                )
-            })}
+    return (
+        <div className='select-language'>
+            <div className='selected-language'>
+                <img src={flag} alt="" />
+                {dataLocalStorage.getLanguage() || 'EN'}
+            </div>
+
+            <div className="dropdown">
+                {languages.map((thisLang, i) => {
+                    return (
+                        <SingleLanguage
+                            value={thisLang.value}
+                            key={i}
+                            handleLanguageChange={() =>
+                                handleLanguageChange(thisLang.lang, thisLang.value)
+                            }
+                            styles={thisLang.value === language && 'selected'}
+                            language={thisLang.lang}
+                            flag={thisLang.flag}
+                        ></SingleLanguage>
+                    )
+                })}
+            </div>
         </div>
-    </div>
-  )
+    )
 }
 
 export default SelectLanguage
