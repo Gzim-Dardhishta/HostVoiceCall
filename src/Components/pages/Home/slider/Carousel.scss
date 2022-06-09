@@ -77,4 +77,19 @@
   }
 }
 
+body.dark-mode{
+  .business-carousel{
+    .carousel-indicators{
+      button{
+        background-color: #fff;
+      }
+
+      .carousel-indicatoractive{
+        background-color: #6C3DFF;
+        padding: 4px 17.5px;
+      }
+    }
+  }
+}
+
 

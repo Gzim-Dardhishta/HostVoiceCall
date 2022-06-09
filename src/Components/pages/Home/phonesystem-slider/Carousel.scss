@@ -1,12 +1,10 @@
-
-
-.phone-carousel{
+.phone-carousel {
     margin: 0 auto;
     overflow: hidden;
     position: relative;
     z-index: 2;
     border-radius: 2em;
-    box-shadow:0 0 5px #d3d3d3;
+    box-shadow: 0 0 5px #d3d3d3;
 
 
     .phone-carousel-inner {
@@ -20,16 +18,17 @@
 
             width: 100%;
 
-            .card{
+            .card {
                 text-align: center;
                 padding: 2vw 2.8vw;
                 font-size: max(15px, .89vw);
 
-                .icon{
+                .icon {
                     margin: auto;
                     width: min(5em, 14vw);
                 }
-                .text{
+
+                .text {
                     margin: 5% 2%;
                     line-height: 1.5;
                 }
@@ -38,32 +37,47 @@
     }
 }
 
-.phone-carousel-indicators{
+.phone-carousel-indicators {
     width: 20%;
-    margin:auto;
+    margin: auto;
     margin-top: 2em;
     display: flex;
+
     @media(max-width:768px) {
         margin-right: 50%;
     }
 
 
-    button{
+    button {
         cursor: pointer;
         border: none;
         border-radius: 10px;
         background-color: #ddd;
         padding: 4px 10px;
         margin: 7px;
-        &:hover{
+
+        &:hover {
             transition: .5s ease-out;
             padding: 4px 18px;
             background-color: #6C3DFF;
         }
     }
-    
-    .phone-carousel-indicatoractive{
-      background-color: #6C3DFF;
-      padding: 4px 17.5px;
+
+    .phone-carousel-indicatoractive {
+        background-color: #6C3DFF;
+        padding: 4px 17.5px;
     }
-  }
+}
+
+
+body.dark-mode {
+    .phone-carousel {
+        -webkit-box-shadow: 0 0 10px #0E0024;
+        box-shadow: 0 0 10px #0E0024;
+
+        .phone-carousel-item{
+            background-image: linear-gradient(178.1deg, #211b53 8.5%, #171445 82.4%);
+            color: #fff;
+        }
+    }
+}

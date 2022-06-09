@@ -38,19 +38,19 @@ const Values = () => {
                             })} */}
                             <div className="service">
                                 <div className="contact-center">
-                                    <Headphones className='headphones'/>                                  
+                                    <Headphones className='c'/>                                  
                                 </div>
                                 <FormattedMessage id='contact' defaultMessage="Contact Center" />
                             </div>
                             <div className="service">
                                 <div className="shop">
-                                    <Shop />
+                                    <Shop className='s'/>
                                 </div>
                                 <FormattedMessage id='sell' defaultMessage="Sell" />
                             </div>
                             <div className="service">
                                 <div className="AI">
-                                    <Ai />
+                                    <Ai className='a'/>
                                 </div>
                                 <FormattedMessage id='ai' defaultMessage="AI-Powered" />
                             </div>

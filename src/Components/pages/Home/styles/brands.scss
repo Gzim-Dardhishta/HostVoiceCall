@@ -125,3 +125,22 @@
 
     }
 }
+
+body.dark-mode{
+    .brands{
+        color: #fff;
+
+        .happy-costumer{
+            .costumers{
+                .costumer{
+                    .author, .position{
+                        color: #a1a1a1;
+                    }
+                    a{
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}

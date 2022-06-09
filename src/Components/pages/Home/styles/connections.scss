@@ -5,7 +5,7 @@
 .connections {
     display: flex;
     justify-content: space-between;
-    margin: 5vw;
+    padding: 5vw;
 
     .info {
         width: 33vw;
@@ -182,7 +182,7 @@
                 position: absolute;
                 top: 83%;
                 right: 102%;
-                width: max(15vw,6em);
+                width: max(15vw, 6em);
             }
 
             // photos
@@ -201,7 +201,7 @@
 
             .border2 {
                 position: absolute;
-                top:8vh;
+                top: 8vh;
                 left: -24vw;
                 border-radius: 50%;
                 padding: 5px;
@@ -256,8 +256,8 @@
             .third-photo,
             .fourth-photo,
             .fifth-photo {
-                width: max(2.5em,5vw);
-                height:max(2.5em,5vw);
+                width: max(2.5em, 5vw);
+                height: max(2.5em, 5vw);
                 border-radius: 50%;
             }
 
@@ -320,56 +320,69 @@
         .container {
             margin: .5em .5em .5em 44%;
 
-            .images{
-                .first-arrow{
+            .images {
+                .first-arrow {
                     top: 14%;
                 }
-                .second-arrow{
+
+                .second-arrow {
                     width: max(20vw, 9.3em);
                 }
-                .third-arrow{
+
+                .third-arrow {
                     top: 19%;
                 }
-                .fourth-arrow{
+
+                .fourth-arrow {
                     top: 41%;
                 }
-                .fifth-arrow{
+
+                .fifth-arrow {
                     top: 51%;
                 }
-                .sixth-arrow{
+
+                .sixth-arrow {
                     top: 51.5%;
                 }
-                .seventh-arrow{
+
+                .seventh-arrow {
                     top: 52%;
                 }
-                .eighth-arrow{
+
+                .eighth-arrow {
                     top: 73%;
                 }
-                .ninth-arrow{
+
+                .ninth-arrow {
                     top: 86%;
                 }
-                .border1{
+
+                .border1 {
                     top: 2vh;
                     left: -20vh;
                 }
-                .border2{
+
+                .border2 {
                     top: 9vh;
-                    
+
                 }
-                .border3{
+
+                .border3 {
                     left: -20vw;
                 }
-                .border4{
+
+                .border4 {
                     top: 32vh;
                 }
+
                 .border5 {
                     top: 86%;
                     left: -21vw;
                 }
             }
 
-            .connection-type{
-                .connection-text{
+            .connection-type {
+                .connection-text {
                     font-size: 12px;
                     line-height: 15px;
                 }
@@ -378,23 +391,47 @@
     }
 }
 
-@media(max-width:550px){
-    .connections{
-        .container{
-            .images{
-                .border2{
+@media(max-width:550px) {
+    .connections {
+        .container {
+            .images {
+                .border2 {
                     left: -41vw;
                 }
-                .border3{
+
+                .border3 {
                     top: 20vh;
                     left: -40vw;
                 }
-                .border4{
+
+                .border4 {
                     left: -41vw;
                 }
-                .border5{
+
+                .border5 {
                     left: -29vw;
                 }
+            }
+        }
+    }
+}
+
+
+body.dark-mode {
+    .connections {
+        background-color: #0E0024;
+
+        .info {
+            color: #fff;
+        }
+
+        .connection-type {
+            color: #fff;
+
+            .icons {
+                background-image: linear-gradient(178.1deg, #211b53 8.5%, #171445 82.4%);
+                -webkit-box-shadow: 0 0 10px #0E0024;
+                box-shadow: 0 0 10px #0E0024;
             }
         }
     }

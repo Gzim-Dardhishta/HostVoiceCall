@@ -4,7 +4,7 @@ import { FormattedMessage } from 'react-intl';
 
 const CarouselItems = ({ slide }) => {
     return (
-        <div className="review-card">
+        <div className="review-card" data-aos="flip-left">
             <div className="head">
                 <div className="border">
                     <div className="photo" style={{ content: `url(${slide.photo})` }}></div>

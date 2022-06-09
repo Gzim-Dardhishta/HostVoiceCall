@@ -7,19 +7,19 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.App{
+.App {
     overflow: hidden;
 }
 
-.login-component{
+.login-component {
     margin-top: 7.5em;
     display: flex;
     padding-top: 4em;
     padding-bottom: 12em;
 
     position: relative;
-    
-    .video-meeting{
+
+    .video-meeting {
         position: absolute;
         left: 45%;
         width: 75%;
@@ -28,79 +28,91 @@
         box-shadow: 0 0 20px #ddd;
         -webkit-box-shadow: 0 0 20px #ddd;
         border-radius: 2.5vw;
-        .bg-image{
+
+        .bg-image {
             background-image: url('../../../../assets/LogIn/meeting-image.png');
             background-size: cover;
             border-radius: 2vw;
             width: 100%;
             position: relative;
-            .photo1{
+
+            .photo1 {
                 position: absolute;
                 top: -15%;
                 left: 10%;
                 padding: 1vw;
                 border-radius: 50%;
                 background-color: #fff;
-                .photo{
+
+                .photo {
                     content: url("../../../../assets/LogIn/photo1.png");
                     width: min(5.8em, 8.5vw);
                 }
             }
-            .photo2{
+
+            .photo2 {
                 position: absolute;
                 top: -15%;
                 left: 26%;
                 padding: 1vw;
                 border-radius: 50%;
                 background-color: #fff;
-                .photo{
+
+                .photo {
                     content: url("../../../../assets/LogIn/photo2.png");
                     width: min(5.8em, 8.5vw);
                 }
             }
-            .photo3{
+
+            .photo3 {
                 position: absolute;
                 top: -15%;
                 left: 43%;
                 padding: 1vw;
                 border-radius: 50%;
                 background-color: #fff;
-                .photo{
+
+                .photo {
                     content: url("../../../../assets/LogIn/photo3.png");
                     width: min(5.8em, 8.5vw);
                 }
             }
 
-            .content{
+            .content {
                 padding-top: 10vw;
                 padding-bottom: 3vw;
                 margin-left: 4%;
 
-                .signal{
+                .signal {
                     background-color: #6C3DFF;
                     border-radius: 1.2vw;
                     width: fit-content;
-                    .icon{
+
+                    .icon {
                         content: url("../../../../assets/LogIn/signals.svg");
                         width: min(3.5em, 5vw);
                         height: min(3.5em, 5vw);
                         padding: min(.9em, 1vw);
-                        
+
                     }
                 }
 
-                .name, .company, .location{
+                .name,
+                .company,
+                .location {
                     font-size: min(16px, 1.4vw);
                     margin-top: .85em;
                 }
-                .location{
+
+                .location {
                     margin-bottom: 1em;
                 }
-                
-                .tools{
+
+                .tools {
                     display: flex;
                     gap: 2em;
-                    .microphone{
+
+                    .microphone {
                         content: url("../../../../assets/LogIn/microphone1.svg");
                         padding: 1em;
                         background-color: rgba(220, 219, 219, 0.7);
@@ -111,8 +123,9 @@
                     }
 
                     .dots {
-                        border-radius: 1.2em;                            
-                        .dot{
+                        border-radius: 1.2em;
+
+                        .dot {
                             content: url("../../../../assets/LogIn/dots.svg");
                             width: min(3em, 5vw);
                             height: min(3em, 5vw);
@@ -120,90 +133,101 @@
                     }
                 }
 
-                .play{
+                .play {
                     display: flex;
                     gap: 1em;
                     margin-top: 1.5em;
 
-                    .recording, .lock, .vi-enable{
+                    .recording,
+                    .lock,
+                    .vi-enable {
                         display: flex;
                         align-items: center;
                         padding: .3em 1.5em;
                         font-size: min(16px, 1.5vw);
                         width: fit-content;
                         border-radius: 2em;
-                        .icon{
+
+                        .icon {
                             width: min(1.3em, 5vw);
                         }
                     }
-                    .recording{
+
+                    .recording {
                         background-color: #FECBE3;
-                        .icon{
+
+                        .icon {
                             content: url("../../../../assets/LogIn/recording.svg");
                             margin-right: 1em;
                         }
                     }
-                    .lock{
+
+                    .lock {
                         background-color: #ECECEC;
-                        .icon{
+
+                        .icon {
                             content: url("../../../../assets/LogIn/lock.svg");
                             margin-right: 1em;
                         }
                     }
-                    .vi-enable{
+
+                    .vi-enable {
                         background-color: #EDFC7D;
                     }
                 }
-                
+
 
             }
 
 
-            .app-card{
+            .app-card {
                 background-color: #fff;
                 -webkit-box-shadow: 0 0 20px #ddd;
                 box-shadow: 0 0 20px #ddd;
                 width: max(25em, 35vw);
                 padding: 2%;
                 border-radius: 2em;
-                position: absolute;  
+                position: absolute;
                 top: 115%;
                 left: -10%;
-                .host-app{
-                
+
+                .host-app {
+
                     position: relative;
-                    .logo-container{
+
+                    .logo-container {
                         display: flex;
                         align-items: center;
-                        .logo{
+
+                        .logo {
                             margin-right: .7em;
                         }
-                
-                        h6{
+
+                        h6 {
                             font-size: max(1.1vw, 15px);
                             font-weight: 400;
                         }
                     }
-                
-                    .description-text{
+
+                    .description-text {
                         font-size: max(14px, 1vw);
                         margin: 2em 0;
                     }
-                
-                    .icons{
+
+                    .icons {
                         display: flex;
                         gap: 1.5vw;
                         position: absolute;
-                
-                        .border{
+
+                        .border {
                             padding: max(1.2vw, .85em);
                             border-radius: 1.7em;
                             background-color: #fff;
                             box-shadow: 0 0 20px #ddd;
                             display: flex;
                             align-items: center;
-            
-                            .icon{
+
+                            .icon {
                                 width: max(1em, 1.85vw);
                             }
                         }
@@ -212,143 +236,176 @@
             }
         }
 
-        .buttons{
+        .buttons {
             display: flex;
             justify-content: space-between;
             align-items: center;
             margin-top: 3%;
+
             .left-buttons {
                 display: flex;
                 gap: .5em;
-                
-                .info, .message, .meet, .radio, .help {
+
+                .info,
+                .message,
+                .meet,
+                .radio,
+                .help {
                     display: flex;
                     align-items: center;
                     border-radius: 1em;
                     background-color: #fff;
                     box-shadow: 1px 1px 1px 1px #f2f2f2;
-                    .icon{
+
+                    .icon {
                         width: min(3em, 4vw);
                         height: min(3em, 4vw);
                         padding: min(.8em, 1vw);
                     }
 
                 }
-                .info{
-                    .icon{
+
+                .info {
+                    .icon {
                         content: url("../../../../assets/LogIn/button1.svg");
                         margin: auto;
                     }
                 }
-                .message{
-                    .icon{
+
+                .message {
+                    .icon {
                         content: url("../../../../assets/LogIn/button2.svg");
                         margin: auto;
                     }
                 }
-                .meet{
-                    .icon{
+
+                .meet {
+                    .icon {
                         content: url("../../../../assets/LogIn/button3.svg");
                         margin: auto;
                     }
                 }
-                .radio{
-                    .icon{
+
+                .radio {
+                    .icon {
                         content: url("../../../../assets/LogIn/button4.svg");
                         margin: auto;
                     }
                 }
-                .help{
-                    .icon{
+
+                .help {
+                    .icon {
                         content: url("../../../../assets/LogIn/button5.svg");
                         margin: auto;
                     }
                 }
             }
 
-            .middle-buttons{
+            .middle-buttons {
                 display: flex;
                 gap: .5em;
-                .microphone, .video, .stop, .screen, .headphones {
+
+                .microphone,
+                .video,
+                .stop,
+                .screen,
+                .headphones {
                     display: flex;
                     align-items: center;
                     border-radius: 1em;
                     background-color: #fff;
                     box-shadow: 1px 1px 1px 1px #f2f2f2;
-                    .icon{
+
+                    .icon {
                         width: min(3em, 4vw);
                         height: min(3em, 4vw);
                         padding: min(.8em, 1vw);
                     }
                 }
-                .microphone{
-                    .icon{
+
+                .microphone {
+                    .icon {
                         content: url("../../../../assets/LogIn/button6.svg");
                         margin: auto;
                     }
                 }
-                .video{
-                    .icon{
+
+                .video {
+                    .icon {
                         content: url("../../../../assets/LogIn/button7.svg");
                         margin: auto;
                     }
                 }
-                .stop{
-                    .icon{
+
+                .stop {
+                    .icon {
                         content: url("../../../../assets/LogIn/button8.svg");
                         margin: auto;
                     }
+
                     background-color: #e60000;
                 }
-                .screen{
-                    .icon{
+
+                .screen {
+                    .icon {
                         content: url("../../../../assets/LogIn/button9.svg");
                         margin: auto;
                     }
                 }
-                .headphones{
-                    .icon{
+
+                .headphones {
+                    .icon {
                         content: url("../../../../assets/LogIn/button10.svg");
                         margin: auto;
                     }
                 }
             }
-            .right-buttons{
+
+            .right-buttons {
                 display: flex;
                 gap: .5em;
-                .emoji, .lines, .pen, .check {
+
+                .emoji,
+                .lines,
+                .pen,
+                .check {
                     display: flex;
                     align-items: center;
                     border-radius: 1em;
                     background-color: #fff;
                     box-shadow: 1px 1px 1px 1px #f2f2f2;
-                    .icon{
+
+                    .icon {
                         width: min(3em, 4vw);
                         height: min(3em, 4vw);
                         padding: min(.8em, 1vw);
                     }
 
                 }
-                .emoji{
-                    .icon{
+
+                .emoji {
+                    .icon {
                         content: url("../../../../assets/LogIn/button11.svg");
                         margin: auto;
                     }
                 }
-                .lines{
-                    .icon{
+
+                .lines {
+                    .icon {
                         content: url("../../../../assets/LogIn/button12.svg");
                         margin: auto;
                     }
                 }
-                .pen{
-                    .icon{
+
+                .pen {
+                    .icon {
                         content: url("../../../../assets/LogIn/button13.svg");
                         margin: auto;
                     }
                 }
-                .check{
-                    .icon{
+
+                .check {
+                    .icon {
                         content: url("../../../../assets/LogIn/button14.svg");
                         margin: auto;
                     }
@@ -358,7 +415,7 @@
     }
 }
 
-.form-container{
+.form-container {
     margin: max(4em, 7vw);
     margin-top: 2%;
     margin-left: 4%;
@@ -370,41 +427,48 @@
     border-radius: 2em;
     width: max(21em, 35vw);
 
-    @media(max-width:400px){
+    @media(max-width:400px) {
         padding: 2.5em 1.4em;
     }
 
 
-    .form-title{
+    .form-title {
         font-size: max(24px, 2vw);
         font-weight: 400;
     }
-    .welcome-text{
+
+    .welcome-text {
         width: 80%;
         margin: 1em 0;
     }
 
-    form{
-        .input-container{
-            label{
+    form {
+        .input-container {
+            label {
                 font-size: max(14px, 1vw);
             }
-            .inner-input-container{
+
+            .inner-input-container {
                 margin: 1em 0;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
                 outline: 1px solid #ddd;
-                padding: max(1em, 1.3vw);
+                padding: 0 20px;
                 border-radius: 2em;
-                span{
+
+                span {
                     margin-right: 1em;
                 }
-                input{
+
+                input {
                     flex: 1;
                     outline: none;
                     border: none;
+                    height: 4em;
+                    background: inherit;
                 }
+
                 input.form-input:-webkit-autofill,
                 input.form-input:-webkit-autofill:hover,
                 input.form-input:-webkit-autofill:focus,
@@ -418,31 +482,34 @@
             }
         }
 
-        .agree-terms{
+        .agree-terms {
             display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 1em 0;
-            #keep-logged{
+
+            #keep-logged {
                 margin-right: .4em;
             }
-            .form-label-checkbox{
+
+            .form-label-checkbox {
                 font-size: max(13px, .89vw);
             }
 
-            .link{
+            .link {
                 color: #0080FF;
                 font-size: max(13px, .89vw);
             }
         }
 
-        .button-container{
+        .button-container {
             margin-top: 1em;
             text-align: center;
             padding: 1em 0;
             background-color: #6C3DFF;
             border-radius: 2em;
-            .submit-button{
+
+            .submit-button {
                 border: none;
                 background-color: inherit;
                 color: #fff;
@@ -450,14 +517,15 @@
             }
         }
 
-        .signup-link{
+        .signup-link {
             margin: 1.5em 0;
             margin-bottom: 0;
             display: flex;
             justify-content: center;
             gap: 10px;
             font-size: max(14px, .89vw);
-            a{
+
+            a {
                 color: #0080FF;
             }
         }
@@ -465,26 +533,187 @@
 }
 
 
-@media(max-width: 880px){
-    .login-component{
+@media(max-width: 880px) {
+    .login-component {
         display: block;
         margin-bottom: 90vw;
 
-        .form-container{
+        .form-container {
             width: 90%;
             margin: auto;
         }
 
-        .video-meeting{
+        .video-meeting {
             left: 5%;
             width: 90%;
             margin-top: 3em;
-            .bg-image{
-                .app-card{
+
+            .bg-image {
+                .app-card {
                     top: 120%;
                     left: 5%;
                     width: 90%;
                     padding: 1.8em;
+                }
+            }
+        }
+    }
+}
+
+body.dark-mode {
+    .login-component {
+        .form-container {
+            color: #fff;
+            background-image: linear-gradient(178.1deg, #211b53 8.5%, #171445 82.4%);
+            -webkit-box-shadow: 0 0 10px #0E0024;
+            box-shadow: 0 0 10px #0E0024;
+
+            input.form-input:-webkit-autofill,
+            input.form-input:-webkit-autofill:hover,
+            input.form-input:-webkit-autofill:focus,
+            input.form-input:-webkit-autofill:active {
+                transition: background-color 5000s ease-in-out 0s;
+                -webkit-transition: background-color 5000s ease-in-out 0s;
+                -webkit-box-shadow: 0 0 0px 1000px rgb(30, 25, 79) inset;
+                box-shadow: 0 0 0px 1000px rgb(30, 25, 79) inset;
+                -webkit-text-fill-color: #fff !important;
+            }
+
+            input {
+                color: #fff;
+            }
+
+            span {
+                filter: brightness(0) invert(1);
+                -webkit-filter: brightness(0) invert(1);
+            }
+        }
+
+        .video-meeting {
+            background-image: linear-gradient(178.1deg, #211b53 8.5%, #171445 82.4%);
+            -webkit-box-shadow: 0 0 10px #0E0024;
+            box-shadow: 0 0 10px #0E0024;
+
+            .bg-image {
+
+                .photo1,
+                .photo2,
+                .photo3 {
+                    background-image: linear-gradient(178.1deg, #211b53 8.5%, #171445 82.4%);
+                }
+
+                .app-card {
+                    background-image: linear-gradient(178.1deg, #211b53 8.5%, #171445 82.4%);
+                    -webkit-box-shadow: 0 0 10px #0E0024;
+                    box-shadow: 0 0 10px #0E0024;
+                    color: #fff;
+
+                    .logo {
+                        filter: brightness(0) invert(1);
+                        -webkit-filter: brightness(0) invert(1);
+                    }
+
+                    .icons{
+                        .border {
+                            background-image: linear-gradient(178.1deg, #211b53 8.5%, #171445 82.4%);
+                            -webkit-box-shadow: 0 0 10px #0E0024;
+                            box-shadow: 0 0 10px #0E0024;
+                        }
+                    }
+                }
+            }
+
+            .buttons {
+                .left-buttons {
+
+                    .info,
+                    .message,
+                    .meet,
+                    .radio,
+                    .help {
+                        background-image: linear-gradient(178.1deg, #211b53 8.5%, #171445 82.4%);
+                        -webkit-box-shadow: 0 0 10px #0E0024;
+                        box-shadow: 0 0 10px #0E0024;
+                    }
+
+                    .info {
+                        .icon {
+                            content: url("../../../../assets/Home/meetings/button1-white.svg");
+                        }
+                    }
+
+                    .message .icon {
+                        content: url("../../../../assets/Home/meetings/button2-white.svg");
+                    }
+
+                    .meet .icon {
+                        content: url("../../../../assets/Home/meetings/b3-white.svg");
+                    }
+
+                    .radio .icon {
+                        content: url("../../../../assets/Home/meetings/b4-white.svg");
+                    }
+
+                    .help .icon {
+                        content: url("../../../../assets/Home/meetings/b5-white.svg");
+                    }
+                }
+
+                .middle-buttons {
+
+                    .microphone,
+                    .video,
+                    .stop,
+                    .screen,
+                    .headphones {
+                        background-image: linear-gradient(178.1deg, #211b53 8.5%, #171445 82.4%);
+                        -webkit-box-shadow: 0 0 10px #0E0024;
+                        box-shadow: 0 0 10px #0E0024;
+                    }
+
+                    .microphone .icon {
+                        content: url("../../../../assets/Home/meetings/b6-white.svg");
+                    }
+
+                    .video .icon {
+                        content: url("../../../../assets/Home/meetings/b7-white.svg");
+                    }
+
+                    .screen .icon {
+                        content: url("../../../../assets/Home/meetings/b9-white.svg");
+                    }
+
+                    .headphones .icon {
+                        content: url("../../../../assets/Home/meetings/b10-white.svg");
+                    }
+                }
+
+                .right-buttons {
+
+                    .emoji,
+                    .lines,
+                    .pen,
+                    .check {
+                        background-image: linear-gradient(178.1deg, #211b53 8.5%, #171445 82.4%);
+                        -webkit-box-shadow: 0 0 10px #0E0024;
+                        box-shadow: 0 0 10px #0E0024;
+                    }
+
+                    .emoji .icon {
+                        content: url("../../../../assets/Home/meetings/b11-white.svg");
+                    }
+
+                    .lines .icon {
+                        content: url("../../../../assets/Home/meetings/b12-white.svg");
+                    }
+
+                    .pen .icon {
+                        content: url("../../../../assets/Home/meetings/b13-white.svg");
+                    }
+
+                    .check .icon {
+                        content: url("../../../../assets/Home/meetings/b14-white.svg");
+                    }
                 }
             }
         }

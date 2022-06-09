@@ -1,8 +1,8 @@
-.home{
+.home {
     overflow: hidden;
 }
 
-.meetings{
+.meetings {
     margin: 0 3%;
     margin-top: 30em;
 
@@ -10,85 +10,97 @@
         display: flex;
         justify-content: space-between;
 
-        .video-meeting{
+        .video-meeting {
             width: 72%;
             padding: 2% 3%;
             background-color: #fff;
             box-shadow: 1px 1px 1px 2px #f2f2f2;
             border-radius: 2.5vw;
-            .bg-image{
+
+            .bg-image {
                 background-image: url('../../../../assets/Home/meetings/meeting-image.png');
                 background-size: cover;
                 border-radius: 2vw;
                 width: 100%;
                 position: relative;
-                .photo1{
+
+                .photo1 {
                     position: absolute;
                     top: -15%;
                     left: 10%;
                     padding: 1vw;
                     border-radius: 50%;
                     background-color: #fff;
-                    .photo{
+
+                    .photo {
                         content: url("../../../../assets/Home/meetings/photo1.png");
                         width: min(5.8em, 8.5vw);
                     }
                 }
-                .photo2{
+
+                .photo2 {
                     position: absolute;
                     top: -15%;
                     left: 26%;
                     padding: 1vw;
                     border-radius: 50%;
                     background-color: #fff;
-                    .photo{
+
+                    .photo {
                         content: url("../../../../assets/Home/meetings/photo2.png");
                         width: min(5.8em, 8.5vw);
                     }
                 }
-                .photo3{
+
+                .photo3 {
                     position: absolute;
                     top: -15%;
                     left: 43%;
                     padding: 1vw;
                     border-radius: 50%;
                     background-color: #fff;
-                    .photo{
+
+                    .photo {
                         content: url("../../../../assets/Home/meetings/photo3.png");
                         width: min(5.8em, 8.5vw);
                     }
                 }
 
-                .content{
+                .content {
                     padding-top: 10vw;
                     padding-bottom: 3vw;
                     margin-left: 4%;
 
-                    .signal{
+                    .signal {
                         background-color: #6C3DFF;
                         border-radius: 1.2vw;
                         width: fit-content;
-                        .icon{
+
+                        .icon {
                             content: url("../../../../assets/Home/meetings/signals.svg");
                             width: min(3.5em, 5vw);
                             height: min(3.5em, 5vw);
                             padding: min(.9em, 1vw);
-                            
+
                         }
                     }
 
-                    .name, .company, .location{
+                    .name,
+                    .company,
+                    .location {
                         font-size: min(16px, 1.4vw);
                         margin-top: .85em;
                     }
-                    .location{
+
+                    .location {
                         margin-bottom: 1em;
                     }
-                    
-                    .tools{
+
+                    .tools {
                         display: flex;
                         gap: 2em;
-                        .microphone{
+
+                        .microphone {
                             content: url("../../../../assets/Home/meetings/microphone1.svg");
                             padding: 1em;
                             background-color: rgba(220, 219, 219, 0.7);
@@ -99,8 +111,9 @@
                         }
 
                         .dots {
-                            border-radius: 1.2em;                            
-                            .dot{
+                            border-radius: 1.2em;
+
+                            .dot {
                                 content: url("../../../../assets/Home/meetings/dots.svg");
                                 width: min(3em, 5vw);
                                 height: min(3em, 5vw);
@@ -108,182 +121,223 @@
                         }
                     }
 
-                    .play{
+                    .play {
                         display: flex;
                         gap: 1em;
                         margin-top: 1.5em;
 
-                        .recording, .lock, .vi-enable{
+                        .recording,
+                        .lock,
+                        .vi-enable {
                             display: flex;
                             align-items: center;
                             padding: .3em 1.5em;
                             font-size: min(16px, 1.5vw);
                             width: fit-content;
                             border-radius: 2em;
-                            .icon{
+
+                            .icon {
                                 width: min(1.3em, 5vw);
                             }
                         }
-                        .recording{
+
+                        .recording {
                             background-color: #FECBE3;
-                            .icon{
+
+                            .icon {
                                 content: url("../../../../assets/Home/meetings/recording.svg");
                                 margin-right: 1em;
                             }
                         }
-                        .lock{
+
+                        .lock {
                             background-color: #ECECEC;
-                            .icon{
+
+                            .icon {
                                 content: url("../../../../assets/Home/meetings/lock.svg");
                                 margin-right: 1em;
                             }
                         }
-                        .vi-enable{
+
+                        .vi-enable {
                             background-color: #EDFC7D;
                         }
                     }
-                    
+
 
                 }
             }
 
-            .buttons{
+            .buttons {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
                 margin-top: 3%;
+
                 .left-buttons {
                     display: flex;
                     gap: .5em;
-                    
-                    .info, .message, .meet, .radio, .help {
+
+                    .info,
+                    .message,
+                    .meet,
+                    .radio,
+                    .help {
                         display: flex;
                         align-items: center;
                         border-radius: 1em;
                         background-color: #fff;
                         box-shadow: 1px 1px 1px 1px #f2f2f2;
-                        .icon{
+
+                        .icon {
                             width: min(3em, 4vw);
                             height: min(3em, 4vw);
                             padding: min(.8em, 1vw);
                         }
 
                     }
-                    .info{
-                        .icon{
+
+                    .info {
+                        .icon {
                             content: url("../../../../assets/Home/meetings/button1.svg");
                             margin: auto;
                         }
                     }
-                    .message{
-                        .icon{
+
+                    .message {
+                        .icon {
                             content: url("../../../../assets/Home/meetings/button2.svg");
                             margin: auto;
                         }
                     }
-                    .meet{
-                        .icon{
+
+                    .meet {
+                        .icon {
                             content: url("../../../../assets/Home/meetings/button3.svg");
                             margin: auto;
                         }
                     }
-                    .radio{
-                        .icon{
+
+                    .radio {
+                        .icon {
                             content: url("../../../../assets/Home/meetings/button4.svg");
                             margin: auto;
                         }
                     }
-                    .help{
-                        .icon{
+
+                    .help {
+                        .icon {
                             content: url("../../../../assets/Home/meetings/button5.svg");
                             margin: auto;
                         }
                     }
                 }
 
-                .middle-buttons{
+                .middle-buttons {
                     display: flex;
                     gap: .5em;
-                    .microphone, .video, .stop, .screen, .headphones {
+
+                    .microphone,
+                    .video,
+                    .stop,
+                    .screen,
+                    .headphones {
                         display: flex;
                         align-items: center;
                         border-radius: 1em;
                         background-color: #fff;
                         box-shadow: 1px 1px 1px 1px #f2f2f2;
-                        .icon{
+
+                        .icon {
                             width: min(3em, 4vw);
                             height: min(3em, 4vw);
                             padding: min(.8em, 1vw);
                         }
                     }
-                    .microphone{
-                        .icon{
+
+                    .microphone {
+                        .icon {
                             content: url("../../../../assets/Home/meetings/button6.svg");
                             margin: auto;
                         }
                     }
-                    .video{
-                        .icon{
+
+                    .video {
+                        .icon {
                             content: url("../../../../assets/Home/meetings/button7.svg");
                             margin: auto;
                         }
                     }
-                    .stop{
-                        .icon{
+
+                    .stop {
+                        .icon {
                             content: url("../../../../assets/Home/meetings/button8.svg");
                             margin: auto;
                         }
+
                         background-color: #e60000;
                     }
-                    .screen{
-                        .icon{
+
+                    .screen {
+                        .icon {
                             content: url("../../../../assets/Home/meetings/button9.svg");
                             margin: auto;
                         }
                     }
-                    .headphones{
-                        .icon{
+
+                    .headphones {
+                        .icon {
                             content: url("../../../../assets/Home/meetings/button10.svg");
                             margin: auto;
                         }
                     }
                 }
-                .right-buttons{
+
+                .right-buttons {
                     display: flex;
                     gap: .5em;
-                    .emoji, .lines, .pen, .check {
+
+                    .emoji,
+                    .lines,
+                    .pen,
+                    .check {
                         display: flex;
                         align-items: center;
                         border-radius: 1em;
                         background-color: #fff;
                         box-shadow: 1px 1px 1px 1px #f2f2f2;
-                        .icon{
+
+                        .icon {
                             width: min(3em, 4vw);
                             height: min(3em, 4vw);
                             padding: min(.8em, 1vw);
                         }
 
                     }
-                    .emoji{
-                        .icon{
+
+                    .emoji {
+                        .icon {
                             content: url("../../../../assets/Home/meetings/button11.svg");
                             margin: auto;
                         }
                     }
-                    .lines{
-                        .icon{
+
+                    .lines {
+                        .icon {
                             content: url("../../../../assets/Home/meetings/button12.svg");
                             margin: auto;
                         }
                     }
-                    .pen{
-                        .icon{
+
+                    .pen {
+                        .icon {
                             content: url("../../../../assets/Home/meetings/button13.svg");
                             margin: auto;
                         }
                     }
-                    .check{
-                        .icon{
+
+                    .check {
+                        .icon {
                             content: url("../../../../assets/Home/meetings/button14.svg");
                             margin: auto;
                         }
@@ -294,7 +348,7 @@
 
 
 
-        .phone-meeting{
+        .phone-meeting {
             width: 25%;
             background-color: #fff;
             box-shadow: 1px 1px 1px 2px #f2f2f2;
@@ -303,90 +357,107 @@
             justify-content: center;
             font-size: max(15px, .9vw);
 
-            .info{
+            .info {
                 width: 100%;
-                .call{
+
+                .call {
                     margin-top: 2.7vw;
                     margin-bottom: 1.8vw;
                     text-align: center;
                 }
-                .support{
+
+                .support {
                     display: flex;
                     justify-content: center;
                     gap: 1em;
                     margin-bottom: 1em;
-                    .flag-icon{
+
+                    .flag-icon {
                         content: url("../../../../assets/Home/meetings/england.png");
                         width: min(2em, 4vw);
                     }
                 }
-                .circle1{
+
+                .circle1 {
                     margin: auto;
                     width: fit-content;
                     padding: 1.1em;
                     background-color: #e2dbfb;
                     border-radius: 50%;
-                    .circle2{
+
+                    .circle2 {
                         width: fit-content;
                         padding: 1.3em;
                         background-color: #ccbcfa;
                         border-radius: 50%;
-                        .image{
+
+                        .image {
                             content: url("../../../../assets/Home/meetings/photo4.png");
                             width: min(5.8em, 8.5vw);
                         }
                     }
                 }
-                .name{
+
+                .name {
                     text-align: center;
                     margin: 1.3em 0;
                 }
-                .number{
+
+                .number {
                     text-align: center;
                 }
-                .description{
+
+                .description {
                     text-align: center;
                     margin: 1em 0;
                     margin-bottom: 2em;
                 }
 
-                .buttons{
+                .buttons {
                     display: flex;
                     justify-content: space-around;
-                    .inner{
+
+                    .inner {
                         cursor: pointer;
                         background-color: #fff;
                         padding: min(.8em, 1vw);
-                        box-shadow: 1px 1px 1px 2px #f2f2f2;
+                        // box-shadow: 1px 1px 1px 2px #f2f2f2;
+                        -webkit-box-shadow: 0 0 10px #f3f3f3;
+                        box-shadow: 0 0 10px #f3f3f3;
                         display: flex;
                         justify-content: center;
                         align-items: center;
                         border-radius: 1em;
                     }
-                    .reject{
-                        .icon{
+
+                    .reject {
+                        .icon {
                             content: url("../../../../assets/Home/meetings/reject.svg");
                             width: min(2.5em, 5vw);
                         }
-                        &:hover{
-                            .response{
+
+                        &:hover {
+                            .response {
                                 visibility: visible;
                             }
                         }
                     }
-                    .answer{
-                        .icon{
+
+                    .answer {
+                        .icon {
                             content: url("../../../../assets/Home/meetings/answer.svg");
                             width: min(2em, 5vw);
                             margin: min(.24em, 1vw);
                         }
-                        &:hover{
-                            .response{
+
+                        &:hover {
+                            .response {
                                 visibility: visible;
                             }
                         }
                     }
-                    .response{
+
+                    .response {
                         text-align: center;
                         margin-top: 2vw;
                         visibility: hidden;
@@ -395,25 +466,27 @@
             }
         }
 
-        @media (max-width: 1110px){
+        @media (max-width: 1110px) {
             display: block;
-            .video-meeting{
+
+            .video-meeting {
                 width: 100%;
                 margin-bottom: 5vw;
             }
-            .phone-meeting{
+
+            .phone-meeting {
                 width: 70%;
                 margin: auto;
             }
         }
     }
 
-    .about-meetings{
+    .about-meetings {
         display: flex;
         justify-content: space-between;
         margin-top: 4em;
 
-        .card{
+        .card {
             width: 30%;
             display: flex;
             align-items: center;
@@ -428,28 +501,179 @@
                 align-items: center;
                 margin-right: 2vw;
                 padding: 1em;
-                
-                
-                .icon{
+
+
+                .icon {
                     width: max(1.5em, 2vw);
                     height: max(1.5em, 2vw);
                 }
             }
-            .block{
-                .title, .text{
+
+            .block {
+
+                .title,
+                .text {
                     font-size: max(15px, 0.9vw);
                 }
-                .title{
+
+                .title {
                     margin-bottom: .5em;
                 }
             }
         }
-        @media (max-width: 850px){
+
+        @media (max-width: 850px) {
             display: block;
-            .card{
+
+            .card {
                 width: 90%;
                 margin: auto;
                 margin-bottom: 2em;
+            }
+        }
+    }
+}
+
+body.dark-mode {
+    .meetings {
+        .meeting-type {
+
+            .video-meeting,
+            .phone-meeting {
+                background-image: linear-gradient(178.1deg, #211b53 8.5%, #171445 82.4%);
+                -webkit-box-shadow: 0 0 10px #0E0024;
+                box-shadow: 0 0 10px #0E0024;
+            }
+
+            .video-meeting {
+
+                .bg-image {
+
+                    .photo1,
+                    .photo2,
+                    .photo3 {
+                        background-image: linear-gradient(178.1deg, #211b53 8.5%, #171445 82.4%);
+                    }
+                }
+
+                .buttons {
+                    .left-buttons {
+
+                        .info,
+                        .message,
+                        .meet,
+                        .radio,
+                        .help {
+                            background-image: linear-gradient(178.1deg, #211b53 8.5%, #171445 82.4%);
+                            -webkit-box-shadow: 0 0 10px #0E0024;
+                            box-shadow: 0 0 10px #0E0024;
+                        }
+
+                        .info {
+                            .icon {
+                                content: url("../../../../assets/Home/meetings/button1-white.svg");
+                            }
+                        }
+
+                        .message .icon {
+                            content: url("../../../../assets/Home/meetings/button2-white.svg");
+                        }
+
+                        .meet .icon {
+                            content: url("../../../../assets/Home/meetings/b3-white.svg");
+                        }
+
+                        .radio .icon {
+                            content: url("../../../../assets/Home/meetings/b4-white.svg");
+                        }
+
+                        .help .icon {
+                            content: url("../../../../assets/Home/meetings/b5-white.svg");
+                        }
+                    }
+
+                    .middle-buttons {
+
+                        .microphone,
+                        .video,
+                        .stop,
+                        .screen,
+                        .headphones {
+                            background-image: linear-gradient(178.1deg, #211b53 8.5%, #171445 82.4%);
+                            -webkit-box-shadow: 0 0 10px #0E0024;
+                            box-shadow: 0 0 10px #0E0024;
+                        }
+
+                        .microphone .icon {
+                            content: url("../../../../assets/Home/meetings/b6-white.svg");
+                        }
+
+                        .video .icon {
+                            content: url("../../../../assets/Home/meetings/b7-white.svg");
+                        }
+
+                        .screen .icon {
+                            content: url("../../../../assets/Home/meetings/b9-white.svg");
+                        }
+
+                        .headphones .icon {
+                            content: url("../../../../assets/Home/meetings/b10-white.svg");
+                        }
+                    }
+
+                    .right-buttons {
+
+                        .emoji,
+                        .lines,
+                        .pen,
+                        .check {
+                            background-image: linear-gradient(178.1deg, #211b53 8.5%, #171445 82.4%);
+                            -webkit-box-shadow: 0 0 10px #0E0024;
+                            box-shadow: 0 0 10px #0E0024;
+                        }
+
+                        .emoji .icon {
+                            content: url("../../../../assets/Home/meetings/b11-white.svg");
+                        }
+
+                        .lines .icon {
+                            content: url("../../../../assets/Home/meetings/b12-white.svg");
+                        }
+
+                        .pen .icon {
+                            content: url("../../../../assets/Home/meetings/b13-white.svg");
+                        }
+
+                        .check .icon {
+                            content: url("../../../../assets/Home/meetings/b14-white.svg");
+                        }
+                    }
+                }
+            }
+
+            .phone-meeting {
+                color: #fff;
+
+                .buttons .inner {
+                    background-image: linear-gradient(178.1deg, #211b53 8.5%, #171445 82.4%);
+                    -webkit-box-shadow: 0 0 10px #0E0024;
+                    box-shadow: 0 0 10px #0E0024;
+                }
+            }
+        }
+
+        .about-meetings {
+            color: #fff;
+
+            .border {
+                background-image: linear-gradient(178.1deg, #211b53 8.5%, #171445 82.4%);
+                -webkit-box-shadow: 0 0 10px #0E0024;
+                box-shadow: 0 0 10px #0E0024;
+
+                .icon{
+                    filter: brightness(0) invert(1);
+                    -webkit-filter: brightness(0) invert(1);
+                }
             }
         }
     }
