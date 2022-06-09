@@ -40,15 +40,15 @@ function ThemeSwitcher(props) {
                 <div className='mode-switch' onClick={() =>
                     setMode(mode => (mode === "dark" ? "light" : "dark"))   
                 }>
-                    <div className="icon"><BsSunFill /></div>
-                    <div className="icon active"><BsMoonFill /></div>
+                    <div className="icon1"><BsSunFill /></div>
+                    <div className="icon1 active"><BsMoonFill /></div>
                 </div> 
                 :
                 <div className='mode-switch' onClick={() =>
                     setMode(mode => (mode === "dark" ? "light" : "dark"))   
                 }>
-                    <div className="icon active"><BsSunFill /></div>
-                    <div className="icon"><BsMoonFill /></div>
+                    <div className="icon1 active"><BsSunFill /></div>
+                    <div className="icon1"><BsMoonFill /></div>
                 </div> 
             }                           
         </a>

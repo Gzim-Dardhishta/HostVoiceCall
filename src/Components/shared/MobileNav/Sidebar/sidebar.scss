@@ -1,11 +1,11 @@
 .sidebar-logo-row h6{
     font-size: 1.3em;
     color: #333;
+    font-weight: 400;
 }
 
 .mobile-sidebar-links{
     .nav-sidebar-link{
-        color: red;
         display: flex;
         justify-content: space-between;
         padding: 1em 1.2em .9em;
@@ -81,5 +81,40 @@
         background-color: #6C3DFF;
         color: #fff;
         border-radius: 10px;
+    }
+}
+
+.theme{
+    width: fit-content;
+    margin: auto;
+    border-radius: 15px;
+}
+
+body.dark-mode{
+    .mobile-sidebar{
+        background-color: #160032;
+        background-image: linear-gradient(178.1deg, #211b53 8.5%, #171445 82.4%);
+        
+        .sidebar-logo-row{
+            h6{
+                color: #fff;
+            }
+            .mobile-logo-container{
+                filter: brightness(0) invert(1);
+                -webkit-filter: brightness(0) invert(1);
+            }
+            button{
+                color: #fff;
+            }
+        }
+
+        .mobile-sidebar-links{
+            a{
+                color: #fff;
+            }
+        }
+        .theme{
+            background-color: #6C3DFF;
+        }
     }
 }

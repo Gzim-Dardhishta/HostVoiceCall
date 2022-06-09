@@ -94,3 +94,9 @@
         transform: translateX(0%);
     }
 }
+
+body.dark-mode{
+    .navbar .mobile-nav{
+        background-color: #160032;
+    }
+}

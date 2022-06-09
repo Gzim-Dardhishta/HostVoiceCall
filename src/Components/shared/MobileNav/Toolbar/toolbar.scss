@@ -62,5 +62,20 @@
 
 
 body.dark-mode{
-    .mobile-toolbar{background-color: none;}
+    .navbar .mobile-toolbar{
+        background-color: #160032;
+        border: none;
+        .mobile-logo-row{
+            a{
+                .mobile-logo-container{
+                    filter: brightness(0) invert(1);
+                    -webkit-filter: brightness(0) invert(1);
+                }
+                h5{color: #fff;}
+            }
+        }
+        button{
+            color: #fff;
+        }
+    }
 }
