@@ -76,48 +76,48 @@ export const SliderCards = [
     {
         cls: 'cls1',
         icon: phone,
-        text: 'Business Phone System',
-        link: 'Learn More',
+        text: <FormattedMessage id='card-text1' defaultMessage="Business Phone System" />,
+        link: <FormattedMessage id='learn-more' defaultMessage="Learn more" />,
         arrow: arrow
     },
     {
         cls: 'cls2',
         iconcls: 'cls2',
         icon: video,
-        text: 'Video Meetings',
-        link: 'Learn More',
+        text: <FormattedMessage id='card-text2' defaultMessage="Video Meeting" />,
+        link: <FormattedMessage id='learn-more' defaultMessage="Learn more" />,
         linkcls: 'linkcls',
         arrow: arrow
     },
     {
         cls: 'cls3',
         icon: message,
-        text: 'Team Messaging',
-        link: 'Learn More',
+        text: <FormattedMessage id='card-text3' defaultMessage="Team Messaging" />,
+        link: <FormattedMessage id='learn-more' defaultMessage="Learn more" />,
         linkcls: 'linkcls',
         arrow: arrow
     },
     {
         cls: 'cls4',
         icon: headphones,
-        text: 'Contact Center',
-        link: 'Learn More',
+        text: <FormattedMessage id='card-text4' defaultMessage="Contact Center" />,
+        link: <FormattedMessage id='learn-more' defaultMessage="Learn more" />,
         linkcls: 'linkcls',
         arrow: arrow
     },
     {
         cls: 'cls5',
         icon: talk,
-        text: 'Talk',
-        link: 'Learn More',
+        text: <FormattedMessage id='card-text5' defaultMessage="Talk" />,
+        link: <FormattedMessage id='learn-more' defaultMessage="Learn more" />,
         linkcls: 'linkcls',
         arrow: arrow
     },
     {
         cls: 'cls6',
         icon: international,
-        text: 'International Calls',
-        link: 'Learn More',
+        text: <FormattedMessage id='card-text6' defaultMessage="International Calls" />,
+        link: <FormattedMessage id='learn-more' defaultMessage="Learn more" />,
         linkcls: 'linkcls',
         arrow: arrow
     }
