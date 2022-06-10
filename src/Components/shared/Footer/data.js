@@ -26,38 +26,38 @@ export const FooterSocialLinks = [
 
 export const FooterData = [
     {
-        category: <FormattedMessage id='category' defaultMessage="Products" />,
+        category: <FormattedMessage id='products' defaultMessage="Products" />,
         links: [
             {
-                link: <FormattedMessage id='product-link1' defaultMessage="Integrations" />,
+                link: <FormattedMessage id='footer-product-link1' defaultMessage="Integrations" />,
                 to: '/'
             },
             {
-                link: <FormattedMessage id='product-link2' defaultMessage="Quality and relability" />,
+                link: <FormattedMessage id='footer-product-link2' defaultMessage="Quality and reliability" />,
                 to: '/'
             },
             {
-                link: <FormattedMessage id='product-link3' defaultMessage="Apps" />,
+                link: <FormattedMessage id='footer-product-link3' defaultMessage="Apps" />,
                 to: '/'
             },
             {
-                link: <FormattedMessage id='product-link4' defaultMessage="Pricing" />,
+                link: <FormattedMessage id='footer-product-link4' defaultMessage="Pricing" />,
                 to: '/'
             },
             {
-                link: <FormattedMessage id='product-link5' defaultMessage="County coversge" />,
+                link: <FormattedMessage id='footer-product-link5' defaultMessage="County coverage" />,
                 to: '/'
             },
             {
-                link: <FormattedMessage id='product-link6' defaultMessage="Request a demo" />,
+                link: <FormattedMessage id='footer-product-link6' defaultMessage="Request a demo" />,
                 to: '/'
             },
             {
-                link: <FormattedMessage id='product-link7' defaultMessage="Voice & Video" />,
+                link: <FormattedMessage id='footer-product-link7' defaultMessage="Voice & Video" />,
                 to: '/'
             },
             {
-                link: <FormattedMessage id='product-link8' defaultMessage="Massaging" />,
+                link: <FormattedMessage id='footer-product-link8' defaultMessage="Massaging" />,
                 to: '/'
             }
         ]
@@ -66,35 +66,35 @@ export const FooterData = [
         category: <FormattedMessage id='solutions' defaultMessage="Solutions" />,
         links: [
             {
-                link: <FormattedMessage id='solution-link1' defaultMessage="Call Center" />,
+                link: <FormattedMessage id='footer-solution-link1' defaultMessage="Call Center" />,
                 to: '/'
             },
             {
-                link: <FormattedMessage id='solution-link2' defaultMessage="Support" />,
+                link: <FormattedMessage id='footer-solution-link2' defaultMessage="Support" />,
                 to: '/'
             },
             {
-                link: <FormattedMessage id='solution-link3' defaultMessage="Sales" />,
+                link: <FormattedMessage id='footer-solution-link3' defaultMessage="Sales" />,
                 to: '/'
             },
             {
-                link: <FormattedMessage id='solution-link4' defaultMessage="Phone System" />,
+                link: <FormattedMessage id='footer-solution-link4' defaultMessage="Phone System" />,
                 to: '/'
             },
             {
-                link: <FormattedMessage id='solution-link5' defaultMessage="E-commerce" />,
+                link: <FormattedMessage id='footer-solution-link5' defaultMessage="E-commerce" />,
                 to: '/'
             },
             {
-                link: <FormattedMessage id='solution-link6' defaultMessage="Non-profits" />,
+                link: <FormattedMessage id='footer-solution-link6' defaultMessage="Non-profits" />,
                 to: '/'
             },
             {
-                link: <FormattedMessage id='solution-link7' defaultMessage="Account Security" />,
+                link: <FormattedMessage id='footer-solution-link7' defaultMessage="Account Security" />,
                 to: '/'
             },
             {
-                link: <FormattedMessage id='solution-link8' defaultMessage="Collaboration" />,
+                link: <FormattedMessage id='footer-solution-link8' defaultMessage="Collaboration" />,
                 to: '/'
             }
         ]
@@ -103,35 +103,35 @@ export const FooterData = [
         category: <FormattedMessage id='company' defaultMessage="Company" />,
         links: [
             {
-                link: <FormattedMessage id='company-link1' defaultMessage="About Us" />,
+                link: <FormattedMessage id='footer-company-link1' defaultMessage="About Us" />,
                 to: '/'
             },
             {
-                link: <FormattedMessage id='company-link2' defaultMessage="Contact Us" />,
+                link: <FormattedMessage id='footer-company-link2' defaultMessage="Contact Us" />,
                 to: '/'
             },
             {
-                link: <FormattedMessage id='company-link3' defaultMessage="News and Events" />,
+                link: <FormattedMessage id='footer-company-link3' defaultMessage="News and Events" />,
                 to: '/'
             },
             {
-                link: <FormattedMessage id='company-link4' defaultMessage="Careers" />,
+                link: <FormattedMessage id='footer-company-link4' defaultMessage="Careers" />,
                 to: '/'
             },
             {
-                link: <FormattedMessage id='company-link5' defaultMessage="Costumers" />,
+                link: <FormattedMessage id='footer-company-link5' defaultMessage="Customers" />,
                 to: '/'
             },
             {
-                link: <FormattedMessage id='company-link6' defaultMessage="Partners" />,
+                link: <FormattedMessage id='footer-company-link6' defaultMessage="Partners" />,
                 to: '/'
             },
             {
-                link: <FormattedMessage id='company-link7' defaultMessage="Blog" />,
+                link: <FormattedMessage id='footer-company-link7' defaultMessage="Blog" />,
                 to: '/'
             },
             {
-                link: <FormattedMessage id='company-link8' defaultMessage="Press" />,
+                link: <FormattedMessage id='footer-company-link8' defaultMessage="Press" />,
                 to: '/'
             }
         ]
@@ -140,35 +140,35 @@ export const FooterData = [
         category: <FormattedMessage id='resources' defaultMessage="Resources" />,
         links: [
             {
-                link: <FormattedMessage id='resources-link1' defaultMessage="Knowledge Base" />,
+                link: <FormattedMessage id='footer-resources-link1' defaultMessage="Knowledge Base" />,
                 to: '/'
             },
             {
-                link: <FormattedMessage id='resources-link2' defaultMessage="Costumer Sories" />,
+                link: <FormattedMessage id='footer-resources-link2' defaultMessage="Customer Stories" />,
                 to: '/'
             },
             {
-                link: <FormattedMessage id='resources-link3' defaultMessage="Partners Stories" />,
+                link: <FormattedMessage id='footer-resources-link3' defaultMessage="Partners Stories" />,
                 to: '/'
             },
             {
-                link: <FormattedMessage id='resources-link4' defaultMessage="Become a Partner" />,
+                link: <FormattedMessage id='footer-resources-link4' defaultMessage="Become a Partner" />,
                 to: '/'
             },
             {
-                link: <FormattedMessage id='resources-link5' defaultMessage="Build an Integrantion" />,
+                link: <FormattedMessage id='footer-resources-link5' defaultMessage="Build an Integration" />,
                 to: '/'
             },
             {
-                link: <FormattedMessage id='resources-link6' defaultMessage="VoIP Documentation" />,
+                link: <FormattedMessage id='footer-resources-link6' defaultMessage="VoIP Documentation" />,
                 to: '/'
             },
             {
-                link: <FormattedMessage id='resources-link7' defaultMessage="Glossary" />,
+                link: <FormattedMessage id='footer-resources-link7' defaultMessage="Glossary" />,
                 to: '/'
             },
             {
-                link: <FormattedMessage id='resources-link8' defaultMessage="Speed Test" />,
+                link: <FormattedMessage id='footer-resources-link8' defaultMessage="Speed Test" />,
                 to: '/'
             }
         ]
@@ -177,35 +177,35 @@ export const FooterData = [
         category: <FormattedMessage id='features' defaultMessage="Features" />,
         links: [
             {
-                link: <FormattedMessage id='features-link1' defaultMessage="Power HostVoiceCall" />,
+                link: <FormattedMessage id='footer-features-link1' defaultMessage="Power HostVoiceCall" />,
                 to: '/'
             },
             {
-                link: <FormattedMessage id='features-link2' defaultMessage="IVR" />,
+                link: <FormattedMessage id='footer-features-link2' defaultMessage="IVR" />,
                 to: '/'
             },
             {
-                link: <FormattedMessage id='features-link3' defaultMessage="Call Routing" />,
+                link: <FormattedMessage id='footer-features-link3' defaultMessage="Call Routing" />,
                 to: '/'
             },
             {
-                link: <FormattedMessage id='features-link4' defaultMessage="Call Canter Analytics" />,
+                link: <FormattedMessage id='footer-features-link4' defaultMessage="Call Center Analytics" />,
                 to: '/'
             },
             {
-                link: <FormattedMessage id='features-link5' defaultMessage="CTI Integration" />,
+                link: <FormattedMessage id='footer-features-link5' defaultMessage="CTI Integration" />,
                 to: '/'
             },
             {
-                link: <FormattedMessage id='features-link6' defaultMessage="Click to Dial" />,
+                link: <FormattedMessage id='footer-features-link6' defaultMessage="Click to Dial" />,
                 to: '/'
             },
             {
-                link: <FormattedMessage id='features-link7' defaultMessage="Block Number" />,
+                link: <FormattedMessage id='footer-features-link7' defaultMessage="Block Number" />,
                 to: '/'
             },
             {
-                link: <FormattedMessage id='features-link8' defaultMessage="Get Number" />,
+                link: <FormattedMessage id='footer-features-link8' defaultMessage="Get Number" />,
                 to: '/'
             }
         ]

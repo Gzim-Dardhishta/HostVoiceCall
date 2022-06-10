@@ -8,10 +8,10 @@ const Communication = () => {
         <div className='communication'>
             <div className="title">
                 <div className="business" data-aos="fade-right">
-                    <FormattedMessage id='business' defaultMessage="BUSINESS COMMUNICATION" />
+                    <FormattedMessage id='business-title1' defaultMessage="BUSINESS COMMUNICATION" />
                 </div>
                 <div className="remote" data-aos="fade-right">
-                    <FormattedMessage id='title' defaultMessage="Connect everyone, work anywhere" />
+                    <FormattedMessage id='business-title2' defaultMessage="Connect everyone, work anywhere" />
                 </div>
             </div>
 

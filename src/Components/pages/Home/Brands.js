@@ -11,15 +11,15 @@ const Brands = () => {
         <div className='brands'>
             <div className="description" data-aos="fade-right">
                 <div className="question">
-                    <FormattedMessage id='question' defaultMessage="See why brands big & small love HostVoiceCalls" />
+                    <FormattedMessage id='brand-question' defaultMessage="See why brands big & small love HostVoiceCall" />
                 </div>
                 <div className="answer">
-                    <FormattedMessage id='answer' defaultMessage="Get the right type of help at just the right moment. HostVoiceCall's AI instantly transcribes meetings, takes notes on action items, analyzes caller sentiment, and even coaches your agents in real-time." />
+                    <FormattedMessage id='brand-answer' defaultMessage="Get the right type of help at just the right moment. HostVoiceCall's AI instantly transcribes meetings, takes notes on action items, analyzes caller sentiment, and even coaches your agents in real-time." />
                 </div>
 
                 <div className="meet-costumer">
                     <Link to='/'>
-                        <FormattedMessage id='meet' defaultMessage="Meet Costumer" />
+                        <FormattedMessage id='meet-costumer' defaultMessage="Meet Costumer" />
                     </Link>
                 </div>
             </div>

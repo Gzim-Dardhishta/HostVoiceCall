@@ -9,7 +9,7 @@ const CloudBasedPhoneSystem = () => {
     <div className='cloud-based'>
         <div className="title">
             <h6 data-aos="zoom-in">
-                <FormattedMessage id='title' defaultMessage="Get your cloud-based phone system up and running" />
+                <FormattedMessage id='cloudbase-title' defaultMessage="Get your cloud-based phone system up and running" />
             </h6> 
         </div>
 

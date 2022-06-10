@@ -11,27 +11,27 @@ const Reviews = () => {
             <div className="phone" data-aos="flip-left">
                 <div className="logo"></div>
                 <div className="text">
-                    <FormattedMessage id='message' defaultMessage="The phone system for modern business" />
+                    <FormattedMessage id='review-message' defaultMessage="The phone system for modern business" />
                 </div>
             </div>
 
             <div className="head">
                 <div className="title" data-aos="fade-right">
-                    <FormattedMessage id='title' defaultMessage="Ready to build better conversations?" />
+                    <FormattedMessage id='reviews-title' defaultMessage="Ready to build better conversations?" />
                 </div>
                 <div className="text" data-aos="fade-left">
-                    <FormattedMessage id='text' defaultMessage="HostVoiceCalls runs on the device that you're using right now." />
+                    <FormattedMessage id='reviews-text' defaultMessage="HostVoiceCalls runs on the device that you're using right now." />
                 </div>
                 <div className="demo">
                     <Link to='/'>
-                        <FormattedMessage id='demo' defaultMessage="Scheudle a demo" />
+                        <FormattedMessage id='demo' defaultMessage="Schedule a demo" />
                     </Link>
                 </div>
             </div>
 
             <div className="review">
                 <div className="review-title" data-aos="zoom-in-down">
-                    <FormattedMessage id='title' defaultMessage="Reviews from our clients" />
+                    <FormattedMessage id='client-reviews' defaultMessage="Reviews from our clients" />
                 </div>
 
                 <div className="slider">

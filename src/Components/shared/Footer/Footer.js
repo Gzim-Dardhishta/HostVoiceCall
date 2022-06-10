@@ -17,15 +17,15 @@ const Footer = (props) => {
     <div className='footer'>
       <div className="top-footer">
         <div className="top-footer-title">
-          <FormattedMessage id='title' defaultMessage="Try HostVoiceCall today" />
+          <FormattedMessage id='top-title' defaultMessage="Try HostVoiceCall today" />
         </div>
         <div className="text">
-          <FormattedMessage id='text1' defaultMessage="No extra hardware. No nonsense. Just on bueatiful workspace" />
+          <FormattedMessage id='top-text1' defaultMessage="No extra hardware. No nonsense. Just on beautiful workspace" />
         </div>
         <div className="trial">
           <div className="start-trial">
             <Link to='/'>
-              <FormattedMessage id='link' defaultMessage="Start a free trial" />
+              <FormattedMessage id='freetrial-link' defaultMessage="Start a free trial" />
             </Link>
           </div>
           <div className="get-demo">
@@ -119,14 +119,16 @@ const Footer = (props) => {
               placeholder='Work Email'
             />
             <div className="button">
-              <Link to='/'>Subscribe</Link>
+              <Link to='/'>
+                <FormattedMessage id='sub' defaultMessage="Subscribe" />
+              </Link>
             </div>
           </div>
         </div>
 
         <div className="main-footer-bottom">
           <div className="copyright">
-            <FormattedMessage id='copyright' defaultMessage="Copyright © 2021 HostVoiceCall All rights reserved." />
+            <FormattedMessage id='copyright' defaultMessage="Copyright © 2022 HostVoiceCall All rights reserved." />
           </div>
           <div className="policy">
             <Link to='/' className="forum">

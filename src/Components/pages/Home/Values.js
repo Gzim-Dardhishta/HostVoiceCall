@@ -11,36 +11,26 @@ const Values = () => {
     return (
         <div className='values'>
             <h1 className='title'>
-                <FormattedMessage id='title' defaultMessage="Bring value to voice" />
+                <FormattedMessage id='value-title' defaultMessage="Bring value to voice" />
             </h1>
 
             <div className="content">
                 <div className="support" data-aos="fade-right">
                     <h1>
-                        <FormattedMessage id='support-title' defaultMessage="For Smoother Support" />
+                        <FormattedMessage id='value-support-title' defaultMessage="For Smoother Support" />
                     </h1>
                     <div className="services">
                         <p className='text'>
-                            <FormattedMessage id='text'
+                            <FormattedMessage id='services-text1'
                                 defaultMessage="Make customer experience a competitive advantage with cloud 
                                         call center IVR menus, skill-based routing, live call monitoring, and more." />
                         </p>
                         <div className="services-offer">
-                            {/* {ValuesData.map((props) => {
-                                return (
-                                    <div className="service">
-                                        <div className="container">
-                                            <div className="icon" style={{ content: `url(${props.icon})` }}></div>
-                                        </div>
-                                        <div>{props.text}</div>
-                                    </div>
-                                )
-                            })} */}
                             <div className="service">
                                 <div className="contact-center">
                                     <Headphones className='c'/>                                  
                                 </div>
-                                <FormattedMessage id='contact' defaultMessage="Contact Center" />
+                                <FormattedMessage id='service-contact-center' defaultMessage="Contact Center" />
                             </div>
                             <div className="service">
                                 <div className="shop">
@@ -56,14 +46,14 @@ const Values = () => {
                             </div>
                         </div>
                         <p className='text'>
-                            <FormattedMessage id='text'
+                            <FormattedMessage id='services-text2'
                                 defaultMessage="Turn conversations into conversions with real-time coaching and AI-enabled agent tools." />
                         </p>
 
                         <div className="links">
                             <Link to='/' className="more">
                                 <p>
-                                    <FormattedMessage id='text' defaultMessage="Learn more" />
+                                    <FormattedMessage id='learn-more' defaultMessage="Learn more" />
                                 </p>
                                 <div className="arrow"></div>
                             </Link>
@@ -71,7 +61,7 @@ const Values = () => {
                                 <div className="border">
                                     <div className="icon"></div>
                                 </div>
-                                <FormattedMessage id='text' defaultMessage="See video" />
+                                <FormattedMessage id='see-video' defaultMessage="See video" />
                             </Link>
                         </div>
                     </div>
@@ -81,11 +71,11 @@ const Values = () => {
                     <div className="phone-call" data-aos="fade-down">
                         <div className="info">
                             <div className="call">
-                                <FormattedMessage id='call' defaultMessage="Incoming Call..." />
+                                <FormattedMessage id='phone-call' defaultMessage="Incoming Call..." />
                             </div>
                             <div className="state-support">
                                 <div className="flag-icon"></div>
-                                <FormattedMessage id='costumer' defaultMessage="Costumer Support" />
+                                <FormattedMessage id='costumer-support' defaultMessage="Costumer Support" />
                             </div>
 
                             <div className="circle1">
@@ -110,7 +100,7 @@ const Values = () => {
                                         <div className="icon"></div>
                                     </div>
                                     <div className="response">
-                                        <FormattedMessage id='response' defaultMessage="Reject" />
+                                        <FormattedMessage id='reject' defaultMessage="Reject" />
                                     </div>
                                 </div>
                                 <div className="answer">
@@ -126,24 +116,24 @@ const Values = () => {
 
                         <div className="caller-insight">
                             <div className="title">
-                                <FormattedMessage id='title' defaultMessage="Caller Insight" />
+                                <FormattedMessage id='caller-insight' defaultMessage="Caller Insight" />
                             </div>
                             <div className="contact-page">
                                 <p>
-                                    <FormattedMessage id='page' defaultMessage="Contact Page" />
+                                    <FormattedMessage id='contact-page' defaultMessage="Contact Page" />
                                 </p>
                                 <div className="arrow"></div>
                             </div>
                             <div className="contact-details">
                                 <p>
-                                    <FormattedMessage id='details' defaultMessage="Contact Detailse" />
+                                    <FormattedMessage id='contact-details' defaultMessage="Contact Details" />
                                 </p>
                                 <div className="arrow"></div>
                             </div>
 
                             <div className="mail">
                                 <div className="address">
-                                    <FormattedMessage id='email' defaultMessage="Email address" />
+                                    <FormattedMessage id='email-address' defaultMessage="Email address" />
                                 </div>
                                 <div className="email">
                                     <FormattedMessage id='email' defaultMessage="oliviaD@gmail.com" />
@@ -157,13 +147,13 @@ const Values = () => {
                         <div className="search" data-aos="fade-right">
                             <div className="border">
                                 <p>
-                                    <FormattedMessage id='type' defaultMessage="Discover Call" />
+                                    <FormattedMessage id='discover-call' defaultMessage="Discover Call" />
                                 </p>
                                 <div className="x"></div>
                             </div>
                             <div className="border">
                                 <p>
-                                    <FormattedMessage id='type' defaultMessage="Costumer" />
+                                    <FormattedMessage id='costumer' defaultMessage="Costumer" />
                                 </p>
                                 <div className="x"></div>
                             </div>
@@ -217,24 +207,6 @@ const Values = () => {
                     </div>
                 </div>
             </div>
-
-
-            {/* <div className="search" data-aos="fade-right">
-                <div className="border">
-                    <p>
-                        <FormattedMessage id='type' defaultMessage="Discover Call" />
-                    </p>
-                    <div className="x"></div>
-                </div>
-                <div className="border">
-                    <p>
-                        <FormattedMessage id='type' defaultMessage="Costumer" />
-                    </p>
-                    <div className="x"></div>
-                </div>
-
-                <div className="line"></div>
-            </div> */}
         </div>
     )
 }

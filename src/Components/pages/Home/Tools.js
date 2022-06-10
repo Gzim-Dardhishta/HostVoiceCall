@@ -9,7 +9,7 @@ const Tools = () => {
   return (
     <div className='tools'>
         <div className="title" data-aos="fade-down">
-            <FormattedMessage id='title' defaultMessage="Connected to the tools you love" />
+            <FormattedMessage id='tool-title' defaultMessage="Connected to the tools you love" />
         </div>
 
         <div className="tools-used">
@@ -24,7 +24,7 @@ const Tools = () => {
         </div>
 
         <Link to='/' className="integrations">
-            <FormattedMessage id='link' defaultMessage="See all intgrations"/>
+            <FormattedMessage id='tool-link' defaultMessage="See all integrations"/>
             <div style={{ content: `url(${arrow})` }}></div>
         </Link>
     </div>

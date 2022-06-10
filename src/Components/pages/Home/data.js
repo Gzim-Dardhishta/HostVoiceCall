@@ -248,33 +248,33 @@ export const CloudBasedData = [
         cls: 'cls1',
         number: 1,
         tool: tool,
-        title: <FormattedMessage id='setup' defaultMessage="Set up in seconds" />,
-        text: <FormattedMessage id='text' defaultMessage="No hardware. No headaches. Just a beautiful cloud call center solution you can use to start a conversation anywhere in the world — today." />,
-        link: <FormattedMessage id='link' defaultMessage="Explore all features" />,
+        title: <FormattedMessage id='card-setup' defaultMessage="Set up in seconds" />,
+        text: <FormattedMessage id='setup-text1' defaultMessage="No hardware. No headaches. Just a beautiful cloud call center solution you can use to start a conversation anywhere in the world — today." />,
+        link: <FormattedMessage id='setup-link1' defaultMessage="Explore all features" />,
         arrow: arrow3
     },
     {
         cls: 'cls2',
         number: 2,
-        title: <FormattedMessage id='connect' defaultMessage="Connect to your tools" />,
-        text: <FormattedMessage id='text' defaultMessage="Calls go better when all the right info is tied together in the cloud. Integrate HostVoiceCalls with CRM systems, Helpdesk solutions, and other essential apps." />,
-        link: <FormattedMessage id='link' defaultMessage="See our integrations " />,
+        title: <FormattedMessage id='card-connect' defaultMessage="Connect to your tools" />,
+        text: <FormattedMessage id='connect-text2' defaultMessage="Calls go better when all the right info is tied together in the cloud. Integrate HostVoiceCalls with CRM systems, Helpdesk solutions, and other essential apps." />,
+        link: <FormattedMessage id='connect-link2' defaultMessage="See our integrations " />,
         arrow: arrow3
     },
     {
         cls: 'cls3',
         number: 3,
-        title: <FormattedMessage id='visibility' defaultMessage="Gain visibility" />,
-        text: <FormattedMessage id='text' defaultMessage="Get rid of the guesswork. Monitor individual and team metrics in real-time to start making measurable improvements." />,
-        link: <FormattedMessage id='link' defaultMessage="Monitor key metrics" />,
+        title: <FormattedMessage id='card-visibility' defaultMessage="Gain visibility" />,
+        text: <FormattedMessage id='visibility-text3' defaultMessage="Get rid of the guesswork. Monitor individual and team metrics in real-time to start making measurable improvements." />,
+        link: <FormattedMessage id='visibility-link3' defaultMessage="Monitor key metrics" />,
         arrow: arrow3
     },
     {
         cls: 'cls4',
         number: 4,
-        title: <FormattedMessage id='setup' defaultMessage="Enable productivity" />,
-        text: <FormattedMessage id='text' defaultMessage="Don’t put progress on hold. Create new numbers, teams, and workflows on the fly whenever new business requirements arise." />,
-        link: <FormattedMessage id='link' defaultMessage="See true stories " />,
+        title: <FormattedMessage id='card-poductivity' defaultMessage="Enable productivity" />,
+        text: <FormattedMessage id='productivity-text4' defaultMessage="Don’t put progress on hold. Create new numbers, teams, and workflows on the fly whenever new business requirements arise." />,
+        link: <FormattedMessage id='visibility-link4' defaultMessage="See true stories " />,
         arrow: arrow3
     },
 ]
@@ -284,26 +284,26 @@ export const CommunicationData = [
     {
         cls: 'cls1',
         icon: icon1,
-        title: <FormattedMessage id='title' defaultMessage="Phone" />,
-        text: <FormattedMessage id='text' defaultMessage="Never miss a call with a 100% uptime SLA."/>
+        title: <FormattedMessage id='card1-title' defaultMessage="Phone" />,
+        text: <FormattedMessage id='card1-text' defaultMessage="Never miss a call with a 100% uptime SLA."/>
     },
     {
         cls: 'cls2',
         icon: icon2,
-        title: <FormattedMessage id='title' defaultMessage="Integrated" />,
-        text: <FormattedMessage id='text' defaultMessage="Works with Google Workspace, Salesforce, Zendesk, and more."/>
+        title: <FormattedMessage id='card2-title' defaultMessage="Integrated" />,
+        text: <FormattedMessage id='card2-text' defaultMessage="Works with Google Workspace, Salesforce, Zendesk, and more."/>
     },
     {
         cls: 'cls3',
         icon: icon3,
-        title: <FormattedMessage id='title' defaultMessage="Smart" />,
-        text: <FormattedMessage id='text' defaultMessage="Get complete visibility into usage and adoption analytics."/>
+        title: <FormattedMessage id='card3-title' defaultMessage="Smart" />,
+        text: <FormattedMessage id='card3-text' defaultMessage="Get complete visibility into usage and adoption analytics."/>
     },
     {
         cls: 'cls4',
         icon: icon4,
-        title: <FormattedMessage id='title' defaultMessage="Global" />,
-        text: <FormattedMessage id='text' defaultMessage="Set up new teams, numbers, and more in minutes."/>
+        title: <FormattedMessage id='card4-title' defaultMessage="Global" />,
+        text: <FormattedMessage id='card4-text' defaultMessage="Set up new teams, numbers, and more in minutes."/>
     }
 ]
 
@@ -313,30 +313,30 @@ export const BrandsData = [
         cls: 'cls1',
         photo: photo1,
         brand: brand1,
-        message: <FormattedMessage id='message' defaultMessage="“HostVoiceCall makes our remote workforce feel like they're sitting at HQ and enables a lean IT approach that’s easy to service.”" />,
-        author: <FormattedMessage id='author' defaultMessage="FRANCIL RICHARDS" />,
-        position: <FormattedMessage id='position' defaultMessage="SENIOR IT MANAGER" />,
-        link: <FormattedMessage id='link' defaultMessage="Get the story" />,
+        message: <FormattedMessage id='brand-message' defaultMessage="“HostVoiceCall makes our remote workforce feel like they're sitting at HQ and enables a lean IT approach that’s easy to service.”" />,
+        author: <FormattedMessage id='brand-author' defaultMessage="FRANCIL RICHARDS" />,
+        position: <FormattedMessage id='brand-position' defaultMessage="SENIOR IT MANAGER" />,
+        link: <FormattedMessage id='brand-link' defaultMessage="Get the story" />,
         arrow: arrow5
     },
     {
         cls: 'cls2',
         photo: photo2,
         brand: brand2,
-        message: <FormattedMessage id='message' defaultMessage="“HostVoiceCall makes our remote workforce feel like they're sitting at HQ and enables a lean IT approach that’s easy to service.”" />,
-        author: <FormattedMessage id='author' defaultMessage="FRANCIL RICHARDS" />,
-        position: <FormattedMessage id='position' defaultMessage="SENIOR IT MANAGER" />,
-        link: <FormattedMessage id='link' defaultMessage="Get the story" />,
+        message: <FormattedMessage id='brand-message' defaultMessage="“HostVoiceCall makes our remote workforce feel like they're sitting at HQ and enables a lean IT approach that’s easy to service.”" />,
+        author: <FormattedMessage id='brand-author' defaultMessage="FRANCIL RICHARDS" />,
+        position: <FormattedMessage id='brand-position' defaultMessage="SENIOR IT MANAGER" />,
+        link: <FormattedMessage id='brand-link' defaultMessage="Get the story" />,
         arrow: arrow5
     },
     {
         cls: 'cls3',
         photo: photo3,
         brand: brand3,
-        message: <FormattedMessage id='message' defaultMessage="“HostVoiceCall makes our remote workforce feel like they're sitting at HQ and enables a lean IT approach that’s easy to service.”" />,
-        author: <FormattedMessage id='author' defaultMessage="FRANCIL RICHARDS" />,
-        position: <FormattedMessage id='position' defaultMessage="SENIOR IT MANAGER" />,
-        link: <FormattedMessage id='link' defaultMessage="Get the story" />,
+        message: <FormattedMessage id='brand-message' defaultMessage="“HostVoiceCall makes our remote workforce feel like they're sitting at HQ and enables a lean IT approach that’s easy to service.”" />,
+        author: <FormattedMessage id='brand-author' defaultMessage="FRANCIL RICHARDS" />,
+        position: <FormattedMessage id='brand-position' defaultMessage="SENIOR IT MANAGER" />,
+        link: <FormattedMessage id='brand-link' defaultMessage="Get the story" />,
         arrow: arrow5
     },
 ]
@@ -346,82 +346,82 @@ export const ToolsData = [
     {
         cls: 'cls1',
         logo: tool1,
-        company: <FormattedMessage id='company' defaultMessage="Monday.com" />
+        company: <FormattedMessage id='tool-company' defaultMessage="Monday.com" />
     },
     {
         cls: 'cls2',
         logo: tool2,
-        company: <FormattedMessage id='company' defaultMessage="HubSpot" />
+        company: <FormattedMessage id='tool-company' defaultMessage="HubSpot" />
     },
     {
         cls: 'cls3',
         logo: tool3,
-        company: <FormattedMessage id='company' defaultMessage="Saleforce" />
+        company: <FormattedMessage id='tool-company' defaultMessage="Saleforce" />
     },
     {
         cls: 'cls4',
         logo: tool4,
-        company: <FormattedMessage id='company' defaultMessage="Zendesk" />
+        company: <FormattedMessage id='tool-company' defaultMessage="Zendesk" />
     },
     {
         cls: 'cls5',
         logo: tool5,
-        company: <FormattedMessage id='company' defaultMessage="JobAdder" />
+        company: <FormattedMessage id='tool-company' defaultMessage="JobAdder" />
     },
     {
         cls: 'cls6',
         logo: tool6,
-        company: <FormattedMessage id='company' defaultMessage="Kustomer" />
+        company: <FormattedMessage id='tool-company' defaultMessage="Kustomer" />
     },
     {
         cls: 'cls7',
         logo: tool7,
-        company: <FormattedMessage id='company' defaultMessage="Shopify" />
+        company: <FormattedMessage id='tool-company' defaultMessage="Shopify" />
     },
     {
         cls: 'cls8',
         logo: tool8,
-        company: <FormattedMessage id='company' defaultMessage="ZOHO CRM" />
+        company: <FormattedMessage id='tool-company' defaultMessage="ZOHO CRM" />
     },
     {
         cls: 'cls9',
         logo: tool9,
-        company: <FormattedMessage id='company' defaultMessage="Intercom" />
+        company: <FormattedMessage id='tool-company' defaultMessage="Intercom" />
     },
     {
         cls: 'cls10',
         logo: tool10,
-        company: <FormattedMessage id='company' defaultMessage="Pidedrive" />
+        company: <FormattedMessage id='tool-company' defaultMessage="Pidedrive" />
     },
     {
         cls: 'cls11',
         logo: tool11,
-        company: <FormattedMessage id='company' defaultMessage="Slack" />
+        company: <FormattedMessage id='tool-company' defaultMessage="Slack" />
     },
     {
         cls: 'cls12',
         logo: tool12,
-        company: <FormattedMessage id='company' defaultMessage="Gorgias" />
+        company: <FormattedMessage id='tool-company' defaultMessage="Gorgias" />
     },
     {
         cls: 'cls13',
         logo: tool13,
-        company: <FormattedMessage id='company' defaultMessage="Microdost Dynamics" />
+        company: <FormattedMessage id='tool-company' defaultMessage="Microdost Dynamics" />
     },
     {
         cls: 'cls14',
         logo: tool14,
-        company: <FormattedMessage id='company' defaultMessage="Re:amaze" />
+        company: <FormattedMessage id='tool-company' defaultMessage="Re:amaze" />
     },
     {
         cls: 'cls15',
         logo: tool15,
-        company: <FormattedMessage id='company' defaultMessage="Zapier" />
+        company: <FormattedMessage id='tool-company' defaultMessage="Zapier" />
     },
     {
         cls: 'cls16',
         logo: tool16,
-        company: <FormattedMessage id='company' defaultMessage="Front" />
+        company: <FormattedMessage id='tool-company' defaultMessage="Front" />
     },
 ]
 
@@ -430,31 +430,31 @@ export const ReviewsSliderData = [
         cls: 'cls1',
         photo: person1,
         name: 'Kristina W.Smith',
-        text: <FormattedMessage id='text' defaultMessage="The setup and configuration of HostVoiceCall is a dream. It’s so easy to create new numbers, set up IVRs, and change people around to different teams if needed." />
+        text: <FormattedMessage id='review-text' defaultMessage="The setup and configuration of HostVoiceCall is a dream. It’s so easy to create new numbers, set up IVRs, and change people around to different teams if needed." />
     },
     {
         cls: 'cls2',
         photo: person2,
         name: 'Kristina W.Smith',
-        text: <FormattedMessage id='text' defaultMessage="The setup and configuration of HostVoiceCall is a dream. It’s so easy to create new numbers, set up IVRs, and change people around to different teams if needed." />
+        text: <FormattedMessage id='review-text' defaultMessage="The setup and configuration of HostVoiceCall is a dream. It’s so easy to create new numbers, set up IVRs, and change people around to different teams if needed." />
     },
     {
         cls: 'cls3',
         photo: person1,
         name: 'Kristina W.Smith',
-        text: <FormattedMessage id='text' defaultMessage="The setup and configuration of HostVoiceCall is a dream. It’s so easy to create new numbers, set up IVRs, and change people around to different teams if needed." />
+        text: <FormattedMessage id='review-text' defaultMessage="The setup and configuration of HostVoiceCall is a dream. It’s so easy to create new numbers, set up IVRs, and change people around to different teams if needed." />
     },
     {
         cls: 'cls4',
         photo: person2,
         name: 'Kristina W.Smith',
-        text: <FormattedMessage id='text' defaultMessage="The setup and configuration of HostVoiceCall is a dream. It’s so easy to create new numbers, set up IVRs, and change people around to different teams if needed." />
+        text: <FormattedMessage id='review-text' defaultMessage="The setup and configuration of HostVoiceCall is a dream. It’s so easy to create new numbers, set up IVRs, and change people around to different teams if needed." />
     },
     {
         cls: 'cls5',
         photo: person1,
         name: 'Kristina W.Smith',
-        text: <FormattedMessage id='text' defaultMessage="The setup and configuration of HostVoiceCall is a dream. It’s so easy to create new numbers, set up IVRs, and change people around to different teams if needed." />
+        text: <FormattedMessage id='review-text' defaultMessage="The setup and configuration of HostVoiceCall is a dream. It’s so easy to create new numbers, set up IVRs, and change people around to different teams if needed." />
     }
 ]
 
