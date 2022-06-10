@@ -190,34 +190,34 @@ export const PhoneSystemCarousel = [
     {
         cls: 'cls1',
         icon: logo1,
-        text: <FormattedMessage id='text' defaultMessage="We examined a bunch of providers and Aircall was the only one that 
+        text: <FormattedMessage id='phone-slider-text' defaultMessage="We examined a bunch of providers and Aircall was the only one that 
         allowed us the flexibility to customize our customer service needs based on 
         our business practices." />,
-        author: <FormattedMessage id='author' defaultMessage="Anton Zillberberg, CEO and Founder at UNTUCKit" />
+        author: <FormattedMessage id='phone-slider-author' defaultMessage="Anton Zillberberg, CEO and Founder at UNTUCKit" />
     },
     {
         cls: 'cls2',
         icon: logo1,
-        text: <FormattedMessage id='text' defaultMessage="We examined a bunch of providers and Aircall was the only one that 
+        text: <FormattedMessage id='phone-slider-text' defaultMessage="We examined a bunch of providers and Aircall was the only one that 
         allowed us the flexibility to customize our customer service needs based on 
         our business practices." />,
-        author: <FormattedMessage id='author' defaultMessage="Anton Zillberberg, CEO and Founder at UNTUCKit" />
+        author: <FormattedMessage id='phone-slider-author' defaultMessage="Anton Zillberberg, CEO and Founder at UNTUCKit" />
     },
     {
         cls: 'cls3',
         icon: logo1,
-        text: <FormattedMessage id='text' defaultMessage="We examined a bunch of providers and Aircall was the only one that 
+        text: <FormattedMessage id='phone-slider-text' defaultMessage="We examined a bunch of providers and Aircall was the only one that 
         allowed us the flexibility to customize our customer service needs based on 
         our business practices." />,
-        author: <FormattedMessage id='author' defaultMessage="Anton Zillberberg, CEO and Founder at UNTUCKit" />
+        author: <FormattedMessage id='phone-slider-author' defaultMessage="Anton Zillberberg, CEO and Founder at UNTUCKit" />
     },
     {
         cls: 'cls4',
         icon: logo1,
-        text: <FormattedMessage id='text' defaultMessage="We examined a bunch of providers and Aircall was the only one that 
+        text: <FormattedMessage id='phone-slider-text' defaultMessage="We examined a bunch of providers and Aircall was the only one that 
         allowed us the flexibility to customize our customer service needs based on 
         our business practices." />,
-        author: <FormattedMessage id='author' defaultMessage="Anton Zillberberg, CEO and Founder at UNTUCKit" />
+        author: <FormattedMessage id='phone-slider-author' defaultMessage="Anton Zillberberg, CEO and Founder at UNTUCKit" />
     }
 ]
 

@@ -147,5 +147,10 @@
     "credit": "Nuk kërkohet kartë krediti *",
     "connection-text1": "Marketingu me tekst dhe email, sinjalizimet e drejtuesve, gjurmimi i thirrjeve",
     "connection-text2": "Siguria e llogarisë, IVR, Chatbots inteligjente, Qendra e Kontaktit",
-    "connection-text3": "Njoftimet e dërgimit, njoftimet e llogarisë, Përkujtuesit e takimeve"
+    "connection-text3": "Njoftimet e dërgimit, njoftimet e llogarisë, Përkujtuesit e takimeve",
+
+    "phone-title": "Ngrini në funksion sistemin tuaj të telefonit të bazuar në renë kompjuterike", 
+    "phone-pharagraph": "Integrohuni lehtësisht me mjetet e biznesit në renë kompjuterike në të cilat mbështetet secili departament për të përfunduar punën dhe për të hapur rrugën për më shumë kënaqësi udhëtimet e klientëve.",
+    "phone-link" : "Mbajeni të gjithë kompaninë të lidhur",
+    "phone-slider-text": "Ne ekzaminuam një sërë ofruesish dhe Aircall ishte i vetmi që na lejoi fleksibilitetin për të personalizuar nevojat tona të shërbimit ndaj klientit bazuar në praktikat tona të biznesit."
 }

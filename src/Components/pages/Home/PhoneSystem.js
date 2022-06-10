@@ -12,10 +12,10 @@ const PhoneSystem = () => {
     <div className='phone-system blur'>
       <div className="content" data-aos="fade-right">
         <div className="title">
-          <FormattedMessage id="title" defaultMessage="Get your cloud-based phone system up and running" />
+          <FormattedMessage id="phone-title" defaultMessage="Get your cloud-based phone system up and running" />
         </div>
         <p>
-          <FormattedMessage id='pharagraph'
+          <FormattedMessage id='phone-pharagraph'
             defaultMessage="Easily integrate with the cloud business tools each department relies 
                     on to get the job done and pave the way for more satisfying 
                     customer journeys." />
@@ -23,7 +23,7 @@ const PhoneSystem = () => {
 
         <div className="link">
           <Link to='/'>
-            <FormattedMessage id="link" defaultMessage="Keep the whole company connected" />
+            <FormattedMessage id="phone-link" defaultMessage="Keep the whole company connected" />
             <div className="arrow-icon"></div>
           </Link>
         </div>
