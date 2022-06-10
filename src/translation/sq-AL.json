@@ -284,5 +284,18 @@
     "forgot": "Keni harruar fjalëkalimin?",
     "new-text": "I ri në HostVoiceCalls?",
     "signup": "Regjistrohu",
-    "card-txt": "Transformoni përvojat e klientëve me zgjidhjen e qendrës së thirrjeve cloud të miratuar nga IT për ekipet e shitjeve dhe mbështetjes."
+    "card-txt": "Transformoni përvojat e klientëve me zgjidhjen e qendrës së thirrjeve cloud të miratuar nga IT për ekipet e shitjeve dhe mbështetjes.",
+
+    "describe-text": "Merrni llojin e duhur të ndihmës në momentin e duhur. Inteligjenca artificiale e HostVoiceCall transkripton menjëherë takimet, merr shënime për artikujt e veprimit, analizon ndjenjën e telefonuesit dhe madje drejton agjentët tuaj në kohë reale",
+    "card-txt1": "Qendra e Kontaktit",
+    "card-txt2": "Mesazh i ekipit",
+    "card-txt3": "Takimi telefonik i biznesit",
+    "card-txt4": "Video Takimi",
+    "name": "Emri",
+    "last-name": "Mbiemri",
+    "confirm-pass": "Konfirmo Fjalëkalimin",
+    "suggest": "Sugjeroni fjalëkalimin",
+    "agree": "Jam dakord me HostVoiceCall  ",
+    "agree-terms": "Termat & Kushtet",
+    "acc-text": "Posedoni një llogari?"
 }

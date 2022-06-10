@@ -15,13 +15,13 @@ const SignUpComponent = () => {
           <div className="white-logo" data-aos="fade-right">
             <div className="white-logo-icon"></div>
             <h6 className="white-logo-name">
-              <FormattedMessage id='name' defaultMessage="HostVoiceCall" />
+              <FormattedMessage id='company-name' defaultMessage="HostVoiceCall" />
             </h6>
           </div>
           <div className="help-text" data-aos="fade-left">
-            <FormattedMessage id='text'
+            <FormattedMessage id='describe-text'
               defaultMessage="Get the right type of help at just the right moment. HostVoiceCall's AI instantly transcribes meetings,
-               takes notes on action items, analyzes caller sentiment, and even coaches your agents in real-time" />
+               takes notes on action items, analyzes caller sentiment, and even coaches your agents in real-time." />
           </div>
 
           <div className="signup-slider-container">

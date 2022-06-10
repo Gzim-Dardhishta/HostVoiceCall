@@ -24,7 +24,7 @@ const SignUpForm = () => {
                 <div className="name-input-container">
                     <div className="name">
                         <label htmlFor="">
-                            <FormattedMessage id='label1' defaultMessage="Name" />
+                            <FormattedMessage id='name' defaultMessage="Name" />
                         </label>
                         <div className="inner-input-container">
                             <span className="person-icon" style={{ content: `url(${person})` }}></span>
@@ -38,7 +38,7 @@ const SignUpForm = () => {
                     </div>
                     <div className="last-name">
                         <label htmlFor="">
-                            <FormattedMessage id='label2' defaultMessage="Last name" />
+                            <FormattedMessage id='last-name' defaultMessage="Last name" />
                         </label>
                         <div className="inner-input-container">
                             <span className="person-icon" style={{ content: `url(${person})` }}></span>
@@ -55,7 +55,7 @@ const SignUpForm = () => {
                 <div className="email">
                     <div className="input-container">
                         <label htmlFor="">
-                            <FormattedMessage id='label1' defaultMessage="Email" />
+                            <FormattedMessage id='email' defaultMessage="Email" />
                         </label>
                         <div className="inner-input-container">
                             <span className="email-icon" style={{ content: `url(${email})` }}></span>
@@ -73,7 +73,7 @@ const SignUpForm = () => {
                 <div className="password-input-container">
                     <div className="password">
                         <label htmlFor="">
-                            <FormattedMessage id='label2' defaultMessage="Password" />
+                            <FormattedMessage id='password' defaultMessage="Password" />
                         </label>
                         <div className="inner-input-container">
                             <span className="lock-icon" style={{ content: `url(${lock})` }}></span>
@@ -89,7 +89,7 @@ const SignUpForm = () => {
                     </div>
                     <div className="confirm-password">
                         <label htmlFor="">
-                            <FormattedMessage id='label2' defaultMessage="Confirm Password" />
+                            <FormattedMessage id='confirm-pass' defaultMessage="Confirm Password" />
                         </label>
                         <div className="inner-input-container">
                             <span className="lock-icon" style={{ content: `url(${lock})` }}></span>
@@ -116,18 +116,21 @@ const SignUpForm = () => {
                     <div className='inner-row'>
                         <input type='checkbox' name='agreed' id='agreed' />
                         <label htmlFor='agreed-check' className='form-label-checkbox'>
-                            I agree to HostVoiceCall <Link to='/'>Terms & Conditions</Link>
+                            <FormattedMessage id='agree' defaultMessage="I agree to HostVoiceCall  " /> 
+                            <Link to='/'><FormattedMessage id='agree-terms' defaultMessage="Terms & Conditions" /></Link>
                         </label>
                     </div>
                 </div>
 
                 <div className='button-container'>
-                    <button type='submit' className='submit-button'>Sign Up</button>
+                    <button type='submit' className='submit-button'>
+                        <FormattedMessage id='signup' defaultMessage="Sign Up" />
+                    </button>
                 </div>
 
                 <div className="login-link">
                     <p>
-                        <FormattedMessage id='text' defaultMessage="Already have an account?" />
+                        <FormattedMessage id='acc-text' defaultMessage="Already have an account?" />
                     </p>
                     <Link to='/LogIn'>
                         <FormattedMessage id='login' defaultMessage="Log In" />
