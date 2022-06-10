@@ -12,8 +12,8 @@ function CallCenter() {
         <div className='call-center'>
             <div className="info" data-aos="fade-right">
                 <div className='links'>
-                    <small><FormattedMessage id='callcenter-links' defaultMessage="HostVoiceCalls" /></small>
-                    <small><FormattedMessage id='callcenter-links' defaultMessage="Costumer Engagment Platform" /></small>
+                    <small><FormattedMessage id='callcenter-link1' defaultMessage="HostVoiceCall" /></small>
+                    <small><FormattedMessage id='callcenter-link2' defaultMessage="Customer Engagement Platform" /></small>
                 </div>
 
                 <h1>
@@ -21,7 +21,7 @@ function CallCenter() {
                 </h1>
 
                 <p>
-                    <FormattedMessage id='description-text' defaultMessage="Transform customers experiences with the IT-approved cloud call center solution for sales and support teams." />
+                    <FormattedMessage id='description-text' defaultMessage="Transform customer experiences with the IT-approved cloud call center solution for sales and support teams." />
                 </p>
 
                 <div className="email">
@@ -87,11 +87,11 @@ function CallCenter() {
                     </div>
                     <div className="block">
                         <div className="icon"></div>
-                        <span>Block</span>
+                        <FormattedMessage id='block' defaultMessage="Block" />
                     </div>
                     <div className="number">
                         <div className="icon"></div>
-                        <span>Call Number</span>
+                        <FormattedMessage id='call-num' defaultMessage="Call Number" />
                     </div>
                     <div className="host">
                         <div className="icon"></div>

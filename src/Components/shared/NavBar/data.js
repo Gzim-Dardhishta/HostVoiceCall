@@ -173,39 +173,39 @@ export const ProductsTabs = [
     {
         cls: 'cls1',
         icon: communication,
-        link: 'Communication',
+        link: <FormattedMessage id='tab1' defaultMessage="Communication" />,
         to: '/'
     },
     {
         cls: 'cls1',
         icon: application,
-        link: 'Application',
+        link: <FormattedMessage id='tab2' defaultMessage="Application" />,
         to: '/'
     },
     {
         cls: 'cls1',
         icon: connectivity,
-        link: 'Connectivity',
+        link: <FormattedMessage id='tab3' defaultMessage="Connectivity" />,
         to: '/'
     },
     {
         cls: 'cls1',
         icon: costumer,
-        link: 'Costumer Engagment',
+        link: <FormattedMessage id='tab4' defaultMessage="Customer Engagement" />,
         to: '/'
     },
     {
         cls: 'cls1',
         icon: usecase,
-        link: 'Use Case',
+        link: <FormattedMessage id='tab5' defaultMessage="Use Case" />,
         to: '/'
     },
     {
         cls: 'cls1',
         icon: integrations,
-        link: 'Integrations',
+        link: <FormattedMessage id='tab6' defaultMessage="Integrations" />,
         to: '/'
-    },
+    }
 ]
 
 export const ProductsOtherLinks = [
@@ -235,103 +235,103 @@ export const ProductsMenu = [
             {
                 cls: 'cls1',
                 icon: comm1,
-                link: 'Messaging',
+                link: <FormattedMessage id='product-link1' defaultMessage="Messaging"/>,
                 to: '/'
             },
             {
                 cls: 'cls2',
                 icon: comm2,
-                link: 'Programable Voice',
+                link: <FormattedMessage id='product-link2' defaultMessage="Programmable Voice"/>,
                 to: '/'
             },
             {
                 cls: 'cls1',
                 icon: comm3,
-                link: 'Video',
+                link: <FormattedMessage id='product-link3' defaultMessage="Video"/>,
                 to: '/'
             },
             {
                 cls: 'cls4',
                 icon: comm4,
-                link: 'HostVoiceCall',
+                link: <FormattedMessage id='product-link4' defaultMessage="HostVoiceCall"/>,
                 to: '/'
             },
             {
                 cls: 'cls5',
                 icon: comm5,
-                link: 'Email',
+                link: <FormattedMessage id='product-link5' defaultMessage="Email"/>,
                 to: '/'
             },
             {
                 cls: 'cls6',
                 icon: comm6,
-                link: 'Talk',
+                link: <FormattedMessage id='product-link6' defaultMessage="Talk"/>,
                 to: '/'
             },
             {
                 cls: 'cls7',
                 icon: comm7,
-                link: 'Meet',
+                link: <FormattedMessage id='product-link7' defaultMessage="Meet"/>,
                 to: '/'
             },
             {
                 cls: 'cls8',
                 icon: comm8,
-                link: 'Connect',
+                link: <FormattedMessage id='product-link8' defaultMessage="Connect"/>,
                 to: '/'
             },
             {
                 cls: 'cls9',
                 icon: comm9,
-                link: 'Train',
+                link: <FormattedMessage id='product-link9' defaultMessage="Train"/>,
                 to: '/'
             },
             {
                 cls: 'cls10',
                 icon: comm10,
-                link: 'Call',
+                link: <FormattedMessage id='product-link10' defaultMessage="Call"/>,
                 to: '/'
             },
             {
                 cls: 'cls11',
                 icon: comm11,
-                link: 'Webinar',
+                link: <FormattedMessage id='product-link11' defaultMessage="Webinar"/>,
                 to: '/'
             },
             {
                 cls: 'cls12',
                 icon: comm12,
-                link: 'Track Calls',
+                link: <FormattedMessage id='product-link12' defaultMessage="Track Calls"/>,
                 to: '/'
             },
             {
                 cls: 'cls13',
                 icon: comm13,
-                link: 'Reminder',
+                link: <FormattedMessage id='product-link13' defaultMessage="Reminder"/>,
                 to: '/'
             },
             {
                 cls: 'cls14',
                 icon: comm14,
-                link: 'Contact Center',
+                link: <FormattedMessage id='product-link14' defaultMessage="Contact Center"/>,
                 to: '/'
             },
             {
                 cls: 'cls15',
                 icon: comm15,
-                link: 'Phone System',
+                link: <FormattedMessage id='product-link15' defaultMessage="Phone System"/>,
                 to: '/'
             },
             {
                 cls: 'cls16',
                 icon: comm16,
-                link: 'SIM Card',
+                link: <FormattedMessage id='product-link16' defaultMessage="SIM Card"/>,
                 to: '/'
             },
             {
                 cls: 'cls17',
                 icon: comm17,
-                link: 'Host',
+                link: <FormattedMessage id='product-link17' defaultMessage="Host"/>,
                 to: '/'
             }
         ]
@@ -342,80 +342,80 @@ export const ProductsMenu = [
             {
                 cls: 'cls1',
                 icon: app1,
-                link: 'HostVoiceCall Flex',
+                link: <FormattedMessage id='product-link18' defaultMessage="HostVoiceCall Flex"/>,
                 to: '/'
             },
             {
                 cls: 'cls2',
                 icon: app2,
-                link: 'Marketing Campaigns',
+                link: <FormattedMessage id='product-link19' defaultMessage="Marketing Campaigns"/>,
                 to: '/'
             },
             {
                 cls: 'cls3',
                 icon: app3,
-                link: 'HostVoiceCall Frontline',
+                link: <FormattedMessage id='product-link20' defaultMessage="HostVoiceCall Frontline"/>,
                 to: '/'
             },
             {
                 cls: 'cls4',
                 icon: app4,
-                link: 'Acount Security',
+                link: <FormattedMessage id='product-link21' defaultMessage="Account Security"/>,
                 to: '/'
             },
             {
                 cls: 'cls5',
                 icon: app5,
-                link: 'HostVoiceCall Segment',
+                link: <FormattedMessage id='product-link22' defaultMessage="HostVoiceCall Segment"/>,
                 to: '/'
             },
 
             {
                 cls: 'cls6',
                 icon: app6,
-                link: 'Salestore',
+                link: <FormattedMessage id='product-link23' defaultMessage="Salestore"/>,
                 to: '/'
             },
             {
                 cls: 'cls7',
                 icon: app7,
-                link: 'HostVoiceCall Team',
+                link: <FormattedMessage id='product-link24' defaultMessage="HostVoiceCall Team"/>,
                 to: '/'
             },
             {
                 cls: 'cls8',
                 icon: app8,
-                link: 'Social Media',
+                link: <FormattedMessage id='product-link25' defaultMessage="Social Media"/>,
                 to: '/'
             },
             {
                 cls: 'cls9',
                 icon: app9,
-                link: 'Discord Community',
+                link: <FormattedMessage id='product-link26' defaultMessage="Discord Community"/>,
                 to: '/'
             },
             {
                 cls: 'cls10',
                 icon: app10,
-                link: 'Slack Community',
+                link: <FormattedMessage id='product-link27' defaultMessage="Slack Communicity"/>,
                 to: '/'
             },
             {
                 cls: 'cls11',
                 icon: app11,
-                link: 'Other Communities',
+                link: <FormattedMessage id='product-link28' defaultMessage="Other Communities"/>,
                 to: '/'
             },
             {
                 cls: 'cls12',
                 icon: app12,
-                link: 'Host Teams',
+                link: <FormattedMessage id='product-link29' defaultMessage="Host Teams"/>,
                 to: '/'
             },
             {
                 cls: 'cls13',
                 icon: app13,
-                link: 'Marketpalce',
+                link: <FormattedMessage id='product-link30' defaultMessage="Marketplace"/>,
                 to: '/'
             }
         ]
@@ -426,73 +426,73 @@ export const ProductsMenu = [
             {
                 cls: 'cls1',
                 icon: conn1,
-                link: 'Internet of Things',
+                link: <FormattedMessage id='product-link31' defaultMessage="Internet of Things"/>,
                 to: '/'
             },
             {
                 cls: 'cls2',
                 icon: conn2,
-                link: 'Elastic SIP Trucking',
+                link: <FormattedMessage id='product-link32' defaultMessage="Elastic SIP Trucking"/>,
                 to: '/'
             },
             {
                 cls: 'cls3',
                 icon: conn3,
-                link: 'Phone Number',
+                link: <FormattedMessage id='product-link33' defaultMessage="Phone Number"/>,
                 to: '/'
             },
             {
                 cls: 'cls4',
                 icon: conn4,
-                link: 'Short Codes',
+                link: <FormattedMessage id='product-link34' defaultMessage="Short Codes"/>,
                 to: '/'
             },
             {
                 cls: 'cls5',
                 icon: conn5,
-                link: 'Cards',
+                link: <FormattedMessage id='product-link35' defaultMessage="Cards"/>,
                 to: '/'
             },
             {
                 cls: 'cls6',
                 icon: conn6,
-                link: 'PIN',
+                link: <FormattedMessage id='product-link36' defaultMessage="PIN"/>,
                 to: '/'
             },
             {
                 cls: 'cls7',
                 icon: conn7,
-                link: 'SIM',
+                link: <FormattedMessage id='product-link37' defaultMessage="SIM"/>,
                 to: '/'
             },
             {
                 cls: 'cls8',
                 icon: conn8,
-                link: 'Network',
+                link: <FormattedMessage id='product-link38' defaultMessage="Network"/>,
                 to: '/'
             },
             {
                 cls: 'cls9',
                 icon: conn9,
-                link: 'Manage Number',
+                link: <FormattedMessage id='product-link39' defaultMessage="Manage Number"/>,
                 to: '/'
             },
             {
                 cls: 'cls10',
                 icon: conn10,
-                link: 'Manage Calls',
+                link: <FormattedMessage id='product-link40' defaultMessage="Manage Calls"/>,
                 to: '/'
             },
             {
                 cls: 'cls11',
                 icon: conn11,
-                link: 'BLock Number',
+                link: <FormattedMessage id='product-link41' defaultMessage="Block Number"/>,
                 to: '/'
             },
             {
                 cls: 'cls12',
                 icon: conn12,
-                link: 'International Calls',
+                link: <FormattedMessage id='product-link42' defaultMessage="International Calls"/>,
                 to: '/'
             }
         ]
@@ -505,31 +505,31 @@ export const SolutionsMenu = {
         {
             cls: 'cls1',
             icon: buc1,
-            link: 'Call Center',
+            link: <FormattedMessage id='solution-link1' defaultMessage="Call Center"/>,
             to: '/'
         },
         {
             cls: 'cls2',
             icon: buc2,
-            link: 'Phone System',
+            link: <FormattedMessage id='solution-link2' defaultMessage="Phone System"/>,
             to: '/'
         },
         {
             cls: 'cls3',
             icon: buc3,
-            link: 'Remote',
+            link: <FormattedMessage id='solution-link3' defaultMessage="Remote"/>,
             to: '/'
         },
         {
             cls: 'cls4',
             icon: buc4,
-            link: 'Marketing',
+            link: <FormattedMessage id='solution-link4' defaultMessage="Marketing"/>,
             to: '/'
         },
         {
             cls: 'cls5',
             icon: buc5,
-            link: 'Operations',
+            link: <FormattedMessage id='solution-link5' defaultMessage="Operations"/>,
             to: '/'
         },
     ],
@@ -538,55 +538,55 @@ export const SolutionsMenu = {
         {
             cls: 'cls1',
             icon: bi1,
-            link: 'Financial Services',
+            link: <FormattedMessage id='solution-link6' defaultMessage="Financial Service"/>,
             to: '/'
         },
         {
             cls: 'cls2',
             icon: bi2,
-            link: 'Retail',
+            link: <FormattedMessage id='solution-link7' defaultMessage="Retail"/>,
             to: '/'
         },
         {
             cls: 'cls3',
             icon: bi3,
-            link: 'Healthcare',
+            link: <FormattedMessage id='solution-link8' defaultMessage="Healthcare"/>,
             to: '/'
         },
         {
             cls: 'cls4',
             icon: bi4,
-            link: 'Real State',
+            link: <FormattedMessage id='solution-link9' defaultMessage="Real State"/>,
             to: '/'
         },
         {
             cls: 'cls5',
             icon: bi5,
-            link: 'Technologhy',
+            link: <FormattedMessage id='solution-link10' defaultMessage="Technology"/>,
             to: '/'
         },
         {
             cls: 'cls6',
             icon: bi6,
-            link: 'Automative',
+            link: <FormattedMessage id='solution-link11' defaultMessage="Automotive"/>,
             to: '/'
         },
         {
             cls: 'cls7',
             icon: bi7,
-            link: 'Professional Services',
+            link: <FormattedMessage id='solution-link12' defaultMessage="Professional Service"/>,
             to: '/'
         },
         {
             cls: 'cls8',
             icon: bi8,
-            link: 'Education',
+            link: <FormattedMessage id='solution-link13' defaultMessage="Edication"/>,
             to: '/'
         },
         {
             cls: 'cls9',
             icon: bi9,
-            link: 'Legal',
+            link: <FormattedMessage id='solution-link14' defaultMessage="Legal"/>,
             to: '/'
         }
     ],
@@ -595,25 +595,25 @@ export const SolutionsMenu = {
         {
             cls: 'cls1',
             icon: bbt1,
-            link: 'Small Business',
+            link: <FormattedMessage id='solution-link15' defaultMessage="Small Business"/>,
             to: '/',
         },
         {
             cls: 'cls2',
             icon: bbt2,
-            link: 'Startups',
+            link: <FormattedMessage id='solution-link16' defaultMessage="Startups"/>,
             to: '/',
         },
         {
             cls: 'cls3',
             icon: bbt3,
-            link: 'Enterprice',
+            link: <FormattedMessage id='solution-link17' defaultMessage="Enterprise"/>,
             to: '/',
         },
         {
             cls: 'cls4',
             icon: bbt4,
-            link: 'Nonprofit',
+            link: <FormattedMessage id='solution-link18' defaultMessage="Nonprofit"/>,
             to: '/',
         }
     ],
@@ -622,25 +622,25 @@ export const SolutionsMenu = {
         {
             cls: 'cls1',
             icon: bc1,
-            link: 'Contact Center',
+            link: <FormattedMessage id='solution-link19' defaultMessage="Contact Center"/>,
             to: '/'
         },
         {
             cls: 'cls2',
             icon: bc2,
-            link: 'Video Conferencing',
+            link: <FormattedMessage id='solution-link20' defaultMessage="Video Conferencing"/>,
             to: '/'
         },
         {
             cls: 'cls3',
             icon: bc3,
-            link: 'Conference Calling',
+            link: <FormattedMessage id='solution-link21' defaultMessage="Conference Calling"/>,
             to: '/'
         },
         {
             cls: 'cls4',
             icon: bc4,
-            link: 'Cloud PBX',
+            link: <FormattedMessage id='solution-link22' defaultMessage="Cloud PBX"/>,
             to: '/'
         }
     ]
@@ -651,43 +651,43 @@ export const DevelopersMenu = {
         {
             cls: 'cls1',
             icon: developers1,
-            link: 'HostVoiceCall Flex',
+            link: <FormattedMessage id='developers-link1' defaultMessage="HostVoiceCall Flex"/>,
             to: '/'
         },
         {
             cls: 'cls2',
             icon: developers2,
-            link: 'SMS',
+            link: <FormattedMessage id='developers-link2' defaultMessage="SMS"/>,
             to: '/'
         },
         {
             cls: 'cls3',
             icon: developers3,
-            link: 'Programmable Voice',
+            link: <FormattedMessage id='developers-link3' defaultMessage="Programmable Voice"/>,
             to: '/'
         },
         {
             cls: 'cls4',
             icon: developers4,
-            link: 'Super SIM',
+            link: <FormattedMessage id='developers-link4' defaultMessage="Super SIM"/>,
             to: '/'
         },
         {
             cls: 'cls5',
             icon: developers5,
-            link: 'Verify',
+            link: <FormattedMessage id='developers-link5' defaultMessage="Verify"/>,
             to: '/'
         },
         {
             cls: 'cls6',
             icon: developers6,
-            link: 'WhatsApp API',
+            link: <FormattedMessage id='developers-link6' defaultMessage="Whatsapp API"/>,
             to: '/'
         },
         {
             cls: 'cls7',
             icon: developers7,
-            link: 'Elastic SIP Trunking',
+            link: <FormattedMessage id='developers-link7' defaultMessage="Elastic SIP Trucking"/>,
             to: '/'
         }
     ],
@@ -695,47 +695,47 @@ export const DevelopersMenu = {
     "Community": [
         {
             icon: developers8,
-            link: 'Onboarding Portal',
+            link: <FormattedMessage id='developers-link8' defaultMessage="Onbranding Portal"/>,
             to: '/'
         },
         {
             icon: developers9,
-            link: 'Guides',
+            link: <FormattedMessage id='developers-link9' defaultMessage="Guides"/>,
             to: '/'
         },
         {
             icon: developers10,
-            link: 'Knowledge Base',
+            link: <FormattedMessage id='developers-link10' defaultMessage="Knowledge Base"/>,
             to: '/'
         },
         {
             icon: developers11,
-            link: 'Help Center',
+            link: <FormattedMessage id='developers-link11' defaultMessage="Help Center"/>,
             to: '/'
         },
         {
             icon: developers12,
-            link: 'API Documentation',
+            link: <FormattedMessage id='developers-link12' defaultMessage="API Documenation"/>,
             to: '/'
         },
         {
             icon: developers13,
-            link: 'Customer Stories',
+            link: <FormattedMessage id='developers-link13' defaultMessage="Customer Stories"/>,
             to: '/'
         },
         {
             icon: developers14,
-            link: 'Phone & Devices',
+            link: <FormattedMessage id='developers-link14' defaultMessage="Phone & Devices"/>,
             to: '/'
         },
         {
             icon: developers15,
-            link: 'Resource Library',
+            link: <FormattedMessage id='developers-link15' defaultMessage="Resource Library"/>,
             to: '/'
         },
         {
             icon: developers16,
-            link: 'Newsletter',
+            link: <FormattedMessage id='developers-link16' defaultMessage="Newsletter"/>,
             to: '/'
         }
 
@@ -747,85 +747,85 @@ export const CompanyMenu = [
     {
         cls: 'cls1',
         icon: company1,
-        link: 'HostVoiceCall Company',
+        link: <FormattedMessage id='company-link1' defaultMessage="HostVoiceCall Company"/>,
         to: '/'
     },
     {
         cls: 'cls2',
         icon: company2,
-        link: 'Partners',
+        link: <FormattedMessage id='company-link2' defaultMessage="Partners"/>,
         to: '/'
     },
     {
         cls: 'cls3',
         icon: company3,
-        link: 'Services & Support',
+        link: <FormattedMessage id='company-link3' defaultMessage="Services & Support"/>,
         to: '/'
     },
     {
         cls: 'cls4',
         icon: company4,
-        link: 'Support Plans',
+        link: <FormattedMessage id='company-link4' defaultMessage="Support Plan"/>,
         to: '/'
     },
     {
         cls: 'cls5',
         icon: company5,
-        link: 'FAQs',
+        link: <FormattedMessage id='company-link5' defaultMessage="FAQs"/>,
         to: '/'
     },
     {
         cls: 'cls6',
         icon: company6,
-        link: 'Careers',
+        link: <FormattedMessage id='company-link6' defaultMessage="Careers"/>,
         to: '/'
     },
     {
         cls: 'cls7',
         icon: company7,
-        link: 'Press',
+        link: <FormattedMessage id='company-link7' defaultMessage="Press"/>,
         to: '/'
     },
     {
         cls: 'cls8',
         icon: company8,
-        link: 'Events',
+        link: <FormattedMessage id='company-link8' defaultMessage="Events"/>,
         to: '/'
     },
     {
         cls: 'cls9',
         icon: company9,
-        link: 'Blog',
+        link: <FormattedMessage id='company-link9' defaultMessage="Blog"/>,
         to: '/'
     },
     {
         cls: 'cls10',
         icon: company10,
-        link: 'Brand',
+        link: <FormattedMessage id='company-link10' defaultMessage="Brand"/>,
         to: '/'
     },
     {
         cls: 'cls11',
         icon: company11,
-        link: 'Channel Partners',
+        link: <FormattedMessage id='company-link11' defaultMessage="Channel Partners"/>,
         to: '/'
     },
     {
         cls: 'cls12',
         icon: company12,
-        link: 'Developers',
+        link: <FormattedMessage id='company-link12' defaultMessage="Developers"/>,
         to: '/'
     },
     {
         cls: 'cls13',
         icon: company13,
-        link: 'Features',
+        link: <FormattedMessage id='company-link13' defaultMessage="Features"/>,
         to: '/'
     },
     {
         cls: 'cls14',
         icon: company14,
-        link: 'Reviews',
+        link: <FormattedMessage id='company-link14' defaultMessage="Reviews"/>,
         to: '/'
     },
 ]
@@ -848,35 +848,35 @@ export const MediaData = [
 
 export const JoinMenu = [
     {
-        text: 'Meeting',
+        text: <FormattedMessage id='meeting' defaultMessage="Meeting" />,
         icon: <Purple />,
         icon2: <DarkPurple />,
     },
     {
-        text: 'Training',
+        text: <FormattedMessage id='training' defaultMessage="Training" />,
         icon: <Pink />,
     },
     {
-        text: 'Webinar',
+        text: <FormattedMessage id='webinar' defaultMessage="Webinar" />,
         icon: <Blue />,
     }
 ];
 
 export const HostMenu = [
     {
-        text: 'HostVoiceCall Connect',
+        text: <FormattedMessage id='host-connect' defaultMessage="HostVoiceCall Connect" />,
         icon: <Purple />
     },
     {
-        text: 'HostVoiceCall Meeting',
+        text: <FormattedMessage id='host-meeting' defaultMessage="HostVoiceCall Meeting" />,
         icon: <DarkPurple />
     },
     {
-        text: 'HostVoiceCall Training',
+        text: <FormattedMessage id='host-training' defaultMessage="HostVoiceCall Training" />,
         icon: <Pink />
     },
     {
-        text: 'HostVoiceCall Webinar',
+        text: <FormattedMessage id='host-webinar' defaultMessage="HostVoiceCall Webinar" />,
         icon: <Blue />
     }
 ];
