@@ -5,7 +5,8 @@
 .connections {
     display: flex;
     justify-content: space-between;
-    padding: 5vw;
+    padding: 3.5%;
+    padding-right: 0;
 
     .info {
         width: 33vw;
@@ -109,7 +110,8 @@
 
     .container {
         position: relative;
-        margin-left: auto;
+        left: 5%;
+        // margin-left:auto;
 
         .images {
             .first-arrow {
@@ -117,8 +119,8 @@
                 position: absolute;
                 top: 12%;
                 right: 101%;
-                // width: max(8em, 15vw);
-                max-width: 15em;
+                width: max(8em, 15vw);
+                // max-width: 15em;
             }
 
             .second-arrow {
@@ -287,6 +289,7 @@
 
             .connection-text {
                 font-size: max(.8em, .88vw);
+                width: 75%;
             }
         }
     }
@@ -294,7 +297,8 @@
 
 @media (max-width:1360px) {
     .connections {
-        margin: 5vw 1vw;
+        // margin:  1vw;
+        padding: 1vw;
     }
 }
 

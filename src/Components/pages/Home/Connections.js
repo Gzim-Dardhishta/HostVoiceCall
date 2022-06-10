@@ -10,7 +10,7 @@ function Connections() {
       <div className="info" data-aos="zoom-in-up">
         <div className="title">
           <div>
-            <FormattedMessage id='title' defaultMessage="From first interaction to lasting connection" />
+            <FormattedMessage id='connection-title' defaultMessage="From first interaction to lasting connection" />
           </div>
         </div>
 
@@ -21,7 +21,7 @@ function Connections() {
             <div className="background"></div>
 
             <p className='text'>
-              <FormattedMessage id='paragraph'
+              <FormattedMessage id='connection-paragraph1'
                 defaultMessage="Strengthen your customer relationships by uniting communications across 
                         your entire business, from marketing and sales to customer service and 
                         operations.
@@ -35,7 +35,7 @@ function Connections() {
             <div className="background"></div>
 
             <p className='text'>
-              <FormattedMessage id='paragraph'
+              <FormattedMessage id='connection-paragraph2'
                 defaultMessage="Personalize every step of the customer journey with solutions like intelligent 
                 chatbots, custom account notifications, a completely programmable cloud-
                 based call center, and more" />
@@ -45,10 +45,14 @@ function Connections() {
           <div className="payment">
             <div className="trial">
               <div className="get-started">
-                <Link to='/'>Get started now</Link>
+                <Link to='/'>
+                  <FormattedMessage id='get-started' defaultMessage="Get started now" />
+                </Link>
               </div>
               <div className="free-trial">
-                <Link to='/'>Free 14 day trial</Link>
+                <Link to='/'>
+                  <FormattedMessage id='free-trial' defaultMessage="Free 14 day trial" />
+                </Link>
               </div>
             </div>
 

@@ -126,7 +126,7 @@ export default SliderCards;
 
 export const ConnectionsData = [
     {
-        text: <FormattedMessage id='first' defaultMessage="Text & Email Marketing, Lead Alerts, Call Tracking" />,
+        text: <FormattedMessage id='connection-text1' defaultMessage="Text & Email Marketing, Lead Alerts, Call Tracking" />,
         icons: [
             {
                 icon: connection1
@@ -140,7 +140,7 @@ export const ConnectionsData = [
         ]
     },
     {
-        text: <FormattedMessage id='first' defaultMessage="Account Security, IVR, Intelligent Chatbots, 
+        text: <FormattedMessage id='connection-text2' defaultMessage="Account Security, IVR, Intelligent Chatbots, 
         Contact Center" />,
         icons: [
             {
@@ -158,7 +158,8 @@ export const ConnectionsData = [
         ]
     },
     {
-        text: <FormattedMessage id='first' defaultMessage="Text & Email Marketing, Lead Alerts, Call Tracking" />,
+        text: <FormattedMessage id='connection-text3' defaultMessage="Dispatch Notifications, Account Notifications, 
+        Appointment Reminders" />,
         icons: [
             {
                 icon: connection8
