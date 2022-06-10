@@ -167,8 +167,9 @@ const Values = () => {
                                         <div className="icon"></div>
                                     </div>
                                     <div className="audio-length">
-                                        <div className="circle"></div>
-                                        <div className="line"></div>
+                                        {/* <div className="circle"></div>
+                                        <div className="line"></div> */}
+                                        <input type="range" id="volume" min="0" max="11"  step="1"></input>
                                         <div className="time">
                                             <FormattedMessage id='length' defaultMessage="00:33" />
                                         </div>
@@ -198,7 +199,7 @@ const Values = () => {
                                             <div className="check2"></div>
                                         </div>
                                     </div>
-                                    <div className="day-tme">
+                                    <div className="day-time">
                                         <FormattedMessage id='day-time' defaultMessage="12:45 PM" />
                                     </div>
                                 </div>

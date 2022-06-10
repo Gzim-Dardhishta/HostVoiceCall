@@ -203,8 +203,8 @@
 
             .border2 {
                 position: absolute;
-                top: 8vh;
-                left: -24vw;
+                top: 10vh;
+                left: -26vw;
                 border-radius: 50%;
                 padding: 5px;
                 background-color: #FAD103;
@@ -216,7 +216,7 @@
 
             .border3 {
                 position: absolute;
-                top: 24.5vh;
+                top: 29vh;
                 left: -16vw;
                 border-radius: 50%;
                 padding: 5px;
@@ -230,7 +230,7 @@
             .border4 {
                 position: absolute;
                 top: 54%;
-                left: -25vw;
+                left: -24vw;
                 border-radius: 50%;
                 padding: 5px;
                 background-color: #64A2FF;
@@ -242,8 +242,8 @@
 
             .border5 {
                 position: absolute;
-                top: 52vh;
-                left: -17vw;
+                top: 59vh;
+                left: -18vw;
                 border-radius: 50%;
                 padding: 5px;
                 background-color: #7BEAA5;
@@ -275,15 +275,15 @@
                 background-color: #fff;
                 border-radius: 1.5em;
                 box-shadow: 1px 1px 1px 1px #ddd;
-                width: max(2.8em, 4vw);
-                height: max(2.8em, 4vw);
+                width: max(2.6em, 4vw);
+                height: max(2.6em, 4vw);
 
 
                 .icon {
                     margin: auto;
                     margin-top: 1em;
-                    width: max(1em, 1.85vw);
-                    height: max(1em, 1.85vw);
+                    width: max(.9em, 1.85vw);
+                    height: max(.9em, 1.85vw);
                 }
             }
 
@@ -305,16 +305,17 @@
 @media (max-width:1024px) {
     .connections {
         flex-direction: column;
-        gap: 7em;
+        gap: 3.5em;
 
         .info {
-
+            
             .title {
                 font-size: 1.34rem;
             }
 
             margin-bottom: 5vw;
-            width: 100%;
+            width: 80%;
+            margin: auto;
 
             .description {
                 font-size: 15px;
@@ -368,7 +369,6 @@
 
                 .border2 {
                     top: 9vh;
-
                 }
 
                 .border3 {
@@ -389,6 +389,7 @@
                 .connection-text {
                     font-size: 12px;
                     line-height: 15px;
+                    width: 90%;
                 }
             }
         }
@@ -397,10 +398,14 @@
 
 @media(max-width:550px) {
     .connections {
+        .info{
+            width: 90%;
+            margin: auto;
+        }
         .container {
             .images {
                 .border2 {
-                    left: -41vw;
+                    left: -47vw;
                 }
 
                 .border3 {
@@ -409,11 +414,12 @@
                 }
 
                 .border4 {
-                    left: -41vw;
+                    left: -43vw;
+                    top: 31vh;
                 }
 
                 .border5 {
-                    left: -29vw;
+                    left: -35vw;
                 }
             }
         }

@@ -14,11 +14,10 @@
 .call-center {
     margin-top: 8.5em;
     display: flex;
-    justify-content: space-between;
 
     .info {
         margin-top: 7%;
-        margin-left: 3%;
+        margin-left: 4%;
         width: 37%;
 
         .links {
@@ -38,11 +37,12 @@
         h1 {
             font-weight: 400;
             font-size: clamp(1rem, 2.3vw, 4rem);
+            width: 110%;
         }
 
         p {
             font-size: min(1em, 2.2vw);
-            width: 80%;
+            width: 90%;
             margin: 1.3em 0;
         }
 
@@ -146,6 +146,7 @@
         align-items: center;
         font-size: min(1em, 1.2vw);
         margin-left: min(17.5%, 8vw);
+        margin-right: 4em;
 
         .contact-images {
             font-size: min(1em, 1.2vw);

@@ -313,7 +313,7 @@
                     box-shadow: 0 0 10px #ddd;
                     border-radius: 2em;
                     // background-color: #fff;
-                    padding: 7%;
+                    padding: max(20px, 2vw);
 
                     .audio-play {
                         .play {
@@ -336,20 +336,10 @@
                             .audio-length {
                                 position: relative;
                                 display: flex;
-                                justify-content: space-between;
                                 align-items: center;
-
-                                .circle {
-                                    content: url("../../../../assets/Home/values/circle.svg");
-                                    position: absolute;
-                                }
-
-                                .line {
-                                    width: 14vw;
-                                    height: .5em;
-                                    margin-right: .5em;
-                                    background-color: #ddd;
-                                    border-radius: 1.5em;
+                                input{
+                                    width: max(19vw, 16em);
+                                    color: #6C3DFF;
                                 }
                             }
                         }
@@ -373,7 +363,8 @@
 
                         .time {
                             text-align: center;
-                            font-size: max(14px, .8vw);
+                            font-size: max(13px, .88vw);
+                            margin: 1.2em 0;
                         }
 
                         font-size: max(15px, .9vw);
@@ -390,13 +381,14 @@
 
                             .border {
                                 width: 65%;
-                                padding: 1.4vw;
+                                padding: max(15px);
                                 background-color: #fff;
                                 border-radius: 2em;
                                 box-shadow: 1px 5px 4px 3px #f2f2f2;
 
                                 .text {
-                                    line-height: 1.2em;
+                                    line-height: 1.5;
+                                    font-size: max(13px);
                                 }
 
                                 .checks {
@@ -414,6 +406,9 @@
                                         left: 2%;
                                     }
                                 }
+                            }
+                            .day-time{
+                                font-size: max(1vw,12px);
                             }
                         }
                     }
@@ -438,16 +433,18 @@
 @media(max-width:787px) {
     .values {
         .content {
+            margin-left: 0;
             .communication {
                 display: block;
                 margin-top: 10%;
 
                 .phone-call {
-                    width: 100%;
+                    width: 70%;
                     margin: auto;
                 }
 
                 .chat {
+                    margin-bottom: 6em;
                     .search {
                         left: 5%;
                         width: 90%;
@@ -461,7 +458,18 @@
             }
         }
     }
+}
 
+@media(max-width:500px){
+    .values{
+        .content{
+            .communication{
+                .phone-call{
+                    width: 100%;
+                }
+            }
+        }
+    }
 }
 
 

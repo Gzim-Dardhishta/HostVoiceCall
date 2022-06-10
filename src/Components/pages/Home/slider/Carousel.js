@@ -19,7 +19,7 @@ function Carousel({ slider }) {
                 className="business-carousel-inner"
                 style={
                     width > 1068
-                      ? { transform: `translateX(${-currentSlide * 26}%)` }
+                      ? { transform: `translateX(${-currentSlide * 27}%)` }
                       : width < 1068 && width >= 462
                       ? { transform: `translateX(${-currentSlide * 100}%)` }
                       : { transform: `translateX(${-currentSlide * 100}%)` }
