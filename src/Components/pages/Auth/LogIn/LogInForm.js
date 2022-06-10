@@ -15,13 +15,13 @@ const LogInForm = () => {
         <FormattedMessage id='login' defaultMessage="Log In" />
       </h6>
       <p className='welcome-text'>
-        <FormattedMessage id='text' defaultMessage="Welcome back user, fill in the brackets your info." />
+        <FormattedMessage id='login-text' defaultMessage="Welcome back user, fill in the brackets your info." />
       </p>
 
       <form action="">
         <div className="input-container">
           <label htmlFor="">
-            <FormattedMessage id='label1' defaultMessage="Email" />
+            <FormattedMessage id='email' defaultMessage="Email" />
           </label>
           <div className="inner-input-container">
             <span className="email-icon" style={{ content: `url(${email})` }}></span>
@@ -37,7 +37,7 @@ const LogInForm = () => {
 
         <div className="input-container">
           <label htmlFor="">
-            <FormattedMessage id='label2' defaultMessage="Password" />
+            <FormattedMessage id='password' defaultMessage="Password" />
           </label>
           <div className="inner-input-container">
             <span className="lock-icon" style={{ content: `url(${lock})` }}></span>
@@ -56,19 +56,23 @@ const LogInForm = () => {
           <div className='inner-row'>
             <input type='checkbox' name='keep-logged' id='keep-logged' />
             <label htmlFor='keep-logged' className='form-label-checkbox'>
-              Remember me
+              <FormattedMessage id='remember' defaultMessage="Remember me" />
             </label>
           </div>
-          <Link to='/' className='link'>Forgot Password?</Link>
+          <Link to='/' className='link'>
+            <FormattedMessage id='forgot' defaultMessage="Forgot Password?" />
+          </Link>
         </div>
 
         <div className='button-container'>
-          <button type='submit' className='submit-button'>Log In</button>
+          <button type='submit' className='submit-button'>
+            <FormattedMessage id='login' defaultMessage="Log In" />
+          </button>
         </div>
 
         <div className="signup-link">
           <p>
-            <FormattedMessage id='text' defaultMessage="New to HostVoiceCalls?" />
+            <FormattedMessage id='new-text' defaultMessage="New to HostVoiceCalls?" />
           </p>
           <Link to='/SignUp'>
             <FormattedMessage id='signup' defaultMessage="Sign Up" />

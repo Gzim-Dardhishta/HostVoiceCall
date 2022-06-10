@@ -61,14 +61,13 @@ const LogInComponent = () => {
               <div className="logo-container">
                 <div className="logo" style={{ content: `url(${logo})` }}></div>
                 <h6>
-                  <FormattedMessage id='app-name' defaultMessage="HostVoiceCalls" />
+                  <FormattedMessage id='app-name' defaultMessage="HostVoiceCall" />
                 </h6>
               </div>
 
               <div className="description-text">
-                <FormattedMessage id='text'
-                  defaultMessage="Transform customers experiences with the IT-approved cloud 
-                          call center solution for sales and support teams." />
+                <FormattedMessage id='card-txt'
+                  defaultMessage="Transform customer experiences with the IT-approved cloud call center solution for sales and support teams." />
               </div>
 
               <div className="icons">

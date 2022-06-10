@@ -275,5 +275,14 @@
     "copyright": "E drejta e autorit © 2022 HostVoiceCall Të gjitha të drejtat e rezervuara.",
     "forum": "Forumet",
     "privacy-policy": "Politika e privatësisë",
-    "term": "Kushtet e Përdorimit"
+    "term": "Kushtet e Përdorimit",
+    "login": "Kyqu",
+    "login-text": "Mirësevini përsëri përdorues, plotësoni në kllapa informacionin tuaj.",
+    "email": "Emaili",
+    "password": "Fjalëkalimi",
+    "remember": "Më kujto mua", 
+    "forgot": "Keni harruar fjalëkalimin?",
+    "new-text": "I ri në HostVoiceCalls?",
+    "signup": "Regjistrohu",
+    "card-txt": "Transformoni përvojat e klientëve me zgjidhjen e qendrës së thirrjeve cloud të miratuar nga IT për ekipet e shitjeve dhe mbështetjes."
 }
