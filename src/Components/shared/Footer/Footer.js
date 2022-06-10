@@ -6,6 +6,7 @@ import logo from '../../../assets/shared/footer/logo.svg'
 import { FooterData, FooterSocialLinks } from './data';
 import SelectLanguage from '../Languages/SelectLanguage';
 import { BiChevronDown } from 'react-icons/bi';
+import ThemeSwitcher from '../NavBar/ThemeSwitcher'
 import './footer.scss'
 
 const Footer = (props) => {
@@ -106,6 +107,7 @@ const Footer = (props) => {
         </div>
 
         <div className="footer-subscribe">
+          <ThemeSwitcher />
           <div className="subrcribe-text">
             <FormattedMessage id='sub-text' defaultMessage="Subscribe to our newsletter" />
           </div>
