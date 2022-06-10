@@ -225,21 +225,21 @@ export const MeetingsData = [
     {
         cls: 'cls1',
         icon: meeting1,
-        title: <FormattedMessage id='title' defaultMessage="Talk"/>,
-        text: <FormattedMessage id='talk' defaultMessage="Say hello to the world’s easiest business phone 
+        title: <FormattedMessage id='meeting-card-title1' defaultMessage="Talk"/>,
+        text: <FormattedMessage id='meeting-card-text1' defaultMessage="Say hello to the world’s easiest business phone 
         system. Set up your new number in minutes." />,
     },
     {
         cls: 'cls2',
         icon: meeting2,
-        title: <FormattedMessage id='title' defaultMessage="Message"/>,
-        text: <FormattedMessage id='message' defaultMessage="Get more done with team messaging and file sharing that’s built right in." />,
+        title: <FormattedMessage id='meeting-card-title2' defaultMessage="Message"/>,
+        text: <FormattedMessage id='meeting-card-text2' defaultMessage="Get more done with team messaging and file sharing that’s built right in." />,
     },
     {
         cls: 'cls3',
         icon: meeting3,
-        title: <FormattedMessage id='title' defaultMessage="Meet"/>,
-        text: <FormattedMessage id='meet' defaultMessage="Bring the entire team together with easy, one-click video meetings." />,
+        title: <FormattedMessage id='meeting-card-title3' defaultMessage="Meet"/>,
+        text: <FormattedMessage id='meeting-card-text3' defaultMessage="Bring the entire team together with easy, one-click video meetings." />,
     },
 ]
 

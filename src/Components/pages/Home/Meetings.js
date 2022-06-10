@@ -111,11 +111,11 @@ const Meetings = () => {
                 <div className="phone-meeting" data-aos="flip-left">
                     <div className="info">
                         <div className="call">
-                            <FormattedMessage id='call' defaultMessage="Incoming Call..." />
+                            <FormattedMessage id='phone-call' defaultMessage="Incoming Call..." />
                         </div>
                         <div className="support">
                             <div className="flag-icon"></div>
-                            <FormattedMessage id='costumer' defaultMessage="Costumer Support" />
+                            <FormattedMessage id='costumer-support' defaultMessage="Customer Support" />
                         </div>
 
                         <div className="circle1">
