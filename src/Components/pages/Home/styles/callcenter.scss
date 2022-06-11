@@ -12,7 +12,7 @@
 }
 
 .call-center {
-    margin-top: 8.5em;
+    margin-top: 7.5em;
     display: flex;
 
     .info {
@@ -93,14 +93,14 @@
 
             .button {
                 text-align: center;
-                font-size: min(1em, 1.4vw);
-                padding: 1vw 2vw;
+                padding: .8vw 2vw;
                 border-radius: 0 2em 2em;
                 background-color: #6C3DFF;
 
                 a {
                     color: #fff;
                     white-space: nowrap;
+                    font-size: max(15px, 1.1vw);
                 }
             }
         }
@@ -110,7 +110,8 @@
             align-items: center;
             gap: 2em;
             margin-top: 1.8em;
-            font-size: min(1em, 2.2vw);
+            font-size: min(15px, 1.2vw);
+            white-space: nowrap;
 
             .cloud {
                 content: url("../../../../assets/Home/CallCanter/cloud.svg");
@@ -405,7 +406,7 @@
         margin: 0;
 
         .info {
-            width: 90%;
+            width: 80%;
             margin: auto;
             margin-top: 10em;
 

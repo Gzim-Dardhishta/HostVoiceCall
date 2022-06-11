@@ -147,6 +147,7 @@
                     position: relative;
                     &:hover{
                         outline: .5px solid #f3f3f3;
+                        cursor: pointer;
                     }
 
                     .social-link-icon{
@@ -253,17 +254,18 @@
             justify-content: space-between;
             a{
                 color: #fff;
+                white-space: nowrap;
+                font-size: max(12px, .9vw);
             }
 
             .copyright{
-                font-size: max(14px, .89vw);
                 padding: 4em 0;
+                font-size: max(14px, 1vw)
             }
 
             .policy{
                 display: flex;
                 gap: 3vw;
-                font-size: max(14px, .88vw);
                 padding: 4em 0;
             }
 
@@ -279,8 +281,8 @@
                     .dropdown{
                         display: block;
                         background-color: #040036;
-                        box-shadow: 0 0 20px #0f1c80;
-                        -webkit-box-shadow: 0 0 20px #0f1c80;
+                        -webkit-box-shadow: 0 0 10px #0E0024;
+                        box-shadow: 0 0 10px #0E0024;
                         top: -27em;
                         left: -2em;
                     }
@@ -316,6 +318,10 @@
                 .download-app{
                     width: fit-content;
                     margin: auto;
+                    .app-store, .play-store{
+                        width: fit-content;
+                        margin: auto;
+                    }
                 }
 
                 .footer-social-links{
@@ -333,6 +339,12 @@
                 display: block;
                 width: 100%;
                 text-align: center;
+
+                .mode-switcher-container .mode-switch{
+                    margin: auto;
+                    margin-bottom: 1em;
+                }
+
                 .footer-email{
                     width: 100%;
                     margin: auto;
@@ -371,7 +383,8 @@
                     display: block;
 
                     .play-store{
-                        margin: 1em 0;
+                        margin-bottom: 1em;
+                        margin-top: 1em;
                     }
                 }
             }

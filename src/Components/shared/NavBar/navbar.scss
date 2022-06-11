@@ -19,7 +19,7 @@
 }
 
 .media-bar {
-    font-size: max(12px, .8vw);
+    font-size: max(11px, .9vw);
     display: flex;
     justify-content: space-between;
     padding: max(10px, 0.5vw) 3% max(10px, 0.5vw);
@@ -246,7 +246,7 @@
                 font-size: max(11px, 0.875vw);
 
                 .arrow1 {
-                    margin-left: .5em;
+                    margin-left: .3vw;
                 }
 
             }
@@ -273,7 +273,7 @@
 
             .line {
                 position: absolute;
-                top: 92%;
+                top: 83%;
                 width: 0;
                 background: #6C3DFF;
                 height: max(2px, 0.15vw);
@@ -290,8 +290,8 @@
                 position: absolute;
                 color: #f3f3f3;
                 font-size: 1.5em;
-                top: 70%;
-                left: 68%;
+                top: 61%;
+                left: 64%;
                 display: none;
             }
         }

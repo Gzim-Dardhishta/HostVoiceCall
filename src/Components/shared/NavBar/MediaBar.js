@@ -41,7 +41,7 @@ const MediaBar = (props) => {
             </div>
 
             <div className='access'>
-                <ThemeSwitcher />
+                {/* <ThemeSwitcher /> */}
                 <div className="language">
                     {/* <GrLanguage /> */}
                     <SelectLanguage

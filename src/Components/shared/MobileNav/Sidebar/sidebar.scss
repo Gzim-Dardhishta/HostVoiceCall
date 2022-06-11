@@ -31,7 +31,7 @@
     .dropdown-arrow{
         flex: 1;
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         font-size: 22px;
         margin-bottom: -3px;
         color: #777;
@@ -88,12 +88,20 @@
     width: fit-content;
     margin: auto;
     border-radius: 15px;
+
+    .mode-switcher-container .mode-switch{
+        // height: 30px;
+        // width: fit-content;
+        .icon1{
+            font-size: 18px;
+            margin: 5px;
+        }
+    }
 }
 
 body.dark-mode{
     .mobile-sidebar{
         background-color: #160032;
-        background-image: linear-gradient(178.1deg, #211b53 8.5%, #171445 82.4%);
         
         .sidebar-logo-row{
             h6{
@@ -115,6 +123,7 @@ body.dark-mode{
         }
         .theme{
             background-color: #6C3DFF;
+            background-image: linear-gradient(178.1deg, #211b53 8.5%, #171445 82.4%);
         }
     }
 }

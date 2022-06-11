@@ -52,7 +52,7 @@
                 .last-name,
                 .password,
                 .confirm-password {
-                    width: 49%;
+                    width: 46%;
                 }
             }
 
@@ -62,7 +62,7 @@
             .password,
             .confirm-password {
                 label {
-                    font-size: max(14px, 1vw);
+                    font-size: max(13px, .85vw);
                 }
 
                 .inner-input-container {
@@ -71,31 +71,39 @@
                     justify-content: space-between;
                     align-items: center;
                     outline: 1px solid #ddd;
-                    padding: max(14px, 1vw);
+                    padding: 0 max(14px, 1vw);
                     border-radius: 2em;
                     width: 100%;
 
-                    span {
-                        margin-right: 1em;
+                    // span {
+                    //     margin-right: max(7px, 1vw);
+                    //     height: max(11px);
+                    // }
+                    .person-icon, .email-icon, .lock-icon, .eye-icon{
+                        margin-right: max(7px, 1vw);
+                        height: max(12px, 1vw);
                     }
 
                     input {
-                        flex: 1;
+                        // flex: 1;
+                        width: 70%;
+                        margin-right: auto;
                         outline: none;
                         border: none;
                         font-size: max(13px, .87vw);
                         background-color: initial;
+                        height: 40px;
                     }
 
                     .eye-icon {
                         margin-right: 0;
-                        height: max(14px, 1.1vw);
+                        // height: max(14px, 1.1vw);
                     }
 
-                    .person-icon,
-                    .lock-icon {
-                        height: max(14px, 1.1vw);
-                    }
+                    // .person-icon,
+                    // .lock-icon {
+                    //     height: max(14px, 1.1vw);
+                    // }
 
                     input.form-input:-webkit-autofill,
                     input.form-input:-webkit-autofill:hover,

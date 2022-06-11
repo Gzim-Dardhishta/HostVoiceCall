@@ -22,7 +22,7 @@ function SelectLanguage() {
 
     const languages = [
         { value: 'en-GB', lang: 'English', flag: england },
-        { value: 'sq-AL', lang: 'Albania', flag: albania },
+        { value: 'sq-AL', lang: 'Albanian', flag: albania },
         { value: 'de-DE', lang: 'Deutsch', flag: german },
         { value: 'fr-FR', lang: 'Français', flag: france },
         { value: 'it-IT', lang: 'Italiano', flag: italy },

@@ -13,6 +13,9 @@
     .phone {
         display: flex;
         align-items: center;
+        @media(max-width:600px) {
+            justify-content: center;
+        }
 
         .logo {
             content: url("../../../../assets/Home/reviews/logo.svg");

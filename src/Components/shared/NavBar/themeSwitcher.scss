@@ -4,6 +4,7 @@
     display: flex;
     border-radius: max(20px, 1vw);
     width: fit-content;
+    // background-color: #fff;
     .icon1{
         display: flex;
         align-items: center;
@@ -12,12 +13,25 @@
         height: max(20px, 1.5vw);
         border-radius: 50%;
         margin:max(2px, 0.15vw);
-        color:#081131;
+        color:#fff;
         cursor: pointer;
         font-size: max(13px, 0.7vw);
     }
     .active{
-        background: #081131;
-        color:#fff;
+        background: #f3f3f3;
+        color:#6C3DFF;
+    }
+}
+
+body.dark-mode{
+    .mode-switcher-container .mode-switch{
+        .icon1{
+            color: #fff;
+        }
+        .active{
+            background: #081131;
+            background: #f3f3f3;
+            color:#6C3DFF;
+        }
     }
 }
