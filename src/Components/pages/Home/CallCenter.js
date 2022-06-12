@@ -34,7 +34,9 @@ function CallCenter() {
                         placeholder='Work Email'
                     />
                     <div className="button">
-                        <Link to='/'>Try for free</Link>
+                        <Link to='/'>
+                            <FormattedMessage id='try-free' defaultMessage="Try for free" />
+                        </Link>
                     </div>
                 </div>
 

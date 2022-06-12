@@ -20,7 +20,7 @@ function Carousel({ slider }) {
                 style={
                     width > 1068
                       ? { transform: `translateX(${-currentSlide * 27}%)` }
-                      : width < 1068 && width >= 462
+                      : width < 1068 && width >= 500
                       ? { transform: `translateX(${-currentSlide * 100}%)` }
                       : { transform: `translateX(${-currentSlide * 100}%)` }
                 }

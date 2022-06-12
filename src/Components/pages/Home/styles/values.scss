@@ -181,7 +181,8 @@
                         .inner {
                             cursor: pointer;
                             background-color: #fff;
-                            padding: min(.8em, 1vw);
+                            width: max(3.2em, 4.5vw);
+                            height: max(3em, 4.5vw);
                             box-shadow: 1px 1px 1px 2px #f2f2f2;
                             display: flex;
                             justify-content: center;

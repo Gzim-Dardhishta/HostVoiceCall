@@ -32,7 +32,7 @@ const Meetings = () => {
                             <p className="location">
                                 <FormattedMessage id='location' defaultMessage="San Francisco, CA  11:00 AM PT" />
                             </p>
-                            <div className="tools">
+                            <div className="control-buttons">
                                 <div className="microphone"></div>
                                 <div className="dots">
                                     <div className="dot"></div>
