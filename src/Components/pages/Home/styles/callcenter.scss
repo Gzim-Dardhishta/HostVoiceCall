@@ -36,7 +36,7 @@
 
         h1 {
             font-weight: 400;
-            font-size: clamp(1rem, 2.3vw, 4rem);
+            font-size: max(28px, 2.4vw);
             width: 110%;
         }
 
@@ -403,16 +403,11 @@
 @media (max-width: 918px) {
     .call-center {
         display: block;
-        margin: 0;
 
         .info {
-            width: 90%;
+            width: 80vw;
             margin: auto;
             margin-top: 10em;
-
-            h1 {
-                font-size: 1.9em;
-            }
 
             p {
                 font-size: .8em;

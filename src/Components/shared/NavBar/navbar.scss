@@ -1,4 +1,4 @@
-* *::before,
+*, *::before,
 *::after {
     margin: 0;
     padding: 0;
@@ -19,11 +19,15 @@
 }
 
 .media-bar {
-    font-size: max(11px, .9vw);
+    font-size: max(10px, .9vw);
     display: flex;
     justify-content: space-between;
-    padding: max(10px, 0.5vw) 3% max(10px, 0.5vw);
+    padding: max(10px, 0.5vw) 4% max(10px, 0.5vw);
     border-bottom: 1px solid #ddd;
+
+    @media(max-width:1200px){
+        padding: max(10px, 0.5vw) 3% max(10px, 0.5vw);
+    }
 
     .media,
     .download-app,
@@ -73,13 +77,18 @@
     }
 
     .language,
-    .contact,
+    
     .support,
     .join_host {
         display: flex;
         align-items: center;
         margin-left: 3em;
         color: #222;
+    }
+    .contact{
+        display: flex;
+        align-items: center;
+        margin-left: 1em;
     }
 
     .language {
@@ -208,10 +217,14 @@
 
 
 #nav-bar {
-    padding: 0 3.5%;
+    padding: 0 4%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    @media(max-width: 1200px) {
+        padding: 0 3%;
+    }
 
     #logo {
         display: flex;
@@ -238,11 +251,11 @@
             position: relative;
 
             .inner-nav-link {
-                padding: max(10px, 1.7vw) max(15px, 1.75vw);
+                padding: 2.2em max(10px, 1.7vw);
                 display: flex;
                 align-items: center;
                 color: #111;
-                font-size: max(11px, 0.875vw);
+                font-size: max(10px, 0.875vw);
 
                 .arrow1 {
                     margin-left: .3vw;
@@ -272,7 +285,7 @@
 
             .line {
                 position: absolute;
-                top: 83%;
+                top: 92%;
                 width: 0;
                 background: #6C3DFF;
                 height: max(2px, 0.15vw);
@@ -390,7 +403,7 @@ body.dark-mode {
     }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1020px) {
     .header {
         // display: none;
         #logo,

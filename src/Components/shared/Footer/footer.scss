@@ -251,6 +251,7 @@
 
         .main-footer-bottom{
             display: flex;
+            align-items: center;
             justify-content: space-between;
             a{
                 color: #fff;
@@ -259,14 +260,19 @@
             }
 
             .copyright{
-                padding: 4em 0;
+                // padding: 4em 0;
                 font-size: max(14px, 1vw)
             }
 
             .policy{
                 display: flex;
-                gap: 3vw;
+                gap: 2em;
                 padding: 4em 0;
+
+                @media(max-width:500px){
+                    flex-wrap: wrap;
+                }
+
             }
 
             .language{
@@ -276,6 +282,9 @@
                 padding: 1em 0;
                 .select-language{
                     background-color: #040036;
+                    .selected-language{
+                        font-size: max(13px, 1.1vw);
+                    }
                 }
                 &:hover{
                     .dropdown{
@@ -289,7 +298,7 @@
                 }
             }
 
-            @media(max-width:880px){
+            @media(max-width:1150px){
                 display: block;
                 .copyright, .policy, .language{
                     padding: 1em 0;
