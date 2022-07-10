@@ -338,9 +338,9 @@
                                 position: relative;
                                 display: flex;
                                 align-items: center;
-                                input{
-                                    width: max(19vw, 16em);
-                                    color: #6C3DFF;
+                                progress{
+                                    width: max(18vw, 16em);
+                                    accent-color: #6C3DFF;
                                 }
                             }
                         }

@@ -41,9 +41,7 @@ const MediaBar = (props) => {
             </div>
 
             <div className='access'>
-                {/* <ThemeSwitcher /> */}
                 <div className="language">
-                    {/* <GrLanguage /> */}
                     <SelectLanguage
                         setLanguage={props.setLanguage}
                         language={props.language}
@@ -54,7 +52,7 @@ const MediaBar = (props) => {
 
                 <div className='contact'>
                     <p className='c'>
-                        <FormattedMessage id='contact' defaultMessage="Contact: " />
+                        <FormattedMessage id='contact' defaultMessage="Contact: &nbsp;" />
                     </p>
                     <HiPhone className='icon' />
                     <p>+1 415-469-1690</p>

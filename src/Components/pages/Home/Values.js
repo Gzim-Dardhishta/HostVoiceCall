@@ -169,7 +169,8 @@ const Values = () => {
                                     <div className="audio-length">
                                         {/* <div className="circle"></div>
                                         <div className="line"></div> */}
-                                        <input type="range" id="volume" min="0" max="11"  step="1"></input>
+                                        {/* <input type="range" id="volume" min="0" max="11"  step="1"></input> */}
+                                        <progress id="file" value="32" max="100"> 32% </progress>
                                         <div className="time">
                                             <FormattedMessage id='length' defaultMessage="00:33" />
                                         </div>
